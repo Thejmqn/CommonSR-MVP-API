@@ -1,0 +1,35 @@
+flowchart LR
+  subgraph INGEST["1. Ingestion & canonicalization"]
+    SRC["Municipal 311 APIs<br/>Denver · Boston · Arlington · …"]
+    CON["Connectors / scheduler<br/>API or bulk export · pagination · retries<br/>capture raw payload + source metadata"]
+    ADP["City-specific adapters<br/>DenverAdapter · BostonAdapter · ArlingtonAdapter<br/>Shared adapter interface"]
+    CAN["Canonicalization + validation<br/>Map IDs, timestamps, categories, statuses<br/>Validate fields; attach quality flags<br/>Version schema and mappings"]
+    DB[("Data storage<br/>Raw source snapshots<br/>Canonical 311 request records")]
+    API["Versioned standardized REST API<br/>Single- and multi-city queries<br/>Filters · pagination · response metadata"]
+    CLIENT["Consumers<br/>Dashboards · Python/R notebooks<br/>External applications · researchers"]
+    SRC --> CON --> ADP --> CAN --> DB --> API --> CLIENT
+  end
+
+  subgraph CONTEXT["2. Contextual data & derived indicators"]
+    REFS["Reference data sources<br/>Census/ACS · neighborhood boundaries<br/>Road network / road mileage"]
+    LOAD["Reference-data adapters / loader<br/>Geography crosswalks<br/>Source vintage + provenance"]
+    RDB[("Versioned reference-data store<br/>Population · housing units · road miles<br/>Geography + reference period")]
+    MET["Metric engine<br/>Requests per 1,000 residents<br/>Road requests per 100 road-miles<br/>Median / P90 resolution time"]
+    MDB[("Derived metrics / aggregates<br/>Value + denominator + method version")]
+    REFS --> LOAD --> RDB --> MET --> MDB
+  end
+
+  DB -. "canonical requests" .-> MET
+  MDB -. "optional /metrics endpoint" .-> API
+  CAN -. "validation + lineage events" .-> QA["Quality & provenance controls<br/>Validation reports · rejected records<br/>source / adapter / mapping versions<br/>ingestion history + reprocessing"]
+
+  classDef city fill:#EFF6FF,stroke:#7DA9D3,color:#173B60;
+  classDef pipe fill:#F0FDFA,stroke:#6FC9BA,color:#134E4A;
+  classDef store fill:#EAF2FB,stroke:#8CB0D6,color:#1E293B;
+  classDef ref fill:#FFFBF2,stroke:#E6B978,color:#794912;
+  classDef metric fill:#F0FDF4,stroke:#83C6A1,color:#175A3E;
+  class SRC,ADP,CAN city;
+  class CON pipe;
+  class DB,API,CLIENT store;
+  class REFS,LOAD,RDB ref;
+  class MET,MDB metric;
