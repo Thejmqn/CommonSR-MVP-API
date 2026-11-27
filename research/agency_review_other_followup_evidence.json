@@ -1,0 +1,493 @@
+[
+  {
+    "city": "Denver",
+    "endpoint": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_service_requests_311/FeatureServer/53",
+    "title": "service_requests_311",
+    "columns": [
+      "OBJECTID",
+      "Case_Summary",
+      "Case_Status",
+      "Case_Source",
+      "Case_Created_Date",
+      "Case_Created_dttm",
+      "Case_Closed_Date",
+      "Case_Closed_dttm",
+      "First_Call_Resolution",
+      "Customer_Zip_Code",
+      "Incident_Address_1",
+      "Incident_Address_2",
+      "Incident_Intersection_1",
+      "Incident_Intersection_2",
+      "Incident_Zip_Code",
+      "Longitude",
+      "Latitude",
+      "Agency",
+      "Division",
+      "Major_Area",
+      "Type",
+      "Topic",
+      "Council_District",
+      "Police_District",
+      "Neighborhood"
+    ],
+    "agency_fields": [
+      "Agency",
+      "Division"
+    ],
+    "values": {
+      "Agency": {
+        "objectIdFieldName": "OBJECTID",
+        "uniqueIdField": {
+          "name": "OBJECTID",
+          "isSystemMaintained": true
+        },
+        "globalIdFieldName": "",
+        "fields": [
+          {
+            "name": "Agency",
+            "type": "esriFieldTypeString",
+            "alias": "Agency",
+            "sqlType": "sqlTypeOther",
+            "length": 8000,
+            "domain": null,
+            "defaultValue": null
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "Agency": "311"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Auditor's Office"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "City Council"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Clerk & Recorder"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Community Planning & Development"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Denver Human Services"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "DLCP"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Excise & License"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "External Agency"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Finance"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Mayor's Office"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Parks & Recreation"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Public Health & Environment"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Public Works"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Safety"
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Tech Services"
+            }
+          }
+        ]
+      },
+      "Division": {
+        "objectIdFieldName": "OBJECTID",
+        "uniqueIdField": {
+          "name": "OBJECTID",
+          "isSystemMaintained": true
+        },
+        "globalIdFieldName": "",
+        "fields": [
+          {
+            "name": "Division",
+            "type": "esriFieldTypeString",
+            "alias": "Division",
+            "sqlType": "sqlTypeOther",
+            "length": 8000,
+            "domain": null,
+            "defaultValue": null
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "Division": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "city": "Washington, DC",
+    "endpoint": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/ServiceRequests/FeatureServer/18",
+    "values": {
+      "objectIdFieldName": "OBJECTID",
+      "globalIdFieldName": "GLOBALID",
+      "geometryType": "esriGeometryPoint",
+      "spatialReference": {
+        "wkid": 26985,
+        "latestWkid": 26985
+      },
+      "fields": [
+        {
+          "name": "ORGANIZATIONACRONYM",
+          "alias": "Organization Acronym",
+          "type": "esriFieldTypeString",
+          "length": 50
+        },
+        {
+          "name": "SERVICETYPECODEDESCRIPTION",
+          "alias": "Service Type Code Description",
+          "type": "esriFieldTypeString",
+          "length": 100
+        }
+      ],
+      "features": [
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DPW",
+            "SERVICETYPECODEDESCRIPTION": "SWMA- Solid Waste Management Admistration"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DMV",
+            "SERVICETYPECODEDESCRIPTION": null
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DOH",
+            "SERVICETYPECODEDESCRIPTION": "DOH- Department Of Health"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "ORM",
+            "SERVICETYPECODEDESCRIPTION": null
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DMV",
+            "SERVICETYPECODEDESCRIPTION": "Adjudication Services"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "Serve DC",
+            "SERVICETYPECODEDESCRIPTION": "Serve DC"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DDOT",
+            "SERVICETYPECODEDESCRIPTION": "SIOD"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DDOT",
+            "SERVICETYPECODEDESCRIPTION": "Toa-Street & Bridge Maintenance"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DGS",
+            "SERVICETYPECODEDESCRIPTION": null
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DOEE",
+            "SERVICETYPECODEDESCRIPTION": "Department of Energy and Environment"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DOEE",
+            "SERVICETYPECODEDESCRIPTION": null
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DFHV",
+            "SERVICETYPECODEDESCRIPTION": null
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DDOT",
+            "SERVICETYPECODEDESCRIPTION": null
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DDOT",
+            "SERVICETYPECODEDESCRIPTION": "Toa- Trans Sys Mnt"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "OUC",
+            "SERVICETYPECODEDESCRIPTION": "311- Call Center"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DOB",
+            "SERVICETYPECODEDESCRIPTION": "Department of Buildings (DOB)"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "FEMS",
+            "SERVICETYPECODEDESCRIPTION": "FEMS-Special Events"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DPW",
+            "SERVICETYPECODEDESCRIPTION": "PEMA- Parking Enforcement Management Administration"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DPW",
+            "SERVICETYPECODEDESCRIPTION": "SWMA- Solid Waste Management Administration"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DDOT",
+            "SERVICETYPECODEDESCRIPTION": "Transportation Policy & Planning Administration"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DMV",
+            "SERVICETYPECODEDESCRIPTION": "Driver Vehicle Services"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "FEMS",
+            "SERVICETYPECODEDESCRIPTION": "FEMS"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DFHV",
+            "SERVICETYPECODEDESCRIPTION": "DFHV - Department of For-Hire Vehicles"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DDOT",
+            "SERVICETYPECODEDESCRIPTION": "Urban Forrestry"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DDOT",
+            "SERVICETYPECODEDESCRIPTION": "Transportation Operations Administration"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "OUC",
+            "SERVICETYPECODEDESCRIPTION": "311- Emergencies"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "FEMS",
+            "SERVICETYPECODEDESCRIPTION": "FEMS-Smoke Alarms"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": null,
+            "SERVICETYPECODEDESCRIPTION": null
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DPW",
+            "SERVICETYPECODEDESCRIPTION": "SNOW"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DC Water",
+            "SERVICETYPECODEDESCRIPTION": null
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DDOT",
+            "SERVICETYPECODEDESCRIPTION": "Department of Transportation"
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DPW",
+            "SERVICETYPECODEDESCRIPTION": null
+          }
+        },
+        {
+          "attributes": {
+            "ORGANIZATIONACRONYM": "DMOI",
+            "SERVICETYPECODEDESCRIPTION": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "city": "Houston",
+    "endpoint": "https://hfdapp.houstontx.gov/311/311-CRIS-Public-Data-Extract-D365-MTD-compressed.txt",
+    "columns": [
+      "365 Case Number",
+      "Case Number",
+      "Incident Address",
+      "Latitude",
+      "Longitude",
+      "Status",
+      "Created Date Local",
+      "Closed Date",
+      "Title",
+      "Incident Case Type",
+      "SLA Time",
+      "Resolve By Time",
+      "Service Area",
+      "Council District",
+      "Key Map",
+      "Department",
+      "Division",
+      "AVA Case Type",
+      "State Code",
+      "State Code Name",
+      "SLA Start Time",
+      "X",
+      "Y",
+      "Incident Street",
+      "Incident City",
+      "Incident State",
+      "Zip Code",
+      "TaxID",
+      "Created Date UTC",
+      "Customer SuperNeighborhood",
+      "Management District",
+      "Garbage Route",
+      "Garbage Day",
+      "SWM Quadrant",
+      "Recycling Route",
+      "Recycling Day",
+      "Recycling Quadrant",
+      "Recycling Areas",
+      "Heavy Trash Day",
+      "Heavy Trash Quadrant",
+      "Queue",
+      "ETJ",
+      "SLA Name",
+      "Channel",
+      "Extract Date",
+      "Latest Case Notes",
+      "Sample Case Conflicts Notes",
+      "Description",
+      "Resolution Notes "
+    ],
+    "values": {
+      "Department": [
+        "Administration and Regulatory Affairs",
+        "External Referral",
+        "Finance",
+        "General Services",
+        "Health",
+        "Houston Fire Department",
+        "Houston Police Department",
+        "Parking Management",
+        "Parks and Recreation",
+        "Public Works",
+        "Solid Waste Management"
+      ],
+      "Division": [
+        "Capital Projects",
+        "Capitol Improvement Planning",
+        "Collections",
+        "Community Code Enforcement",
+        "Customer Account Services",
+        "Customer Escalation",
+        "Environmental Health",
+        "Facilities and Maintenance",
+        "Fire Prevention",
+        "Forestry",
+        "General Support Services",
+        "Graffiti",
+        "Greenspace Management",
+        "Houston Permitting Center",
+        "Houston Water",
+        "Mental Health",
+        "Occupancy",
+        "Parking Enforcement",
+        "Parking Meter Maintenance",
+        "Public Information Office",
+        "Railroad",
+        "Recreation Operations",
+        "Recycling",
+        "Regulatory Permitting",
+        "Security Management",
+        "Transportation Drainage Operations"
+      ]
+    },
+    "rows_reviewed": 25010
+  }
+]

@@ -1,0 +1,3543 @@
+[
+  {
+    "service_request_id": "202000356863",
+    "requested_datetime": "2026-11-25T23:55:53.000",
+    "updated_datetime": "2026-11-25T23:55:58.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Abandoned Vehicles Work",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "abandoned_vehicle",
+    "address": "208 STRATFORD DR, SAN FRANCISCO, CA 94132, US",
+    "street": "STRATFORD DR",
+    "supervisor_district": "7.0",
+    "neighborhoods_sffind_boundaries": "Stonestown",
+    "analysis_neighborhood": "West of Twin Peaks",
+    "police_district": "TARAVAL",
+    "lat": "37.72104913",
+    "long": "-122.47377389",
+    "point": {
+      "latitude": "37.72104913",
+      "longitude": "-122.47377389",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.47377389,
+        37.72104913
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356833",
+    "requested_datetime": "2026-11-25T23:45:38.000",
+    "updated_datetime": "2026-11-25T23:50:53.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "glass",
+    "address": "1400 29TH AVE, SAN FRANCISCO, CA 94122, US",
+    "street": "29TH AVE",
+    "supervisor_district": "4.0",
+    "neighborhoods_sffind_boundaries": "Outer Sunset",
+    "analysis_neighborhood": "Sunset/Parkside",
+    "police_district": "TARAVAL",
+    "lat": "37.76110645374031",
+    "long": "-122.48760556912457",
+    "point": {
+      "latitude": "37.76110645374031",
+      "longitude": "-122.48760556912457",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.487605569,
+        37.761106454
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356832",
+    "requested_datetime": "2026-11-25T23:43:52.000",
+    "updated_datetime": "2026-11-25T23:44:00.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "RPD - PSA",
+    "service_name": "RPD General",
+    "service_subtype": "structural_maintenance",
+    "service_details": "pathway",
+    "address": "1406 46TH AVE, SAN FRANCISCO, CA 94122, US",
+    "street": "46TH AVE",
+    "supervisor_district": "4.0",
+    "neighborhoods_sffind_boundaries": "Outer Sunset",
+    "analysis_neighborhood": "Sunset/Parkside",
+    "police_district": "TARAVAL",
+    "lat": "37.76029272478814",
+    "long": "-122.50582947601599",
+    "point": {
+      "latitude": "37.76029272478814",
+      "longitude": "-122.50582947601599",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.505829476,
+        37.760292725
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795679022/jcfebhwmxg1gmc6htnei.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356797",
+    "requested_datetime": "2026-11-25T23:27:52.000",
+    "updated_datetime": "2026-11-25T23:34:39.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Access/Mobility Services Received",
+    "service_name": "Blocked Street and Sidewalk",
+    "service_subtype": "blocked_sidewalk",
+    "service_details": "scooter_without_license_plate",
+    "address": "510 GREEN ST, SAN FRANCISCO, CA 94133, US",
+    "street": "GREEN ST",
+    "supervisor_district": "3.0",
+    "neighborhoods_sffind_boundaries": "North Beach",
+    "analysis_neighborhood": "North Beach",
+    "police_district": "CENTRAL",
+    "lat": "37.79981373",
+    "long": "-122.407635",
+    "point": {
+      "latitude": "37.79981373",
+      "longitude": "-122.407635",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.407635,
+        37.79981373
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356797&formref=QRO1EJU7B"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356764",
+    "requested_datetime": "2026-11-25T23:26:15.000",
+    "updated_datetime": "2026-11-25T23:26:56.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_tow",
+    "address": "1545 EDDY ST, SAN FRANCISCO, CA 94115, US",
+    "street": "EDDY ST",
+    "supervisor_district": "5.0",
+    "neighborhoods_sffind_boundaries": "Western Addition",
+    "analysis_neighborhood": "Western Addition",
+    "police_district": "NORTHERN",
+    "lat": "37.78127326430232",
+    "long": "-122.43309730836712",
+    "point": {
+      "latitude": "37.78127326430232",
+      "longitude": "-122.43309730836712",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.433097308,
+        37.781273264
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795677958/mqrxtjlh1o1glhxps8xa.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356739",
+    "requested_datetime": "2026-11-25T23:20:42.000",
+    "updated_datetime": "2026-11-25T23:20:44.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Entertainment Commission",
+    "service_name": "Noise",
+    "service_subtype": "entertainment",
+    "address": "777 VALENCIA ST, SAN FRANCISCO, CA 94110, US",
+    "street": "VALENCIA ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Mission",
+    "analysis_neighborhood": "Mission",
+    "police_district": "MISSION",
+    "lat": "37.76066553279034",
+    "long": "-122.42128697868753",
+    "point": {
+      "latitude": "37.76066553279034",
+      "longitude": "-122.42128697868753",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.421286979,
+        37.760665533
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356738",
+    "requested_datetime": "2026-11-25T23:19:39.000",
+    "updated_datetime": "2026-11-25T23:19:44.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "General Request",
+    "service_subtype": "homelessness_and_supportive_housing",
+    "service_details": "housing_homeless request_for_service",
+    "address": "191 RUSS ST, SAN FRANCISCO, CA 94103, US",
+    "street": "RUSS ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "South of Market",
+    "analysis_neighborhood": "South of Market",
+    "police_district": "SOUTHERN",
+    "lat": "37.777903284921535",
+    "long": "-122.40695209990233",
+    "point": {
+      "latitude": "37.777903284921535",
+      "longitude": "-122.40695209990233",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.4069521,
+        37.777903285
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356734",
+    "requested_datetime": "2026-11-25T23:17:20.000",
+    "updated_datetime": "2026-11-25T23:18:47.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_only",
+    "address": "45 GAMBIER ST, SAN FRANCISCO, CA 94134, US",
+    "street": "GAMBIER ST",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "University Mound",
+    "analysis_neighborhood": "Excelsior",
+    "police_district": "INGLESIDE",
+    "lat": "37.72826011867175",
+    "long": "-122.42229379203557",
+    "point": {
+      "latitude": "37.72826011867175",
+      "longitude": "-122.42229379203557",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.422293792,
+        37.728260119
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795677427/w5junf3eez86qakn9bxi.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356732",
+    "requested_datetime": "2026-11-25T23:05:23.000",
+    "updated_datetime": "2026-11-25T23:06:32.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_only",
+    "address": "2750 39TH AVE, SAN FRANCISCO, CA 94116, US",
+    "street": "39TH AVE",
+    "supervisor_district": "4.0",
+    "neighborhoods_sffind_boundaries": "Parkside",
+    "analysis_neighborhood": "Sunset/Parkside",
+    "police_district": "TARAVAL",
+    "lat": "37.7355553",
+    "long": "-122.49650068",
+    "point": {
+      "latitude": "37.7355553",
+      "longitude": "-122.49650068",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.49650068,
+        37.7355553
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356731",
+    "requested_datetime": "2026-11-25T23:03:53.000",
+    "updated_datetime": "2026-11-25T23:10:34.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Access/Mobility Services Received",
+    "service_name": "Blocked Street and Sidewalk",
+    "service_subtype": "blocked_sidewalk",
+    "service_details": "scooter_without_license_plate",
+    "address": "391 HAIGHT ST, SAN FRANCISCO, CA 94102, US",
+    "street": "HAIGHT ST",
+    "supervisor_district": "5.0",
+    "neighborhoods_sffind_boundaries": "Mint Hill",
+    "analysis_neighborhood": "Hayes Valley",
+    "police_district": "NORTHERN",
+    "lat": "37.77222518",
+    "long": "-122.42852264",
+    "point": {
+      "latitude": "37.77222518",
+      "longitude": "-122.42852264",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.42852264,
+        37.77222518
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356731&formref=T2L5G7W4Q"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356670",
+    "requested_datetime": "2026-11-25T22:54:53.000",
+    "updated_datetime": "2026-11-25T22:54:59.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "Encampment",
+    "service_subtype": "encampment",
+    "address": "43 WASHBURN ST, Virtual, SAN FRANCISCO, CA 94103, US",
+    "street": "WASHBURN ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "South of Market",
+    "analysis_neighborhood": "South of Market",
+    "police_district": "SOUTHERN",
+    "lat": "37.775374528168754",
+    "long": "-122.41437491029501",
+    "point": {
+      "latitude": "37.775374528168754",
+      "longitude": "-122.41437491029501",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41437491,
+        37.775374528
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795676089/vtjpuruqwsuuxdbpa5sh.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356668",
+    "requested_datetime": "2026-11-25T22:51:48.000",
+    "updated_datetime": "2026-11-25T22:52:15.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "98 OXFORD ST, Virtual, SAN FRANCISCO, CA 94134, US",
+    "street": "OXFORD ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "University Mound",
+    "analysis_neighborhood": "Excelsior",
+    "police_district": "INGLESIDE",
+    "lat": "37.72863405",
+    "long": "-122.42051575",
+    "point": {
+      "latitude": "37.72863405",
+      "longitude": "-122.42051575",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.42051575,
+        37.72863405
+      ]
+    },
+    "source": "Web",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356667",
+    "requested_datetime": "2026-11-25T22:50:05.000",
+    "updated_datetime": "2026-11-25T23:03:31.000",
+    "status_description": "Open",
+    "status_notes": "in progress",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "other_loose_garbage_debris_yard_waste",
+    "address": "67 WOODWARD ST, SAN FRANCISCO, CA 94103, US",
+    "street": "WOODWARD ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Mission",
+    "analysis_neighborhood": "Mission",
+    "police_district": "MISSION",
+    "lat": "37.76890121",
+    "long": "-122.42073375",
+    "point": {
+      "latitude": "37.76890121",
+      "longitude": "-122.42073375",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.42073375,
+        37.76890121
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356665",
+    "requested_datetime": "2026-11-25T22:47:40.000",
+    "updated_datetime": "2026-11-25T22:48:47.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_only",
+    "address": "291 NEY ST, SAN FRANCISCO, CA 94112, US",
+    "street": "NEY ST",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Mission Terrace",
+    "analysis_neighborhood": "Excelsior",
+    "police_district": "INGLESIDE",
+    "lat": "37.73032197",
+    "long": "-122.42404485",
+    "point": {
+      "latitude": "37.73032197",
+      "longitude": "-122.42404485",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.42404485,
+        37.73032197
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356665&formref=1JA81VK0Z"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356639",
+    "requested_datetime": "2026-11-25T22:39:48.000",
+    "updated_datetime": "2026-11-25T22:42:03.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "parking_on_sidewalk",
+    "address": "3156 MISSION ST, SAN FRANCISCO, CA 94110, US",
+    "street": "MISSION ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Bernal Heights",
+    "analysis_neighborhood": "Bernal Heights",
+    "police_district": "INGLESIDE",
+    "lat": "37.74681266",
+    "long": "-122.4192734",
+    "point": {
+      "latitude": "37.74681266",
+      "longitude": "-122.4192734",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.4192734,
+        37.74681266
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356639&formref=D2W8IYF7N"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356638",
+    "requested_datetime": "2026-11-25T22:39:48.000",
+    "updated_datetime": "2026-11-25T22:42:09.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "parking_on_sidewalk",
+    "address": "2376 GREENWICH ST, SAN FRANCISCO, CA 94123, US",
+    "street": "GREENWICH ST",
+    "supervisor_district": "2.0",
+    "neighborhoods_sffind_boundaries": "Cow Hollow",
+    "analysis_neighborhood": "Marina",
+    "police_district": "NORTHERN",
+    "lat": "37.79863789",
+    "long": "-122.43877146",
+    "point": {
+      "latitude": "37.79863789",
+      "longitude": "-122.43877146",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.43877146,
+        37.79863789
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356638&formref=HYN08GN7Y"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356637",
+    "requested_datetime": "2026-11-25T22:39:48.000",
+    "updated_datetime": "2026-11-25T22:40:39.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "35 PRECITA AVE, SAN FRANCISCO, CA 94110, US",
+    "street": "PRECITA AVE",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Bernal Heights",
+    "analysis_neighborhood": "Bernal Heights",
+    "police_district": "INGLESIDE",
+    "lat": "37.74678726",
+    "long": "-122.41881708",
+    "point": {
+      "latitude": "37.74678726",
+      "longitude": "-122.41881708",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41881708,
+        37.74678726
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356637&formref=G9E1FJ05N"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356636",
+    "requested_datetime": "2026-11-25T22:38:17.000",
+    "updated_datetime": "2026-11-25T22:40:00.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "176 DE LONG ST, SAN FRANCISCO, CA 94112, US",
+    "street": "DE LONG ST",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Outer Mission",
+    "analysis_neighborhood": "Outer Mission",
+    "police_district": "TARAVAL",
+    "lat": "37.70976325929678",
+    "long": "-122.46209956944217",
+    "point": {
+      "latitude": "37.70976325929678",
+      "longitude": "-122.46209956944217",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.462099569,
+        37.709763259
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795675085/jobhdaafvoamxqq3uvwt.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356635",
+    "requested_datetime": "2026-11-25T22:37:48.000",
+    "updated_datetime": "2026-11-25T22:38:31.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "Encampment",
+    "service_subtype": "encampment",
+    "address": "2207 LOMBARD ST, SAN FRANCISCO, CA 94123, US",
+    "street": "LOMBARD ST",
+    "supervisor_district": "2.0",
+    "neighborhoods_sffind_boundaries": "Cow Hollow",
+    "analysis_neighborhood": "Marina",
+    "police_district": "NORTHERN",
+    "lat": "37.79942212",
+    "long": "-122.4379459",
+    "point": {
+      "latitude": "37.79942212",
+      "longitude": "-122.4379459",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.4379459,
+        37.79942212
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356635&formref=J7N9WD49X"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356634",
+    "requested_datetime": "2026-11-25T22:37:48.000",
+    "updated_datetime": "2026-11-25T22:40:09.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "13 POWERS AVE, SAN FRANCISCO, CA 94110, US",
+    "street": "POWERS AVE",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Bernal Heights",
+    "analysis_neighborhood": "Bernal Heights",
+    "police_district": "INGLESIDE",
+    "lat": "37.74616659",
+    "long": "-122.41931355",
+    "point": {
+      "latitude": "37.74616659",
+      "longitude": "-122.41931355",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41931355,
+        37.74616659
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356634&formref=SEN1HTA1L"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356633",
+    "requested_datetime": "2026-11-25T22:35:49.000",
+    "updated_datetime": "2026-11-25T22:38:03.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "3259 MISSION ST, SAN FRANCISCO, CA 94110, US",
+    "street": "MISSION ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Bernal Heights",
+    "analysis_neighborhood": "Bernal Heights",
+    "police_district": "INGLESIDE",
+    "lat": "37.74462875",
+    "long": "-122.42030031",
+    "point": {
+      "latitude": "37.74462875",
+      "longitude": "-122.42030031",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.42030031,
+        37.74462875
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356633&formref=XH70THS4S"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356632",
+    "requested_datetime": "2026-11-25T22:35:48.000",
+    "updated_datetime": "2026-11-25T22:37:58.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "3278 MISSION ST, SAN FRANCISCO, CA 94110, US",
+    "street": "MISSION ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Bernal Heights",
+    "analysis_neighborhood": "Bernal Heights",
+    "police_district": "INGLESIDE",
+    "lat": "37.74436251",
+    "long": "-122.42076118",
+    "point": {
+      "latitude": "37.74436251",
+      "longitude": "-122.42076118",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.42076118,
+        37.74436251
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356632&formref=MEM67RH6T"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356631",
+    "requested_datetime": "2026-11-25T22:34:52.000",
+    "updated_datetime": "2026-11-25T22:35:55.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "parking_on_sidewalk",
+    "address": "3299 MISSION ST, SAN FRANCISCO, CA 94110, US",
+    "street": "MISSION ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Bernal Heights",
+    "analysis_neighborhood": "Bernal Heights",
+    "police_district": "INGLESIDE",
+    "lat": "37.74410123",
+    "long": "-122.42064092",
+    "point": {
+      "latitude": "37.74410123",
+      "longitude": "-122.42064092",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.42064092,
+        37.74410123
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356631&formref=3VP8O4F2F"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356629",
+    "requested_datetime": "2026-11-25T22:34:51.000",
+    "updated_datetime": "2026-11-25T22:35:31.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "General Request",
+    "service_subtype": "homelessness_and_supportive_housing",
+    "service_details": "housing_homeless request_for_service",
+    "address": "417 HYDE ST, SAN FRANCISCO, CA 94109, US",
+    "street": "HYDE ST",
+    "supervisor_district": "5.0",
+    "neighborhoods_sffind_boundaries": "Tenderloin",
+    "analysis_neighborhood": "Tenderloin",
+    "police_district": "TENDERLOIN",
+    "lat": "37.78473463",
+    "long": "-122.41630847",
+    "point": {
+      "latitude": "37.78473463",
+      "longitude": "-122.41630847",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41630847,
+        37.78473463
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356629&formref=K4T3LBL0H"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356627",
+    "requested_datetime": "2026-11-25T22:33:15.000",
+    "updated_datetime": "2026-11-25T22:33:52.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_only",
+    "address": "376 NIAGARA AVE, SAN FRANCISCO, CA 94112, US",
+    "street": "NIAGARA AVE",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Cayuga",
+    "analysis_neighborhood": "Outer Mission",
+    "police_district": "INGLESIDE",
+    "lat": "37.71933",
+    "long": "-122.44695333333334",
+    "point": {
+      "latitude": "37.71933",
+      "longitude": "-122.44695333333334",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.446953333,
+        37.71933
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795674787/kejqhjbjqbxkkuuc3f0k.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356626",
+    "requested_datetime": "2026-11-25T22:31:50.000",
+    "updated_datetime": "2026-11-25T22:47:53.000",
+    "status_description": "Open",
+    "status_notes": "in progress",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "other_loose_garbage_debris_yard_waste",
+    "address": "142 TOWNSEND ST, Virtual, SAN FRANCISCO, CA 94107, US",
+    "street": "TOWNSEND ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "South Beach",
+    "analysis_neighborhood": "Financial District/South Beach",
+    "police_district": "SOUTHERN",
+    "lat": "37.77997609",
+    "long": "-122.39147401",
+    "point": {
+      "latitude": "37.77997609",
+      "longitude": "-122.39147401",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.39147401,
+        37.77997609
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356626&formref=K164NYR3J"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356625",
+    "requested_datetime": "2026-11-25T22:31:18.000",
+    "updated_datetime": "2026-11-25T22:43:26.000",
+    "status_description": "Open",
+    "status_notes": "in progress",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "human_waste_or_urine",
+    "address": "775 POST ST, SAN FRANCISCO, CA 94109, US",
+    "street": "POST ST",
+    "supervisor_district": "3.0",
+    "neighborhoods_sffind_boundaries": "Lower Nob Hill",
+    "analysis_neighborhood": "Tenderloin",
+    "police_district": "CENTRAL",
+    "lat": "37.787421907227014",
+    "long": "-122.4145223634637",
+    "point": {
+      "latitude": "37.787421907227014",
+      "longitude": "-122.4145223634637",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.414522363,
+        37.787421907
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356623",
+    "requested_datetime": "2026-11-25T22:30:27.000",
+    "updated_datetime": "2026-11-25T22:30:32.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "Encampment",
+    "service_subtype": "encampment",
+    "address": "44 GOUGH ST, SAN FRANCISCO, CA 94103, US",
+    "street": "GOUGH ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "South of Market",
+    "analysis_neighborhood": "Mission",
+    "police_district": "SOUTHERN",
+    "lat": "37.7725558041535",
+    "long": "-122.42108289516094",
+    "point": {
+      "latitude": "37.7725558041535",
+      "longitude": "-122.42108289516094",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.421082895,
+        37.772555804
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795674623/q4o0qwd3re91fookva8t.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356622",
+    "requested_datetime": "2026-11-25T22:29:59.000",
+    "updated_datetime": "2026-11-25T22:32:01.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "98 OXFORD ST, Virtual, SAN FRANCISCO, CA 94134, US",
+    "street": "OXFORD ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "University Mound",
+    "analysis_neighborhood": "Excelsior",
+    "police_district": "INGLESIDE",
+    "lat": "37.72863405",
+    "long": "-122.42051575",
+    "point": {
+      "latitude": "37.72863405",
+      "longitude": "-122.42051575",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.42051575,
+        37.72863405
+      ]
+    },
+    "source": "Web",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356621",
+    "requested_datetime": "2026-11-25T22:29:40.000",
+    "closed_date": "2026-11-25T22:48:29.000",
+    "updated_datetime": "2026-11-25T22:48:33.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293330.  Issue reported could not be validated.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_only",
+    "address": "194 SHAKESPEARE ST, SAN FRANCISCO, CA 94112, US",
+    "street": "SHAKESPEARE ST",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Outer Mission",
+    "analysis_neighborhood": "Outer Mission",
+    "police_district": "TARAVAL",
+    "lat": "37.709354881252864",
+    "long": "-122.46411144251307",
+    "point": {
+      "latitude": "37.709354881252864",
+      "longitude": "-122.46411144251307",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.464111443,
+        37.709354881
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795674571/ejsbycb5hcgisairwazw.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356620",
+    "requested_datetime": "2026-11-25T22:28:55.000",
+    "updated_datetime": "2026-11-25T22:31:04.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "needles_less_than_20",
+    "address": "767 3RD ST, Virtual, SAN FRANCISCO, CA 94107, US",
+    "street": "3RD ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "Mission Bay",
+    "analysis_neighborhood": "Mission Bay",
+    "police_district": "SOUTHERN",
+    "lat": "37.7784476",
+    "long": "-122.39209783",
+    "point": {
+      "latitude": "37.7784476",
+      "longitude": "-122.39209783",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.39209783,
+        37.7784476
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356620&formref=GHR6X3G1B"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356619",
+    "requested_datetime": "2026-11-25T22:28:45.000",
+    "updated_datetime": "2026-11-25T22:31:04.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Graffiti Public",
+    "service_subtype": "not_offensive",
+    "service_details": "other",
+    "address": "789 3RD ST, Virtual, SAN FRANCISCO, CA 94107, US",
+    "street": "3RD ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "Mission Bay",
+    "analysis_neighborhood": "Mission Bay",
+    "police_district": "SOUTHERN",
+    "lat": "37.7783197",
+    "long": "-122.3919371",
+    "point": {
+      "latitude": "37.7783197",
+      "longitude": "-122.3919371",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.3919371,
+        37.7783197
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356619&formref=8F41DUZ0I"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356618",
+    "requested_datetime": "2026-11-25T22:28:10.000",
+    "closed_date": "2026-11-25T22:31:52.000",
+    "updated_datetime": "2026-11-25T22:31:56.000",
+    "status_description": "Closed",
+    "status_notes": "case_is_a_duplicate - This issue has already been reported through an earlier request.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "parking_on_sidewalk",
+    "address": "173 SHAKESPEARE ST, SAN FRANCISCO, CA 94112, US",
+    "street": "SHAKESPEARE ST",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Outer Mission",
+    "analysis_neighborhood": "Outer Mission",
+    "police_district": "TARAVAL",
+    "lat": "37.70884555164704",
+    "long": "-122.46370411286705",
+    "point": {
+      "latitude": "37.70884555164704",
+      "longitude": "-122.46370411286705",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.463704113,
+        37.708845552
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795674482/yxld2d0nbzbisar6bjsn.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356617",
+    "requested_datetime": "2026-11-25T22:28:01.000",
+    "updated_datetime": "2026-11-25T23:01:01.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "PW - Street Use and Mapping",
+    "service_name": "Street Defect",
+    "service_subtype": "utility_excavation",
+    "address": "2583 32ND AVE, SAN FRANCISCO, CA 94116, US",
+    "street": "32ND AVE",
+    "supervisor_district": "4.0",
+    "neighborhoods_sffind_boundaries": "Parkside",
+    "analysis_neighborhood": "Sunset/Parkside",
+    "police_district": "TARAVAL",
+    "lat": "37.73904844",
+    "long": "-122.48951892",
+    "point": {
+      "latitude": "37.73904844",
+      "longitude": "-122.48951892",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.48951892,
+        37.73904844
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356617&formref=1214CDM2O"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356616",
+    "requested_datetime": "2026-11-25T22:27:15.000",
+    "updated_datetime": "2026-11-25T22:31:55.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Muni Feedback Received",
+    "service_name": "Muni Service Feedback",
+    "service_subtype": "complaint_frequency_reliability",
+    "service_details": "pass_ups",
+    "address": "INTERSECTION 16TH ST, SHOTWELL ST, SAN FRANCISCO, CA 94103, US",
+    "street": "16TH ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Mission",
+    "analysis_neighborhood": "Mission",
+    "police_district": "MISSION",
+    "lat": "37.76524941",
+    "long": "-122.4163876421",
+    "point": {
+      "latitude": "37.76524941",
+      "longitude": "-122.4163876421",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.416387642,
+        37.76524941
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356615",
+    "requested_datetime": "2026-11-25T22:23:34.000",
+    "updated_datetime": "2026-11-25T22:25:43.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "124 SHAKESPEARE ST, SAN FRANCISCO, CA 94112, US",
+    "street": "SHAKESPEARE ST",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Outer Mission",
+    "analysis_neighborhood": "Outer Mission",
+    "police_district": "TARAVAL",
+    "lat": "37.708494832358",
+    "long": "-122.46279576400033",
+    "point": {
+      "latitude": "37.708494832358",
+      "longitude": "-122.46279576400033",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.462795764,
+        37.708494832
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795674204/gsoeueq9z6djtm2o2msc.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356614",
+    "requested_datetime": "2026-11-25T22:22:55.000",
+    "updated_datetime": "2026-11-25T22:23:02.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "General Request",
+    "service_subtype": "homelessness_and_supportive_housing",
+    "service_details": "housing_homeless request_for_service",
+    "address": "467 HYDE ST, SAN FRANCISCO, CA 94109, US",
+    "street": "HYDE ST",
+    "supervisor_district": "5.0",
+    "neighborhoods_sffind_boundaries": "Tenderloin",
+    "analysis_neighborhood": "Tenderloin",
+    "police_district": "TENDERLOIN",
+    "lat": "37.785145509814704",
+    "long": "-122.41647231787304",
+    "point": {
+      "latitude": "37.785145509814704",
+      "longitude": "-122.41647231787304",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.416472318,
+        37.78514551
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795674166/qrrwpg9d3xvdbbyjeoyw.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356613",
+    "requested_datetime": "2026-11-25T22:20:12.000",
+    "updated_datetime": "2026-11-25T22:25:54.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "PW - Street Use and Mapping",
+    "service_name": "General Request",
+    "service_subtype": "public_works",
+    "service_details": "bsm request_for_service",
+    "address": "Not associated with a specific address",
+    "source": "Web",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356612",
+    "requested_datetime": "2026-11-25T22:19:35.000",
+    "updated_datetime": "2026-11-25T22:22:52.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Muni Feedback Received",
+    "service_name": "Muni Service Feedback",
+    "service_subtype": "complaint_frequency_reliability",
+    "service_details": "delays",
+    "address": "INTERSECTION 4TH ST, KING ST, SAN FRANCISCO, CA 94158, US",
+    "street": "4TH ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "Mission Bay",
+    "analysis_neighborhood": "Mission Bay",
+    "police_district": "SOUTHERN",
+    "lat": "37.7763329628",
+    "long": "-122.3940350659",
+    "point": {
+      "latitude": "37.7763329628",
+      "longitude": "-122.3940350659",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.394035066,
+        37.776332963
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356611",
+    "requested_datetime": "2026-11-25T22:19:00.000",
+    "updated_datetime": "2026-11-25T22:19:39.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "parking_on_sidewalk",
+    "address": "183 WILSON ST, SAN FRANCISCO, CA 94112, US",
+    "street": "WILSON ST",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Outer Mission",
+    "analysis_neighborhood": "Outer Mission",
+    "police_district": "TARAVAL",
+    "lat": "37.70876868523583",
+    "long": "-122.4609517929947",
+    "point": {
+      "latitude": "37.70876868523583",
+      "longitude": "-122.4609517929947",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.460951793,
+        37.708768685
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795673932/fsotqkpx0znaymkmv87g.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356609",
+    "requested_datetime": "2026-11-25T22:18:38.000",
+    "closed_date": "2026-11-25T22:36:34.000",
+    "updated_datetime": "2026-11-25T22:36:39.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293310. Unable to Locate.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "parking_on_sidewalk",
+    "address": "14 MCCORMICK ST, SAN FRANCISCO, CA 94109, US",
+    "street": "MCCORMICK ST",
+    "supervisor_district": "3.0",
+    "neighborhoods_sffind_boundaries": "Nob Hill",
+    "analysis_neighborhood": "Russian Hill",
+    "police_district": "CENTRAL",
+    "lat": "37.79508605819822",
+    "long": "-122.41904212640975",
+    "point": {
+      "latitude": "37.79508605819822",
+      "longitude": "-122.41904212640975",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.419042126,
+        37.795086058
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795673891/tochgsgee44cbxhwok94.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356608",
+    "requested_datetime": "2026-11-25T22:16:20.000",
+    "updated_datetime": "2026-11-25T22:16:24.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "General Request",
+    "service_subtype": "homelessness_and_supportive_housing",
+    "service_details": "housing_homeless request_for_service",
+    "address": "INTERSECTION HARBOR RD, INGALLS ST, SAN FRANCISCO, CA 94124, US",
+    "street": "HARBOR RD",
+    "supervisor_district": "10.0",
+    "neighborhoods_sffind_boundaries": "Hunters Point",
+    "analysis_neighborhood": "Bayview Hunters Point",
+    "police_district": "BAYVIEW",
+    "lat": "37.733380713",
+    "long": "-122.3799316254",
+    "point": {
+      "latitude": "37.733380713",
+      "longitude": "-122.3799316254",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.379931625,
+        37.733380713
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356607",
+    "requested_datetime": "2026-11-25T22:14:52.000",
+    "closed_date": "2026-11-25T22:33:14.000",
+    "updated_datetime": "2026-11-25T22:33:19.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293298. Unable to Locate.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "965 FOLSOM ST, SAN FRANCISCO, CA 94107, US",
+    "street": "FOLSOM ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "South of Market",
+    "analysis_neighborhood": "South of Market",
+    "police_district": "SOUTHERN",
+    "lat": "37.77910248",
+    "long": "-122.40460274",
+    "point": {
+      "latitude": "37.77910248",
+      "longitude": "-122.40460274",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.40460274,
+        37.77910248
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356607&formref=NV76U3F9W"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356605",
+    "requested_datetime": "2026-11-25T22:11:33.000",
+    "closed_date": "2026-11-25T22:38:59.000",
+    "updated_datetime": "2026-11-25T22:39:04.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293291.  Citation was issued.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "283 FLOURNOY ST, SAN FRANCISCO, CA 94112, US",
+    "street": "FLOURNOY ST",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Outer Mission",
+    "analysis_neighborhood": "Outer Mission",
+    "police_district": "TARAVAL",
+    "lat": "37.70932135402707",
+    "long": "-122.46324944204521",
+    "point": {
+      "latitude": "37.70932135402707",
+      "longitude": "-122.46324944204521",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.463249442,
+        37.709321354
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795673481/vt5xunmleqyw9qq0atj0.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356604",
+    "requested_datetime": "2026-11-25T22:10:44.000",
+    "updated_datetime": "2026-11-25T22:16:52.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Muni Feedback Received",
+    "service_name": "Muni Service Feedback",
+    "service_subtype": "complaint_frequency_reliability",
+    "service_details": "pass_ups",
+    "address": "INTERSECTION ARGUELLO BLVD, CLEMENT ST, SAN FRANCISCO, CA 94118, US",
+    "street": "ARGUELLO BLVD",
+    "supervisor_district": "1.0",
+    "neighborhoods_sffind_boundaries": "Inner Richmond",
+    "analysis_neighborhood": "Inner Richmond",
+    "police_district": "RICHMOND",
+    "lat": "37.7831885549",
+    "long": "-122.4589984882",
+    "point": {
+      "latitude": "37.7831885549",
+      "longitude": "-122.4589984882",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.458998488,
+        37.783188555
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356603",
+    "requested_datetime": "2026-11-25T22:08:57.000",
+    "updated_datetime": "2026-11-25T22:09:28.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "226 DE LONG ST, SAN FRANCISCO, CA 94112, US",
+    "street": "DE LONG ST",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Outer Mission",
+    "analysis_neighborhood": "Outer Mission",
+    "police_district": "TARAVAL",
+    "lat": "37.70977328581527",
+    "long": "-122.4631504700721",
+    "point": {
+      "latitude": "37.70977328581527",
+      "longitude": "-122.4631504700721",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.46315047,
+        37.709773286
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795673324/qdg8qgebckjioyiov4mr.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356602",
+    "requested_datetime": "2026-11-25T22:08:42.000",
+    "closed_date": "2026-11-25T22:47:00.000",
+    "updated_datetime": "2026-11-25T22:47:05.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293279. Unable to Locate.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "parking_on_sidewalk",
+    "address": "1771 15TH ST, SAN FRANCISCO, CA 94103, US",
+    "street": "15TH ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Mission Dolores",
+    "analysis_neighborhood": "Mission",
+    "police_district": "MISSION",
+    "lat": "37.766343006621106",
+    "long": "-122.42358336177071",
+    "point": {
+      "latitude": "37.766343006621106",
+      "longitude": "-122.42358336177071",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.423583362,
+        37.766343007
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356601",
+    "requested_datetime": "2026-11-25T22:07:12.000",
+    "closed_date": "2026-11-25T23:41:22.000",
+    "updated_datetime": "2026-11-25T23:41:22.000",
+    "status_description": "Closed",
+    "status_notes": "case_is_invalid - This does not appear to be a concern for public works. Please report to parking enforcement if this is still an ongoing issue: https://www.sf.gov/report-blocked-driveway-or-illegal-parking",
+    "agency_responsible": "311 - Supervisor",
+    "service_name": "General Request",
+    "service_subtype": "public_works",
+    "service_details": "bsm complaint",
+    "address": "1771 15TH ST, SAN FRANCISCO, CA 94103, US",
+    "street": "15TH ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Mission Dolores",
+    "analysis_neighborhood": "Mission",
+    "police_district": "MISSION",
+    "lat": "37.76635101298487",
+    "long": "-122.42353944468402",
+    "point": {
+      "latitude": "37.76635101298487",
+      "longitude": "-122.42353944468402",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.423539445,
+        37.766351013
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356600",
+    "requested_datetime": "2026-11-25T22:07:04.000",
+    "closed_date": "2026-11-25T22:49:16.000",
+    "updated_datetime": "2026-11-25T22:49:20.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293271. Issue was addressed.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_tow",
+    "address": "1085 SOUTH VAN NESS AVE, SAN FRANCISCO, CA 94110, US",
+    "street": "SOUTH VAN NESS AVE",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Mission",
+    "analysis_neighborhood": "Mission",
+    "police_district": "MISSION",
+    "lat": "37.75583397",
+    "long": "-122.41654003",
+    "point": {
+      "latitude": "37.75583397",
+      "longitude": "-122.41654003",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41654003,
+        37.75583397
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356600&formref=44O4AQD0Z"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356599",
+    "requested_datetime": "2026-11-25T22:06:58.000",
+    "updated_datetime": "2026-11-25T22:10:50.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Muni Feedback Received",
+    "service_name": "Muni Service Feedback",
+    "service_subtype": "complaint_maintenance_repair",
+    "service_details": "vehicle_maintenance_noise",
+    "address": "INTERSECTION 18TH AVE, TARAVAL ST, SAN FRANCISCO, CA 94116, US",
+    "street": "18TH AVE",
+    "supervisor_district": "7.0",
+    "neighborhoods_sffind_boundaries": "West Portal",
+    "analysis_neighborhood": "West of Twin Peaks",
+    "police_district": "TARAVAL",
+    "lat": "37.743096485",
+    "long": "-122.4746239603",
+    "point": {
+      "latitude": "37.743096485",
+      "longitude": "-122.4746239603",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.47462396,
+        37.743096485
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356593",
+    "requested_datetime": "2026-11-25T22:02:47.000",
+    "updated_datetime": "2026-11-25T22:09:28.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Access/Mobility Services Received",
+    "service_name": "Blocked Street and Sidewalk",
+    "service_subtype": "blocked_sidewalk",
+    "service_details": "scooter_without_license_plate",
+    "address": "1800 POWELL ST, SAN FRANCISCO, CA 94133, US",
+    "street": "POWELL ST",
+    "supervisor_district": "3.0",
+    "neighborhoods_sffind_boundaries": "North Beach",
+    "analysis_neighborhood": "North Beach",
+    "police_district": "CENTRAL",
+    "lat": "37.8014263",
+    "long": "-122.41090935",
+    "point": {
+      "latitude": "37.8014263",
+      "longitude": "-122.41090935",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41090935,
+        37.8014263
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356593&formref=OCJ3EV11K"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356591",
+    "requested_datetime": "2026-11-25T21:59:59.000",
+    "updated_datetime": "2026-11-25T22:00:03.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Noise Report",
+    "service_name": "Noise",
+    "service_subtype": "other_excessive_noise",
+    "address": "438 EDDY ST, SAN FRANCISCO, CA 94109, US",
+    "street": "EDDY ST",
+    "supervisor_district": "5.0",
+    "neighborhoods_sffind_boundaries": "Tenderloin",
+    "analysis_neighborhood": "Tenderloin",
+    "police_district": "TENDERLOIN",
+    "lat": "37.7837776",
+    "long": "-122.41492546",
+    "point": {
+      "latitude": "37.7837776",
+      "longitude": "-122.41492546",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41492546,
+        37.7837776
+      ]
+    },
+    "source": "Web",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356590",
+    "requested_datetime": "2026-11-25T21:59:56.000",
+    "updated_datetime": "2026-11-25T22:00:09.000",
+    "status_description": "Open",
+    "status_notes": "new",
+    "agency_responsible": "Recology - Abandoned",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "other_bagged_boxed_contained_garbage",
+    "address": "953 OCEAN AVE, Virtual, SAN FRANCISCO, CA 94112, US",
+    "street": "OCEAN AVE",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Ingleside",
+    "analysis_neighborhood": "Oceanview/Merced/Ingleside",
+    "police_district": "TARAVAL",
+    "lat": "37.722967988787346",
+    "long": "-122.45245225204658",
+    "point": {
+      "latitude": "37.722967988787346",
+      "longitude": "-122.45245225204658",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.452452252,
+        37.722967989
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795672790/jyyfguphhbkvfpb4nsim.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356589",
+    "requested_datetime": "2026-11-25T21:58:48.000",
+    "updated_datetime": "2026-11-25T22:05:28.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Access/Mobility Services Received",
+    "service_name": "Blocked Street and Sidewalk",
+    "service_subtype": "blocked_sidewalk",
+    "service_details": "scooter_without_license_plate",
+    "address": "INTERSECTION COLUMBUS AVE, LOMBARD ST, SAN FRANCISCO, CA 94133, US",
+    "street": "COLUMBUS AVE",
+    "supervisor_district": "3.0",
+    "neighborhoods_sffind_boundaries": "Russian Hill",
+    "analysis_neighborhood": "North Beach",
+    "police_district": "CENTRAL",
+    "lat": "37.8027432924",
+    "long": "-122.4137186241",
+    "point": {
+      "latitude": "37.8027432924",
+      "longitude": "-122.4137186241",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.413718624,
+        37.802743292
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356589&formref=8HB39PO6N"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356586",
+    "requested_datetime": "2026-11-25T21:56:52.000",
+    "updated_datetime": "2026-11-25T21:57:59.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Clear Channel - Transit",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "transit_shelter_platform",
+    "address": "573 BOSWORTH ST, Virtual, SAN FRANCISCO, CA 94131, US",
+    "street": "BOSWORTH ST",
+    "supervisor_district": "8.0",
+    "neighborhoods_sffind_boundaries": "Glen Park",
+    "analysis_neighborhood": "West of Twin Peaks",
+    "police_district": "INGLESIDE",
+    "lat": "37.73333739",
+    "long": "-122.43383068",
+    "point": {
+      "latitude": "37.73333739",
+      "longitude": "-122.43383068",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.43383068,
+        37.73333739
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356586&formref=OD091O29F"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356585",
+    "requested_datetime": "2026-11-25T21:56:52.000",
+    "updated_datetime": "2026-11-25T22:12:57.000",
+    "status_description": "Open",
+    "status_notes": "in progress",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "other_loose_garbage_debris_yard_waste",
+    "address": "573 BOSWORTH ST, Virtual, SAN FRANCISCO, CA 94131, US",
+    "street": "BOSWORTH ST",
+    "supervisor_district": "8.0",
+    "neighborhoods_sffind_boundaries": "Glen Park",
+    "analysis_neighborhood": "West of Twin Peaks",
+    "police_district": "INGLESIDE",
+    "lat": "37.73333739",
+    "long": "-122.43383068",
+    "point": {
+      "latitude": "37.73333739",
+      "longitude": "-122.43383068",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.43383068,
+        37.73333739
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356585&formref=S1O7LAO4H"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356584",
+    "requested_datetime": "2026-11-25T21:55:00.000",
+    "updated_datetime": "2026-11-25T21:55:03.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Noise Report",
+    "service_name": "Noise",
+    "service_subtype": "other_excessive_noise",
+    "address": "1503 REVERE AVE, SAN FRANCISCO, CA 94124, US",
+    "street": "REVERE AVE",
+    "supervisor_district": "10.0",
+    "neighborhoods_sffind_boundaries": "Bayview",
+    "analysis_neighborhood": "Bayview Hunters Point",
+    "police_district": "BAYVIEW",
+    "lat": "37.73059474319123",
+    "long": "-122.38855746995921",
+    "point": {
+      "latitude": "37.73059474319123",
+      "longitude": "-122.38855746995921",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.38855747,
+        37.730594743
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795672490/vrfvy2wfu5ncd9lxpewu.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356583",
+    "requested_datetime": "2026-11-25T21:54:16.000",
+    "updated_datetime": "2026-11-25T21:54:22.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "Encampment",
+    "service_subtype": "encampment",
+    "address": "1857 MISSION ST, Virtual, SAN FRANCISCO, CA 94103, US",
+    "street": "MISSION ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Mission",
+    "analysis_neighborhood": "Mission",
+    "police_district": "MISSION",
+    "lat": "37.767380912485834",
+    "long": "-122.419776879251",
+    "point": {
+      "latitude": "37.767380912485834",
+      "longitude": "-122.419776879251",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.419776879,
+        37.767380912
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356581",
+    "requested_datetime": "2026-11-25T21:53:26.000",
+    "updated_datetime": "2026-11-25T21:53:41.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Clear Channel - Transit",
+    "service_name": "Damage Property",
+    "service_subtype": "transit_shelter_platform",
+    "address": "INTERSECTION EDDY ST, LARKIN ST, SAN FRANCISCO, CA 94102, US",
+    "street": "EDDY ST",
+    "supervisor_district": "5.0",
+    "neighborhoods_sffind_boundaries": "Tenderloin",
+    "analysis_neighborhood": "Tenderloin",
+    "police_district": "TENDERLOIN",
+    "lat": "37.783310774",
+    "long": "-122.4175286212",
+    "point": {
+      "latitude": "37.783310774",
+      "longitude": "-122.4175286212",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.417528621,
+        37.783310774
+      ]
+    },
+    "source": "Test",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356578",
+    "requested_datetime": "2026-11-25T21:47:52.000",
+    "updated_datetime": "2026-11-25T21:48:53.000",
+    "status_description": "Open",
+    "status_notes": "new",
+    "agency_responsible": "Recology - Overflowing",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "city_garbage_can_overflowing",
+    "address": "400 JESSIE ST, SAN FRANCISCO, CA 94103, US",
+    "street": "JESSIE ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "South of Market",
+    "analysis_neighborhood": "South of Market",
+    "police_district": "SOUTHERN",
+    "lat": "37.78330496",
+    "long": "-122.40724181",
+    "point": {
+      "latitude": "37.78330496",
+      "longitude": "-122.40724181",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.40724181,
+        37.78330496
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356578&formref=2OP8JTK4M"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356572",
+    "requested_datetime": "2026-11-25T21:41:52.000",
+    "updated_datetime": "2026-11-25T22:03:12.000",
+    "status_description": "Open",
+    "status_notes": "in progress",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "other_loose_garbage_debris_yard_waste",
+    "address": "323 MISSION ROCK ST, Virtual, SAN FRANCISCO, CA 94107, US",
+    "street": "MISSION ROCK ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "Mission Bay",
+    "analysis_neighborhood": "Mission Bay",
+    "police_district": "SOUTHERN",
+    "lat": "37.77296594",
+    "long": "-122.38765671",
+    "point": {
+      "latitude": "37.77296594",
+      "longitude": "-122.38765671",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.38765671,
+        37.77296594
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356572&formref=7DI3LPA0M"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356571",
+    "requested_datetime": "2026-11-25T21:41:05.000",
+    "updated_datetime": "2026-11-25T21:52:59.000",
+    "status_description": "Open",
+    "status_notes": "in progress",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "auto_accident_debris",
+    "address": "700 ELLSWORTH ST, SAN FRANCISCO, CA 94110, US",
+    "street": "ELLSWORTH ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Bernal Heights",
+    "analysis_neighborhood": "Bernal Heights",
+    "police_district": "INGLESIDE",
+    "lat": "37.73467772",
+    "long": "-122.41480714",
+    "point": {
+      "latitude": "37.73467772",
+      "longitude": "-122.41480714",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41480714,
+        37.73467772
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356568",
+    "requested_datetime": "2026-11-25T21:38:29.000",
+    "closed_date": "2026-11-25T22:07:07.000",
+    "updated_datetime": "2026-11-25T22:07:12.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293197.  Issue reported could not be validated.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_only",
+    "address": "2761 HYDE ST, SAN FRANCISCO, CA 94109, US",
+    "street": "HYDE ST",
+    "supervisor_district": "2.0",
+    "neighborhoods_sffind_boundaries": "Aquatic Park / Ft. Mason",
+    "analysis_neighborhood": "Russian Hill",
+    "police_district": "CENTRAL",
+    "lat": "37.80645164",
+    "long": "-122.42078494",
+    "point": {
+      "latitude": "37.80645164",
+      "longitude": "-122.42078494",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.42078494,
+        37.80645164
+      ]
+    },
+    "source": "Web",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356567",
+    "requested_datetime": "2026-11-25T21:38:09.000",
+    "closed_date": "2026-11-25T22:32:34.000",
+    "updated_datetime": "2026-11-25T22:32:38.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293199.  Citation was issued.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "172 DELTA ST, SAN FRANCISCO, CA 94134, US",
+    "street": "DELTA ST",
+    "supervisor_district": "10.0",
+    "neighborhoods_sffind_boundaries": "Visitacion Valley",
+    "analysis_neighborhood": "Visitacion Valley",
+    "police_district": "INGLESIDE",
+    "lat": "37.71633282440906",
+    "long": "-122.40807727161202",
+    "point": {
+      "latitude": "37.71633282440906",
+      "longitude": "-122.40807727161202",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.408077272,
+        37.716332824
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356566",
+    "requested_datetime": "2026-11-25T21:37:54.000",
+    "updated_datetime": "2026-11-25T21:42:49.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "MTA - Abandoned Vehicles Work",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "large_vehicle",
+    "address": "59 OCTAVIA ST, SAN FRANCISCO, CA 94102, US",
+    "street": "OCTAVIA ST",
+    "supervisor_district": "8.0",
+    "neighborhoods_sffind_boundaries": "Mint Hill",
+    "analysis_neighborhood": "Hayes Valley",
+    "police_district": "NORTHERN",
+    "lat": "37.77252457282334",
+    "long": "-122.42392659187315",
+    "point": {
+      "latitude": "37.77252457282334",
+      "longitude": "-122.42392659187315",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.423926592,
+        37.772524573
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795671462/l56v8ocorkzwzudu0ipy.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356565",
+    "requested_datetime": "2026-11-25T21:34:52.000",
+    "closed_date": "2026-11-25T22:19:01.000",
+    "updated_datetime": "2026-11-25T22:19:05.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293189. Issue was addressed.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_tow",
+    "address": "515 20TH AVE, SAN FRANCISCO, CA 94121, US",
+    "street": "20TH AVE",
+    "supervisor_district": "1.0",
+    "neighborhoods_sffind_boundaries": "Outer Richmond",
+    "analysis_neighborhood": "Outer Richmond",
+    "police_district": "RICHMOND",
+    "lat": "37.77806107",
+    "long": "-122.4793537",
+    "point": {
+      "latitude": "37.77806107",
+      "longitude": "-122.4793537",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.4793537,
+        37.77806107
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356564",
+    "requested_datetime": "2026-11-25T21:34:49.000",
+    "updated_datetime": "2026-11-25T22:46:50.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "311 - Content Team",
+    "service_name": "Graffiti Private",
+    "service_subtype": "not_offensive",
+    "service_details": "building_other",
+    "address": "2841 DIAMOND ST, Virtual, SAN FRANCISCO, CA 94131, US",
+    "street": "DIAMOND ST",
+    "supervisor_district": "8.0",
+    "neighborhoods_sffind_boundaries": "Glen Park",
+    "analysis_neighborhood": "Glen Park",
+    "police_district": "INGLESIDE",
+    "lat": "37.73397956",
+    "long": "-122.4339183",
+    "point": {
+      "latitude": "37.73397956",
+      "longitude": "-122.4339183",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.4339183,
+        37.73397956
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356564&formref=JJW5TLZ5X"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356563",
+    "requested_datetime": "2026-11-25T21:34:48.000",
+    "updated_datetime": "2026-11-25T21:35:56.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Graffiti Private",
+    "service_subtype": "not_offensive",
+    "service_details": "building_commercial",
+    "address": "98 WILDER ST, SAN FRANCISCO, CA 94131, US",
+    "street": "WILDER ST",
+    "supervisor_district": "8.0",
+    "neighborhoods_sffind_boundaries": "Glen Park",
+    "analysis_neighborhood": "Glen Park",
+    "police_district": "INGLESIDE",
+    "lat": "37.73430571",
+    "long": "-122.43389621",
+    "point": {
+      "latitude": "37.73430571",
+      "longitude": "-122.43389621",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.43389621,
+        37.73430571
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356563&formref=UJQ7T8J9C"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356562",
+    "requested_datetime": "2026-11-25T21:32:48.000",
+    "updated_datetime": "2026-11-25T21:58:11.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Graffiti Public",
+    "service_subtype": "not_offensive",
+    "service_details": "signal_box",
+    "address": "599 BOSWORTH ST, Virtual, SAN FRANCISCO, CA 94131, US",
+    "street": "BOSWORTH ST",
+    "supervisor_district": "8.0",
+    "neighborhoods_sffind_boundaries": "Glen Park",
+    "analysis_neighborhood": "West of Twin Peaks",
+    "police_district": "INGLESIDE",
+    "lat": "37.73338935",
+    "long": "-122.43407933",
+    "point": {
+      "latitude": "37.73338935",
+      "longitude": "-122.43407933",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.43407933,
+        37.73338935
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356562&formref=8IN9XD46F"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356561",
+    "requested_datetime": "2026-11-25T21:30:52.000",
+    "updated_datetime": "2026-11-25T21:30:56.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Abandoned Vehicles Work",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "abandoned_vehicle",
+    "address": "127 COLBY ST, SAN FRANCISCO, CA 94134, US",
+    "street": "COLBY ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Portola",
+    "analysis_neighborhood": "Portola",
+    "police_district": "BAYVIEW",
+    "lat": "37.72853642723135",
+    "long": "-122.4137831479311",
+    "point": {
+      "latitude": "37.72853642723135",
+      "longitude": "-122.4137831479311",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.413783148,
+        37.728536427
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356559",
+    "requested_datetime": "2026-11-25T21:27:59.000",
+    "closed_date": "2026-11-25T22:48:54.000",
+    "updated_datetime": "2026-11-25T22:48:58.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293167.  Citation was issued.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "2330 SAN JOSE AVE, SAN FRANCISCO, CA 94112, US",
+    "street": "SAN JOSE AVE",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Cayuga",
+    "analysis_neighborhood": "Outer Mission",
+    "police_district": "INGLESIDE",
+    "lat": "37.72029166666667",
+    "long": "-122.447005",
+    "point": {
+      "latitude": "37.72029166666667",
+      "longitude": "-122.447005",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.447005,
+        37.720291667
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795670869/lcrq7cy5fb5xcimkkyij.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356558",
+    "requested_datetime": "2026-11-25T21:27:48.000",
+    "updated_datetime": "2026-11-25T21:28:45.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "General Request",
+    "service_subtype": "homelessness_and_supportive_housing",
+    "service_details": "housing_homeless request_for_service",
+    "address": "9 GROVE ST, Virtual, SAN FRANCISCO, CA 94102, US",
+    "street": "GROVE ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "Civic Center",
+    "analysis_neighborhood": "Tenderloin",
+    "police_district": "TENDERLOIN",
+    "lat": "37.7787693",
+    "long": "-122.41504449",
+    "point": {
+      "latitude": "37.7787693",
+      "longitude": "-122.41504449",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41504449,
+        37.7787693
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356558&formref=5IS8H083L"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356556",
+    "requested_datetime": "2026-11-25T21:26:52.000",
+    "updated_datetime": "2026-11-25T21:31:01.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "PW - Street Use and Mapping",
+    "service_name": "Blocked Street and Sidewalk",
+    "service_subtype": "blocked_sidewalk",
+    "service_details": "display_merchandise",
+    "address": "1206 MISSION ST, Virtual, SAN FRANCISCO, CA 94103, US",
+    "street": "MISSION ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "South of Market",
+    "analysis_neighborhood": "South of Market",
+    "police_district": "SOUTHERN",
+    "lat": "37.77738273",
+    "long": "-122.41339947",
+    "point": {
+      "latitude": "37.77738273",
+      "longitude": "-122.41339947",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41339947,
+        37.77738273
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356556&formref=IY1772H0B"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356555",
+    "requested_datetime": "2026-11-25T21:26:49.000",
+    "updated_datetime": "2026-11-25T21:26:53.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Noise Report",
+    "service_name": "Noise",
+    "service_subtype": "other_excessive_noise",
+    "address": "3532 PIERCE ST, SAN FRANCISCO, CA 94123, US",
+    "street": "PIERCE ST",
+    "supervisor_district": "2.0",
+    "neighborhoods_sffind_boundaries": "Marina",
+    "analysis_neighborhood": "Marina",
+    "police_district": "NORTHERN",
+    "lat": "37.803216501298046",
+    "long": "-122.43986324211025",
+    "point": {
+      "latitude": "37.803216501298046",
+      "longitude": "-122.43986324211025",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.439863242,
+        37.803216501
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356554",
+    "requested_datetime": "2026-11-25T21:26:49.000",
+    "updated_datetime": "2026-11-25T21:31:01.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "PW - Street Use and Mapping",
+    "service_name": "Blocked Street and Sidewalk",
+    "service_subtype": "blocked_sidewalk",
+    "service_details": "display_merchandise",
+    "address": "1205 MISSION ST, Virtual, SAN FRANCISCO, CA 94103, US",
+    "street": "MISSION ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "South of Market",
+    "analysis_neighborhood": "South of Market",
+    "police_district": "SOUTHERN",
+    "lat": "37.77727177",
+    "long": "-122.41324607",
+    "point": {
+      "latitude": "37.77727177",
+      "longitude": "-122.41324607",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41324607,
+        37.77727177
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356554&formref=LTM18CL0E"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356553",
+    "requested_datetime": "2026-11-25T21:25:06.000",
+    "updated_datetime": "2026-11-25T21:26:07.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "PUC - Streetlights",
+    "service_name": "Streetlights",
+    "service_subtype": "light",
+    "service_details": "light_flickering_on_off",
+    "address": "265 SANTA PAULA AVE, SAN FRANCISCO, CA 94127, US",
+    "street": "SANTA PAULA AVE",
+    "supervisor_district": "7.0",
+    "neighborhoods_sffind_boundaries": "Monterey Heights",
+    "analysis_neighborhood": "West of Twin Peaks",
+    "police_district": "TARAVAL",
+    "lat": "37.735680300000006",
+    "long": "-122.46284850000002",
+    "point": {
+      "latitude": "37.735680300000006",
+      "longitude": "-122.46284850000002",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.4628485,
+        37.7356803
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356552",
+    "requested_datetime": "2026-11-25T21:25:01.000",
+    "updated_datetime": "2026-11-25T21:31:05.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Access/Mobility Services Received",
+    "service_name": "Blocked Street and Sidewalk",
+    "service_subtype": "blocked_sidewalk",
+    "service_details": "spin_standing_scooter",
+    "address": "1010 BUSH ST, SAN FRANCISCO, CA 94109, US",
+    "street": "BUSH ST",
+    "supervisor_district": "3.0",
+    "neighborhoods_sffind_boundaries": "Lower Nob Hill",
+    "analysis_neighborhood": "Nob Hill",
+    "police_district": "CENTRAL",
+    "lat": "37.789593402036445",
+    "long": "-122.41389846126339",
+    "point": {
+      "latitude": "37.789593402036445",
+      "longitude": "-122.41389846126339",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.413898461,
+        37.789593402
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795670692/bigvqhucdlkchebkjb58.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356551",
+    "requested_datetime": "2026-11-25T21:23:19.000",
+    "closed_date": "2026-11-25T21:24:54.000",
+    "updated_datetime": "2026-11-25T21:24:58.000",
+    "status_description": "Closed",
+    "status_notes": "case_is_a_duplicate - This issue has already been reported through an earlier request.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "755 CAPITOL AVE, SAN FRANCISCO, CA 94112, US",
+    "street": "CAPITOL AVE",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Oceanview",
+    "analysis_neighborhood": "Oceanview/Merced/Ingleside",
+    "police_district": "TARAVAL",
+    "lat": "37.71731689",
+    "long": "-122.45919047",
+    "point": {
+      "latitude": "37.71731689",
+      "longitude": "-122.45919047",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.45919047,
+        37.71731689
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356548",
+    "requested_datetime": "2026-11-25T21:21:21.000",
+    "closed_date": "2026-11-25T22:48:38.000",
+    "updated_datetime": "2026-11-25T22:48:42.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293148.  Issue reported could not be validated.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_only",
+    "address": "755 CAPITOL AVE, SAN FRANCISCO, CA 94112, US",
+    "street": "CAPITOL AVE",
+    "supervisor_district": "11.0",
+    "neighborhoods_sffind_boundaries": "Oceanview",
+    "analysis_neighborhood": "Oceanview/Merced/Ingleside",
+    "police_district": "TARAVAL",
+    "lat": "37.71731689",
+    "long": "-122.45919047",
+    "point": {
+      "latitude": "37.71731689",
+      "longitude": "-122.45919047",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.45919047,
+        37.71731689
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356547",
+    "requested_datetime": "2026-11-25T21:20:48.000",
+    "updated_datetime": "2026-11-25T21:27:47.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Access/Mobility Services Received",
+    "service_name": "Blocked Street and Sidewalk",
+    "service_subtype": "blocked_sidewalk",
+    "service_details": "scooter_without_license_plate",
+    "address": "2281 MARKET ST, SAN FRANCISCO, CA 94114, US",
+    "street": "MARKET ST",
+    "supervisor_district": "8.0",
+    "neighborhoods_sffind_boundaries": "Castro",
+    "analysis_neighborhood": "Castro/Upper Market",
+    "police_district": "MISSION",
+    "lat": "37.76440429",
+    "long": "-122.43253061",
+    "point": {
+      "latitude": "37.76440429",
+      "longitude": "-122.43253061",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.43253061,
+        37.76440429
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356547&formref=HNH15JA8C"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356543",
+    "requested_datetime": "2026-11-25T21:16:48.000",
+    "updated_datetime": "2026-11-25T21:17:41.000",
+    "status_description": "Open",
+    "status_notes": "new",
+    "agency_responsible": "Recology - Overflowing",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "city_garbage_can_overflowing",
+    "address": "44 DR CARLTON B GOODLETT PL, Virtual, SAN FRANCISCO, CA 94102, US",
+    "street": "DR CARLTON B GOODLETT PL",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "Civic Center",
+    "analysis_neighborhood": "Tenderloin",
+    "police_district": "NORTHERN",
+    "lat": "37.77929119",
+    "long": "-122.41829041",
+    "point": {
+      "latitude": "37.77929119",
+      "longitude": "-122.41829041",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41829041,
+        37.77929119
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356543&formref=QRE77L40T"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356541",
+    "requested_datetime": "2026-11-25T21:16:17.000",
+    "closed_date": "2026-11-25T21:20:50.000",
+    "updated_datetime": "2026-11-25T21:20:55.000",
+    "status_description": "Closed",
+    "status_notes": "case_is_a_duplicate - This issue has already been reported through an earlier request.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_tow",
+    "address": "947 SCOTT ST, SAN FRANCISCO, CA 94115, US",
+    "street": "SCOTT ST",
+    "supervisor_district": "5.0",
+    "neighborhoods_sffind_boundaries": "Western Addition",
+    "analysis_neighborhood": "Western Addition",
+    "police_district": "NORTHERN",
+    "lat": "37.77873764",
+    "long": "-122.43701866",
+    "point": {
+      "latitude": "37.77873764",
+      "longitude": "-122.43701866",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.43701866,
+        37.77873764
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356541&formref=ISX3R002L"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356540",
+    "requested_datetime": "2026-11-25T21:16:03.000",
+    "closed_date": "2026-11-25T22:11:34.000",
+    "updated_datetime": "2026-11-25T22:11:39.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293133. Unable to Locate.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "parking_on_sidewalk",
+    "address": "2382 GREENWICH ST, SAN FRANCISCO, CA 94123, US",
+    "street": "GREENWICH ST",
+    "supervisor_district": "2.0",
+    "neighborhoods_sffind_boundaries": "Cow Hollow",
+    "analysis_neighborhood": "Marina",
+    "police_district": "NORTHERN",
+    "lat": "37.79871275",
+    "long": "-122.4388502",
+    "point": {
+      "latitude": "37.79871275",
+      "longitude": "-122.4388502",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.4388502,
+        37.79871275
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356540&formref=FFP1T8C9Y"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356539",
+    "requested_datetime": "2026-11-25T21:15:52.000",
+    "closed_date": "2026-11-25T21:52:27.000",
+    "updated_datetime": "2026-11-25T21:52:32.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293134.  Citation was issued.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "other_illegal_parking",
+    "address": "614 BAKER ST, SAN FRANCISCO, CA 94117, US",
+    "street": "BAKER ST",
+    "supervisor_district": "2.0",
+    "neighborhoods_sffind_boundaries": "Western Addition",
+    "analysis_neighborhood": "Western Addition",
+    "police_district": "PARK",
+    "lat": "37.77659787",
+    "long": "-122.44145119",
+    "point": {
+      "latitude": "37.77659787",
+      "longitude": "-122.44145119",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.44145119,
+        37.77659787
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356539&formref=RUO5CU98A"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356538",
+    "requested_datetime": "2026-11-25T21:15:52.000",
+    "updated_datetime": "2026-11-25T21:22:42.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Access/Mobility Services Received",
+    "service_name": "Blocked Street and Sidewalk",
+    "service_subtype": "blocked_sidewalk",
+    "service_details": "scooter_without_license_plate",
+    "address": "INTERSECTION BUSH ST, TAYLOR ST, SAN FRANCISCO, CA 94102, US",
+    "street": "BUSH ST",
+    "supervisor_district": "3.0",
+    "neighborhoods_sffind_boundaries": "Lower Nob Hill",
+    "analysis_neighborhood": "Nob Hill",
+    "police_district": "CENTRAL",
+    "lat": "37.7897400155",
+    "long": "-122.412075811",
+    "point": {
+      "latitude": "37.7897400155",
+      "longitude": "-122.412075811",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.412075811,
+        37.789740016
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356538&formref=AOG0QRS4Y"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356536",
+    "requested_datetime": "2026-11-25T21:13:33.000",
+    "updated_datetime": "2026-11-25T21:13:35.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Transportation Engineering",
+    "service_name": "General Request",
+    "service_subtype": "municipal_transportation_agency",
+    "service_details": "transportation_engineering request_for_service",
+    "address": "INTERSECTION 5TH AVE, JUDAH ST, SAN FRANCISCO, CA 94122, US",
+    "street": "5TH AVE",
+    "supervisor_district": "7.0",
+    "neighborhoods_sffind_boundaries": "Inner Sunset",
+    "analysis_neighborhood": "Inner Sunset",
+    "police_district": "PARK",
+    "lat": "37.7623627005",
+    "long": "-122.461900407",
+    "point": {
+      "latitude": "37.7623627005",
+      "longitude": "-122.461900407",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.461900407,
+        37.7623627
+      ]
+    },
+    "source": "Web",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356535",
+    "requested_datetime": "2026-11-25T21:12:57.000",
+    "updated_datetime": "2026-11-25T21:12:59.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Transportation Engineering",
+    "service_name": "General Request",
+    "service_subtype": "municipal_transportation_agency",
+    "service_details": "transportation_engineering request_for_service",
+    "address": "INTERSECTION CHURCH ST, JERSEY ST, SAN FRANCISCO, CA 94114, US",
+    "street": "CHURCH ST",
+    "supervisor_district": "8.0",
+    "neighborhoods_sffind_boundaries": "Noe Valley",
+    "analysis_neighborhood": "Noe Valley",
+    "police_district": "MISSION",
+    "lat": "37.7508958896",
+    "long": "-122.4273547318",
+    "point": {
+      "latitude": "37.7508958896",
+      "longitude": "-122.4273547318",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.427354732,
+        37.75089589
+      ]
+    },
+    "source": "Web",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356534",
+    "requested_datetime": "2026-11-25T21:12:33.000",
+    "closed_date": "2026-11-25T22:32:51.000",
+    "updated_datetime": "2026-11-25T22:32:54.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293126. Unable to Locate.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "parking_on_sidewalk",
+    "address": "174 TUCKER AVE, SAN FRANCISCO, CA 94134, US",
+    "street": "TUCKER AVE",
+    "supervisor_district": "10.0",
+    "neighborhoods_sffind_boundaries": "Visitacion Valley",
+    "analysis_neighborhood": "Visitacion Valley",
+    "police_district": "INGLESIDE",
+    "lat": "37.71644029",
+    "long": "-122.40739529",
+    "point": {
+      "latitude": "37.71644029",
+      "longitude": "-122.40739529",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.40739529,
+        37.71644029
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356533",
+    "requested_datetime": "2026-11-25T21:12:26.000",
+    "closed_date": "2026-11-25T21:19:08.000",
+    "updated_datetime": "2026-11-25T21:19:12.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293127.  Issue reported could not be validated.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_only",
+    "address": "2448 MARIPOSA ST, Virtual, SAN FRANCISCO, CA 94110, US",
+    "street": "MARIPOSA ST",
+    "supervisor_district": "10.0",
+    "neighborhoods_sffind_boundaries": "Mission",
+    "analysis_neighborhood": "Mission",
+    "police_district": "MISSION",
+    "lat": "37.76329666666667",
+    "long": "-122.40776166666667",
+    "point": {
+      "latitude": "37.76329666666667",
+      "longitude": "-122.40776166666667",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.407761667,
+        37.763296667
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795669940/cj0urmbhhs2wut0tn9pk.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356532",
+    "requested_datetime": "2026-11-25T21:11:18.000",
+    "updated_datetime": "2026-11-25T21:17:44.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Access/Mobility Services Received",
+    "service_name": "Blocked Street and Sidewalk",
+    "service_subtype": "blocked_sidewalk",
+    "service_details": "lime_standing_scooter",
+    "address": "895 POST ST, SAN FRANCISCO, CA 94109, US",
+    "street": "POST ST",
+    "supervisor_district": "3.0",
+    "neighborhoods_sffind_boundaries": "Lower Nob Hill",
+    "analysis_neighborhood": "Tenderloin",
+    "police_district": "CENTRAL",
+    "lat": "37.78720619687744",
+    "long": "-122.41639244371939",
+    "point": {
+      "latitude": "37.78720619687744",
+      "longitude": "-122.41639244371939",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.416392444,
+        37.787206197
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795669865/iqrlykoihaqe8hjdncfn.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356531",
+    "requested_datetime": "2026-11-25T21:10:49.000",
+    "updated_datetime": "2026-11-25T21:10:55.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "General Request",
+    "service_subtype": "homelessness_and_supportive_housing",
+    "service_details": "housing_homeless request_for_service",
+    "address": "3252 19TH ST, SAN FRANCISCO, CA 94110, US",
+    "street": "19TH ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Mission",
+    "analysis_neighborhood": "Mission",
+    "police_district": "MISSION",
+    "lat": "37.76063870000001",
+    "long": "-122.41610940000002",
+    "point": {
+      "latitude": "37.76063870000001",
+      "longitude": "-122.41610940000002",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.4161094,
+        37.7606387
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356529",
+    "requested_datetime": "2026-11-25T21:09:11.000",
+    "updated_datetime": "2026-11-25T21:34:41.000",
+    "status_description": "Open",
+    "status_notes": "accepted",
+    "agency_responsible": "Healthy Streets Operation Center",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "large_vehicle",
+    "address": "19 CERRITOS AVE, SAN FRANCISCO, CA 94127, US",
+    "street": "CERRITOS AVE",
+    "supervisor_district": "7.0",
+    "neighborhoods_sffind_boundaries": "Ingleside Terraces",
+    "analysis_neighborhood": "West of Twin Peaks",
+    "police_district": "TARAVAL",
+    "lat": "37.726832384065936",
+    "long": "-122.46712386366433",
+    "point": {
+      "latitude": "37.726832384065936",
+      "longitude": "-122.46712386366433",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.467123864,
+        37.726832384
+      ]
+    },
+    "source": "Mobile",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356528",
+    "requested_datetime": "2026-11-25T21:08:37.000",
+    "updated_datetime": "2026-11-25T21:22:51.000",
+    "status_description": "Open",
+    "status_notes": "in progress",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "other_loose_garbage_debris_yard_waste",
+    "address": "799 3RD ST, Virtual, SAN FRANCISCO, CA 94107, US",
+    "street": "3RD ST",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "Mission Bay",
+    "analysis_neighborhood": "Mission Bay",
+    "police_district": "SOUTHERN",
+    "lat": "37.7782618",
+    "long": "-122.39186468",
+    "point": {
+      "latitude": "37.7782618",
+      "longitude": "-122.39186468",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.39186468,
+        37.7782618
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356528&formref=LSL0D2H1Z"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356527",
+    "requested_datetime": "2026-11-25T21:07:32.000",
+    "updated_datetime": "2026-11-25T21:18:29.000",
+    "status_description": "Open",
+    "status_notes": "in progress",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "human_waste_or_urine",
+    "address": "45 HOLLY PARK CIR, SAN FRANCISCO, CA 94110, US",
+    "street": "HOLLY PARK CIR",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Holly Park",
+    "analysis_neighborhood": "Bernal Heights",
+    "police_district": "INGLESIDE",
+    "lat": "37.73835274",
+    "long": "-122.41974413",
+    "point": {
+      "latitude": "37.73835274",
+      "longitude": "-122.41974413",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.41974413,
+        37.73835274
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356526",
+    "requested_datetime": "2026-11-25T21:05:53.000",
+    "updated_datetime": "2026-11-25T21:22:51.000",
+    "status_description": "Open",
+    "status_notes": "in progress",
+    "agency_responsible": "PW - Street and Environmental Services",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "other_loose_garbage_debris_yard_waste",
+    "address": "610 VAN NESS AVE, Virtual, SAN FRANCISCO, CA 94102, US",
+    "street": "VAN NESS AVE",
+    "supervisor_district": "6.0",
+    "neighborhoods_sffind_boundaries": "Civic Center",
+    "analysis_neighborhood": "Tenderloin",
+    "police_district": "NORTHERN",
+    "lat": "37.78122349",
+    "long": "-122.42029057",
+    "point": {
+      "latitude": "37.78122349",
+      "longitude": "-122.42029057",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.42029057,
+        37.78122349
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356526&formref=P4F8S0N5H"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356519",
+    "requested_datetime": "2026-11-25T20:56:54.000",
+    "updated_datetime": "2026-11-25T21:02:40.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "MTA - Access/Mobility Services Received",
+    "service_name": "General Request",
+    "service_subtype": "municipal_transportation_agency",
+    "service_details": "scooters complaint",
+    "address": "INTERSECTION STOCKTON ST, GREEN ST, SAN FRANCISCO, CA 94133, US",
+    "street": "STOCKTON ST",
+    "supervisor_district": "3.0",
+    "neighborhoods_sffind_boundaries": "North Beach",
+    "analysis_neighborhood": "Chinatown",
+    "police_district": "CENTRAL",
+    "lat": "37.7994897502",
+    "long": "-122.4090142817",
+    "point": {
+      "latitude": "37.7994897502",
+      "longitude": "-122.4090142817",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.409014282,
+        37.79948975
+      ]
+    },
+    "source": "Phone",
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356517",
+    "requested_datetime": "2026-11-25T20:54:44.000",
+    "closed_date": "2026-11-25T21:16:37.000",
+    "updated_datetime": "2026-11-25T21:16:41.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293093.  Citation was issued.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_tow",
+    "address": "945 SCOTT ST, SAN FRANCISCO, CA 94115, US",
+    "street": "SCOTT ST",
+    "supervisor_district": "5.0",
+    "neighborhoods_sffind_boundaries": "Western Addition",
+    "analysis_neighborhood": "Western Addition",
+    "police_district": "NORTHERN",
+    "lat": "37.77874615",
+    "long": "-122.43702044",
+    "point": {
+      "latitude": "37.77874615",
+      "longitude": "-122.43702044",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.43702044,
+        37.77874615
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356517&formref=LWE2UN55A"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356513",
+    "requested_datetime": "2026-11-25T20:52:54.000",
+    "updated_datetime": "2026-11-25T20:53:35.000",
+    "status_description": "Open",
+    "status_notes": "open",
+    "agency_responsible": "Clear Channel - Transit",
+    "service_name": "Street and Sidewalk Cleaning",
+    "service_subtype": "garbage_and_debris",
+    "service_details": "transit_shelter_platform",
+    "address": "2830 25TH ST, SAN FRANCISCO, CA 94110, US",
+    "street": "25TH ST",
+    "supervisor_district": "9.0",
+    "neighborhoods_sffind_boundaries": "Mission",
+    "analysis_neighborhood": "Mission",
+    "police_district": "MISSION",
+    "lat": "37.75138001",
+    "long": "-122.40689178",
+    "point": {
+      "latitude": "37.75138001",
+      "longitude": "-122.40689178",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.40689178,
+        37.75138001
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356513&formref=IFK9FLP9V"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356511",
+    "requested_datetime": "2026-11-25T20:51:45.000",
+    "updated_datetime": "2026-11-25T20:52:30.000",
+    "status_description": "Open",
+    "status_notes": "new",
+    "agency_responsible": "SFFD - Bureau of Fire Prevention",
+    "service_name": "Residential Building",
+    "service_subtype": "elevators_no_working_elevator_7_or_more_stories",
+    "address": "2102 SACRAMENTO ST, SAN FRANCISCO, CA 94109, US",
+    "street": "SACRAMENTO ST",
+    "supervisor_district": "2.0",
+    "neighborhoods_sffind_boundaries": "Pacific Heights",
+    "analysis_neighborhood": "Pacific Heights",
+    "police_district": "NORTHERN",
+    "lat": "37.79071094",
+    "long": "-122.4275395",
+    "point": {
+      "latitude": "37.79071094",
+      "longitude": "-122.4275395",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.4275395,
+        37.79071094
+      ]
+    },
+    "source": "Web",
+    "media_url": {
+      "url": "https://sanfrancisco.form.us.empro.verintcloudservices.com/form/auto/download_attachments?caseid=202000356511&formref=LAP32RA3Z"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  },
+  {
+    "service_request_id": "202000356509",
+    "requested_datetime": "2026-11-25T20:47:21.000",
+    "closed_date": "2026-11-25T21:14:03.000",
+    "updated_datetime": "2026-11-25T21:14:08.000",
+    "status_description": "Closed",
+    "status_notes": "case_resolved - Officer responded to request under CAD # 263293077. Unable to Locate.",
+    "agency_responsible": "MTA - Parking Enforcement Dispatch",
+    "service_name": "Parking Enforcement",
+    "service_subtype": "blocking_driveway_cite_only",
+    "address": "1985 QUINT ST, SAN FRANCISCO, CA 94124, US",
+    "street": "QUINT ST",
+    "supervisor_district": "10.0",
+    "neighborhoods_sffind_boundaries": "Silver Terrace",
+    "analysis_neighborhood": "Bayview Hunters Point",
+    "police_district": "BAYVIEW",
+    "lat": "37.73300833333333",
+    "long": "-122.40038333333337",
+    "point": {
+      "latitude": "37.73300833333333",
+      "longitude": "-122.40038333333337",
+      "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+    },
+    "point_geom": {
+      "type": "Point",
+      "coordinates": [
+        -122.400383333,
+        37.733008333
+      ]
+    },
+    "source": "Mobile",
+    "media_url": {
+      "url": "https://spot-sf-res.cloudinary.com/image/upload/v1795668430/wrmrvzsevnz6at81mxlj.jpg"
+    },
+    "data_as_of": "2026-11-26T01:00:00.000",
+    "data_loaded_at": "2026-11-26T03:16:56.000"
+  }
+]

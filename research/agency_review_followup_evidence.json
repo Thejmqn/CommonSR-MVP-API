@@ -1,0 +1,291 @@
+[
+  {
+    "city": "Austin",
+    "endpoint": "https://data.austintexas.gov/resource/38mr-dwji.json",
+    "cached_values": {
+      "department": {
+        "non_null": "379777",
+        "largest": "Transportation and Public Works",
+        "null": "0",
+        "top": [
+          {
+            "item": "Austin Transportation and Public Works",
+            "count": "179138"
+          },
+          {
+            "item": "Transportation",
+            "count": "166823"
+          },
+          {
+            "item": "Transportation and Public Works",
+            "count": "18761"
+          },
+          {
+            "item": "Public Works",
+            "count": "15055"
+          }
+        ],
+        "smallest": "Austin Transportation and Public Works",
+        "count": "379777",
+        "cardinality": "379777"
+      }
+    },
+    "fields": [
+      "department"
+    ],
+    "sample_rows": 10000,
+    "sample_values": {
+      "department": [
+        "Austin Transportation and Public Works"
+      ]
+    }
+  },
+  {
+    "city": "Oakland",
+    "endpoint": "https://data.oaklandca.gov/resource/quth-gb8e.json",
+    "cached_values": {
+      "reqcategory": {},
+      "referredto": {}
+    },
+    "fields": [
+      "referredto",
+      "reqcategory"
+    ],
+    "sample_rows": 10000,
+    "sample_values": {
+      "referredto": [
+        "ACPWA, CREEKS",
+        "ALAMEDA COUNTY MOSQUITO ABATE,",
+        "ALAMEDA COUNTY VECTOR CONTROL,",
+        "AT&T,",
+        "BART, BAY AREA RAPID",
+        "BATTISTE JR., HARRY",
+        "BID, LAKE MERRITT UP",
+        "BRADLEY III, GERALD L",
+        "Bay View, Biohazard",
+        "CALING, JONATHAN",
+        "CITY OF OAKLAND, REAL ESTATE",
+        "CODE ENFORCEMENT,",
+        "EAST BAY REGIONAL PARKS, EBRPD",
+        "EBMUD,",
+        "EVANS, CHARLIE",
+        "FIRE, BLUEDOTS",
+        "GARCIA, CESAR A",
+        "HARVEY, ISAAC",
+        "HAYES, MARK",
+        "ITD, HELPDESK",
+        "KNIGHT, JOSEPH C",
+        "KNOWLAND, PARK MAINTENANC",
+        "LAKE MERRITT INSTITUTE,",
+        "LAWRENCE, JOSEPH C",
+        "LAWSEN, TOD H",
+        "LOZANO, ARMANDO A",
+        "Legacy Restoration, Cleanups",
+        "MABRY, GLENN L",
+        "MOORE, DAVID",
+        "Moon, Jamaica",
+        "NUISANCE, ABATEMENT",
+        "Nuisance Food Vendor, Complaints",
+        "OAKLAND ANIMAL SERVICES,",
+        "OAKLAND HOUSING AUTHORITY,",
+        "OAKLAND SCHOOLS MAINTENANCE,",
+        "OPD ABANDONED AUTOS, BOATS IN WATER",
+        "OPD ABANDONED AUTOS, PRIVATE",
+        "OPD CALLER CALL OPD AT, (510) 777-3333",
+        "OPR, REPRESENTATIVE",
+        "OPW CAPITAL - CONSTRUCTION, (DANNY LAU)",
+        "PARKING ABANDONED AUTOS, PUBLIC",
+        "PARKING, PCT_MultipleVeh",
+        "PARKING, PCT_NoN",
+        "PARKING, PCT_Not-NoN",
+        "PARKING, REFUND",
+        "PELIZZARI, MATT",
+        "PG&E,",
+        "PORT OF OAKLAND MAINTENANCE,",
+        "ROW, EBMUD_CONCRETE",
+        "ROWE, TYRONE",
+        "ROW_SHOES, AT&T",
+        "ROW_SHOES, COMCAST",
+        "ROW_SHOES, PG&E",
+        "Rodriguez, Elmer",
+        "SANCHEZ, VICTOR",
+        "SHINE, MAYONAH",
+        "SUPERVISOR, FIRE & WATERSHEDS,",
+        "SUPERVISOR, HE_MACRO, RE-ENCAMPMENT",
+        "THOMAS, DWAYNE A",
+        "TSE, RAYMOND",
+        "Toungett, Sean",
+        "UNION PACIFIC RAILWAY,",
+        "USPS,",
+        "WALKER, ALONZO",
+        "Wilson, Tyrone"
+      ],
+      "reqcategory": [
+        "ABANDONED AUTO",
+        "BLDGMAINT",
+        "CUT_CLEAN",
+        "CW_DIT_GIS",
+        "DRAINAGE",
+        "ELECTRICAL",
+        "ENVIRON_ENF",
+        "FIRE",
+        "GRAFFITI",
+        "HE_CLEAN",
+        "HOMELESS EMT",
+        "ILLDUMP",
+        "KOCB",
+        "METER_REPAIR",
+        "OTHER",
+        "PARKING",
+        "PARKS",
+        "POLICE",
+        "RECYCLING",
+        "ROW_INSPECTORS",
+        "ROW_STREETSW",
+        "SEWERS",
+        "SIDESHOWS",
+        "STEWARDSHIP",
+        "STREETSW",
+        "SURVEY",
+        "TRAFFIC",
+        "TRAFFIC_ENGIN",
+        "TREES",
+        "WATERSHED"
+      ]
+    }
+  },
+  {
+    "city": "New York City",
+    "endpoint": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+    "cached_values": {
+      "agency": {},
+      "agency_name": {}
+    },
+    "fields": [
+      "agency",
+      "agency_name"
+    ],
+    "sample_rows": 10000,
+    "sample_values": {
+      "agency": [
+        "DCA",
+        "DEP",
+        "DHS",
+        "DOB",
+        "DOE",
+        "DOHMH",
+        "DOT",
+        "DPR",
+        "DSNY",
+        "EDC",
+        "HPD",
+        "NYPD",
+        "TLC"
+      ],
+      "agency_name": [
+        "Department of Buildings",
+        "Department of Consumer Affairs",
+        "Department of Education",
+        "Department of Environmental Protection",
+        "Department of Health and Mental Hygiene",
+        "Department of Homeless Services",
+        "Department of Housing Preservation and Development",
+        "Department of Parks and Recreation",
+        "Department of Sanitation",
+        "Department of Transportation",
+        "Economic Development Corporation",
+        "New York City Police Department",
+        "Taxi and Limousine Commission"
+      ]
+    }
+  },
+  {
+    "city": "Chicago",
+    "endpoint": "https://data.cityofchicago.org/resource/v6vf-nfxy.json",
+    "cached_values": {
+      "owner_department": {
+        "non_null": "13796455",
+        "largest": "Streets and Sanitation",
+        "null": "0",
+        "top": [
+          {
+            "item": "311 City Services",
+            "count": "4921249"
+          },
+          {
+            "item": "Streets and Sanitation",
+            "count": "3551640"
+          },
+          {
+            "item": "Aviation",
+            "count": "2389257"
+          },
+          {
+            "item": "CDOT - Department of Transportation",
+            "count": "1577392"
+          },
+          {
+            "item": "DWM - Department of Water Management",
+            "count": "571160"
+          },
+          {
+            "item": "DOB - Buildings",
+            "count": "299779"
+          },
+          {
+            "item": "Animal Care and Control",
+            "count": "267542"
+          },
+          {
+            "item": "BACP - Business Affairs and Consumer Protection",
+            "count": "93210"
+          },
+          {
+            "item": "Finance",
+            "count": "43912"
+          },
+          {
+            "item": "Outside Agencies",
+            "count": "26439"
+          },
+          {
+            "item": "Health",
+            "count": "25924"
+          },
+          {
+            "item": "City Clerk's Office",
+            "count": "23449"
+          },
+          {
+            "item": "Department of Housing",
+            "count": "2305"
+          },
+          {
+            "item": "Fire",
+            "count": "2272"
+          },
+          {
+            "item": "Department of Planning and Development",
+            "count": "890"
+          },
+          {
+            "item": "Extreme Weather Notification",
+            "count": "35"
+          }
+        ],
+        "smallest": "311 City Services",
+        "count": "13796455",
+        "cardinality": "13796455"
+      }
+    },
+    "fields": [
+      "owner_department"
+    ],
+    "sample_rows": 10000,
+    "sample_values": {
+      "owner_department": [
+        "311 City Services"
+      ]
+    }
+  }
+]

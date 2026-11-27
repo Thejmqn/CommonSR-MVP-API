@@ -1,0 +1,2088 @@
+{
+  "cities": [
+    "san_francisco"
+  ],
+  "meta": {
+    "san_francisco": {
+      "id": 1,
+      "maintainer": "https://github.com/Thejmqn",
+      "source": "https://data.sf.gov/City-Infrastructure/311-Cases/vw6y-z8j6/about_data",
+      "agency_mappings": "https://www.servicerequest.org/agency-mappings/1",
+      "request_mappings": "https://www.servicerequest.org/request-mappings/1",
+      "time_zone": "PST",
+      "daylight_savings": true,
+      "sub_1": "Supervisor District",
+      "sub_2": "Neighborhood",
+      "sub_3": "Police District",
+      "notes": [
+        "SF Closed cases are represented as resolved.",
+        "Agency and request fields are omitted pending mappings."
+      ]
+    }
+  },
+  "data": [
+    {
+      "id": "202000356863",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T23:55:53-08:00",
+        "utc": "2026-11-26T07:55:53Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:55:58-08:00",
+        "utc": "2026-11-26T07:55:58Z"
+      },
+      "closed": null,
+      "address": "208 STRATFORD DR, SAN FRANCISCO, CA 94132, US",
+      "latitude": 37.72104913,
+      "longitude": -122.47377389,
+      "sub_1": "7",
+      "sub_2": "Stonestown",
+      "sub_3": "TARAVAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356833",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T23:45:38-08:00",
+        "utc": "2026-11-26T07:45:38Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:50:53-08:00",
+        "utc": "2026-11-26T07:50:53Z"
+      },
+      "closed": null,
+      "address": "1400 29TH AVE, SAN FRANCISCO, CA 94122, US",
+      "latitude": 37.76110645,
+      "longitude": -122.48760557,
+      "sub_1": "4",
+      "sub_2": "Outer Sunset",
+      "sub_3": "TARAVAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356832",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T23:43:52-08:00",
+        "utc": "2026-11-26T07:43:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:44:00-08:00",
+        "utc": "2026-11-26T07:44:00Z"
+      },
+      "closed": null,
+      "address": "1406 46TH AVE, SAN FRANCISCO, CA 94122, US",
+      "latitude": 37.76029272,
+      "longitude": -122.50582948,
+      "sub_1": "4",
+      "sub_2": "Outer Sunset",
+      "sub_3": "TARAVAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356797",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T23:27:52-08:00",
+        "utc": "2026-11-26T07:27:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:34:39-08:00",
+        "utc": "2026-11-26T07:34:39Z"
+      },
+      "closed": null,
+      "address": "510 GREEN ST, SAN FRANCISCO, CA 94133, US",
+      "latitude": 37.79981373,
+      "longitude": -122.407635,
+      "sub_1": "3",
+      "sub_2": "North Beach",
+      "sub_3": "CENTRAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356764",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T23:26:15-08:00",
+        "utc": "2026-11-26T07:26:15Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:26:56-08:00",
+        "utc": "2026-11-26T07:26:56Z"
+      },
+      "closed": null,
+      "address": "1545 EDDY ST, SAN FRANCISCO, CA 94115, US",
+      "latitude": 37.78127326,
+      "longitude": -122.43309731,
+      "sub_1": "5",
+      "sub_2": "Western Addition",
+      "sub_3": "NORTHERN",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356739",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T23:20:42-08:00",
+        "utc": "2026-11-26T07:20:42Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:20:44-08:00",
+        "utc": "2026-11-26T07:20:44Z"
+      },
+      "closed": null,
+      "address": "777 VALENCIA ST, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.76066553,
+      "longitude": -122.42128698,
+      "sub_1": "9",
+      "sub_2": "Mission",
+      "sub_3": "MISSION",
+      "description": "open"
+    },
+    {
+      "id": "202000356738",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T23:19:39-08:00",
+        "utc": "2026-11-26T07:19:39Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:19:44-08:00",
+        "utc": "2026-11-26T07:19:44Z"
+      },
+      "closed": null,
+      "address": "191 RUSS ST, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.77790328,
+      "longitude": -122.4069521,
+      "sub_1": "6",
+      "sub_2": "South of Market",
+      "sub_3": "SOUTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356734",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T23:17:20-08:00",
+        "utc": "2026-11-26T07:17:20Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:18:47-08:00",
+        "utc": "2026-11-26T07:18:47Z"
+      },
+      "closed": null,
+      "address": "45 GAMBIER ST, SAN FRANCISCO, CA 94134, US",
+      "latitude": 37.72826012,
+      "longitude": -122.42229379,
+      "sub_1": "11",
+      "sub_2": "University Mound",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356732",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T23:05:23-08:00",
+        "utc": "2026-11-26T07:05:23Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:06:32-08:00",
+        "utc": "2026-11-26T07:06:32Z"
+      },
+      "closed": null,
+      "address": "2750 39TH AVE, SAN FRANCISCO, CA 94116, US",
+      "latitude": 37.7355553,
+      "longitude": -122.49650068,
+      "sub_1": "4",
+      "sub_2": "Parkside",
+      "sub_3": "TARAVAL",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356731",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T23:03:53-08:00",
+        "utc": "2026-11-26T07:03:53Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:10:34-08:00",
+        "utc": "2026-11-26T07:10:34Z"
+      },
+      "closed": null,
+      "address": "391 HAIGHT ST, SAN FRANCISCO, CA 94102, US",
+      "latitude": 37.77222518,
+      "longitude": -122.42852264,
+      "sub_1": "5",
+      "sub_2": "Mint Hill",
+      "sub_3": "NORTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356670",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:54:53-08:00",
+        "utc": "2026-11-26T06:54:53Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:54:59-08:00",
+        "utc": "2026-11-26T06:54:59Z"
+      },
+      "closed": null,
+      "address": "43 WASHBURN ST, Virtual, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.77537453,
+      "longitude": -122.41437491,
+      "sub_1": "6",
+      "sub_2": "South of Market",
+      "sub_3": "SOUTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356668",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:51:48-08:00",
+        "utc": "2026-11-26T06:51:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:52:15-08:00",
+        "utc": "2026-11-26T06:52:15Z"
+      },
+      "closed": null,
+      "address": "98 OXFORD ST, Virtual, SAN FRANCISCO, CA 94134, US",
+      "latitude": 37.72863405,
+      "longitude": -122.42051575,
+      "sub_1": "9",
+      "sub_2": "University Mound",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356667",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:50:05-08:00",
+        "utc": "2026-11-26T06:50:05Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:03:31-08:00",
+        "utc": "2026-11-26T07:03:31Z"
+      },
+      "closed": null,
+      "address": "67 WOODWARD ST, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.76890121,
+      "longitude": -122.42073375,
+      "sub_1": "9",
+      "sub_2": "Mission",
+      "sub_3": "MISSION",
+      "description": "in progress"
+    },
+    {
+      "id": "202000356665",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:47:40-08:00",
+        "utc": "2026-11-26T06:47:40Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:48:47-08:00",
+        "utc": "2026-11-26T06:48:47Z"
+      },
+      "closed": null,
+      "address": "291 NEY ST, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.73032197,
+      "longitude": -122.42404485,
+      "sub_1": "11",
+      "sub_2": "Mission Terrace",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356639",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:39:48-08:00",
+        "utc": "2026-11-26T06:39:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:42:03-08:00",
+        "utc": "2026-11-26T06:42:03Z"
+      },
+      "closed": null,
+      "address": "3156 MISSION ST, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.74681266,
+      "longitude": -122.4192734,
+      "sub_1": "9",
+      "sub_2": "Bernal Heights",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356638",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:39:48-08:00",
+        "utc": "2026-11-26T06:39:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:42:09-08:00",
+        "utc": "2026-11-26T06:42:09Z"
+      },
+      "closed": null,
+      "address": "2376 GREENWICH ST, SAN FRANCISCO, CA 94123, US",
+      "latitude": 37.79863789,
+      "longitude": -122.43877146,
+      "sub_1": "2",
+      "sub_2": "Cow Hollow",
+      "sub_3": "NORTHERN",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356637",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:39:48-08:00",
+        "utc": "2026-11-26T06:39:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:40:39-08:00",
+        "utc": "2026-11-26T06:40:39Z"
+      },
+      "closed": null,
+      "address": "35 PRECITA AVE, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.74678726,
+      "longitude": -122.41881708,
+      "sub_1": "9",
+      "sub_2": "Bernal Heights",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356636",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:38:17-08:00",
+        "utc": "2026-11-26T06:38:17Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:40:00-08:00",
+        "utc": "2026-11-26T06:40:00Z"
+      },
+      "closed": null,
+      "address": "176 DE LONG ST, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.70976326,
+      "longitude": -122.46209957,
+      "sub_1": "11",
+      "sub_2": "Outer Mission",
+      "sub_3": "TARAVAL",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356635",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:37:48-08:00",
+        "utc": "2026-11-26T06:37:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:38:31-08:00",
+        "utc": "2026-11-26T06:38:31Z"
+      },
+      "closed": null,
+      "address": "2207 LOMBARD ST, SAN FRANCISCO, CA 94123, US",
+      "latitude": 37.79942212,
+      "longitude": -122.4379459,
+      "sub_1": "2",
+      "sub_2": "Cow Hollow",
+      "sub_3": "NORTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356634",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:37:48-08:00",
+        "utc": "2026-11-26T06:37:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:40:09-08:00",
+        "utc": "2026-11-26T06:40:09Z"
+      },
+      "closed": null,
+      "address": "13 POWERS AVE, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.74616659,
+      "longitude": -122.41931355,
+      "sub_1": "9",
+      "sub_2": "Bernal Heights",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356633",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:35:49-08:00",
+        "utc": "2026-11-26T06:35:49Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:38:03-08:00",
+        "utc": "2026-11-26T06:38:03Z"
+      },
+      "closed": null,
+      "address": "3259 MISSION ST, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.74462875,
+      "longitude": -122.42030031,
+      "sub_1": "9",
+      "sub_2": "Bernal Heights",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356632",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:35:48-08:00",
+        "utc": "2026-11-26T06:35:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:37:58-08:00",
+        "utc": "2026-11-26T06:37:58Z"
+      },
+      "closed": null,
+      "address": "3278 MISSION ST, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.74436251,
+      "longitude": -122.42076118,
+      "sub_1": "9",
+      "sub_2": "Bernal Heights",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356631",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:34:52-08:00",
+        "utc": "2026-11-26T06:34:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:35:55-08:00",
+        "utc": "2026-11-26T06:35:55Z"
+      },
+      "closed": null,
+      "address": "3299 MISSION ST, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.74410123,
+      "longitude": -122.42064092,
+      "sub_1": "9",
+      "sub_2": "Bernal Heights",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356629",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:34:51-08:00",
+        "utc": "2026-11-26T06:34:51Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:35:31-08:00",
+        "utc": "2026-11-26T06:35:31Z"
+      },
+      "closed": null,
+      "address": "417 HYDE ST, SAN FRANCISCO, CA 94109, US",
+      "latitude": 37.78473463,
+      "longitude": -122.41630847,
+      "sub_1": "5",
+      "sub_2": "Tenderloin",
+      "sub_3": "TENDERLOIN",
+      "description": "open"
+    },
+    {
+      "id": "202000356627",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:33:15-08:00",
+        "utc": "2026-11-26T06:33:15Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:33:52-08:00",
+        "utc": "2026-11-26T06:33:52Z"
+      },
+      "closed": null,
+      "address": "376 NIAGARA AVE, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.71933,
+      "longitude": -122.44695333,
+      "sub_1": "11",
+      "sub_2": "Cayuga",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356626",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:31:50-08:00",
+        "utc": "2026-11-26T06:31:50Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:47:53-08:00",
+        "utc": "2026-11-26T06:47:53Z"
+      },
+      "closed": null,
+      "address": "142 TOWNSEND ST, Virtual, SAN FRANCISCO, CA 94107, US",
+      "latitude": 37.77997609,
+      "longitude": -122.39147401,
+      "sub_1": "6",
+      "sub_2": "South Beach",
+      "sub_3": "SOUTHERN",
+      "description": "in progress"
+    },
+    {
+      "id": "202000356625",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:31:18-08:00",
+        "utc": "2026-11-26T06:31:18Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:43:26-08:00",
+        "utc": "2026-11-26T06:43:26Z"
+      },
+      "closed": null,
+      "address": "775 POST ST, SAN FRANCISCO, CA 94109, US",
+      "latitude": 37.78742191,
+      "longitude": -122.41452236,
+      "sub_1": "3",
+      "sub_2": "Lower Nob Hill",
+      "sub_3": "CENTRAL",
+      "description": "in progress"
+    },
+    {
+      "id": "202000356623",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:30:27-08:00",
+        "utc": "2026-11-26T06:30:27Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:30:32-08:00",
+        "utc": "2026-11-26T06:30:32Z"
+      },
+      "closed": null,
+      "address": "44 GOUGH ST, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.7725558,
+      "longitude": -122.4210829,
+      "sub_1": "6",
+      "sub_2": "South of Market",
+      "sub_3": "SOUTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356622",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:29:59-08:00",
+        "utc": "2026-11-26T06:29:59Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:32:01-08:00",
+        "utc": "2026-11-26T06:32:01Z"
+      },
+      "closed": null,
+      "address": "98 OXFORD ST, Virtual, SAN FRANCISCO, CA 94134, US",
+      "latitude": 37.72863405,
+      "longitude": -122.42051575,
+      "sub_1": "9",
+      "sub_2": "University Mound",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356621",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T22:29:40-08:00",
+        "utc": "2026-11-26T06:29:40Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:48:33-08:00",
+        "utc": "2026-11-26T06:48:33Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:48:29-08:00",
+        "utc": "2026-11-26T06:48:29Z"
+      },
+      "address": "194 SHAKESPEARE ST, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.70935488,
+      "longitude": -122.46411144,
+      "sub_1": "11",
+      "sub_2": "Outer Mission",
+      "sub_3": "TARAVAL",
+      "description": "case_resolved - Officer responded to request under CAD # 263293330.  Issue reported could not be validated."
+    },
+    {
+      "id": "202000356620",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:28:55-08:00",
+        "utc": "2026-11-26T06:28:55Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:31:04-08:00",
+        "utc": "2026-11-26T06:31:04Z"
+      },
+      "closed": null,
+      "address": "767 3RD ST, Virtual, SAN FRANCISCO, CA 94107, US",
+      "latitude": 37.7784476,
+      "longitude": -122.39209783,
+      "sub_1": "6",
+      "sub_2": "Mission Bay",
+      "sub_3": "SOUTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356619",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:28:45-08:00",
+        "utc": "2026-11-26T06:28:45Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:31:04-08:00",
+        "utc": "2026-11-26T06:31:04Z"
+      },
+      "closed": null,
+      "address": "789 3RD ST, Virtual, SAN FRANCISCO, CA 94107, US",
+      "latitude": 37.7783197,
+      "longitude": -122.3919371,
+      "sub_1": "6",
+      "sub_2": "Mission Bay",
+      "sub_3": "SOUTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356618",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T22:28:10-08:00",
+        "utc": "2026-11-26T06:28:10Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:31:56-08:00",
+        "utc": "2026-11-26T06:31:56Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:31:52-08:00",
+        "utc": "2026-11-26T06:31:52Z"
+      },
+      "address": "173 SHAKESPEARE ST, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.70884555,
+      "longitude": -122.46370411,
+      "sub_1": "11",
+      "sub_2": "Outer Mission",
+      "sub_3": "TARAVAL",
+      "description": "case_is_a_duplicate - This issue has already been reported through an earlier request."
+    },
+    {
+      "id": "202000356617",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:28:01-08:00",
+        "utc": "2026-11-26T06:28:01Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:01:01-08:00",
+        "utc": "2026-11-26T07:01:01Z"
+      },
+      "closed": null,
+      "address": "2583 32ND AVE, SAN FRANCISCO, CA 94116, US",
+      "latitude": 37.73904844,
+      "longitude": -122.48951892,
+      "sub_1": "4",
+      "sub_2": "Parkside",
+      "sub_3": "TARAVAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356616",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:27:15-08:00",
+        "utc": "2026-11-26T06:27:15Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:31:55-08:00",
+        "utc": "2026-11-26T06:31:55Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION 16TH ST, SHOTWELL ST, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.76524941,
+      "longitude": -122.41638764,
+      "sub_1": "9",
+      "sub_2": "Mission",
+      "sub_3": "MISSION",
+      "description": "open"
+    },
+    {
+      "id": "202000356615",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:23:34-08:00",
+        "utc": "2026-11-26T06:23:34Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:25:43-08:00",
+        "utc": "2026-11-26T06:25:43Z"
+      },
+      "closed": null,
+      "address": "124 SHAKESPEARE ST, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.70849483,
+      "longitude": -122.46279576,
+      "sub_1": "11",
+      "sub_2": "Outer Mission",
+      "sub_3": "TARAVAL",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356614",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:22:55-08:00",
+        "utc": "2026-11-26T06:22:55Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:23:02-08:00",
+        "utc": "2026-11-26T06:23:02Z"
+      },
+      "closed": null,
+      "address": "467 HYDE ST, SAN FRANCISCO, CA 94109, US",
+      "latitude": 37.78514551,
+      "longitude": -122.41647232,
+      "sub_1": "5",
+      "sub_2": "Tenderloin",
+      "sub_3": "TENDERLOIN",
+      "description": "open"
+    },
+    {
+      "id": "202000356613",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:20:12-08:00",
+        "utc": "2026-11-26T06:20:12Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:25:54-08:00",
+        "utc": "2026-11-26T06:25:54Z"
+      },
+      "closed": null,
+      "address": "Not associated with a specific address",
+      "latitude": null,
+      "longitude": null,
+      "sub_1": null,
+      "sub_2": null,
+      "sub_3": null,
+      "description": "open"
+    },
+    {
+      "id": "202000356612",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:19:35-08:00",
+        "utc": "2026-11-26T06:19:35Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:22:52-08:00",
+        "utc": "2026-11-26T06:22:52Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION 4TH ST, KING ST, SAN FRANCISCO, CA 94158, US",
+      "latitude": 37.77633296,
+      "longitude": -122.39403507,
+      "sub_1": "6",
+      "sub_2": "Mission Bay",
+      "sub_3": "SOUTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356611",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:19:00-08:00",
+        "utc": "2026-11-26T06:19:00Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:19:39-08:00",
+        "utc": "2026-11-26T06:19:39Z"
+      },
+      "closed": null,
+      "address": "183 WILSON ST, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.70876869,
+      "longitude": -122.46095179,
+      "sub_1": "11",
+      "sub_2": "Outer Mission",
+      "sub_3": "TARAVAL",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356609",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T22:18:38-08:00",
+        "utc": "2026-11-26T06:18:38Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:36:39-08:00",
+        "utc": "2026-11-26T06:36:39Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:36:34-08:00",
+        "utc": "2026-11-26T06:36:34Z"
+      },
+      "address": "14 MCCORMICK ST, SAN FRANCISCO, CA 94109, US",
+      "latitude": 37.79508606,
+      "longitude": -122.41904213,
+      "sub_1": "3",
+      "sub_2": "Nob Hill",
+      "sub_3": "CENTRAL",
+      "description": "case_resolved - Officer responded to request under CAD # 263293310. Unable to Locate."
+    },
+    {
+      "id": "202000356608",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:16:20-08:00",
+        "utc": "2026-11-26T06:16:20Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:16:24-08:00",
+        "utc": "2026-11-26T06:16:24Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION HARBOR RD, INGALLS ST, SAN FRANCISCO, CA 94124, US",
+      "latitude": 37.73338071,
+      "longitude": -122.37993163,
+      "sub_1": "10",
+      "sub_2": "Hunters Point",
+      "sub_3": "BAYVIEW",
+      "description": "open"
+    },
+    {
+      "id": "202000356607",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T22:14:52-08:00",
+        "utc": "2026-11-26T06:14:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:33:19-08:00",
+        "utc": "2026-11-26T06:33:19Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:33:14-08:00",
+        "utc": "2026-11-26T06:33:14Z"
+      },
+      "address": "965 FOLSOM ST, SAN FRANCISCO, CA 94107, US",
+      "latitude": 37.77910248,
+      "longitude": -122.40460274,
+      "sub_1": "6",
+      "sub_2": "South of Market",
+      "sub_3": "SOUTHERN",
+      "description": "case_resolved - Officer responded to request under CAD # 263293298. Unable to Locate."
+    },
+    {
+      "id": "202000356605",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T22:11:33-08:00",
+        "utc": "2026-11-26T06:11:33Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:39:04-08:00",
+        "utc": "2026-11-26T06:39:04Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:38:59-08:00",
+        "utc": "2026-11-26T06:38:59Z"
+      },
+      "address": "283 FLOURNOY ST, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.70932135,
+      "longitude": -122.46324944,
+      "sub_1": "11",
+      "sub_2": "Outer Mission",
+      "sub_3": "TARAVAL",
+      "description": "case_resolved - Officer responded to request under CAD # 263293291.  Citation was issued."
+    },
+    {
+      "id": "202000356604",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:10:44-08:00",
+        "utc": "2026-11-26T06:10:44Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:16:52-08:00",
+        "utc": "2026-11-26T06:16:52Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION ARGUELLO BLVD, CLEMENT ST, SAN FRANCISCO, CA 94118, US",
+      "latitude": 37.78318855,
+      "longitude": -122.45899849,
+      "sub_1": "1",
+      "sub_2": "Inner Richmond",
+      "sub_3": "RICHMOND",
+      "description": "open"
+    },
+    {
+      "id": "202000356603",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:08:57-08:00",
+        "utc": "2026-11-26T06:08:57Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:09:28-08:00",
+        "utc": "2026-11-26T06:09:28Z"
+      },
+      "closed": null,
+      "address": "226 DE LONG ST, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.70977329,
+      "longitude": -122.46315047,
+      "sub_1": "11",
+      "sub_2": "Outer Mission",
+      "sub_3": "TARAVAL",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356602",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T22:08:42-08:00",
+        "utc": "2026-11-26T06:08:42Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:47:05-08:00",
+        "utc": "2026-11-26T06:47:05Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:47:00-08:00",
+        "utc": "2026-11-26T06:47:00Z"
+      },
+      "address": "1771 15TH ST, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.76634301,
+      "longitude": -122.42358336,
+      "sub_1": "9",
+      "sub_2": "Mission Dolores",
+      "sub_3": "MISSION",
+      "description": "case_resolved - Officer responded to request under CAD # 263293279. Unable to Locate."
+    },
+    {
+      "id": "202000356601",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T22:07:12-08:00",
+        "utc": "2026-11-26T06:07:12Z"
+      },
+      "modified": {
+        "local": "2026-11-25T23:41:22-08:00",
+        "utc": "2026-11-26T07:41:22Z"
+      },
+      "closed": {
+        "local": "2026-11-25T23:41:22-08:00",
+        "utc": "2026-11-26T07:41:22Z"
+      },
+      "address": "1771 15TH ST, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.76635101,
+      "longitude": -122.42353944,
+      "sub_1": "9",
+      "sub_2": "Mission Dolores",
+      "sub_3": "MISSION",
+      "description": "case_is_invalid - This does not appear to be a concern for public works. Please report to parking enforcement if this is still an ongoing issue: https://www.sf.gov/report-blocked-driveway-or-illegal-parking"
+    },
+    {
+      "id": "202000356600",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T22:07:04-08:00",
+        "utc": "2026-11-26T06:07:04Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:49:20-08:00",
+        "utc": "2026-11-26T06:49:20Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:49:16-08:00",
+        "utc": "2026-11-26T06:49:16Z"
+      },
+      "address": "1085 SOUTH VAN NESS AVE, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.75583397,
+      "longitude": -122.41654003,
+      "sub_1": "9",
+      "sub_2": "Mission",
+      "sub_3": "MISSION",
+      "description": "case_resolved - Officer responded to request under CAD # 263293271. Issue was addressed."
+    },
+    {
+      "id": "202000356599",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:06:58-08:00",
+        "utc": "2026-11-26T06:06:58Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:10:50-08:00",
+        "utc": "2026-11-26T06:10:50Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION 18TH AVE, TARAVAL ST, SAN FRANCISCO, CA 94116, US",
+      "latitude": 37.74309648,
+      "longitude": -122.47462396,
+      "sub_1": "7",
+      "sub_2": "West Portal",
+      "sub_3": "TARAVAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356593",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T22:02:47-08:00",
+        "utc": "2026-11-26T06:02:47Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:09:28-08:00",
+        "utc": "2026-11-26T06:09:28Z"
+      },
+      "closed": null,
+      "address": "1800 POWELL ST, SAN FRANCISCO, CA 94133, US",
+      "latitude": 37.8014263,
+      "longitude": -122.41090935,
+      "sub_1": "3",
+      "sub_2": "North Beach",
+      "sub_3": "CENTRAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356591",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:59:59-08:00",
+        "utc": "2026-11-26T05:59:59Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:00:03-08:00",
+        "utc": "2026-11-26T06:00:03Z"
+      },
+      "closed": null,
+      "address": "438 EDDY ST, SAN FRANCISCO, CA 94109, US",
+      "latitude": 37.7837776,
+      "longitude": -122.41492546,
+      "sub_1": "5",
+      "sub_2": "Tenderloin",
+      "sub_3": "TENDERLOIN",
+      "description": "open"
+    },
+    {
+      "id": "202000356590",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:59:56-08:00",
+        "utc": "2026-11-26T05:59:56Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:00:09-08:00",
+        "utc": "2026-11-26T06:00:09Z"
+      },
+      "closed": null,
+      "address": "953 OCEAN AVE, Virtual, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.72296799,
+      "longitude": -122.45245225,
+      "sub_1": "11",
+      "sub_2": "Ingleside",
+      "sub_3": "TARAVAL",
+      "description": "new"
+    },
+    {
+      "id": "202000356589",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:58:48-08:00",
+        "utc": "2026-11-26T05:58:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:05:28-08:00",
+        "utc": "2026-11-26T06:05:28Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION COLUMBUS AVE, LOMBARD ST, SAN FRANCISCO, CA 94133, US",
+      "latitude": 37.80274329,
+      "longitude": -122.41371862,
+      "sub_1": "3",
+      "sub_2": "Russian Hill",
+      "sub_3": "CENTRAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356586",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:56:52-08:00",
+        "utc": "2026-11-26T05:56:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:57:59-08:00",
+        "utc": "2026-11-26T05:57:59Z"
+      },
+      "closed": null,
+      "address": "573 BOSWORTH ST, Virtual, SAN FRANCISCO, CA 94131, US",
+      "latitude": 37.73333739,
+      "longitude": -122.43383068,
+      "sub_1": "8",
+      "sub_2": "Glen Park",
+      "sub_3": "INGLESIDE",
+      "description": "open"
+    },
+    {
+      "id": "202000356585",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:56:52-08:00",
+        "utc": "2026-11-26T05:56:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:12:57-08:00",
+        "utc": "2026-11-26T06:12:57Z"
+      },
+      "closed": null,
+      "address": "573 BOSWORTH ST, Virtual, SAN FRANCISCO, CA 94131, US",
+      "latitude": 37.73333739,
+      "longitude": -122.43383068,
+      "sub_1": "8",
+      "sub_2": "Glen Park",
+      "sub_3": "INGLESIDE",
+      "description": "in progress"
+    },
+    {
+      "id": "202000356584",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:55:00-08:00",
+        "utc": "2026-11-26T05:55:00Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:55:03-08:00",
+        "utc": "2026-11-26T05:55:03Z"
+      },
+      "closed": null,
+      "address": "1503 REVERE AVE, SAN FRANCISCO, CA 94124, US",
+      "latitude": 37.73059474,
+      "longitude": -122.38855747,
+      "sub_1": "10",
+      "sub_2": "Bayview",
+      "sub_3": "BAYVIEW",
+      "description": "open"
+    },
+    {
+      "id": "202000356583",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:54:16-08:00",
+        "utc": "2026-11-26T05:54:16Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:54:22-08:00",
+        "utc": "2026-11-26T05:54:22Z"
+      },
+      "closed": null,
+      "address": "1857 MISSION ST, Virtual, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.76738091,
+      "longitude": -122.41977688,
+      "sub_1": "9",
+      "sub_2": "Mission",
+      "sub_3": "MISSION",
+      "description": "open"
+    },
+    {
+      "id": "202000356581",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:53:26-08:00",
+        "utc": "2026-11-26T05:53:26Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:53:41-08:00",
+        "utc": "2026-11-26T05:53:41Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION EDDY ST, LARKIN ST, SAN FRANCISCO, CA 94102, US",
+      "latitude": 37.78331077,
+      "longitude": -122.41752862,
+      "sub_1": "5",
+      "sub_2": "Tenderloin",
+      "sub_3": "TENDERLOIN",
+      "description": "open"
+    },
+    {
+      "id": "202000356578",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:47:52-08:00",
+        "utc": "2026-11-26T05:47:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:48:53-08:00",
+        "utc": "2026-11-26T05:48:53Z"
+      },
+      "closed": null,
+      "address": "400 JESSIE ST, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.78330496,
+      "longitude": -122.40724181,
+      "sub_1": "6",
+      "sub_2": "South of Market",
+      "sub_3": "SOUTHERN",
+      "description": "new"
+    },
+    {
+      "id": "202000356572",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:41:52-08:00",
+        "utc": "2026-11-26T05:41:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:03:12-08:00",
+        "utc": "2026-11-26T06:03:12Z"
+      },
+      "closed": null,
+      "address": "323 MISSION ROCK ST, Virtual, SAN FRANCISCO, CA 94107, US",
+      "latitude": 37.77296594,
+      "longitude": -122.38765671,
+      "sub_1": "6",
+      "sub_2": "Mission Bay",
+      "sub_3": "SOUTHERN",
+      "description": "in progress"
+    },
+    {
+      "id": "202000356571",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:41:05-08:00",
+        "utc": "2026-11-26T05:41:05Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:52:59-08:00",
+        "utc": "2026-11-26T05:52:59Z"
+      },
+      "closed": null,
+      "address": "700 ELLSWORTH ST, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.73467772,
+      "longitude": -122.41480714,
+      "sub_1": "9",
+      "sub_2": "Bernal Heights",
+      "sub_3": "INGLESIDE",
+      "description": "in progress"
+    },
+    {
+      "id": "202000356568",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:38:29-08:00",
+        "utc": "2026-11-26T05:38:29Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:07:12-08:00",
+        "utc": "2026-11-26T06:07:12Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:07:07-08:00",
+        "utc": "2026-11-26T06:07:07Z"
+      },
+      "address": "2761 HYDE ST, SAN FRANCISCO, CA 94109, US",
+      "latitude": 37.80645164,
+      "longitude": -122.42078494,
+      "sub_1": "2",
+      "sub_2": "Aquatic Park / Ft. Mason",
+      "sub_3": "CENTRAL",
+      "description": "case_resolved - Officer responded to request under CAD # 263293197.  Issue reported could not be validated."
+    },
+    {
+      "id": "202000356567",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:38:09-08:00",
+        "utc": "2026-11-26T05:38:09Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:32:38-08:00",
+        "utc": "2026-11-26T06:32:38Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:32:34-08:00",
+        "utc": "2026-11-26T06:32:34Z"
+      },
+      "address": "172 DELTA ST, SAN FRANCISCO, CA 94134, US",
+      "latitude": 37.71633282,
+      "longitude": -122.40807727,
+      "sub_1": "10",
+      "sub_2": "Visitacion Valley",
+      "sub_3": "INGLESIDE",
+      "description": "case_resolved - Officer responded to request under CAD # 263293199.  Citation was issued."
+    },
+    {
+      "id": "202000356566",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:37:54-08:00",
+        "utc": "2026-11-26T05:37:54Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:42:49-08:00",
+        "utc": "2026-11-26T05:42:49Z"
+      },
+      "closed": null,
+      "address": "59 OCTAVIA ST, SAN FRANCISCO, CA 94102, US",
+      "latitude": 37.77252457,
+      "longitude": -122.42392659,
+      "sub_1": "8",
+      "sub_2": "Mint Hill",
+      "sub_3": "NORTHERN",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356565",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:34:52-08:00",
+        "utc": "2026-11-26T05:34:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:19:05-08:00",
+        "utc": "2026-11-26T06:19:05Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:19:01-08:00",
+        "utc": "2026-11-26T06:19:01Z"
+      },
+      "address": "515 20TH AVE, SAN FRANCISCO, CA 94121, US",
+      "latitude": 37.77806107,
+      "longitude": -122.4793537,
+      "sub_1": "1",
+      "sub_2": "Outer Richmond",
+      "sub_3": "RICHMOND",
+      "description": "case_resolved - Officer responded to request under CAD # 263293189. Issue was addressed."
+    },
+    {
+      "id": "202000356564",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:34:49-08:00",
+        "utc": "2026-11-26T05:34:49Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:46:50-08:00",
+        "utc": "2026-11-26T06:46:50Z"
+      },
+      "closed": null,
+      "address": "2841 DIAMOND ST, Virtual, SAN FRANCISCO, CA 94131, US",
+      "latitude": 37.73397956,
+      "longitude": -122.4339183,
+      "sub_1": "8",
+      "sub_2": "Glen Park",
+      "sub_3": "INGLESIDE",
+      "description": "open"
+    },
+    {
+      "id": "202000356563",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:34:48-08:00",
+        "utc": "2026-11-26T05:34:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:35:56-08:00",
+        "utc": "2026-11-26T05:35:56Z"
+      },
+      "closed": null,
+      "address": "98 WILDER ST, SAN FRANCISCO, CA 94131, US",
+      "latitude": 37.73430571,
+      "longitude": -122.43389621,
+      "sub_1": "8",
+      "sub_2": "Glen Park",
+      "sub_3": "INGLESIDE",
+      "description": "open"
+    },
+    {
+      "id": "202000356562",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:32:48-08:00",
+        "utc": "2026-11-26T05:32:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:58:11-08:00",
+        "utc": "2026-11-26T05:58:11Z"
+      },
+      "closed": null,
+      "address": "599 BOSWORTH ST, Virtual, SAN FRANCISCO, CA 94131, US",
+      "latitude": 37.73338935,
+      "longitude": -122.43407933,
+      "sub_1": "8",
+      "sub_2": "Glen Park",
+      "sub_3": "INGLESIDE",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356561",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:30:52-08:00",
+        "utc": "2026-11-26T05:30:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:30:56-08:00",
+        "utc": "2026-11-26T05:30:56Z"
+      },
+      "closed": null,
+      "address": "127 COLBY ST, SAN FRANCISCO, CA 94134, US",
+      "latitude": 37.72853643,
+      "longitude": -122.41378315,
+      "sub_1": "9",
+      "sub_2": "Portola",
+      "sub_3": "BAYVIEW",
+      "description": "open"
+    },
+    {
+      "id": "202000356559",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:27:59-08:00",
+        "utc": "2026-11-26T05:27:59Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:48:58-08:00",
+        "utc": "2026-11-26T06:48:58Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:48:54-08:00",
+        "utc": "2026-11-26T06:48:54Z"
+      },
+      "address": "2330 SAN JOSE AVE, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.72029167,
+      "longitude": -122.447005,
+      "sub_1": "11",
+      "sub_2": "Cayuga",
+      "sub_3": "INGLESIDE",
+      "description": "case_resolved - Officer responded to request under CAD # 263293167.  Citation was issued."
+    },
+    {
+      "id": "202000356558",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:27:48-08:00",
+        "utc": "2026-11-26T05:27:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:28:45-08:00",
+        "utc": "2026-11-26T05:28:45Z"
+      },
+      "closed": null,
+      "address": "9 GROVE ST, Virtual, SAN FRANCISCO, CA 94102, US",
+      "latitude": 37.7787693,
+      "longitude": -122.41504449,
+      "sub_1": "6",
+      "sub_2": "Civic Center",
+      "sub_3": "TENDERLOIN",
+      "description": "open"
+    },
+    {
+      "id": "202000356556",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:26:52-08:00",
+        "utc": "2026-11-26T05:26:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:31:01-08:00",
+        "utc": "2026-11-26T05:31:01Z"
+      },
+      "closed": null,
+      "address": "1206 MISSION ST, Virtual, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.77738273,
+      "longitude": -122.41339947,
+      "sub_1": "6",
+      "sub_2": "South of Market",
+      "sub_3": "SOUTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356555",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:26:49-08:00",
+        "utc": "2026-11-26T05:26:49Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:26:53-08:00",
+        "utc": "2026-11-26T05:26:53Z"
+      },
+      "closed": null,
+      "address": "3532 PIERCE ST, SAN FRANCISCO, CA 94123, US",
+      "latitude": 37.8032165,
+      "longitude": -122.43986324,
+      "sub_1": "2",
+      "sub_2": "Marina",
+      "sub_3": "NORTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356554",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:26:49-08:00",
+        "utc": "2026-11-26T05:26:49Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:31:01-08:00",
+        "utc": "2026-11-26T05:31:01Z"
+      },
+      "closed": null,
+      "address": "1205 MISSION ST, Virtual, SAN FRANCISCO, CA 94103, US",
+      "latitude": 37.77727177,
+      "longitude": -122.41324607,
+      "sub_1": "6",
+      "sub_2": "South of Market",
+      "sub_3": "SOUTHERN",
+      "description": "open"
+    },
+    {
+      "id": "202000356553",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:25:06-08:00",
+        "utc": "2026-11-26T05:25:06Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:26:07-08:00",
+        "utc": "2026-11-26T05:26:07Z"
+      },
+      "closed": null,
+      "address": "265 SANTA PAULA AVE, SAN FRANCISCO, CA 94127, US",
+      "latitude": 37.7356803,
+      "longitude": -122.4628485,
+      "sub_1": "7",
+      "sub_2": "Monterey Heights",
+      "sub_3": "TARAVAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356552",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:25:01-08:00",
+        "utc": "2026-11-26T05:25:01Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:31:05-08:00",
+        "utc": "2026-11-26T05:31:05Z"
+      },
+      "closed": null,
+      "address": "1010 BUSH ST, SAN FRANCISCO, CA 94109, US",
+      "latitude": 37.7895934,
+      "longitude": -122.41389846,
+      "sub_1": "3",
+      "sub_2": "Lower Nob Hill",
+      "sub_3": "CENTRAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356551",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:23:19-08:00",
+        "utc": "2026-11-26T05:23:19Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:24:58-08:00",
+        "utc": "2026-11-26T05:24:58Z"
+      },
+      "closed": {
+        "local": "2026-11-25T21:24:54-08:00",
+        "utc": "2026-11-26T05:24:54Z"
+      },
+      "address": "755 CAPITOL AVE, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.71731689,
+      "longitude": -122.45919047,
+      "sub_1": "11",
+      "sub_2": "Oceanview",
+      "sub_3": "TARAVAL",
+      "description": "case_is_a_duplicate - This issue has already been reported through an earlier request."
+    },
+    {
+      "id": "202000356548",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:21:21-08:00",
+        "utc": "2026-11-26T05:21:21Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:48:42-08:00",
+        "utc": "2026-11-26T06:48:42Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:48:38-08:00",
+        "utc": "2026-11-26T06:48:38Z"
+      },
+      "address": "755 CAPITOL AVE, SAN FRANCISCO, CA 94112, US",
+      "latitude": 37.71731689,
+      "longitude": -122.45919047,
+      "sub_1": "11",
+      "sub_2": "Oceanview",
+      "sub_3": "TARAVAL",
+      "description": "case_resolved - Officer responded to request under CAD # 263293148.  Issue reported could not be validated."
+    },
+    {
+      "id": "202000356547",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:20:48-08:00",
+        "utc": "2026-11-26T05:20:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:27:47-08:00",
+        "utc": "2026-11-26T05:27:47Z"
+      },
+      "closed": null,
+      "address": "2281 MARKET ST, SAN FRANCISCO, CA 94114, US",
+      "latitude": 37.76440429,
+      "longitude": -122.43253061,
+      "sub_1": "8",
+      "sub_2": "Castro",
+      "sub_3": "MISSION",
+      "description": "open"
+    },
+    {
+      "id": "202000356543",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:16:48-08:00",
+        "utc": "2026-11-26T05:16:48Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:17:41-08:00",
+        "utc": "2026-11-26T05:17:41Z"
+      },
+      "closed": null,
+      "address": "44 DR CARLTON B GOODLETT PL, Virtual, SAN FRANCISCO, CA 94102, US",
+      "latitude": 37.77929119,
+      "longitude": -122.41829041,
+      "sub_1": "6",
+      "sub_2": "Civic Center",
+      "sub_3": "NORTHERN",
+      "description": "new"
+    },
+    {
+      "id": "202000356541",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:16:17-08:00",
+        "utc": "2026-11-26T05:16:17Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:20:55-08:00",
+        "utc": "2026-11-26T05:20:55Z"
+      },
+      "closed": {
+        "local": "2026-11-25T21:20:50-08:00",
+        "utc": "2026-11-26T05:20:50Z"
+      },
+      "address": "947 SCOTT ST, SAN FRANCISCO, CA 94115, US",
+      "latitude": 37.77873764,
+      "longitude": -122.43701866,
+      "sub_1": "5",
+      "sub_2": "Western Addition",
+      "sub_3": "NORTHERN",
+      "description": "case_is_a_duplicate - This issue has already been reported through an earlier request."
+    },
+    {
+      "id": "202000356540",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:16:03-08:00",
+        "utc": "2026-11-26T05:16:03Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:11:39-08:00",
+        "utc": "2026-11-26T06:11:39Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:11:34-08:00",
+        "utc": "2026-11-26T06:11:34Z"
+      },
+      "address": "2382 GREENWICH ST, SAN FRANCISCO, CA 94123, US",
+      "latitude": 37.79871275,
+      "longitude": -122.4388502,
+      "sub_1": "2",
+      "sub_2": "Cow Hollow",
+      "sub_3": "NORTHERN",
+      "description": "case_resolved - Officer responded to request under CAD # 263293133. Unable to Locate."
+    },
+    {
+      "id": "202000356539",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:15:52-08:00",
+        "utc": "2026-11-26T05:15:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:52:32-08:00",
+        "utc": "2026-11-26T05:52:32Z"
+      },
+      "closed": {
+        "local": "2026-11-25T21:52:27-08:00",
+        "utc": "2026-11-26T05:52:27Z"
+      },
+      "address": "614 BAKER ST, SAN FRANCISCO, CA 94117, US",
+      "latitude": 37.77659787,
+      "longitude": -122.44145119,
+      "sub_1": "2",
+      "sub_2": "Western Addition",
+      "sub_3": "PARK",
+      "description": "case_resolved - Officer responded to request under CAD # 263293134.  Citation was issued."
+    },
+    {
+      "id": "202000356538",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:15:52-08:00",
+        "utc": "2026-11-26T05:15:52Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:22:42-08:00",
+        "utc": "2026-11-26T05:22:42Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION BUSH ST, TAYLOR ST, SAN FRANCISCO, CA 94102, US",
+      "latitude": 37.78974002,
+      "longitude": -122.41207581,
+      "sub_1": "3",
+      "sub_2": "Lower Nob Hill",
+      "sub_3": "CENTRAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356536",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:13:33-08:00",
+        "utc": "2026-11-26T05:13:33Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:13:35-08:00",
+        "utc": "2026-11-26T05:13:35Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION 5TH AVE, JUDAH ST, SAN FRANCISCO, CA 94122, US",
+      "latitude": 37.7623627,
+      "longitude": -122.46190041,
+      "sub_1": "7",
+      "sub_2": "Inner Sunset",
+      "sub_3": "PARK",
+      "description": "open"
+    },
+    {
+      "id": "202000356535",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:12:57-08:00",
+        "utc": "2026-11-26T05:12:57Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:12:59-08:00",
+        "utc": "2026-11-26T05:12:59Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION CHURCH ST, JERSEY ST, SAN FRANCISCO, CA 94114, US",
+      "latitude": 37.75089589,
+      "longitude": -122.42735473,
+      "sub_1": "8",
+      "sub_2": "Noe Valley",
+      "sub_3": "MISSION",
+      "description": "open"
+    },
+    {
+      "id": "202000356534",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:12:33-08:00",
+        "utc": "2026-11-26T05:12:33Z"
+      },
+      "modified": {
+        "local": "2026-11-25T22:32:54-08:00",
+        "utc": "2026-11-26T06:32:54Z"
+      },
+      "closed": {
+        "local": "2026-11-25T22:32:51-08:00",
+        "utc": "2026-11-26T06:32:51Z"
+      },
+      "address": "174 TUCKER AVE, SAN FRANCISCO, CA 94134, US",
+      "latitude": 37.71644029,
+      "longitude": -122.40739529,
+      "sub_1": "10",
+      "sub_2": "Visitacion Valley",
+      "sub_3": "INGLESIDE",
+      "description": "case_resolved - Officer responded to request under CAD # 263293126. Unable to Locate."
+    },
+    {
+      "id": "202000356533",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T21:12:26-08:00",
+        "utc": "2026-11-26T05:12:26Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:19:12-08:00",
+        "utc": "2026-11-26T05:19:12Z"
+      },
+      "closed": {
+        "local": "2026-11-25T21:19:08-08:00",
+        "utc": "2026-11-26T05:19:08Z"
+      },
+      "address": "2448 MARIPOSA ST, Virtual, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.76329667,
+      "longitude": -122.40776167,
+      "sub_1": "10",
+      "sub_2": "Mission",
+      "sub_3": "MISSION",
+      "description": "case_resolved - Officer responded to request under CAD # 263293127.  Issue reported could not be validated."
+    },
+    {
+      "id": "202000356532",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:11:18-08:00",
+        "utc": "2026-11-26T05:11:18Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:17:44-08:00",
+        "utc": "2026-11-26T05:17:44Z"
+      },
+      "closed": null,
+      "address": "895 POST ST, SAN FRANCISCO, CA 94109, US",
+      "latitude": 37.7872062,
+      "longitude": -122.41639244,
+      "sub_1": "3",
+      "sub_2": "Lower Nob Hill",
+      "sub_3": "CENTRAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356531",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:10:49-08:00",
+        "utc": "2026-11-26T05:10:49Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:10:55-08:00",
+        "utc": "2026-11-26T05:10:55Z"
+      },
+      "closed": null,
+      "address": "3252 19TH ST, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.7606387,
+      "longitude": -122.4161094,
+      "sub_1": "9",
+      "sub_2": "Mission",
+      "sub_3": "MISSION",
+      "description": "open"
+    },
+    {
+      "id": "202000356529",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:09:11-08:00",
+        "utc": "2026-11-26T05:09:11Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:34:41-08:00",
+        "utc": "2026-11-26T05:34:41Z"
+      },
+      "closed": null,
+      "address": "19 CERRITOS AVE, SAN FRANCISCO, CA 94127, US",
+      "latitude": 37.72683238,
+      "longitude": -122.46712386,
+      "sub_1": "7",
+      "sub_2": "Ingleside Terraces",
+      "sub_3": "TARAVAL",
+      "description": "accepted"
+    },
+    {
+      "id": "202000356528",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:08:37-08:00",
+        "utc": "2026-11-26T05:08:37Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:22:51-08:00",
+        "utc": "2026-11-26T05:22:51Z"
+      },
+      "closed": null,
+      "address": "799 3RD ST, Virtual, SAN FRANCISCO, CA 94107, US",
+      "latitude": 37.7782618,
+      "longitude": -122.39186468,
+      "sub_1": "6",
+      "sub_2": "Mission Bay",
+      "sub_3": "SOUTHERN",
+      "description": "in progress"
+    },
+    {
+      "id": "202000356527",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:07:32-08:00",
+        "utc": "2026-11-26T05:07:32Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:18:29-08:00",
+        "utc": "2026-11-26T05:18:29Z"
+      },
+      "closed": null,
+      "address": "45 HOLLY PARK CIR, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.73835274,
+      "longitude": -122.41974413,
+      "sub_1": "9",
+      "sub_2": "Holly Park",
+      "sub_3": "INGLESIDE",
+      "description": "in progress"
+    },
+    {
+      "id": "202000356526",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T21:05:53-08:00",
+        "utc": "2026-11-26T05:05:53Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:22:51-08:00",
+        "utc": "2026-11-26T05:22:51Z"
+      },
+      "closed": null,
+      "address": "610 VAN NESS AVE, Virtual, SAN FRANCISCO, CA 94102, US",
+      "latitude": 37.78122349,
+      "longitude": -122.42029057,
+      "sub_1": "6",
+      "sub_2": "Civic Center",
+      "sub_3": "NORTHERN",
+      "description": "in progress"
+    },
+    {
+      "id": "202000356519",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T20:56:54-08:00",
+        "utc": "2026-11-26T04:56:54Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:02:40-08:00",
+        "utc": "2026-11-26T05:02:40Z"
+      },
+      "closed": null,
+      "address": "INTERSECTION STOCKTON ST, GREEN ST, SAN FRANCISCO, CA 94133, US",
+      "latitude": 37.79948975,
+      "longitude": -122.40901428,
+      "sub_1": "3",
+      "sub_2": "North Beach",
+      "sub_3": "CENTRAL",
+      "description": "open"
+    },
+    {
+      "id": "202000356517",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T20:54:44-08:00",
+        "utc": "2026-11-26T04:54:44Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:16:41-08:00",
+        "utc": "2026-11-26T05:16:41Z"
+      },
+      "closed": {
+        "local": "2026-11-25T21:16:37-08:00",
+        "utc": "2026-11-26T05:16:37Z"
+      },
+      "address": "945 SCOTT ST, SAN FRANCISCO, CA 94115, US",
+      "latitude": 37.77874615,
+      "longitude": -122.43702044,
+      "sub_1": "5",
+      "sub_2": "Western Addition",
+      "sub_3": "NORTHERN",
+      "description": "case_resolved - Officer responded to request under CAD # 263293093.  Citation was issued."
+    },
+    {
+      "id": "202000356513",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T20:52:54-08:00",
+        "utc": "2026-11-26T04:52:54Z"
+      },
+      "modified": {
+        "local": "2026-11-25T20:53:35-08:00",
+        "utc": "2026-11-26T04:53:35Z"
+      },
+      "closed": null,
+      "address": "2830 25TH ST, SAN FRANCISCO, CA 94110, US",
+      "latitude": 37.75138001,
+      "longitude": -122.40689178,
+      "sub_1": "9",
+      "sub_2": "Mission",
+      "sub_3": "MISSION",
+      "description": "open"
+    },
+    {
+      "id": "202000356511",
+      "status": "open",
+      "opened": {
+        "local": "2026-11-25T20:51:45-08:00",
+        "utc": "2026-11-26T04:51:45Z"
+      },
+      "modified": {
+        "local": "2026-11-25T20:52:30-08:00",
+        "utc": "2026-11-26T04:52:30Z"
+      },
+      "closed": null,
+      "address": "2102 SACRAMENTO ST, SAN FRANCISCO, CA 94109, US",
+      "latitude": 37.79071094,
+      "longitude": -122.4275395,
+      "sub_1": "2",
+      "sub_2": "Pacific Heights",
+      "sub_3": "NORTHERN",
+      "description": "new"
+    },
+    {
+      "id": "202000356509",
+      "status": "resolved",
+      "opened": {
+        "local": "2026-11-25T20:47:21-08:00",
+        "utc": "2026-11-26T04:47:21Z"
+      },
+      "modified": {
+        "local": "2026-11-25T21:14:08-08:00",
+        "utc": "2026-11-26T05:14:08Z"
+      },
+      "closed": {
+        "local": "2026-11-25T21:14:03-08:00",
+        "utc": "2026-11-26T05:14:03Z"
+      },
+      "address": "1985 QUINT ST, SAN FRANCISCO, CA 94124, US",
+      "latitude": 37.73300833,
+      "longitude": -122.40038333,
+      "sub_1": "10",
+      "sub_2": "Silver Terrace",
+      "sub_3": "BAYVIEW",
+      "description": "case_resolved - Officer responded to request under CAD # 263293077. Unable to Locate."
+    }
+  ]
+}

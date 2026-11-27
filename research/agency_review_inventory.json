@@ -1,0 +1,915 @@
+{
+    "review_date":  "2026-11-27",
+    "methodology":  "Review of agency, department, division, owner, and referral values across directory sources. Coverage periods and extraction methods differ. This is evidence for a proposed taxonomy, not a harmonized request-volume ranking.",
+    "cities":  [
+                   {
+                       "city":  "New York City",
+                       "directory_source":  "https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9",
+                       "reviewed_endpoint":  "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "agency_name":  [
+                                                                            "Department of Buildings",
+                                                                            "Department of Consumer Affairs",
+                                                                            "Department of Education",
+                                                                            "Department of Environmental Protection",
+                                                                            "Department of Health and Mental Hygiene",
+                                                                            "Department of Homeless Services",
+                                                                            "Department of Housing Preservation and Development",
+                                                                            "Department of Parks and Recreation",
+                                                                            "Department of Sanitation",
+                                                                            "Department of Transportation",
+                                                                            "Economic Development Corporation",
+                                                                            "New York City Police Department",
+                                                                            "Taxi and Limousine Commission"
+                                                                        ],
+                                                        "agency":  [
+                                                                       "DCA",
+                                                                       "DEP",
+                                                                       "DHS",
+                                                                       "DOB",
+                                                                       "DOE",
+                                                                       "DOHMH",
+                                                                       "DOT",
+                                                                       "DPR",
+                                                                       "DSNY",
+                                                                       "EDC",
+                                                                       "HPD",
+                                                                       "NYPD",
+                                                                       "TLC"
+                                                                   ]
+                                                    },
+                       "limitations":  [
+                                           "Agency names from a 10000-record sample; full grouped query timed out. Values are not exhaustive."
+                                       ]
+                   },
+                   {
+                       "city":  "Chicago",
+                       "directory_source":  "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy",
+                       "reviewed_endpoint":  "https://data.cityofchicago.org/resource/v6vf-nfxy.json",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "owner_department":  [
+                                                                                 "311 City Services",
+                                                                                 "Animal Care and Control",
+                                                                                 "Aviation",
+                                                                                 "BACP - Business Affairs and Consumer Protection",
+                                                                                 "CDOT - Department of Transportation",
+                                                                                 "City Clerk\u0027s Office",
+                                                                                 "Department of Housing",
+                                                                                 "Department of Planning and Development",
+                                                                                 "DOB - Buildings",
+                                                                                 "DWM - Department of Water Management",
+                                                                                 "Extreme Weather Notification",
+                                                                                 "Finance",
+                                                                                 "Fire",
+                                                                                 "Health",
+                                                                                 "Outside Agencies",
+                                                                                 "Streets and Sanitation"
+                                                                             ]
+                                                    },
+                       "limitations":  [
+                                           "Owner department names from published cached field statistics and a 10000-record sample."
+                                       ]
+                   },
+                   {
+                       "city":  "Los Angeles",
+                       "directory_source":  "https://data.lacity.org/City-Infrastructure-Service-Requests/MyLA311-Service-Request-Data-2025/h73f-gn57",
+                       "reviewed_endpoint":  "https://data.lacity.org/resource/h73f-gn57.json",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "owner":  [
+
+                                                                  ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "San Francisco",
+                       "directory_source":  "https://data.sf.gov/d/vw6y-z8j6",
+                       "reviewed_endpoint":  "https://data.sf.gov/resource/vw6y-z8j6.json",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "agency_responsible":  [
+
+                                                                               ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "Seattle",
+                       "directory_source":  "https://data.seattle.gov/City-Administration/Customer-Service-Requests/5ngg-rpne/about_data",
+                       "reviewed_endpoint":  "https://data.seattle.gov/resource/5ngg-rpne.json",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "departmentname":  [
+
+                                                                           ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "Denver",
+                       "directory_source":  "https://opendata-geospatialdenver.hub.arcgis.com/datasets/311-service-requests/explore",
+                       "reviewed_endpoint":  "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_service_requests_311/FeatureServer/53",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "Division":  [
+
+                                                                     ],
+                                                        "Agency":  [
+                                                                       "311",
+                                                                       "Auditor\u0027s Office",
+                                                                       "City Council",
+                                                                       "Clerk \u0026 Recorder",
+                                                                       "Community Planning \u0026 Development",
+                                                                       "Denver Human Services",
+                                                                       "DLCP",
+                                                                       "Excise \u0026 License",
+                                                                       "External Agency",
+                                                                       "Finance",
+                                                                       "Mayor\u0027s Office",
+                                                                       "Parks \u0026 Recreation",
+                                                                       "Public Health \u0026 Environment",
+                                                                       "Public Works",
+                                                                       "Safety",
+                                                                       "Tech Services"
+                                                                   ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "Boston",
+                       "directory_source":  "https://data.cityofboston.gov/City-Services/Mayor-s-24-Hour-Hotline-Service-Requests/awu8-dc52",
+                       "reviewed_endpoint":  "https://data.boston.gov",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "assigned_team":  [
+                                                                              "311 Supervisors",
+                                                                              "Animal control staff",
+                                                                              "Boston Bikes (BEAM)",
+                                                                              "Boston Fire Department",
+                                                                              "Boston Transportation Department General",
+                                                                              "BPD Districts",
+                                                                              "BPD General",
+                                                                              "BPHC Environment",
+                                                                              "BPHC General",
+                                                                              "BPHC Recovery Services",
+                                                                              "BPRD Parks (BEAM)",
+                                                                              "BPRD Parks Trades (BEAM)",
+                                                                              "BTD (BEAM)",
+                                                                              "BTD Administration",
+                                                                              "BTD Asset Management",
+                                                                              "BTD Asset Management (BEAM)",
+                                                                              "BTD Constituent Services (BEAM)",
+                                                                              "BTD Curbside Management/New Mobility (BEAM)",
+                                                                              "BTD Enforcement (BEAM)",
+                                                                              "BTD Markings Shop (BEAM)",
+                                                                              "BTD Meter Shop (BEAM)",
+                                                                              "BTD Neighborhood Safety (Engineering) (BEAM)",
+                                                                              "BTD OPC",
+                                                                              "BTD Parking",
+                                                                              "BTD Sign Shop",
+                                                                              "BTD Sign Shop (BEAM)",
+                                                                              "BTD Signs, Signals and Pavement Markings (BEAM)",
+                                                                              "BTD TMC (BEAM)",
+                                                                              "BTD Traffic Investigation (BEAM)",
+                                                                              "Building",
+                                                                              "Carpentry",
+                                                                              "Cemetery",
+                                                                              "Cemetery (BEAM)",
+                                                                              "Construction Inspection Unit (CIU)",
+                                                                              "Design and Construction",
+                                                                              "Eversource",
+                                                                              "Graffiti Busters",
+                                                                              "Horticulture",
+                                                                              "ISD",
+                                                                              "ISD Building",
+                                                                              "ISD Call Center",
+                                                                              "ISD Environmental",
+                                                                              "ISD Health",
+                                                                              "ISD Housing",
+                                                                              "Mass DCR",
+                                                                              "MBTA",
+                                                                              "MOH Lots",
+                                                                              "ONS General",
+                                                                              "OPC Moving Permits",
+                                                                              "Parks Administration",
+                                                                              "Parks Maintenance",
+                                                                              "Parks Maintenance (BEAM)",
+                                                                              "Parks Operations",
+                                                                              "Property Management",
+                                                                              "PWD Bridges and Buildings",
+                                                                              "PWD Code Enforcement",
+                                                                              "PWD Code Enforcement (BEAM)",
+                                                                              "PWD Construction (BEAM)",
+                                                                              "PWD Highway",
+                                                                              "PWD Highway (BEAM)",
+                                                                              "PWD Sanitation",
+                                                                              "PWD Street Lighting",
+                                                                              "PWD Street Lighting (BEAM)",
+                                                                              "PWD Waste Reduction",
+                                                                              "Traffic Signals",
+                                                                              "Urban Forestry",
+                                                                              "Urban Forestry (BEAM)"
+                                                                          ],
+                                                        "assigned_department":  [
+                                                                                    "Animal Care \u0026 Control",
+                                                                                    "Boston 311",
+                                                                                    "Boston Fire Department (BFD)",
+                                                                                    "Boston Police Department (BPD)",
+                                                                                    "Boston Public Health Commission (BPHC)",
+                                                                                    "Boston Transportation Department (BTD)",
+                                                                                    "City of Boston Property Management",
+                                                                                    "Eversource",
+                                                                                    "Inspectional Services",
+                                                                                    "Mass DCR",
+                                                                                    "Mayor\u0027s Office of Housing (MOH)",
+                                                                                    "MBTA (Mass Bay Transit Authority)",
+                                                                                    "Neighborhood Services",
+                                                                                    "Parks \u0026 Recreation",
+                                                                                    "Public Works Department (PWD)"
+                                                                                ]
+                                                    },
+                       "limitations":  [
+                                           "Original directory link is retired; reviewed replacement CKAN feed with assigned_department and assigned_team."
+                                       ]
+                   },
+                   {
+                       "city":  "Philadelphia",
+                       "directory_source":  "https://opendataphilly.org/datasets/311-service-and-information-requests/",
+                       "reviewed_endpoint":  "https://phl.carto.com/api/v2/sql",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "agency_responsible":  [
+                                                                                   "Animal Care and Control - ACCT",
+                                                                                   "Behavioral Health and Intellectual Disability Services- DBHIDS",
+                                                                                   "Board of Revision of Taxes- BRT",
+                                                                                   "City Commissioners Office",
+                                                                                   "City Controller",
+                                                                                   "City Council",
+                                                                                   "City Planning Commission",
+                                                                                   "City Representative",
+                                                                                   "City Treasurer\u0027s Office",
+                                                                                   "Commerce Department",
+                                                                                   "Community Life Improvement Program",
+                                                                                   "Department of Human Services- DHS",
+                                                                                   "Department of Public Health",
+                                                                                   "Department of Records",
+                                                                                   "Directory Assistance",
+                                                                                   "District Attorney\u0027s Office",
+                                                                                   "Ethics Board",
+                                                                                   "Fair Housing Commission",
+                                                                                   "Fire Department",
+                                                                                   "First Judicial District/Courts",
+                                                                                   "Fleet Management",
+                                                                                   "Free Library",
+                                                                                   "Health Department",
+                                                                                   "Historical Commission",
+                                                                                   "Human Relations Commission",
+                                                                                   "Law Department/ City Solicitor",
+                                                                                   "License \u0026 Inspections",
+                                                                                   "Managing Director\u0027s Office- MDO",
+                                                                                   "Mayor’s Office of Black Male Engagement - MOBME",
+                                                                                   "Mayors Office",
+                                                                                   "Mayor\u0027s Office",
+                                                                                   "Mayor\u0027s Office of Reintegration Services for Ex-Offenders (R.I.S.E.)",
+                                                                                   "Mayor\u0027s Office of Transportation and Utilities- MOTU",
+                                                                                   "Office of Adult Education- OAE",
+                                                                                   "Office of Arts, Culture \u0026 Creative Economy- OACCE",
+                                                                                   "Office of Economic Opportunity- OEO",
+                                                                                   "Office of Emergency Management- OEM",
+                                                                                   "Office of Homeless Services",
+                                                                                   "Office of Homeless Services - OHS",
+                                                                                   "Office of Housing \u0026 Community Development- OHCD",
+                                                                                   "Office of Human Resources- OHR",
+                                                                                   "Office of Information \u0026 Technology",
+                                                                                   "Office of Innovation and Technology- OIT",
+                                                                                   "Office of LGBT Affairs",
+                                                                                   "Office of Property Assessment- OPA",
+                                                                                   "Office of Supportive Housing- OSH",
+                                                                                   "Office of the Director of Finance",
+                                                                                   "Office of the Inspector General",
+                                                                                   "Parks \u0026 Recreation",
+                                                                                   "Philadelphia Housing Authority- PHA",
+                                                                                   "Philadelphia Housing Development Corporation- PHDC",
+                                                                                   "Philadelphia International Airport",
+                                                                                   "Philadelphia Parking Authority- PPA",
+                                                                                   "Philadelphia Redevelopment Authority- PRA",
+                                                                                   "Philly311 Contact Center",
+                                                                                   "Police Department",
+                                                                                   "Prisons",
+                                                                                   "Probation/Parole",
+                                                                                   "Procurement Department",
+                                                                                   "Public Property",
+                                                                                   "Register of Wills/ Orphans Court",
+                                                                                   "Revenue",
+                                                                                   "Sheriff\u0027s Department",
+                                                                                   "State/Federal Government Offices",
+                                                                                   "Streets Department",
+                                                                                   "Water Department (PWD)",
+                                                                                   "Water Revenue"
+                                                                               ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "Washington, DC",
+                       "directory_source":  "https://catalog.data.gov/dataset/311-city-service-requests-in-2025",
+                       "reviewed_endpoint":  "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/ServiceRequests/FeatureServer/18",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "SERVICETYPECODEDESCRIPTION":  [
+                                                                                           "311- Call Center",
+                                                                                           "311- Emergencies",
+                                                                                           "Adjudication Services",
+                                                                                           "Department of Buildings (DOB)",
+                                                                                           "Department of Energy and Environment",
+                                                                                           "Department of Transportation",
+                                                                                           "DFHV - Department of For-Hire Vehicles",
+                                                                                           "DOH- Department Of Health",
+                                                                                           "Driver Vehicle Services",
+                                                                                           "FEMS",
+                                                                                           "FEMS-Smoke Alarms",
+                                                                                           "FEMS-Special Events",
+                                                                                           "PEMA- Parking Enforcement Management Administration",
+                                                                                           "Serve DC",
+                                                                                           "SIOD",
+                                                                                           "SNOW",
+                                                                                           "SWMA- Solid Waste Management Administration",
+                                                                                           "SWMA- Solid Waste Management Admistration",
+                                                                                           "Toa- Trans Sys Mnt",
+                                                                                           "Toa-Street \u0026 Bridge Maintenance",
+                                                                                           "Transportation Operations Administration",
+                                                                                           "Transportation Policy \u0026 Planning Administration",
+                                                                                           "Urban Forrestry"
+                                                                                       ],
+                                                        "ORGANIZATIONACRONYM":  [
+                                                                                    "DC Water",
+                                                                                    "DDOT",
+                                                                                    "DFHV",
+                                                                                    "DGS",
+                                                                                    "DMOI",
+                                                                                    "DMV",
+                                                                                    "DOB",
+                                                                                    "DOEE",
+                                                                                    "DOH",
+                                                                                    "DPW",
+                                                                                    "FEMS",
+                                                                                    "ORM",
+                                                                                    "OUC",
+                                                                                    "Serve DC"
+                                                                                ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "Houston",
+                       "directory_source":  "https://houstontx.gov/311/servicerequestdata.html",
+                       "reviewed_endpoint":  "https://hfdapp.houstontx.gov/311/311-CRIS-Public-Data-Extract-D365-MTD-compressed.txt",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "Division":  [
+                                                                         "Capital Projects",
+                                                                         "Capitol Improvement Planning",
+                                                                         "Collections",
+                                                                         "Community Code Enforcement",
+                                                                         "Customer Account Services",
+                                                                         "Customer Escalation",
+                                                                         "Environmental Health",
+                                                                         "Facilities and Maintenance",
+                                                                         "Fire Prevention",
+                                                                         "Forestry",
+                                                                         "General Support Services",
+                                                                         "Graffiti",
+                                                                         "Greenspace Management",
+                                                                         "Houston Permitting Center",
+                                                                         "Houston Water",
+                                                                         "Mental Health",
+                                                                         "Occupancy",
+                                                                         "Parking Enforcement",
+                                                                         "Parking Meter Maintenance",
+                                                                         "Public Information Office",
+                                                                         "Railroad",
+                                                                         "Recreation Operations",
+                                                                         "Recycling",
+                                                                         "Regulatory Permitting",
+                                                                         "Security Management",
+                                                                         "Transportation Drainage Operations"
+                                                                     ],
+                                                        "Department":  [
+                                                                           "Administration and Regulatory Affairs",
+                                                                           "External Referral",
+                                                                           "Finance",
+                                                                           "General Services",
+                                                                           "Health",
+                                                                           "Houston Fire Department",
+                                                                           "Houston Police Department",
+                                                                           "Parking Management",
+                                                                           "Parks and Recreation",
+                                                                           "Public Works",
+                                                                           "Solid Waste Management"
+                                                                       ]
+                                                    },
+                       "limitations":  [
+                                           "Reviewed Department and Division in the current monthly extract (25010 parsed rows)."
+                                       ]
+                   },
+                   {
+                       "city":  "Austin",
+                       "directory_source":  "https://catalog.data.gov/dataset/311-service-requests-austin-transportation-and-public-works",
+                       "reviewed_endpoint":  "https://data.austintexas.gov/resource/38mr-dwji.json",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "department":  [
+                                                                           "Austin Transportation and Public Works",
+                                                                           "Public Works",
+                                                                           "Transportation",
+                                                                           "Transportation and Public Works"
+                                                                       ]
+                                                    },
+                       "limitations":  [
+                                           "Linked feed is limited to Transportation and Public Works."
+                                       ]
+                   },
+                   {
+                       "city":  "San Diego",
+                       "directory_source":  "https://data.sandiego.gov/datasets/get-it-done-reports/",
+                       "reviewed_endpoint":  null,
+                       "status":  "Official data dictionary reviewed; no explicit named agency field",
+                       "agency_or_routing_values":  {
+
+                                                    },
+                       "limitations":  [
+                                           "case_record_type is a responsible staff-group code. Download failed because of an expired server TLS certificate; agency names were not inferred from service types."
+                                       ]
+                   },
+                   {
+                       "city":  "Cincinnati",
+                       "directory_source":  "https://data.cincinnati-oh.gov/Efficient-Service-Delivery/Cincinnati-311-Non-Emergency-Service-Requests/gcej-gmiw",
+                       "reviewed_endpoint":  "https://data.cincinnati-oh.gov/resource/gcej-gmiw.json",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "dept_code":  [
+
+                                                                      ],
+                                                        "dept_name":  [
+
+                                                                      ],
+                                                        "propty_city_dept_owner":  [
+
+                                                                                   ],
+                                                        "dept_division":  [
+
+                                                                          ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "Nashville",
+                       "directory_source":  "https://data.nashville.gov/maps/Nashville%3A%3Ahubnashville-311-service-requests-current-year/about",
+                       "reviewed_endpoint":  "https://services2.arcgis.com/HdTo6HJqh92wn4D8/arcgis/rest/services/hubNashville_311_Service_Requests_Current_Year_view/FeatureServer/0",
+                       "status":  "Schema reviewed; no explicit responsible agency field",
+                       "agency_or_routing_values":  {
+
+                                                    },
+                       "limitations":  [
+                                           "Current-year feed publishes request categories rather than responsible department names."
+                                       ]
+                   },
+                   {
+                       "city":  "Oakland",
+                       "directory_source":  "https://data.oaklandca.gov/Infrastructure/Service-requests-received-by-the-Oakland-Call-Cent/quth-gb8e",
+                       "reviewed_endpoint":  "https://data.oaklandca.gov/resource/quth-gb8e.json",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "reqcategory":  [
+                                                                            "ABANDONED AUTO",
+                                                                            "BLDGMAINT",
+                                                                            "CUT_CLEAN",
+                                                                            "CW_DIT_GIS",
+                                                                            "DRAINAGE",
+                                                                            "ELECTRICAL",
+                                                                            "ENVIRON_ENF",
+                                                                            "FIRE",
+                                                                            "GRAFFITI",
+                                                                            "HE_CLEAN",
+                                                                            "HOMELESS EMT",
+                                                                            "ILLDUMP",
+                                                                            "KOCB",
+                                                                            "METER_REPAIR",
+                                                                            "OTHER",
+                                                                            "PARKING",
+                                                                            "PARKS",
+                                                                            "POLICE",
+                                                                            "RECYCLING",
+                                                                            "ROW_INSPECTORS",
+                                                                            "ROW_STREETSW",
+                                                                            "SEWERS",
+                                                                            "SIDESHOWS",
+                                                                            "STEWARDSHIP",
+                                                                            "STREETSW",
+                                                                            "SURVEY",
+                                                                            "TRAFFIC",
+                                                                            "TRAFFIC_ENGIN",
+                                                                            "TREES",
+                                                                            "WATERSHED"
+                                                                        ],
+                                                        "referredto":  [
+                                                                           "ACPWA, CREEKS",
+                                                                           "ALAMEDA COUNTY MOSQUITO ABATE,",
+                                                                           "ALAMEDA COUNTY VECTOR CONTROL,",
+                                                                           "AT\u0026T,",
+                                                                           "BART, BAY AREA RAPID",
+                                                                           "BATTISTE JR., HARRY",
+                                                                           "Bay View, Biohazard",
+                                                                           "BID, LAKE MERRITT UP",
+                                                                           "BRADLEY III, GERALD L",
+                                                                           "CALING, JONATHAN",
+                                                                           "CITY OF OAKLAND, REAL ESTATE",
+                                                                           "CODE ENFORCEMENT,",
+                                                                           "EAST BAY REGIONAL PARKS, EBRPD",
+                                                                           "EBMUD,",
+                                                                           "EVANS, CHARLIE",
+                                                                           "FIRE, BLUEDOTS",
+                                                                           "GARCIA, CESAR A",
+                                                                           "HARVEY, ISAAC",
+                                                                           "HAYES, MARK",
+                                                                           "ITD, HELPDESK",
+                                                                           "KNIGHT, JOSEPH C",
+                                                                           "KNOWLAND, PARK MAINTENANC",
+                                                                           "LAKE MERRITT INSTITUTE,",
+                                                                           "LAWRENCE, JOSEPH C",
+                                                                           "LAWSEN, TOD H",
+                                                                           "Legacy Restoration, Cleanups",
+                                                                           "LOZANO, ARMANDO A",
+                                                                           "MABRY, GLENN L",
+                                                                           "Moon, Jamaica",
+                                                                           "MOORE, DAVID",
+                                                                           "Nuisance Food Vendor, Complaints",
+                                                                           "NUISANCE, ABATEMENT",
+                                                                           "OAKLAND ANIMAL SERVICES,",
+                                                                           "OAKLAND HOUSING AUTHORITY,",
+                                                                           "OAKLAND SCHOOLS MAINTENANCE,",
+                                                                           "OPD ABANDONED AUTOS, BOATS IN WATER",
+                                                                           "OPD ABANDONED AUTOS, PRIVATE",
+                                                                           "OPD CALLER CALL OPD AT, (510) 777-3333",
+                                                                           "OPR, REPRESENTATIVE",
+                                                                           "OPW CAPITAL - CONSTRUCTION, (DANNY LAU)",
+                                                                           "PARKING ABANDONED AUTOS, PUBLIC",
+                                                                           "PARKING, PCT_MultipleVeh",
+                                                                           "PARKING, PCT_NoN",
+                                                                           "PARKING, PCT_Not-NoN",
+                                                                           "PARKING, REFUND",
+                                                                           "PELIZZARI, MATT",
+                                                                           "PG\u0026E,",
+                                                                           "PORT OF OAKLAND MAINTENANCE,",
+                                                                           "Rodriguez, Elmer",
+                                                                           "ROW, EBMUD_CONCRETE",
+                                                                           "ROW_SHOES, AT\u0026T",
+                                                                           "ROW_SHOES, COMCAST",
+                                                                           "ROW_SHOES, PG\u0026E",
+                                                                           "ROWE, TYRONE",
+                                                                           "SANCHEZ, VICTOR",
+                                                                           "SHINE, MAYONAH",
+                                                                           "SUPERVISOR, FIRE \u0026 WATERSHEDS,",
+                                                                           "SUPERVISOR, HE_MACRO, RE-ENCAMPMENT",
+                                                                           "THOMAS, DWAYNE A",
+                                                                           "Toungett, Sean",
+                                                                           "TSE, RAYMOND",
+                                                                           "UNION PACIFIC RAILWAY,",
+                                                                           "USPS,",
+                                                                           "WALKER, ALONZO",
+                                                                           "Wilson, Tyrone"
+                                                                       ]
+                                                    },
+                       "limitations":  [
+                                           "Reviewed referredto and reqcategory in a 10000-record sample; referredto includes individual assignees and external organizations."
+                                       ]
+                   },
+                   {
+                       "city":  "Pittsburgh",
+                       "directory_source":  "https://data.wprdc.org/dataset/pittsburgh-311-data",
+                       "reviewed_endpoint":  "https://data.wprdc.org",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "case_owner":  [
+                                                                           "311",
+                                                                           "311/Management",
+                                                                           "911",
+                                                                           "ACHD",
+                                                                           "ACHD - Food Safety",
+                                                                           "ACHD - Housing",
+                                                                           "Allegheny City Electric",
+                                                                           "Animal Care \u0026 Control",
+                                                                           "Animal Care and Control",
+                                                                           "CitiParks",
+                                                                           "City Planning",
+                                                                           "City Planning - Bicycles/Pedestrian traffic",
+                                                                           "City Planning - Disabilities",
+                                                                           "City Planning - Residential Permit Parking Program",
+                                                                           "County DPW",
+                                                                           "Crossing Guards",
+                                                                           "DEPRECATED - DPW Emerald Park Division",
+                                                                           "DEPRECATED - DPW Frick Park",
+                                                                           "DEPRECATED - DPW McKinley Park Division",
+                                                                           "DEPRECATED - DPW Schenley Park Division",
+                                                                           "DEPRECATED - PWSA Dispatch",
+                                                                           "DOMI - Asphalt",
+                                                                           "DOMI - Construction",
+                                                                           "DOMI - Mgmt",
+                                                                           "DOMI - Permits",
+                                                                           "DOMI - Planning",
+                                                                           "DOMI - ROW",
+                                                                           "DOMI - Streets",
+                                                                           "DOMI - Structures",
+                                                                           "DOMI - Telecoms",
+                                                                           "DOMI - Traffic",
+                                                                           "DOMI - Traffic Permits",
+                                                                           "DOMI - Traffic Shop",
+                                                                           "DOMI - TrafficPermits",
+                                                                           "DOMI - TrafficShop",
+                                                                           "DPW",
+                                                                           "DPW - 2nd Division",
+                                                                           "DPW - Administration",
+                                                                           "DPW - Construction",
+                                                                           "DPW - Construction Division",
+                                                                           "DPW - Environmental Enforcement",
+                                                                           "DPW - Facilities",
+                                                                           "DPW - Forestry Division",
+                                                                           "DPW - Park Maintenance",
+                                                                           "DPW - Parks Maintenance",
+                                                                           "DPW - Permits",
+                                                                           "DPW - Refuse",
+                                                                           "DPW - Street Maintenance",
+                                                                           "DPW Admin",
+                                                                           "DPW Environmental Services",
+                                                                           "DPW ES Enforcement",
+                                                                           "DPW Street Maintenance 1st Division",
+                                                                           "DPW Street Maintenance 2nd Division",
+                                                                           "DPW Street Maintenance 3rd Division",
+                                                                           "DPW Street Maintenance 4th Division",
+                                                                           "DPW Street Maintenance 5th Division",
+                                                                           "DPW Street Maintenance and DOMI",
+                                                                           "EMS",
+                                                                           "EMS - Administration",
+                                                                           "EMS - Billing",
+                                                                           "Excessive Noise/Disturbances",
+                                                                           "Finance",
+                                                                           "Fire",
+                                                                           "Fire Bureau",
+                                                                           "Friends of the Riverfront",
+                                                                           "Gateway Outdoor",
+                                                                           "HACP",
+                                                                           "Homeless Outreach",
+                                                                           "I\u0026P",
+                                                                           "Innovation \u0026 Performance",
+                                                                           "Mayor\u0027s Office",
+                                                                           "Mayor\u0027s Office - Community Affairs",
+                                                                           "OCHS",
+                                                                           "OEP",
+                                                                           "Office of Equal Protection",
+                                                                           "OMI",
+                                                                           "Park Rangers",
+                                                                           "Parking Authority",
+                                                                           "Parks \u0026 Recs-Programs",
+                                                                           "PCSC",
+                                                                           "Permits, Licenses and Inspections",
+                                                                           "Pittsburgh Regional Transit",
+                                                                           "Pittsburgh Water and Sewer Authority",
+                                                                           "PLI",
+                                                                           "PLI - OPS",
+                                                                           "Police - AVU",
+                                                                           "Police - Narcotics",
+                                                                           "Police - SDD",
+                                                                           "Police - Support Services",
+                                                                           "Police - Zones 1-6",
+                                                                           "Police ABDV",
+                                                                           "Police Narc Vice",
+                                                                           "Police Night Watch",
+                                                                           "Police Zone 1",
+                                                                           "Police Zone 2",
+                                                                           "Police Zone 3",
+                                                                           "Police Zone 4",
+                                                                           "Police Zone 5",
+                                                                           "Police Zone 6",
+                                                                           "Police Zones 1-6",
+                                                                           "Port Authority Transit",
+                                                                           "PPA",
+                                                                           "PRT",
+                                                                           "Public Maintenance 6",
+                                                                           "Public Safety",
+                                                                           "PWSA",
+                                                                           "Real Estate",
+                                                                           "Sargent Electric",
+                                                                           "School Guards",
+                                                                           "Special Events",
+                                                                           "URA",
+                                                                           "X311 Chat"
+                                                                       ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "Charlotte",
+                       "directory_source":  "https://gis.charlottenc.gov/arcgis/rest/services/ODP/ServiceRequests311/MapServer/0",
+                       "reviewed_endpoint":  "https://gis.charlottenc.gov/arcgis/rest/services/ODP/ServiceRequests311/MapServer/0",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "DIVISION":  [
+                                                                         "311 Partner Liaison",
+                                                                         "311 Supervisors",
+                                                                         "311 Utility Escalation",
+                                                                         "Animal Control",
+                                                                         "Building Maintenance",
+                                                                         "Business Garb",
+                                                                         "Carts - Otto",
+                                                                         "Carts - Otto HOTTIC",
+                                                                         "CDOT Customer Service",
+                                                                         "City Council",
+                                                                         "Clt Comm \u0026 Marketing",
+                                                                         "Community Relations",
+                                                                         "CWP Escalation Team",
+                                                                         "CWP Resolution Team",
+                                                                         "Economic Development",
+                                                                         "Environmental Health/Cnty",
+                                                                         "Fleet Mgt/City",
+                                                                         "HNS Code Enforcement",
+                                                                         "HNS Community Engagement",
+                                                                         "HNS Escalated Requests",
+                                                                         "HNS Non -Residential",
+                                                                         "Homeless Support Outreach",
+                                                                         "Human Resources/Cnty",
+                                                                         "Innovation \u0026 Technology",
+                                                                         "IT/County",
+                                                                         "Land Development/City",
+                                                                         "Land Use \u0026 Env Serv/Cnty",
+                                                                         "Landscape Manage./City",
+                                                                         "Multifamily (Bulky)",
+                                                                         "Multifamily (Garb / Recy)",
+                                                                         "Non-Emergency Police Svcs",
+                                                                         "Office of CIO",
+                                                                         "Park and Recreation/Cnty",
+                                                                         "Park It",
+                                                                         "Public Serv. \u0026 Info/Cnty",
+                                                                         "Revenue/City",
+                                                                         "Risk Management/City",
+                                                                         "Sanitation",
+                                                                         "Solid Waste Admin",
+                                                                         "Special Services",
+                                                                         "Storm Water- City",
+                                                                         "Storm Water- County",
+                                                                         "Street Maintenance",
+                                                                         "Subdivisions",
+                                                                         "SW Addresses",
+                                                                         "SW ContMonitor CARTS",
+                                                                         "SW Contract Monitors",
+                                                                         "SW Multi-Family",
+                                                                         "SW Technology",
+                                                                         "SWS Carts Admin",
+                                                                         "SWS Cust Svc Liaison Team",
+                                                                         "Tax Assessor Office",
+                                                                         "Tax Office",
+                                                                         "Transit/Facilities",
+                                                                         "Transit/Marketing",
+                                                                         "Transit/Operations",
+                                                                         "UMS - Billing Team",
+                                                                         "UMS - Customer Service",
+                                                                         "UT-Administration",
+                                                                         "UT-Billing",
+                                                                         "UT-Customer Service",
+                                                                         "UT-Engineering",
+                                                                         "UT-Field Operations",
+                                                                         "UT-Lab Services",
+                                                                         "UT-Water Quality"
+                                                                     ],
+                                                        "DEPARTMENT":  [
+                                                                           "Aviation",
+                                                                           "Char Business Inclusion",
+                                                                           "City Attorney",
+                                                                           "City Clerk",
+                                                                           "City Manager",
+                                                                           "Cnty Mngr./ Commissioners",
+                                                                           "Eng \u0026 Prop Mgmt/City",
+                                                                           "Finance/City",
+                                                                           "Fire/City",
+                                                                           "Health Dept/Cnty",
+                                                                           "Housing and NBHD Serv",
+                                                                           "Human Resources/City",
+                                                                           "Mayor",
+                                                                           "Mecklenburg County",
+                                                                           "NCDOT",
+                                                                           "Planning/City",
+                                                                           "Police",
+                                                                           "Procurement/City",
+                                                                           "Shared Services",
+                                                                           "Solid Waste Services",
+                                                                           "Storm Water Services",
+                                                                           "Strategy and Budget",
+                                                                           "Transit",
+                                                                           "Transportation",
+                                                                           "UT-Utilities"
+                                                                       ],
+                                                        "CMPD_DIVISION":  [
+                                                                              "CENTRAL",
+                                                                              "EASTWAY",
+                                                                              "FREEDOM",
+                                                                              "HICKORY GROVE",
+                                                                              "INDEPENDENCE",
+                                                                              "METRO",
+                                                                              "NORTH",
+                                                                              "NORTH TRYON",
+                                                                              "PROVIDENCE",
+                                                                              "SOUTH",
+                                                                              "STEELE CREEK",
+                                                                              "UNIVERSITY CITY",
+                                                                              "WESTOVER"
+                                                                          ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "Baltimore",
+                       "directory_source":  "https://services1.arcgis.com/UWYHeuuJISiGmgXx/ArcGIS/rest/services/311_Customer_Service_Requests_current/FeatureServer",
+                       "reviewed_endpoint":  "https://services1.arcgis.com/UWYHeuuJISiGmgXx/ArcGIS/rest/services/311_Customer_Service_Requests_current/FeatureServer/0",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "Agency":  [
+                                                                       "BGE",
+                                                                       "City Council",
+                                                                       "ECC",
+                                                                       "Finance",
+                                                                       "Fire Department",
+                                                                       "General Services",
+                                                                       "Health",
+                                                                       "Housing",
+                                                                       "Liquor Board",
+                                                                       "Parking Authority",
+                                                                       "Public Works",
+                                                                       "Recreation \u0026 Parks",
+                                                                       "Solid Waste",
+                                                                       "Transportation",
+                                                                       "Water Wastewater"
+                                                                   ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "Baton Rouge",
+                       "directory_source":  "https://data.brla.gov/Government/311-Citizen-Requests-for-Service/7ixm-mnvx",
+                       "reviewed_endpoint":  "https://data.brla.gov/resource/7ixm-mnvx.json",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "division":  [
+
+                                                                     ],
+                                                        "department":  [
+
+                                                                       ],
+                                                        "deptdiv":  [
+
+                                                                    ],
+                                                        "deptdivid":  [
+
+                                                                      ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   },
+                   {
+                       "city":  "New Orleans",
+                       "directory_source":  "https://data.nola.gov/City-Administration/311-OPCD-Calls-2012-Present-/2jgv-pqrq",
+                       "reviewed_endpoint":  "https://data.nola.gov/resource/2jgv-pqrq.json",
+                       "status":  "Agency or routing values reviewed",
+                       "agency_or_routing_values":  {
+                                                        "responsible_agency":  [
+
+                                                                               ]
+                                                    },
+                       "limitations":  [
+
+                                       ]
+                   }
+               ]
+}

@@ -1,0 +1,3972 @@
+[
+  {
+    "city": "New York City",
+    "source": "https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9",
+    "title": "311 Service Requests from 2020 to Present",
+    "columns": [
+      "unique_key",
+      "created_date",
+      "closed_date",
+      "agency",
+      "agency_name",
+      "complaint_type",
+      "descriptor",
+      "descriptor_2",
+      "location_type",
+      "incident_zip",
+      "incident_address",
+      "street_name",
+      "cross_street_1",
+      "cross_street_2",
+      "intersection_street_1",
+      "intersection_street_2",
+      "address_type",
+      "city",
+      "landmark",
+      "facility_type",
+      "status",
+      "due_date",
+      "resolution_description",
+      "resolution_action_updated_date",
+      "community_board",
+      "council_district",
+      "police_precinct",
+      "bbl",
+      "borough",
+      "x_coordinate_state_plane",
+      "y_coordinate_state_plane",
+      "open_data_channel_type",
+      "park_facility_name",
+      "park_borough",
+      "vehicle_type",
+      "taxi_company_borough",
+      "taxi_pick_up_location",
+      "bridge_highway_name",
+      "bridge_highway_direction",
+      "road_ramp",
+      "bridge_highway_segment",
+      "latitude",
+      "longitude",
+      "location"
+    ],
+    "agency_fields": [
+      "agency",
+      "agency_name"
+    ],
+    "values": {},
+    "endpoint": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+    "status": "Error",
+    "error": "HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=50)"
+  },
+  {
+    "city": "Chicago",
+    "source": "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy",
+    "title": "311 Service Requests",
+    "columns": [
+      "sr_number",
+      "sr_type",
+      "sr_short_code",
+      "created_department",
+      "owner_department",
+      "status",
+      "origin",
+      "created_date",
+      "last_modified_date",
+      "closed_date",
+      "street_address",
+      "city",
+      "state",
+      "zip_code",
+      "street_number",
+      "street_direction",
+      "street_name",
+      "street_type",
+      "duplicate",
+      "legacy_record",
+      "legacy_sr_number",
+      "parent_sr_number",
+      "community_area",
+      "ward",
+      "electrical_district",
+      "electricity_grid",
+      "police_sector",
+      "police_district",
+      "police_beat",
+      "precinct",
+      "sanitation_division_days",
+      "created_hour",
+      "created_day_of_week",
+      "created_month",
+      "x_coordinate",
+      "y_coordinate",
+      "latitude",
+      "longitude",
+      "location"
+    ],
+    "agency_fields": [
+      "created_department",
+      "owner_department",
+      "sanitation_division_days"
+    ],
+    "values": {},
+    "endpoint": "https://data.cityofchicago.org/resource/v6vf-nfxy.json",
+    "status": "Error",
+    "error": "HTTPSConnectionPool(host='data.cityofchicago.org', port=443): Read timed out. (read timeout=50)"
+  },
+  {
+    "city": "Los Angeles",
+    "source": "https://data.lacity.org/City-Infrastructure-Service-Requests/MyLA311-Service-Request-Data-2025/h73f-gn57",
+    "title": "MyLA311 Service Request Data 2025",
+    "columns": [
+      "srnumber",
+      "createddate",
+      "updateddate",
+      "actiontaken",
+      "owner",
+      "requesttype",
+      "status",
+      "requestsource",
+      "createdbyuserorganization",
+      "mobileos",
+      "anonymous",
+      "assignto",
+      "servicedate",
+      "closeddate",
+      "addressverified",
+      "approximateaddress",
+      "address",
+      "housenumber",
+      "direction",
+      "streetname",
+      "suffix",
+      "zipcode",
+      "latitude",
+      "longitude",
+      "location",
+      "tbmpage",
+      "tbmcolumn",
+      "tbmrow",
+      "apc",
+      "cd",
+      "cdmember",
+      "nc",
+      "ncname",
+      "policeprecinct"
+    ],
+    "agency_fields": [
+      "owner"
+    ],
+    "values": {
+      "owner": [
+        {
+          "owner": "LASAN",
+          "records": "266914"
+        },
+        {
+          "owner": "OCB",
+          "records": "138326"
+        },
+        {
+          "owner": "BSL",
+          "records": "14509"
+        },
+        {
+          "owner": "ITA",
+          "records": "2851"
+        },
+        {
+          "owner": "LADWP",
+          "records": "358"
+        },
+        {
+          "owner": "BSS",
+          "records": "56"
+        },
+        {
+          "owner": "RAP",
+          "records": "28"
+        },
+        {
+          "owner": "LADOT",
+          "records": "6"
+        },
+        {
+          "owner": "LADBS",
+          "records": "2"
+        },
+        {
+          "owner": "LAAS",
+          "records": "2"
+        },
+        {
+          "owner": "",
+          "records": "1"
+        }
+      ]
+    },
+    "endpoint": "https://data.lacity.org/resource/h73f-gn57.json",
+    "status": "Reviewed"
+  },
+  {
+    "city": "San Francisco",
+    "source": "https://data.sf.gov/d/vw6y-z8j6",
+    "title": "311 Cases",
+    "columns": [
+      "service_request_id",
+      "requested_datetime",
+      "closed_date",
+      "updated_datetime",
+      "status_description",
+      "status_notes",
+      "agency_responsible",
+      "service_name",
+      "service_subtype",
+      "service_details",
+      "address",
+      "street",
+      "supervisor_district",
+      "neighborhoods_sffind_boundaries",
+      "analysis_neighborhood",
+      "police_district",
+      "lat",
+      "long",
+      "point",
+      "point_geom",
+      "source",
+      "media_url",
+      "bos_2012",
+      "data_as_of",
+      "data_loaded_at"
+    ],
+    "agency_fields": [
+      "agency_responsible"
+    ],
+    "values": {
+      "agency_responsible": [
+        {
+          "agency_responsible": "DPW Ops Queue",
+          "records": "2612393"
+        },
+        {
+          "agency_responsible": "Recology_Abandoned",
+          "records": "967361"
+        },
+        {
+          "agency_responsible": "PW - Street and Environmental Services",
+          "records": "625434"
+        },
+        {
+          "agency_responsible": "Parking Enforcement Dispatch Queue",
+          "records": "414960"
+        },
+        {
+          "agency_responsible": "MTA - Parking Enforcement Dispatch",
+          "records": "332463"
+        },
+        {
+          "agency_responsible": "DPT Abandoned Vehicles Work Queue",
+          "records": "302737"
+        },
+        {
+          "agency_responsible": "Recology_Overflowing",
+          "records": "283177"
+        },
+        {
+          "agency_responsible": "Recology - Abandoned",
+          "records": "276906"
+        },
+        {
+          "agency_responsible": "DPW BSM Queue",
+          "records": "200951"
+        },
+        {
+          "agency_responsible": "MUNI Work Queue",
+          "records": "173381"
+        },
+        {
+          "agency_responsible": "Recology - Overflowing",
+          "records": "145368"
+        },
+        {
+          "agency_responsible": "311 Supervisor Queue",
+          "records": "124894"
+        },
+        {
+          "agency_responsible": "PUC Sewer Ops",
+          "records": "123959"
+        },
+        {
+          "agency_responsible": "DPT Meter_Bike Queue",
+          "records": "111499"
+        },
+        {
+          "agency_responsible": "HSOC Queue",
+          "records": "108950"
+        },
+        {
+          "agency_responsible": "Healthy Streets Operation Center",
+          "records": "92169"
+        },
+        {
+          "agency_responsible": "Duplicate Case Hold Queue",
+          "records": "91198"
+        },
+        {
+          "agency_responsible": "Housing Authority SR Queue",
+          "records": "74457"
+        },
+        {
+          "agency_responsible": "Clear Channel - Transit Queue",
+          "records": "73656"
+        },
+        {
+          "agency_responsible": "MTA - Abandoned Vehicles Work",
+          "records": "59582"
+        },
+        {
+          "agency_responsible": "SFMTA - Parking Enforcement - G",
+          "records": "59226"
+        },
+        {
+          "agency_responsible": "Muni Feedback Received Queue",
+          "records": "54548"
+        },
+        {
+          "agency_responsible": "PW - Street Use and Mapping",
+          "records": "54251"
+        },
+        {
+          "agency_responsible": "DPW BSSR Queue",
+          "records": "54177"
+        },
+        {
+          "agency_responsible": "SSP - MTA Feedback Queue",
+          "records": "52746"
+        },
+        {
+          "agency_responsible": "DPT SignShop Queue",
+          "records": "48385"
+        },
+        {
+          "agency_responsible": "PUC Streetlights Queue",
+          "records": "44526"
+        },
+        {
+          "agency_responsible": "Parking Enforcement Review Queue",
+          "records": "43130"
+        },
+        {
+          "agency_responsible": "US Postal Service Maintenance Queue",
+          "records": "42558"
+        },
+        {
+          "agency_responsible": "PUC - Water - G",
+          "records": "41243"
+        },
+        {
+          "agency_responsible": "PG and E - Streetlights Queue",
+          "records": "40495"
+        },
+        {
+          "agency_responsible": "Healthy Streets Operation Center - Individual",
+          "records": "38815"
+        },
+        {
+          "agency_responsible": "DPH - Environmental Health - G",
+          "records": "37381"
+        },
+        {
+          "agency_responsible": "MTA - Muni Feedback Received",
+          "records": "36848"
+        },
+        {
+          "agency_responsible": "MTA - Access/Mobility Services Received",
+          "records": "34297"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Street Environmental Services - G",
+          "records": "33834"
+        },
+        {
+          "agency_responsible": "Police - Homeless Concerns Queue",
+          "records": "32895"
+        },
+        {
+          "agency_responsible": "311 Service Request Queue - Hold",
+          "records": "32195"
+        },
+        {
+          "agency_responsible": "PW - Urban Forestry",
+          "records": "28059"
+        },
+        {
+          "agency_responsible": "311 - Supervisor",
+          "records": "26863"
+        },
+        {
+          "agency_responsible": "Noise Report",
+          "records": "26058"
+        },
+        {
+          "agency_responsible": "Recology_Litter",
+          "records": "25173"
+        },
+        {
+          "agency_responsible": "Noise Report Queue",
+          "records": "24424"
+        },
+        {
+          "agency_responsible": "MTA - Parking Enforcement",
+          "records": "20989"
+        },
+        {
+          "agency_responsible": "MTA - Sign Shop",
+          "records": "20430"
+        },
+        {
+          "agency_responsible": "CBD - Tenderloin",
+          "records": "20246"
+        },
+        {
+          "agency_responsible": "HSOC Individual Queue",
+          "records": "19841"
+        },
+        {
+          "agency_responsible": "RPD GGP Queue",
+          "records": "19625"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Street Use and Mapping - G",
+          "records": "19533"
+        },
+        {
+          "agency_responsible": "Tenderloin CBD Queue",
+          "records": "18489"
+        },
+        {
+          "agency_responsible": "PUC - Sewer Ops",
+          "records": "18337"
+        },
+        {
+          "agency_responsible": "DPT Signal Queue",
+          "records": "17956"
+        },
+        {
+          "agency_responsible": "DBI Housing Inspection Queue",
+          "records": "17763"
+        },
+        {
+          "agency_responsible": "SFMTA - Access/Mobility Services Received Queue",
+          "records": "17494"
+        },
+        {
+          "agency_responsible": "RPD NSA Queue",
+          "records": "17459"
+        },
+        {
+          "agency_responsible": "AT and T - Graffiti Queue",
+          "records": "16856"
+        },
+        {
+          "agency_responsible": "SF311 AI Routing Queue",
+          "records": "16383"
+        },
+        {
+          "agency_responsible": "311 Service Request Queue",
+          "records": "15604"
+        },
+        {
+          "agency_responsible": "DPT Color Curb Queue",
+          "records": "15267"
+        },
+        {
+          "agency_responsible": "SFMTA - Temporary Sign Request Queue",
+          "records": "15126"
+        },
+        {
+          "agency_responsible": "DPT Paint Shop Queue",
+          "records": "15055"
+        },
+        {
+          "agency_responsible": "DPW BUF Queue",
+          "records": "14705"
+        },
+        {
+          "agency_responsible": "DPT SignShop Surveyed - Area 2 Queue",
+          "records": "13939"
+        },
+        {
+          "agency_responsible": "DPT SignShop Surveyed - Area 1 Queue",
+          "records": "13605"
+        },
+        {
+          "agency_responsible": "US Postal Service Maintenance",
+          "records": "13293"
+        },
+        {
+          "agency_responsible": "DPT Construction Zone Permits Queue",
+          "records": "13013"
+        },
+        {
+          "agency_responsible": "Clear Channel - Transit",
+          "records": "12675"
+        },
+        {
+          "agency_responsible": "SFMTA - Temporary Sign Request Printing Queue",
+          "records": "12275"
+        },
+        {
+          "agency_responsible": "Animal Care and Control - G",
+          "records": "11983"
+        },
+        {
+          "agency_responsible": "Duplicate Case Hold",
+          "records": "11710"
+        },
+        {
+          "agency_responsible": "Recology - Litter",
+          "records": "11415"
+        },
+        {
+          "agency_responsible": "DPT - Other - G",
+          "records": "11170"
+        },
+        {
+          "agency_responsible": "RPD Park Service Area 1 Queue",
+          "records": "10380"
+        },
+        {
+          "agency_responsible": "RPD Park Service Area 6 Queue",
+          "records": "10364"
+        },
+        {
+          "agency_responsible": "PUC - Water - Graffiti Queue",
+          "records": "9954"
+        },
+        {
+          "agency_responsible": "MTA - Parking Meter Shop",
+          "records": "9597"
+        },
+        {
+          "agency_responsible": "DBI Inspection Services Queue",
+          "records": "9523"
+        },
+        {
+          "agency_responsible": "CBD - SoMa West",
+          "records": "9480"
+        },
+        {
+          "agency_responsible": "DPH Environmental Health",
+          "records": "9352"
+        },
+        {
+          "agency_responsible": "RPD - PSA",
+          "records": "9188"
+        },
+        {
+          "agency_responsible": "RPD Park Service Area 3 Queue",
+          "records": "9085"
+        },
+        {
+          "agency_responsible": "RPD Park Service Area 2 Queue",
+          "records": "8930"
+        },
+        {
+          "agency_responsible": "PW - Street and Sewer Repair",
+          "records": "8784"
+        },
+        {
+          "agency_responsible": "DBI Building Inspection Queue",
+          "records": "8735"
+        },
+        {
+          "agency_responsible": "RPD Park Patrol Queue",
+          "records": "8445"
+        },
+        {
+          "agency_responsible": "RPD TMA Queue",
+          "records": "7991"
+        },
+        {
+          "agency_responsible": "RPD - GGP",
+          "records": "7978"
+        },
+        {
+          "agency_responsible": "RPD Graffiti Queue",
+          "records": "7971"
+        },
+        {
+          "agency_responsible": "DBI - Housing Inspection",
+          "records": "7874"
+        },
+        {
+          "agency_responsible": "PUC - Streetlights",
+          "records": "7640"
+        },
+        {
+          "agency_responsible": "MTA - Paint Shop",
+          "records": "7559"
+        },
+        {
+          "agency_responsible": "Entertainment Commission - G",
+          "records": "7398"
+        },
+        {
+          "agency_responsible": "DPT - Traffic Signal - G",
+          "records": "6496"
+        },
+        {
+          "agency_responsible": "ATT - Graffiti",
+          "records": "6409"
+        },
+        {
+          "agency_responsible": "SFMTA - Scooter Queue",
+          "records": "6346"
+        },
+        {
+          "agency_responsible": "PUC - Water",
+          "records": "6344"
+        },
+        {
+          "agency_responsible": "SFMTA - Transportation Engineering Queue",
+          "records": "6344"
+        },
+        {
+          "agency_responsible": "Shared Spaces Queue",
+          "records": "6295"
+        },
+        {
+          "agency_responsible": "RPD Park Service Area 4 Queue",
+          "records": "6295"
+        },
+        {
+          "agency_responsible": "SoMa West CBD Queue",
+          "records": "6278"
+        },
+        {
+          "agency_responsible": "DPT SignShop Repair Queue",
+          "records": "5951"
+        },
+        {
+          "agency_responsible": "Port Authority - G",
+          "records": "5894"
+        },
+        {
+          "agency_responsible": "DPT - Color Curb - G",
+          "records": "5849"
+        },
+        {
+          "agency_responsible": "RPD Park Service Area 5 Queue",
+          "records": "5811"
+        },
+        {
+          "agency_responsible": "Rent Board - Fee and Housing Inventory",
+          "records": "5407"
+        },
+        {
+          "agency_responsible": "SFMTA - Citations/Resident Parking Permits - G",
+          "records": "5091"
+        },
+        {
+          "agency_responsible": "DPH - Office of Vital Records - G",
+          "records": "5066"
+        },
+        {
+          "agency_responsible": "PUC - Water Graffiti",
+          "records": "4890"
+        },
+        {
+          "agency_responsible": "RPD - TMA",
+          "records": "4851"
+        },
+        {
+          "agency_responsible": "PUC - Electric/Power - G",
+          "records": "4640"
+        },
+        {
+          "agency_responsible": "SFMTA - Livable Streets Queue",
+          "records": "4629"
+        },
+        {
+          "agency_responsible": "Shared Spaces",
+          "records": "4567"
+        },
+        {
+          "agency_responsible": "Entertainment Commission",
+          "records": "4326"
+        },
+        {
+          "agency_responsible": "CBD - Yerba Buena",
+          "records": "4324"
+        },
+        {
+          "agency_responsible": "311 Escalated KB Questions Queue",
+          "records": "4227"
+        },
+        {
+          "agency_responsible": "MTA - Traffic Signal",
+          "records": "4221"
+        },
+        {
+          "agency_responsible": "Planning - G",
+          "records": "3982"
+        },
+        {
+          "agency_responsible": "DPW IDC Queue",
+          "records": "3818"
+        },
+        {
+          "agency_responsible": "SFMTA - G",
+          "records": "3798"
+        },
+        {
+          "agency_responsible": "RPD - Park Service Area 2",
+          "records": "3555"
+        },
+        {
+          "agency_responsible": "MTA - OPS Received (Do Not Reallocate)",
+          "records": "3531"
+        },
+        {
+          "agency_responsible": "City Attorney - G",
+          "records": "3343"
+        },
+        {
+          "agency_responsible": "DBI Support Services Queue",
+          "records": "3314"
+        },
+        {
+          "agency_responsible": "SFFD Bureau of Fire Prevention Queue",
+          "records": "3239"
+        },
+        {
+          "agency_responsible": "SFMTA - Muni System Feedback Queue",
+          "records": "3205"
+        },
+        {
+          "agency_responsible": "DPT - Construction Permits - G",
+          "records": "3175"
+        },
+        {
+          "agency_responsible": "PGE - Streetlights",
+          "records": "3125"
+        },
+        {
+          "agency_responsible": "MTA - Transportation Engineering",
+          "records": "2979"
+        },
+        {
+          "agency_responsible": "311 - Service Request Hold",
+          "records": "2978"
+        },
+        {
+          "agency_responsible": "RPD - Park Service Area 1",
+          "records": "2943"
+        },
+        {
+          "agency_responsible": "Mayors Office of Neighborhood Services - G",
+          "records": "2880"
+        },
+        {
+          "agency_responsible": "DPT SignShop 05 Queue",
+          "records": "2819"
+        },
+        {
+          "agency_responsible": "RPD Natural Areas Queue",
+          "records": "2756"
+        },
+        {
+          "agency_responsible": "PUC - Sewer - G",
+          "records": "2751"
+        },
+        {
+          "agency_responsible": "DPT SignShop 08 Queue",
+          "records": "2669"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Urban Forestry - G",
+          "records": "2664"
+        },
+        {
+          "agency_responsible": "RPD - Park Patrol",
+          "records": "2647"
+        },
+        {
+          "agency_responsible": "Fire Hydrant Maintenance Queue",
+          "records": "2535"
+        },
+        {
+          "agency_responsible": "DPT Paint Shop Curb Queue",
+          "records": "2514"
+        },
+        {
+          "agency_responsible": "DPH - Environmental Health - Noise Queue",
+          "records": "2504"
+        },
+        {
+          "agency_responsible": "DPH - Environmental Health - HazWaste Queue",
+          "records": "2389"
+        },
+        {
+          "agency_responsible": "Yerba Buena CBD Queue",
+          "records": "2378"
+        },
+        {
+          "agency_responsible": "PUC Water Quality Queue",
+          "records": "2360"
+        },
+        {
+          "agency_responsible": "Rent Board - G",
+          "records": "2333"
+        },
+        {
+          "agency_responsible": "Recology_Noise",
+          "records": "2330"
+        },
+        {
+          "agency_responsible": "DBI - Building Inspection",
+          "records": "2299"
+        },
+        {
+          "agency_responsible": "Police Department Administration - G",
+          "records": "2298"
+        },
+        {
+          "agency_responsible": "CBD - Downtown",
+          "records": "2219"
+        },
+        {
+          "agency_responsible": "RPD - Park Service Area 4",
+          "records": "2204"
+        },
+        {
+          "agency_responsible": "RPD - Park Service Area 6",
+          "records": "2179"
+        },
+        {
+          "agency_responsible": "MTA - Sign Shop High Priority",
+          "records": "2169"
+        },
+        {
+          "agency_responsible": "SFMTA - Bicycle Sharing Operations Queue",
+          "records": "2070"
+        },
+        {
+          "agency_responsible": "SFMTA - Bicycle Sharing Queue",
+          "records": "2019"
+        },
+        {
+          "agency_responsible": "SSP - MTA General Complaints Queue",
+          "records": "1947"
+        },
+        {
+          "agency_responsible": "Healthy Streets Operation Center - DSS",
+          "records": "1898"
+        },
+        {
+          "agency_responsible": "DPH - Other - G",
+          "records": "1892"
+        },
+        {
+          "agency_responsible": "DBI - Inspection Services",
+          "records": "1831"
+        },
+        {
+          "agency_responsible": "MTA - Livable Streets",
+          "records": "1831"
+        },
+        {
+          "agency_responsible": "Animal Care and Control - Dead Animal",
+          "records": "1810"
+        },
+        {
+          "agency_responsible": "RPD - Park Service Area 3",
+          "records": "1797"
+        },
+        {
+          "agency_responsible": "Police - Homeless Concerns",
+          "records": "1787"
+        },
+        {
+          "agency_responsible": "SFMTA - OPS Received (Internal Use Only)",
+          "records": "1761"
+        },
+        {
+          "agency_responsible": "DPT SignShop 01 Queue",
+          "records": "1749"
+        },
+        {
+          "agency_responsible": "DPW - Other - G",
+          "records": "1716"
+        },
+        {
+          "agency_responsible": "RPD - Park Service Area 5",
+          "records": "1680"
+        },
+        {
+          "agency_responsible": "PW - Infrastructure Design and Construction",
+          "records": "1645"
+        },
+        {
+          "agency_responsible": "MTA - Signal",
+          "records": "1622"
+        },
+        {
+          "agency_responsible": "Technology - G",
+          "records": "1577"
+        },
+        {
+          "agency_responsible": "DPT SignShop 09 Queue",
+          "records": "1560"
+        },
+        {
+          "agency_responsible": "DPH - Environmental Health - Tobacco Queue",
+          "records": "1505"
+        },
+        {
+          "agency_responsible": "Fire Hydrant Maintenance",
+          "records": "1452"
+        },
+        {
+          "agency_responsible": "MTA - Autonomous Vehicles Complaints",
+          "records": "1449"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Street and Sewer Repair - G",
+          "records": "1437"
+        },
+        {
+          "agency_responsible": "SFFD Other Queue",
+          "records": "1426"
+        },
+        {
+          "agency_responsible": "SFMTA - Off-Street Parking Queue",
+          "records": "1423"
+        },
+        {
+          "agency_responsible": "Port Authority",
+          "records": "1360"
+        },
+        {
+          "agency_responsible": "DPT SignShop 03 Queue",
+          "records": "1346"
+        },
+        {
+          "agency_responsible": "DPT SignShop 07 Queue",
+          "records": "1320"
+        },
+        {
+          "agency_responsible": "Downtown CBD Queue",
+          "records": "1318"
+        },
+        {
+          "agency_responsible": "DPT SignShop 06 Queue",
+          "records": "1310"
+        },
+        {
+          "agency_responsible": "PUC - Billing",
+          "records": "1306"
+        },
+        {
+          "agency_responsible": "DPT - Meters - G",
+          "records": "1258"
+        },
+        {
+          "agency_responsible": "DPT SignShop 11 Queue",
+          "records": "1214"
+        },
+        {
+          "agency_responsible": "MTA - Color Curb",
+          "records": "1161"
+        },
+        {
+          "agency_responsible": "PW - Building Repair",
+          "records": "1149"
+        },
+        {
+          "agency_responsible": "DBI Permit Services Queue",
+          "records": "1122"
+        },
+        {
+          "agency_responsible": "DPT SignShop 04 Queue",
+          "records": "1110"
+        },
+        {
+          "agency_responsible": "DPH Environmental Health - Noise",
+          "records": "1095"
+        },
+        {
+          "agency_responsible": "SFMTA - SFpark Queue",
+          "records": "1021"
+        },
+        {
+          "agency_responsible": "HSOC PHC Queue",
+          "records": "996"
+        },
+        {
+          "agency_responsible": "311 - Content Team",
+          "records": "977"
+        },
+        {
+          "agency_responsible": "SFFD - Bureau of Fire Prevention",
+          "records": "977"
+        },
+        {
+          "agency_responsible": "SFFD Support Services Queue",
+          "records": "977"
+        },
+        {
+          "agency_responsible": "SFMTA - Temporary Sign Request Installation/Enforcement Queue",
+          "records": "977"
+        },
+        {
+          "agency_responsible": "SFMTA - UPI/TDM Queue",
+          "records": "957"
+        },
+        {
+          "agency_responsible": "DPT SignShop 02 Queue",
+          "records": "950"
+        },
+        {
+          "agency_responsible": "Recology - Noise",
+          "records": "918"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - Clerk of the Board - G",
+          "records": "914"
+        },
+        {
+          "agency_responsible": "RPD Public Affairs Queue",
+          "records": "911"
+        },
+        {
+          "agency_responsible": "East Cut CBD Queue",
+          "records": "903"
+        },
+        {
+          "agency_responsible": "DPT - Bicycle - G",
+          "records": "899"
+        },
+        {
+          "agency_responsible": "MTA - Citations/RPP",
+          "records": "878"
+        },
+        {
+          "agency_responsible": "PUC - Water Quality Report",
+          "records": "876"
+        },
+        {
+          "agency_responsible": "DPT SignShop 10 Queue",
+          "records": "852"
+        },
+        {
+          "agency_responsible": "SFMTA - Traffic Calming Queue",
+          "records": "850"
+        },
+        {
+          "agency_responsible": "311 - Service Request",
+          "records": "836"
+        },
+        {
+          "agency_responsible": "RPD - Natural Areas",
+          "records": "793"
+        },
+        {
+          "agency_responsible": "HSOC Vehicle Queue",
+          "records": "787"
+        },
+        {
+          "agency_responsible": "Art Commission - G",
+          "records": "766"
+        },
+        {
+          "agency_responsible": "MTA - Temporary Sign Request Printing",
+          "records": "748"
+        },
+        {
+          "agency_responsible": "Mayors Office on Disability - G",
+          "records": "741"
+        },
+        {
+          "agency_responsible": "RPD Urban Forestry Queue",
+          "records": "739"
+        },
+        {
+          "agency_responsible": "DPH - Homeless Outreach Team - G",
+          "records": "718"
+        },
+        {
+          "agency_responsible": "DPH Environmental Health - Food Borne Illness",
+          "records": "703"
+        },
+        {
+          "agency_responsible": "PUC - Other - G",
+          "records": "702"
+        },
+        {
+          "agency_responsible": "Fire Department - G",
+          "records": "689"
+        },
+        {
+          "agency_responsible": "MTA - Abandoned Vehicles Callback Requests",
+          "records": "674"
+        },
+        {
+          "agency_responsible": "DBI - Others - G",
+          "records": "666"
+        },
+        {
+          "agency_responsible": "MTA - Taxi Complaints Normal",
+          "records": "654"
+        },
+        {
+          "agency_responsible": "Animal Care and Control",
+          "records": "642"
+        },
+        {
+          "agency_responsible": "Triage - TTX Queue",
+          "records": "629"
+        },
+        {
+          "agency_responsible": "DBI - Public Services",
+          "records": "623"
+        },
+        {
+          "agency_responsible": "HSH - Homeless Outreach Team",
+          "records": "605"
+        },
+        {
+          "agency_responsible": "PUC - Water Waste - Water Queue",
+          "records": "596"
+        },
+        {
+          "agency_responsible": "DPT Paint Shop Transit Queue",
+          "records": "591"
+        },
+        {
+          "agency_responsible": "Human Resources - G",
+          "records": "577"
+        },
+        {
+          "agency_responsible": "RPD Neighborhood Service Area 7 Queue",
+          "records": "553"
+        },
+        {
+          "agency_responsible": "Technology Wifi Support/Feedback - G",
+          "records": "553"
+        },
+        {
+          "agency_responsible": "HSH - Housing and Homeless - G",
+          "records": "551"
+        },
+        {
+          "agency_responsible": "Planning",
+          "records": "547"
+        },
+        {
+          "agency_responsible": "District Attorney - G",
+          "records": "509"
+        },
+        {
+          "agency_responsible": "SFMTA - Temporary Sign Program - G",
+          "records": "506"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Building Repair - Police/ Fire Call Box",
+          "records": "505"
+        },
+        {
+          "agency_responsible": "PUC - Billing - G",
+          "records": "487"
+        },
+        {
+          "agency_responsible": "DPT - Sign Shop - G",
+          "records": "484"
+        },
+        {
+          "agency_responsible": "SFMTA - Residential Parking Permit Program Queue",
+          "records": "461"
+        },
+        {
+          "agency_responsible": "Graffiti Abatement - Internal Queue",
+          "records": "442"
+        },
+        {
+          "agency_responsible": "DPT Color Curb Payment Received Queue",
+          "records": "436"
+        },
+        {
+          "agency_responsible": "311 Manager Queue",
+          "records": "434"
+        },
+        {
+          "agency_responsible": "MTA - Parking and Curb Management",
+          "records": "410"
+        },
+        {
+          "agency_responsible": "Environment - G",
+          "records": "410"
+        },
+        {
+          "agency_responsible": "{DEPRECATED - DO NOT USE} PW - Building Repair",
+          "records": "409"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Building Repair",
+          "records": "409"
+        },
+        {
+          "agency_responsible": "Rent Board",
+          "records": "399"
+        },
+        {
+          "agency_responsible": "HSA - Other - G",
+          "records": "399"
+        },
+        {
+          "agency_responsible": "SFMTA - Muni Questions/Suggestions - G",
+          "records": "391"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - Clerk of the Board",
+          "records": "389"
+        },
+        {
+          "agency_responsible": "RPD Capital Queue",
+          "records": "387"
+        },
+        {
+          "agency_responsible": "Taxi Commission - G",
+          "records": "384"
+        },
+        {
+          "agency_responsible": "Aging and Adult Services - G",
+          "records": "377"
+        },
+        {
+          "agency_responsible": "311 Escalation Review Queue",
+          "records": "369"
+        },
+        {
+          "agency_responsible": "Face Covering Report Queue",
+          "records": "364"
+        },
+        {
+          "agency_responsible": "MTA - PaintTheCity Utility Boxes",
+          "records": "363"
+        },
+        {
+          "agency_responsible": "Technology - Wifi Support/Feedback",
+          "records": "353"
+        },
+        {
+          "agency_responsible": "DPT SignShop Survey Tech - Anthony Alonzo Queue",
+          "records": "353"
+        },
+        {
+          "agency_responsible": "PUC - Water Waste",
+          "records": "353"
+        },
+        {
+          "agency_responsible": "PUC - Electric/Power - G - Hold",
+          "records": "353"
+        },
+        {
+          "agency_responsible": "DBI Electrical Inspection Queue",
+          "records": "350"
+        },
+        {
+          "agency_responsible": "DPH Environmental Health - Tobacco",
+          "records": "346"
+        },
+        {
+          "agency_responsible": "RecPark Work Queue",
+          "records": "333"
+        },
+        {
+          "agency_responsible": "TAXI Complaints Normal Queue",
+          "records": "332"
+        },
+        {
+          "agency_responsible": "RPD Neighborhood Service Area 8 Queue",
+          "records": "329"
+        },
+        {
+          "agency_responsible": "Elections - G",
+          "records": "329"
+        },
+        {
+          "agency_responsible": "SFMTA - Abandoned Vehicles - G",
+          "records": "317"
+        },
+        {
+          "agency_responsible": "Mayors Office on Housing - G",
+          "records": "312"
+        },
+        {
+          "agency_responsible": "RPD Community Gardens Queue",
+          "records": "292"
+        },
+        {
+          "agency_responsible": "DPH - EH - Food Borne Illness",
+          "records": "291"
+        },
+        {
+          "agency_responsible": "Controller - G",
+          "records": "288"
+        },
+        {
+          "agency_responsible": "RPD Permits Queue",
+          "records": "285"
+        },
+        {
+          "agency_responsible": "DPW Hotspot Queue",
+          "records": "283"
+        },
+        {
+          "agency_responsible": "PUC - Other",
+          "records": "276"
+        },
+        {
+          "agency_responsible": "Good Neighbor Policy",
+          "records": "275"
+        },
+        {
+          "agency_responsible": "Small Business - G",
+          "records": "274"
+        },
+        {
+          "agency_responsible": "RPD Golf Queue",
+          "records": "272"
+        },
+        {
+          "agency_responsible": "MTA - Traffic Calming",
+          "records": "272"
+        },
+        {
+          "agency_responsible": "Office of Citizens Complaints - G",
+          "records": "270"
+        },
+        {
+          "agency_responsible": "RPD Leisure Services Queue",
+          "records": "268"
+        },
+        {
+          "agency_responsible": "Library, Public - G",
+          "records": "264"
+        },
+        {
+          "agency_responsible": "RPD - Other - G",
+          "records": "264"
+        },
+        {
+          "agency_responsible": "RPD - Structural Maintenance - G",
+          "records": "260"
+        },
+        {
+          "agency_responsible": "Healthy Streets Operation Center - Vehicle",
+          "records": "256"
+        },
+        {
+          "agency_responsible": "DPW Work Queue",
+          "records": "249"
+        },
+        {
+          "agency_responsible": "PUC Streetlights Hold Queue",
+          "records": "247"
+        },
+        {
+          "agency_responsible": "DPT SignShop Survey Tech - Patrick O'Malley Daly Queue",
+          "records": "246"
+        },
+        {
+          "agency_responsible": "DPH - Homeless Outreach Team  - G",
+          "records": "245"
+        },
+        {
+          "agency_responsible": "PUC Electric Service Queue",
+          "records": "241"
+        },
+        {
+          "agency_responsible": "RPD - Park Service Area 7",
+          "records": "241"
+        },
+        {
+          "agency_responsible": "Real Estate Department - G",
+          "records": "240"
+        },
+        {
+          "agency_responsible": "DPW Other Queue",
+          "records": "239"
+        },
+        {
+          "agency_responsible": "DPT SignShop",
+          "records": "236"
+        },
+        {
+          "agency_responsible": "DPT SignShop Survey Tech - Sean Philpott Queue",
+          "records": "231"
+        },
+        {
+          "agency_responsible": "DPT SignShop Unknown Queue",
+          "records": "224"
+        },
+        {
+          "agency_responsible": "DPH - Office of Vital Records",
+          "records": "224"
+        },
+        {
+          "agency_responsible": "Labor Standards Enforcement - G",
+          "records": "223"
+        },
+        {
+          "agency_responsible": "Japantown CBD Queue",
+          "records": "215"
+        },
+        {
+          "agency_responsible": "DPH - Community Health Network - G",
+          "records": "214"
+        },
+        {
+          "agency_responsible": "City Hall Events - G",
+          "records": "213"
+        },
+        {
+          "agency_responsible": "Economic and Workforce Development - G",
+          "records": "207"
+        },
+        {
+          "agency_responsible": "Short Term Rentals - G",
+          "records": "202"
+        },
+        {
+          "agency_responsible": "Human Rights Commission - G",
+          "records": "201"
+        },
+        {
+          "agency_responsible": "PUC - Water Quality",
+          "records": "201"
+        },
+        {
+          "agency_responsible": "SFFD - Other",
+          "records": "198"
+        },
+        {
+          "agency_responsible": "DPT SignShop Survey Tech - Dave McLaughlin Queue",
+          "records": "196"
+        },
+        {
+          "agency_responsible": "DBI Plumbing Inspection Queue",
+          "records": "195"
+        },
+        {
+          "agency_responsible": "Mayors Office of Community Development - G",
+          "records": "193"
+        },
+        {
+          "agency_responsible": "SSP - MTA Lost and Found Queue",
+          "records": "189"
+        },
+        {
+          "agency_responsible": "DBI - Permit Services",
+          "records": "188"
+        },
+        {
+          "agency_responsible": "SFMTA - Citations/Resident Parking Permits - Accounting",
+          "records": "184"
+        },
+        {
+          "agency_responsible": "Port Authority - Temporary Sign Request Queue",
+          "records": "180"
+        },
+        {
+          "agency_responsible": "MTA - Citations/RPP Accounting",
+          "records": "180"
+        },
+        {
+          "agency_responsible": "City Hall Building Management - G",
+          "records": "178"
+        },
+        {
+          "agency_responsible": "RPD - Park Service Area 9",
+          "records": "178"
+        },
+        {
+          "agency_responsible": "Sheriff - G",
+          "records": "176"
+        },
+        {
+          "agency_responsible": "311 SSP Inbound QA Queue",
+          "records": "174"
+        },
+        {
+          "agency_responsible": "DPT Paint Shop Pavement Queue",
+          "records": "174"
+        },
+        {
+          "agency_responsible": "311 - Mobile",
+          "records": "174"
+        },
+        {
+          "agency_responsible": "Office of Cannabis",
+          "records": "174"
+        },
+        {
+          "agency_responsible": "RPD - Public Affairs",
+          "records": "160"
+        },
+        {
+          "agency_responsible": "City Administrator/General Services Agency - G",
+          "records": "158"
+        },
+        {
+          "agency_responsible": "Contract Administration - G",
+          "records": "153"
+        },
+        {
+          "agency_responsible": "Mayors Office - Neighborhood Services",
+          "records": "150"
+        },
+        {
+          "agency_responsible": "DPH - Other",
+          "records": "148"
+        },
+        {
+          "agency_responsible": "CCC - Community Branch",
+          "records": "147"
+        },
+        {
+          "agency_responsible": "MUNI - Transit Effectiveness Project - G",
+          "records": "146"
+        },
+        {
+          "agency_responsible": "PUC - Electric Power",
+          "records": "144"
+        },
+        {
+          "agency_responsible": "Office on Disability and Accessibility",
+          "records": "142"
+        },
+        {
+          "agency_responsible": "Treasure Island Development Authority - G",
+          "records": "142"
+        },
+        {
+          "agency_responsible": "Film Commission - G",
+          "records": "134"
+        },
+        {
+          "agency_responsible": "Treasure Island Development Authority",
+          "records": "134"
+        },
+        {
+          "agency_responsible": "DPT SignShop Survey Tech - Winston Parkhurst Queue",
+          "records": "130"
+        },
+        {
+          "agency_responsible": "HSH - Housing and Homeless",
+          "records": "127"
+        },
+        {
+          "agency_responsible": "Central Shops - G",
+          "records": "121"
+        },
+        {
+          "agency_responsible": "RPD Property Management Queue",
+          "records": "119"
+        },
+        {
+          "agency_responsible": "Emergency Management",
+          "records": "119"
+        },
+        {
+          "agency_responsible": "Fishermans Wharf CBD Queue",
+          "records": "119"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Street Environmental Services - G - Hold",
+          "records": "117"
+        },
+        {
+          "agency_responsible": "PUC - Water - G - Hold",
+          "records": "117"
+        },
+        {
+          "agency_responsible": "RPD Recreation Registration Queue",
+          "records": "115"
+        },
+        {
+          "agency_responsible": "DPT SignShop Survey Tech - Houston Forrester Queue",
+          "records": "115"
+        },
+        {
+          "agency_responsible": "Animal Care and Control - Animal Welfare",
+          "records": "114"
+        },
+        {
+          "agency_responsible": "Airport, San Francisco International - G",
+          "records": "113"
+        },
+        {
+          "agency_responsible": "Animal Care and Control - Animal Emergency",
+          "records": "106"
+        },
+        {
+          "agency_responsible": "DBI - Permits - G",
+          "records": "103"
+        },
+        {
+          "agency_responsible": "Medical Examiner - G",
+          "records": "101"
+        },
+        {
+          "agency_responsible": "Emergency Management - G",
+          "records": "101"
+        },
+        {
+          "agency_responsible": "DPH - Environmental Health - G - Hold",
+          "records": "100"
+        },
+        {
+          "agency_responsible": "CBD - Japantown",
+          "records": "96"
+        },
+        {
+          "agency_responsible": "DPH - EH - Weights and Measures",
+          "records": "95"
+        },
+        {
+          "agency_responsible": "Art Commission",
+          "records": "92"
+        },
+        {
+          "agency_responsible": "HSA - Food Assistance - G",
+          "records": "91"
+        },
+        {
+          "agency_responsible": "MTA - Bicycle",
+          "records": "90"
+        },
+        {
+          "agency_responsible": "DPH Environmental Health - Solid Waste",
+          "records": "87"
+        },
+        {
+          "agency_responsible": "DBI Public Services Queue",
+          "records": "87"
+        },
+        {
+          "agency_responsible": "DPT Abandoned Vehicles Callback Requests Queue",
+          "records": "86"
+        },
+        {
+          "agency_responsible": "Demo",
+          "records": "84"
+        },
+        {
+          "agency_responsible": "Housing Authority SR Hold Queue",
+          "records": "82"
+        },
+        {
+          "agency_responsible": "Child Support Services - G",
+          "records": "79"
+        },
+        {
+          "agency_responsible": "Mayors Office Meeting Request Queue",
+          "records": "77"
+        },
+        {
+          "agency_responsible": "Mayors Office of Criminal Justice - G",
+          "records": "76"
+        },
+        {
+          "agency_responsible": "HSA - Housing and Homeless - G",
+          "records": "73"
+        },
+        {
+          "agency_responsible": "DPT - Other - G - Hold",
+          "records": "72"
+        },
+        {
+          "agency_responsible": "HSH - Waitlist Complaints Queue",
+          "records": "71"
+        },
+        {
+          "agency_responsible": "DPH Environmental Health - Weights and Measures",
+          "records": "71"
+        },
+        {
+          "agency_responsible": "Rec and Park",
+          "records": "69"
+        },
+        {
+          "agency_responsible": "DBI - Other",
+          "records": "69"
+        },
+        {
+          "agency_responsible": "DBI - Support Services",
+          "records": "68"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Building Repair - Bridge/ Plaza/ Tunnel",
+          "records": "67"
+        },
+        {
+          "agency_responsible": "PUC - Water Waste - Customer Service Queue",
+          "records": "67"
+        },
+        {
+          "agency_responsible": "Children, Youth and Families - G",
+          "records": "66"
+        },
+        {
+          "agency_responsible": "DBI - Electrical Inspection",
+          "records": "66"
+        },
+        {
+          "agency_responsible": "RPD - Golf",
+          "records": "66"
+        },
+        {
+          "agency_responsible": "SFMTA - Scooter Operations Queue",
+          "records": "62"
+        },
+        {
+          "agency_responsible": "Police Department Administration - G - Hold",
+          "records": "60"
+        },
+        {
+          "agency_responsible": "RPD Marina Queue",
+          "records": "60"
+        },
+        {
+          "agency_responsible": "RPD - Park Patrol - G",
+          "records": "59"
+        },
+        {
+          "agency_responsible": "SFMTA - Hearings - G",
+          "records": "59"
+        },
+        {
+          "agency_responsible": "HSA - Financial Assistance - G",
+          "records": "59"
+        },
+        {
+          "agency_responsible": "HSOC Review Queue",
+          "records": "58"
+        },
+        {
+          "agency_responsible": "RPD - Community Gardens",
+          "records": "58"
+        },
+        {
+          "agency_responsible": "Public Defender - G",
+          "records": "57"
+        },
+        {
+          "agency_responsible": "HSA - Other",
+          "records": "57"
+        },
+        {
+          "agency_responsible": "RPD - Permits",
+          "records": "56"
+        },
+        {
+          "agency_responsible": "City Attorney",
+          "records": "56"
+        },
+        {
+          "agency_responsible": "DPH Environmental Health - Lead",
+          "records": "54"
+        },
+        {
+          "agency_responsible": "PW - Other",
+          "records": "53"
+        },
+        {
+          "agency_responsible": "City Hall - Events",
+          "records": "52"
+        },
+        {
+          "agency_responsible": "SFFD - Support Services",
+          "records": "52"
+        },
+        {
+          "agency_responsible": "DPH - EH - Solid Waste",
+          "records": "51"
+        },
+        {
+          "agency_responsible": "City College - G",
+          "records": "50"
+        },
+        {
+          "agency_responsible": "RPD - Neighborhood Services - G",
+          "records": "49"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Street Use and Mapping - G - Hold",
+          "records": "49"
+        },
+        {
+          "agency_responsible": "CBD - East Cut",
+          "records": "49"
+        },
+        {
+          "agency_responsible": "DPH Environmental Health - HazWaste",
+          "records": "48"
+        },
+        {
+          "agency_responsible": "Ethics Commission - G",
+          "records": "47"
+        },
+        {
+          "agency_responsible": "Police Accountability - G",
+          "records": "46"
+        },
+        {
+          "agency_responsible": "DPT - Accessible Pedestrian Signal - G",
+          "records": "45"
+        },
+        {
+          "agency_responsible": "Elections",
+          "records": "44"
+        },
+        {
+          "agency_responsible": "Controller",
+          "records": "42"
+        },
+        {
+          "agency_responsible": "RPD - Urban Forestry - G",
+          "records": "41"
+        },
+        {
+          "agency_responsible": "HSA - Health Care Coverage - G",
+          "records": "41"
+        },
+        {
+          "agency_responsible": "DBI - Plumbing Inspection",
+          "records": "40"
+        },
+        {
+          "agency_responsible": "Real Estate Division - Alemany",
+          "records": "39"
+        },
+        {
+          "agency_responsible": "SSP - MTA ADA Complaints Queue",
+          "records": "38"
+        },
+        {
+          "agency_responsible": "Adult Probation - G",
+          "records": "38"
+        },
+        {
+          "agency_responsible": "Mayors Office - Disability",
+          "records": "38"
+        },
+        {
+          "agency_responsible": "TAXI Complaints High Queue",
+          "records": "36"
+        },
+        {
+          "agency_responsible": "Mayors Office - Housing",
+          "records": "36"
+        },
+        {
+          "agency_responsible": "SFMTA - Citations/Resident Parking Permits - G - Hold",
+          "records": "35"
+        },
+        {
+          "agency_responsible": "RPD Sports and Athletics Queue",
+          "records": "35"
+        },
+        {
+          "agency_responsible": "RPD Administration/Finance Queue",
+          "records": "35"
+        },
+        {
+          "agency_responsible": "Police Accountability",
+          "records": "33"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Street and Sewer Repair - G - Hold",
+          "records": "32"
+        },
+        {
+          "agency_responsible": "Environment",
+          "records": "32"
+        },
+        {
+          "agency_responsible": "MTA - Residential Parking Permit Program",
+          "records": "31"
+        },
+        {
+          "agency_responsible": "DPH - Homeless Outreach Team - G - Hold",
+          "records": "31"
+        },
+        {
+          "agency_responsible": "RPD - Capital",
+          "records": "30"
+        },
+        {
+          "agency_responsible": "HSA - Child Welfare and Family Support - G",
+          "records": "29"
+        },
+        {
+          "agency_responsible": "Redevelopment Agency - G",
+          "records": "28"
+        },
+        {
+          "agency_responsible": "MUNI - Transit Effectiveness Project - G - Hold",
+          "records": "28"
+        },
+        {
+          "agency_responsible": "MTA - Parking Enforcement Review",
+          "records": "27"
+        },
+        {
+          "agency_responsible": "SSP Inbound QA Queue",
+          "records": "26"
+        },
+        {
+          "agency_responsible": "RPD Cultural Arts Queue",
+          "records": "26"
+        },
+        {
+          "agency_responsible": "Real Estate Department",
+          "records": "26"
+        },
+        {
+          "agency_responsible": "DBI Plan Review Queue",
+          "records": "25"
+        },
+        {
+          "agency_responsible": "Status of Women - G",
+          "records": "25"
+        },
+        {
+          "agency_responsible": "HSOC Queue - Other Jurisdiction Hold",
+          "records": "24"
+        },
+        {
+          "agency_responsible": "Fire Department - G - Hold",
+          "records": "24"
+        },
+        {
+          "agency_responsible": "Film Commission",
+          "records": "23"
+        },
+        {
+          "agency_responsible": "Technology",
+          "records": "23"
+        },
+        {
+          "agency_responsible": "MTA - Taxi Compliments",
+          "records": "23"
+        },
+        {
+          "agency_responsible": "Mayors Office - Victim Rights",
+          "records": "22"
+        },
+        {
+          "agency_responsible": "{DEPRECATED - DO NOT USE} PUC - Water Waste CSB Field Inspection",
+          "records": "22"
+        },
+        {
+          "agency_responsible": "Short Term Rentals",
+          "records": "22"
+        },
+        {
+          "agency_responsible": "Clerk of the Board Queue - RCalonsag",
+          "records": "21"
+        },
+        {
+          "agency_responsible": "{DEPRECATED - DO NOT USE} DPH Environmental Health - HazWaste",
+          "records": "21"
+        },
+        {
+          "agency_responsible": "PUC - Sewer - G - Hold",
+          "records": "21"
+        },
+        {
+          "agency_responsible": "Language Services - G",
+          "records": "20"
+        },
+        {
+          "agency_responsible": "Travel Quarantine Report Queue",
+          "records": "20"
+        },
+        {
+          "agency_responsible": "DPT - Bicycle - G - Hold",
+          "records": "20"
+        },
+        {
+          "agency_responsible": "Mayors Office of Neighborhood Services - G - Hold",
+          "records": "20"
+        },
+        {
+          "agency_responsible": "RPD Community Services Queue",
+          "records": "20"
+        },
+        {
+          "agency_responsible": "HSA - Food Assistance",
+          "records": "19"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 3 - G",
+          "records": "19"
+        },
+        {
+          "agency_responsible": "DPW - Other - G - Hold",
+          "records": "18"
+        },
+        {
+          "agency_responsible": "DPH - Office of Vital Records - G - Hold",
+          "records": "18"
+        },
+        {
+          "agency_responsible": "Human Services Agency - G",
+          "records": "18"
+        },
+        {
+          "agency_responsible": "RPD - Property Management",
+          "records": "18"
+        },
+        {
+          "agency_responsible": "Port Authority - G - Hold",
+          "records": "17"
+        },
+        {
+          "agency_responsible": "311 Escalation Callback Queue",
+          "records": "17"
+        },
+        {
+          "agency_responsible": "SSP - MTA Compliments Queue",
+          "records": "17"
+        },
+        {
+          "agency_responsible": "311 - Manager",
+          "records": "17"
+        },
+        {
+          "agency_responsible": "Convention Facilities - G",
+          "records": "17"
+        },
+        {
+          "agency_responsible": "MTA - Taxi Complaints High",
+          "records": "17"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 8 - G",
+          "records": "17"
+        },
+        {
+          "agency_responsible": "CSP Escalation Review Queue",
+          "records": "16"
+        },
+        {
+          "agency_responsible": "MTA - SFpark",
+          "records": "16"
+        },
+        {
+          "agency_responsible": "Labor Standards Enforcement",
+          "records": "16"
+        },
+        {
+          "agency_responsible": "Aging and Adult Services - G - Hold",
+          "records": "16"
+        },
+        {
+          "agency_responsible": "HSH - Waitlist Complaints",
+          "records": "16"
+        },
+        {
+          "agency_responsible": "RPD - Sports and Athletics",
+          "records": "16"
+        },
+        {
+          "agency_responsible": "Environment - EV Site Nomination",
+          "records": "16"
+        },
+        {
+          "agency_responsible": "Economic and Workforce Development",
+          "records": "15"
+        },
+        {
+          "agency_responsible": "RPD - Aquatics",
+          "records": "15"
+        },
+        {
+          "agency_responsible": "DPH - Environmental Health - COVID-19",
+          "records": "15"
+        },
+        {
+          "agency_responsible": "TAXI Compliments Queue",
+          "records": "15"
+        },
+        {
+          "agency_responsible": "Animal Care and Control - G - Hold",
+          "records": "14"
+        },
+        {
+          "agency_responsible": "Office of Small Business",
+          "records": "14"
+        },
+        {
+          "agency_responsible": "RPD - Marina",
+          "records": "14"
+        },
+        {
+          "agency_responsible": "DBI - Permits",
+          "records": "14"
+        },
+        {
+          "agency_responsible": "DPT Abandoned Vehicles Pre-Tow Hearing Queue",
+          "records": "14"
+        },
+        {
+          "agency_responsible": "Library",
+          "records": "14"
+        },
+        {
+          "agency_responsible": "Medical Examiner",
+          "records": "13"
+        },
+        {
+          "agency_responsible": "Small Business",
+          "records": "13"
+        },
+        {
+          "agency_responsible": "SFMTA - Strategic Planning/Policy Queue",
+          "records": "13"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 5 - G",
+          "records": "13"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 6 - G",
+          "records": "12"
+        },
+        {
+          "agency_responsible": "Disability and Aging Services",
+          "records": "12"
+        },
+        {
+          "agency_responsible": "HSA - CalWorks - G",
+          "records": "12"
+        },
+        {
+          "agency_responsible": "Juvenile Probation - G",
+          "records": "12"
+        },
+        {
+          "agency_responsible": "HSA - Health Care Coverage",
+          "records": "12"
+        },
+        {
+          "agency_responsible": "War Memorial - G",
+          "records": "12"
+        },
+        {
+          "agency_responsible": "City Administrator",
+          "records": "11"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 9 - G",
+          "records": "11"
+        },
+        {
+          "agency_responsible": "{DEPRECATED - DO NOT USE} Technology",
+          "records": "11"
+        },
+        {
+          "agency_responsible": "RPD - Other - G - Hold",
+          "records": "11"
+        },
+        {
+          "agency_responsible": "City Hall - Building Management",
+          "records": "11"
+        },
+        {
+          "agency_responsible": "Office of Cannabis - Feedback",
+          "records": "10"
+        },
+        {
+          "agency_responsible": "Airport - SFO",
+          "records": "10"
+        },
+        {
+          "agency_responsible": "Lower Polk CBD Queue",
+          "records": "10"
+        },
+        {
+          "agency_responsible": "DPH - Environmental Health - Tobacco Queue - Hold",
+          "records": "10"
+        },
+        {
+          "agency_responsible": "TAXI Unpermitted Cab Complaints Queue",
+          "records": "10"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 4 - G",
+          "records": "10"
+        },
+        {
+          "agency_responsible": "Healthy Streets Operation Center - Review",
+          "records": "10"
+        },
+        {
+          "agency_responsible": "Clerk of the Board - Info Request Form Queue",
+          "records": "9"
+        },
+        {
+          "agency_responsible": "Asian Art Museum - G",
+          "records": "9"
+        },
+        {
+          "agency_responsible": "Human Resources",
+          "records": "9"
+        },
+        {
+          "agency_responsible": "Human Rights Commission",
+          "records": "9"
+        },
+        {
+          "agency_responsible": "311 Escalated KB Questions - Covid 19 Queue",
+          "records": "9"
+        },
+        {
+          "agency_responsible": "Clerk of the Board Queue - AGibson",
+          "records": "9"
+        },
+        {
+          "agency_responsible": "HSA - Employment and Job Training - G",
+          "records": "9"
+        },
+        {
+          "agency_responsible": "DPH Community Health Network",
+          "records": "9"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 10 - G",
+          "records": "8"
+        },
+        {
+          "agency_responsible": "DPH - Community Health Network - G - Hold",
+          "records": "8"
+        },
+        {
+          "agency_responsible": "DPT Paint Shop Hold Queue",
+          "records": "7"
+        },
+        {
+          "agency_responsible": "Mayors Office - Community Development",
+          "records": "7"
+        },
+        {
+          "agency_responsible": "Planning - G - Hold",
+          "records": "7"
+        },
+        {
+          "agency_responsible": "DPT - Meters - G - Hold",
+          "records": "7"
+        },
+        {
+          "agency_responsible": "{DEPRECATED - DO NOT USE} RPD - Leisure Services",
+          "records": "7"
+        },
+        {
+          "agency_responsible": "Complaint Follow Up Queue",
+          "records": "7"
+        },
+        {
+          "agency_responsible": "Adult Probation",
+          "records": "7"
+        },
+        {
+          "agency_responsible": "DPH - Other - G - Hold",
+          "records": "7"
+        },
+        {
+          "agency_responsible": "Healthy Streets Operation Center - Other Jurisdiction Hold",
+          "records": "7"
+        },
+        {
+          "agency_responsible": "RPD Partnerships Queue",
+          "records": "7"
+        },
+        {
+          "agency_responsible": "Technology - G - Hold",
+          "records": "6"
+        },
+        {
+          "agency_responsible": "RPD - Community Services",
+          "records": "6"
+        },
+        {
+          "agency_responsible": "SFMTA - Muni Questions/Suggestions - G - Hold",
+          "records": "6"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 1 - G",
+          "records": "6"
+        },
+        {
+          "agency_responsible": "DPH - EH - Agriculture",
+          "records": "6"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 2 - G",
+          "records": "6"
+        },
+        {
+          "agency_responsible": "DPH Environmental Health - Agriculture",
+          "records": "6"
+        },
+        {
+          "agency_responsible": "RPD Arboretum/Conservatory of Flowers Queue",
+          "records": "6"
+        },
+        {
+          "agency_responsible": "Board of Appeals (BOA) - G",
+          "records": "6"
+        },
+        {
+          "agency_responsible": "HSH - One Day Shelter Reservation Queue",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "DBI - Others - G - Hold",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "Contract - Administration",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "PUC - SCSR Queue",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "Human Rights Commission - G - Hold",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "Real Estate Department - G - Hold",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "HSA - Financial Assistance",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "HSA - Child Welfare and Family Support",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "RPD - Park Service Area 8",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "HSA - CalWorks",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "Environment - G - Hold",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "Sheriff",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "DPW - Bureau of Urban Forestry - G - Hold",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "311 - MTA Lost and Found Hold",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "TAXI Lost and Found Normal Queue",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "MTA - Hearings",
+          "records": "5"
+        },
+        {
+          "agency_responsible": "RPD - Cultural Arts",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "MTA - Accessible Pedestrian Signal",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 7 - G",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Mayors Office on Housing - G - Hold",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Current Events",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Ethics Commission",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Knowledge Solutions",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Taxi Commission - G - Hold",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "HSH - DOS Shelter",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Immigrant Rights Commission - G",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "PUC - Water Waste CSB Field Inspection",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Grants for the Arts - G",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "HSH - Shelter Waitlist",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Entertainment Commission - G - Hold",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Risk Management - G",
+          "records": "4"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 11 - G",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "Interaction Generic",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "PUC - SCSR",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "PUC - Other - G - Hold",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "RPD Planning Queue",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "SFGOV Work Request Queue",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "SFMTA - Abandoned Vehicles - G - Hold",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "Public Defender",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "DBI - Permits - G - Hold",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "TAXI Lost and Found High Queue",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "RPD - Leisure Services",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 6 - G - Hold",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "RPD Painters Queue",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "Child Support Services",
+          "records": "3"
+        },
+        {
+          "agency_responsible": "City Attorney - G - Hold",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Central Shops",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "War Memorial",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Mayors Office on Disability - G - Hold",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Police Department Admistration - G - Hold",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Medical Examiner - G - Hold",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Shared Spaces Received Queue",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Board of Appeals",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Asian Art Museum",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "311 - Rent Board Question Request",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "City Hall Events - G - Hold",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Small Business - G - Hold",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "HSA - Other - G - Hold",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "RPD - Recreation Registration",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "RPD - Structural Maintenance - G - Hold",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "BOS/Mayor Queue",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - Clerk of the Board - G - Hold",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "RPD - Arboretum/Conservatory of Flowers",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "{DEPRECATED - DO NOT USE} 311 - MTA Lost and Found Hold",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "HSA - Employment and Job Training",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "RPD - Administration/Finance",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Convention Facilities",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "RPD - Recreation Triage",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "DPH Environmental Health - HazWaste (do not reallocate)",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "TAXI Complaints Reallocate Queue - DO NOT USE",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "Customer Satisfaction Work Queue",
+          "records": "2"
+        },
+        {
+          "agency_responsible": "DPT - Sign Shop - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "RPD - Peace Parks and Pathways",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "RPD - Outdoor Rec",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "RPD - Neighborhood Services - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 7 - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "District Attorney - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 8 - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "RPD Cement Masons Queue",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Film Commission - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Rent Board - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Case Review",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Art Commission - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "HSH - Housing and Homeless - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "MTA - Employee Safety Reporting",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "HSH - Shelter Reservations Queue",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Real Estate Division Alemany",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Rapid Deploy Queue",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Airport, San Francisco International - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Queue Management",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "{DEPRECATED - DO NOT USE} Risk Management",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "EC Venue Permit Queue",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "City Administrator/General Services Agency - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Economic and Workforce Development - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Human Resources - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "City College - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "DPT - Accessible Pedestrian Signal - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "DBI - Plan Review",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Labor Standards Enforcement - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Clerk of the Board Queue - SWong",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "PUC - Billing - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Public Defender - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Library, Public - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "MTA - Bicycle Sharing",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "SSP Restaurant Pre-Screening Application Queue",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Status of Women",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Phone Outbound Queue",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Convention Facilities - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "MTA - Lost and Found Received",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Office of Citizens Complaints - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "MTA - Taxi Lost Found High",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Tent Count",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "MTA - Strategic Planning/Policy",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 1 - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 11 - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 10 - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 3 - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "Board of Supervisors - District 5 - G - Hold",
+          "records": "1"
+        },
+        {
+          "agency_responsible": "{DEPRECATED - DO NOT USE} Board of Supervisors / Mayor",
+          "records": "1"
+        }
+      ]
+    },
+    "endpoint": "https://data.sf.gov/resource/vw6y-z8j6.json",
+    "status": "Reviewed"
+  },
+  {
+    "city": "Seattle",
+    "source": "https://data.seattle.gov/City-Administration/Customer-Service-Requests/5ngg-rpne/about_data",
+    "title": "Customer Service Requests",
+    "columns": [
+      "servicerequestnumber",
+      "webintakeservicerequests",
+      "departmentname",
+      "createddate",
+      "methodreceivedname",
+      "servicerequeststatusname",
+      "location",
+      "x_value",
+      "y_value",
+      "latitude",
+      "longitude",
+      "latitude_longitude",
+      "zipcode",
+      "councildistrict",
+      "policeprecinct",
+      "community_reporting_area"
+    ],
+    "agency_fields": [
+      "departmentname"
+    ],
+    "values": {
+      "departmentname": [
+        {
+          "departmentname": "SPD-Seattle Police Department",
+          "records": "720215"
+        },
+        {
+          "departmentname": "SPU-Seattle Public Utilities",
+          "records": "559206"
+        },
+        {
+          "departmentname": "SDOT-Seattle Department of Transportation",
+          "records": "448889"
+        },
+        {
+          "departmentname": "FAS-Finance and Administrative Services",
+          "records": "347996"
+        },
+        {
+          "departmentname": "SEA-City of Seattle",
+          "records": "262401"
+        },
+        {
+          "departmentname": "SCL-Seattle City Light",
+          "records": "118338"
+        },
+        {
+          "departmentname": "SPR-Seattle Parks and Recreation",
+          "records": "91477"
+        },
+        {
+          "departmentname": "ITD-Seattle Information Technology",
+          "records": "10985"
+        },
+        {
+          "departmentname": "CTR-Seattle Center",
+          "records": "3964"
+        },
+        {
+          "departmentname": "Admin",
+          "records": "608"
+        },
+        {
+          "departmentname": "SPU-Clean City Division",
+          "records": "45"
+        }
+      ]
+    },
+    "endpoint": "https://data.seattle.gov/resource/5ngg-rpne.json",
+    "status": "Reviewed"
+  },
+  {
+    "city": "Denver",
+    "source": "https://opendata-geospatialdenver.hub.arcgis.com/datasets/311-service-requests/explore",
+    "status": "Non-Socrata source; inspect separately"
+  },
+  {
+    "city": "Boston",
+    "source": "https://data.cityofboston.gov/City-Services/Mayor-s-24-Hour-Hotline-Service-Requests/awu8-dc52",
+    "status": "Error",
+    "error": "404 Client Error: Not Found for url: https://www.cityofboston.gov/api/views/awu8-dc52.json"
+  },
+  {
+    "city": "Philadelphia",
+    "source": "https://opendataphilly.org/datasets/311-service-and-information-requests/",
+    "status": "Non-Socrata source; inspect separately"
+  },
+  {
+    "city": "Washington, DC",
+    "source": "https://catalog.data.gov/dataset/311-city-service-requests-in-2025",
+    "status": "Non-Socrata source; inspect separately"
+  },
+  {
+    "city": "Houston",
+    "source": "https://houstontx.gov/311/servicerequestdata.html",
+    "status": "Non-Socrata source; inspect separately"
+  },
+  {
+    "city": "Austin",
+    "source": "https://catalog.data.gov/dataset/311-service-requests-austin-transportation-and-public-works",
+    "status": "Non-Socrata source; inspect separately"
+  },
+  {
+    "city": "San Diego",
+    "source": "https://data.sandiego.gov/datasets/get-it-done-reports/",
+    "status": "Non-Socrata source; inspect separately"
+  },
+  {
+    "city": "Cincinnati",
+    "source": "https://data.cincinnati-oh.gov/Efficient-Service-Delivery/Cincinnati-311-Non-Emergency-Service-Requests/gcej-gmiw",
+    "title": "Cincinnati 311 (Non-Emergency) Service Requests",
+    "columns": [
+      "sr_number",
+      "user_id",
+      "sr_type",
+      "sr_type_desc",
+      "priority",
+      "group_id",
+      "group_title",
+      "group_desc",
+      "dept_code",
+      "dept_name",
+      "dept_division",
+      "address",
+      "location",
+      "neighborhood",
+      "zipcode",
+      "nearest_parcel_no",
+      "method_received",
+      "date_created",
+      "time_received",
+      "date_closed",
+      "sr_status",
+      "sr_status_flag",
+      "date_status_change",
+      "time_status_change",
+      "date_last_update",
+      "time_last_update",
+      "planned_hours_tostart_response",
+      "planned_response_time",
+      "planned_end_date",
+      "planned_completion_days",
+      "date_dispatched",
+      "time_dispatched",
+      "date_revised_completion",
+      "date_revised_completion_reason",
+      "collection_special_date",
+      "collection_day",
+      "collection_route",
+      "collection_dist",
+      "transfer_allow",
+      "transfered_num_times",
+      "propty_city_owned_yn",
+      "propty_city_dept_owner",
+      "street_no",
+      "street_direction",
+      "street_name",
+      "city_id",
+      "structure_id",
+      "floor_id",
+      "unit_id",
+      "munitwnshp",
+      "request_return_call",
+      "num_bulky_items",
+      "bulky_item_1",
+      "bulky_item_2",
+      "bulky_item_3",
+      "bulky_item_4",
+      "bulky_item_5",
+      "num_tires",
+      "num_freons",
+      "num_sofabeds",
+      "num_potholes",
+      "police_district",
+      "police_rpt_area",
+      "trash_recycle_cart_id",
+      "segidusng_xref",
+      "latitude",
+      "longitude",
+      "date_time_received",
+      "community_council_neighborhood",
+      "ham_pave_polygon_id"
+    ],
+    "agency_fields": [
+      "dept_code",
+      "dept_name",
+      "dept_division",
+      "propty_city_dept_owner"
+    ],
+    "values": {
+      "dept_code": [
+        {
+          "dept_code": "PUB SERV",
+          "records": "1220128"
+        },
+        {
+          "dept_code": "BUILD",
+          "records": "207949"
+        },
+        {
+          "dept_code": "HEALTH",
+          "records": "146925"
+        },
+        {
+          "dept_code": "CITY_MGR",
+          "records": "103901"
+        },
+        {
+          "dept_code": "DOTE",
+          "records": "61277"
+        },
+        {
+          "dept_code": "POLICE",
+          "records": "42180"
+        },
+        {
+          "dept_code": "PARKS",
+          "records": "20202"
+        },
+        {
+          "dept_code": "FIRE",
+          "records": "18031"
+        },
+        {
+          "dept_code": "ECC",
+          "records": "17721"
+        },
+        {
+          "dept_code": "CWW",
+          "records": "13071"
+        },
+        {
+          "dept_code": "MSD",
+          "records": "6960"
+        },
+        {
+          "dept_code": "COM_DEV",
+          "records": "6566"
+        },
+        {
+          "dept_code": "CRC",
+          "records": "1939"
+        },
+        {
+          "dept_code": "LAW",
+          "records": "1672"
+        },
+        {
+          "dept_code": "RCC",
+          "records": "1111"
+        },
+        {
+          "dept_code": "ENT SERV",
+          "records": "1054"
+        },
+        {
+          "dept_code": "PUB WRKS",
+          "records": "591"
+        },
+        {
+          "dept_code": "HR",
+          "records": "262"
+        },
+        {
+          "dept_code": "MAYOR",
+          "records": "238"
+        },
+        {
+          "dept_code": "TREASURY",
+          "records": "94"
+        },
+        {
+          "dept_code": "ECON",
+          "records": "65"
+        },
+        {
+          "records": "59"
+        },
+        {
+          "dept_code": "FINANCE",
+          "records": "4"
+        }
+      ],
+      "dept_name": [
+        {
+          "dept_name": "PUBLIC SERVICES",
+          "records": "1220128"
+        },
+        {
+          "dept_name": "CINC BUILDING DEPT",
+          "records": "207949"
+        },
+        {
+          "dept_name": "CINC HEALTH DEPT",
+          "records": "146925"
+        },
+        {
+          "dept_name": "CITY MANAGER'S OFFICE",
+          "records": "103901"
+        },
+        {
+          "dept_name": "DEPT OF TRANS AND ENG",
+          "records": "61277"
+        },
+        {
+          "dept_name": "POLICE DEPARTMENT",
+          "records": "42180"
+        },
+        {
+          "dept_name": "PARK DEPARTMENT",
+          "records": "20202"
+        },
+        {
+          "dept_name": "FIRE DEPT",
+          "records": "18031"
+        },
+        {
+          "dept_name": "EMERGENCY COMMUNICATIONS",
+          "records": "17721"
+        },
+        {
+          "dept_name": "CIN WATER WORKS",
+          "records": "13071"
+        },
+        {
+          "dept_name": "METROPOLITAN SEWER",
+          "records": "6960"
+        },
+        {
+          "dept_name": "COMMUNITY DEVELOPMENT",
+          "records": "6566"
+        },
+        {
+          "dept_name": "CINCINNATI RECREATION",
+          "records": "1939"
+        },
+        {
+          "dept_name": "LAW DEPARTMENT",
+          "records": "1672"
+        },
+        {
+          "dept_name": "REGIONAL COMPUTER CENTER",
+          "records": "1111"
+        },
+        {
+          "dept_name": "ENTERPRISE SERVICES",
+          "records": "1054"
+        },
+        {
+          "records": "650"
+        },
+        {
+          "dept_name": "HUMAN RESOURCES",
+          "records": "262"
+        },
+        {
+          "dept_name": "MAYOR'S OFFICE",
+          "records": "238"
+        },
+        {
+          "dept_name": "TREASURY DEPARTMENT",
+          "records": "94"
+        },
+        {
+          "dept_name": "ECONOMIC DEVELOPMENT",
+          "records": "65"
+        },
+        {
+          "dept_name": "FINANCE DEPT",
+          "records": "4"
+        }
+      ],
+      "dept_division": [
+        {
+          "dept_division": "NOD",
+          "records": "881256"
+        },
+        {
+          "records": "712102"
+        },
+        {
+          "dept_division": "TROD",
+          "records": "204784"
+        },
+        {
+          "dept_division": "DOTE-TRAFFIC ENGINEERING",
+          "records": "36746"
+        },
+        {
+          "dept_division": "DOTE-ENGINEERING",
+          "records": "19823"
+        },
+        {
+          "dept_division": "NONE",
+          "records": "13666"
+        },
+        {
+          "dept_division": "DOTE-TRANSPO PLANNING &URBAN DESIGN",
+          "records": "2417"
+        },
+        {
+          "dept_division": "DOTE-DIRECTORS OFFICE",
+          "records": "483"
+        },
+        {
+          "dept_division": "TRANSPORTATION ENGINEERING",
+          "records": "261"
+        },
+        {
+          "dept_division": "FACILITIES MANAGEMENT",
+          "records": "234"
+        },
+        {
+          "dept_division": "BUILD-EXISTING BUILDING INSPECTION",
+          "records": "104"
+        },
+        {
+          "dept_division": "TRANSPORTATION PLANNING",
+          "records": "93"
+        },
+        {
+          "dept_division": "FLEET SERVICES",
+          "records": "16"
+        },
+        {
+          "dept_division": "DOTE-TRANSPO PLANNING AND URBAN DESIGN",
+          "records": "15"
+        }
+      ],
+      "propty_city_dept_owner": [
+        {
+          "records": "1840318"
+        },
+        {
+          "propty_city_dept_owner": "DOTE",
+          "records": "11358"
+        },
+        {
+          "propty_city_dept_owner": "POLICE",
+          "records": "5426"
+        },
+        {
+          "propty_city_dept_owner": "RECREATION",
+          "records": "1894"
+        },
+        {
+          "propty_city_dept_owner": "TRAFFIC & RD OPER",
+          "records": "1609"
+        },
+        {
+          "propty_city_dept_owner": "PARKS",
+          "records": "1604"
+        },
+        {
+          "propty_city_dept_owner": "FIRE",
+          "records": "1316"
+        },
+        {
+          "propty_city_dept_owner": "FACILITIES",
+          "records": "1174"
+        },
+        {
+          "propty_city_dept_owner": "NEIGHB OPER",
+          "records": "1078"
+        },
+        {
+          "propty_city_dept_owner": "CD&P",
+          "records": "853"
+        },
+        {
+          "propty_city_dept_owner": "CPD",
+          "records": "540"
+        },
+        {
+          "propty_city_dept_owner": "CPB",
+          "records": "401"
+        },
+        {
+          "propty_city_dept_owner": "CFD",
+          "records": "386"
+        },
+        {
+          "propty_city_dept_owner": "CRC",
+          "records": "373"
+        },
+        {
+          "propty_city_dept_owner": "TRAFFIC AND RD OPER",
+          "records": "370"
+        },
+        {
+          "propty_city_dept_owner": "PUBSRV",
+          "records": "347"
+        },
+        {
+          "propty_city_dept_owner": "CDANDP",
+          "records": "303"
+        },
+        {
+          "propty_city_dept_owner": "MSD",
+          "records": "278"
+        },
+        {
+          "propty_city_dept_owner": "WATER WORKS",
+          "records": "252"
+        },
+        {
+          "propty_city_dept_owner": "PARKING",
+          "records": "228"
+        },
+        {
+          "propty_city_dept_owner": "DCED",
+          "records": "209"
+        },
+        {
+          "propty_city_dept_owner": "ECON DEV",
+          "records": "203"
+        },
+        {
+          "propty_city_dept_owner": "HEALTH",
+          "records": "147"
+        },
+        {
+          "propty_city_dept_owner": "TRANS-AVIA",
+          "records": "119"
+        },
+        {
+          "propty_city_dept_owner": "CINCINNATI RECREATION COMMISSION",
+          "records": "104"
+        },
+        {
+          "propty_city_dept_owner": "CINCINNATI PARKS BOARD",
+          "records": "103"
+        },
+        {
+          "propty_city_dept_owner": "CTD",
+          "records": "101"
+        },
+        {
+          "propty_city_dept_owner": "GCWW",
+          "records": "97"
+        },
+        {
+          "propty_city_dept_owner": "DPS",
+          "records": "96"
+        },
+        {
+          "propty_city_dept_owner": "CINCINNATI CITY MANAGER",
+          "records": "89"
+        },
+        {
+          "propty_city_dept_owner": "CINCINNATI CITY MANAGER'S OFFICE",
+          "records": "80"
+        },
+        {
+          "propty_city_dept_owner": "CPARKS",
+          "records": "74"
+        },
+        {
+          "propty_city_dept_owner": "STATE",
+          "records": "68"
+        },
+        {
+          "propty_city_dept_owner": "UNKNOWN",
+          "records": "67"
+        },
+        {
+          "propty_city_dept_owner": "CITY MANAGER",
+          "records": "43"
+        },
+        {
+          "propty_city_dept_owner": "CINCINNATI TRADE AND DEVELOPMENT DEPAR",
+          "records": "37"
+        },
+        {
+          "propty_city_dept_owner": "B & I",
+          "records": "36"
+        },
+        {
+          "propty_city_dept_owner": "STORMWATER",
+          "records": "35"
+        },
+        {
+          "propty_city_dept_owner": "B AND I",
+          "records": "26"
+        },
+        {
+          "propty_city_dept_owner": "CMO",
+          "records": "18"
+        },
+        {
+          "propty_city_dept_owner": "CHD",
+          "records": "18"
+        },
+        {
+          "propty_city_dept_owner": "CINCINNATI HEALTH DEPARTMENT",
+          "records": "15"
+        },
+        {
+          "propty_city_dept_owner": "CINCINNATI PUBLIC SERVICES",
+          "records": "14"
+        },
+        {
+          "propty_city_dept_owner": "CINMGR",
+          "records": "12"
+        },
+        {
+          "propty_city_dept_owner": "CINCINNATI DEPARTMENT OF TRANSPORTATIO",
+          "records": "10"
+        },
+        {
+          "propty_city_dept_owner": "FLEET",
+          "records": "10"
+        },
+        {
+          "propty_city_dept_owner": "EDUCATION BD",
+          "records": "8"
+        },
+        {
+          "propty_city_dept_owner": "HCBC",
+          "records": "8"
+        },
+        {
+          "propty_city_dept_owner": "CINCINNATI FIRE DEPARTMENT",
+          "records": "6"
+        },
+        {
+          "propty_city_dept_owner": "TRANS-ENGINEERING",
+          "records": "5"
+        },
+        {
+          "propty_city_dept_owner": "COMM DEVELOPMENT",
+          "records": "5"
+        },
+        {
+          "propty_city_dept_owner": "HURC",
+          "records": "5"
+        },
+        {
+          "propty_city_dept_owner": "STATE OF OHIO",
+          "records": "5"
+        },
+        {
+          "propty_city_dept_owner": "BI",
+          "records": "4"
+        },
+        {
+          "propty_city_dept_owner": "CD",
+          "records": "3"
+        },
+        {
+          "propty_city_dept_owner": "BRD OF ED",
+          "records": "3"
+        },
+        {
+          "propty_city_dept_owner": "SMU",
+          "records": "2"
+        },
+        {
+          "propty_city_dept_owner": "CONV CTR",
+          "records": "2"
+        },
+        {
+          "propty_city_dept_owner": "METROPOLITAN SEWER DISTRICT",
+          "records": "2"
+        },
+        {
+          "propty_city_dept_owner": "CBUILD",
+          "records": "1"
+        },
+        {
+          "propty_city_dept_owner": "GREATER CINCINNATI WATER WORKS",
+          "records": "1"
+        },
+        {
+          "propty_city_dept_owner": "SORTA",
+          "records": "1"
+        }
+      ]
+    },
+    "endpoint": "https://data.cincinnati-oh.gov/resource/gcej-gmiw.json",
+    "status": "Reviewed"
+  },
+  {
+    "city": "Nashville",
+    "source": "https://data.nashville.gov/maps/Nashville%3A%3Ahubnashville-311-service-requests-current-year/about",
+    "status": "Error",
+    "error": "404 Client Error: Not Found for url: https://data.nashville.gov/api/views/rent-year.json"
+  },
+  {
+    "city": "Oakland",
+    "source": "https://data.oaklandca.gov/Infrastructure/Service-requests-received-by-the-Oakland-Call-Cent/quth-gb8e",
+    "title": "Service requests received by the Oakland Call Center (OAK 311)",
+    "columns": [
+      "requestid",
+      "datetimeinit",
+      "source",
+      "description",
+      "reqcategory",
+      "reqaddress",
+      "status",
+      "referredto",
+      "datetimeclosed",
+      "srx",
+      "sry",
+      "councildistrict",
+      "beat",
+      "probaddress",
+      "city",
+      "state",
+      "zipcode"
+    ],
+    "agency_fields": [],
+    "values": {},
+    "endpoint": "https://data.oaklandca.gov/resource/quth-gb8e.json",
+    "sample": [
+      {
+        "requestid": "1000213",
+        "datetimeinit": "2020-04-06T12:24:29.000",
+        "source": "Phone or Email",
+        "description": "Parking - Abandoned Vehicle",
+        "reqcategory": "POLICE",
+        "status": "CLOSED",
+        "datetimeclosed": "2020-04-06T12:25:53.000",
+        "probaddress": "85TH AV&SAN LEANDRO ST",
+        "city": "Oakland",
+        "state": "CA"
+      },
+      {
+        "requestid": "1000249",
+        "datetimeinit": "2020-04-06T14:37:21.000",
+        "source": "Phone",
+        "description": "COVID-19 Question",
+        "reqcategory": "OTHER",
+        "reqaddress": {
+          "latitude": "30.00992688500099",
+          "longitude": "-141.21915034506324"
+        },
+        "status": "CLOSED",
+        "datetimeclosed": "2020-04-06T14:37:38.000",
+        "srx": "-122.20941501033856",
+        "sry": "37.74875247852564",
+        "councildistrict": "CCD7",
+        "beat": "31X",
+        "probaddress": "7101 EDGEWATER DR",
+        "city": "Oakland",
+        "state": "CA",
+        "zipcode": "94621"
+      },
+      {
+        "requestid": "1000823",
+        "datetimeinit": "2020-04-08T17:42:21.000",
+        "source": "Phone",
+        "description": "Recycling Hotline - Miscellaneous",
+        "reqcategory": "RECYCLING",
+        "status": "CLOSED",
+        "datetimeclosed": "2020-04-08T17:43:08.000",
+        "probaddress": "ZZ",
+        "city": "Oakland",
+        "state": "CA"
+      }
+    ],
+    "status": "No explicit agency field"
+  },
+  {
+    "city": "Pittsburgh",
+    "source": "https://data.wprdc.org/dataset/pittsburgh-311-data",
+    "status": "Non-Socrata source; inspect separately"
+  },
+  {
+    "city": "Charlotte",
+    "source": "https://gis.charlottenc.gov/arcgis/rest/services/ODP/ServiceRequests311/MapServer/0",
+    "status": "Non-Socrata source; inspect separately"
+  },
+  {
+    "city": "Baltimore",
+    "source": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/ArcGIS/rest/services/311_Customer_Service_Requests_current/FeatureServer",
+    "status": "Non-Socrata source; inspect separately"
+  },
+  {
+    "city": "Baton Rouge",
+    "source": "https://data.brla.gov/Government/311-Citizen-Requests-for-Service/7ixm-mnvx",
+    "title": "311 Citizen Requests for Service",
+    "columns": [
+      "id",
+      "statusdesc",
+      "createdate",
+      "closeddate",
+      "lastaction",
+      "parenttype",
+      "typename",
+      "comments",
+      "streetnum",
+      "streetname",
+      "streetaddress",
+      "crossname",
+      "cityname",
+      "department",
+      "division",
+      "latitude",
+      "longitude",
+      "geolocation",
+      "typeid",
+      "parentid",
+      "deptdivid",
+      "deptdiv",
+      "status"
+    ],
+    "agency_fields": [
+      "department",
+      "division",
+      "deptdivid",
+      "deptdiv"
+    ],
+    "values": {
+      "department": [
+        {
+          "department": "ENVIRONMENTAL SERVICES",
+          "records": "696691"
+        },
+        {
+          "department": "MAINTENANCE",
+          "records": "154098"
+        },
+        {
+          "department": "DEVELOPMENT",
+          "records": "89726"
+        },
+        {
+          "department": "TRANSPORTATION AND DEVELOPMENT",
+          "records": "70443"
+        }
+      ],
+      "division": [
+        {
+          "division": "SANITATION",
+          "records": "554570"
+        },
+        {
+          "division": "RECYCLING",
+          "records": "86254"
+        },
+        {
+          "division": "BLIGHT ENFORCEMENT",
+          "records": "81282"
+        },
+        {
+          "division": "TRAFFIC ENGINEERING",
+          "records": "70194"
+        },
+        {
+          "division": "LANDSCAPE MAINTENANCE",
+          "records": "59117"
+        },
+        {
+          "division": "WW OPERATIONS",
+          "records": "54398"
+        },
+        {
+          "division": "DRAINAGE MAINTENANCE",
+          "records": "52349"
+        },
+        {
+          "division": "STREET MAINTENANCE",
+          "records": "42632"
+        },
+        {
+          "division": "PERMITS & INSPECTIONS",
+          "records": "7182"
+        },
+        {
+          "division": "ENVIRONMENTAL",
+          "records": "2117"
+        },
+        {
+          "division": "SUBDIVISIONS",
+          "records": "614"
+        },
+        {
+          "division": "FIELD ENGINEERING",
+          "records": "249"
+        }
+      ],
+      "deptdivid": [
+        {
+          "deptdivid": "57",
+          "records": "554570"
+        },
+        {
+          "deptdivid": "56",
+          "records": "86254"
+        },
+        {
+          "deptdivid": "59",
+          "records": "81282"
+        },
+        {
+          "deptdivid": "66",
+          "records": "70194"
+        },
+        {
+          "deptdivid": "63",
+          "records": "59117"
+        },
+        {
+          "deptdivid": "58",
+          "records": "54398"
+        },
+        {
+          "deptdivid": "62",
+          "records": "52349"
+        },
+        {
+          "deptdivid": "64",
+          "records": "42632"
+        },
+        {
+          "deptdivid": "67",
+          "records": "7182"
+        },
+        {
+          "deptdivid": "55",
+          "records": "1469"
+        },
+        {
+          "deptdivid": "60",
+          "records": "648"
+        },
+        {
+          "deptdivid": "61",
+          "records": "614"
+        },
+        {
+          "deptdivid": "65",
+          "records": "249"
+        }
+      ],
+      "deptdiv": [
+        {
+          "deptdiv": "DES - SANITATION",
+          "records": "554570"
+        },
+        {
+          "deptdiv": "DES - RECYCLING",
+          "records": "86254"
+        },
+        {
+          "deptdiv": "DOD - BLIGHT ENFORCEMENT",
+          "records": "81282"
+        },
+        {
+          "deptdiv": "TAD - TRAFFIC ENGINEERING",
+          "records": "70194"
+        },
+        {
+          "deptdiv": "DOM - LANDSCAPE MAINTENANCE",
+          "records": "59117"
+        },
+        {
+          "deptdiv": "DES - WW OPERATIONS",
+          "records": "54398"
+        },
+        {
+          "deptdiv": "DOM - DRAINAGE MAINTENANCE",
+          "records": "52349"
+        },
+        {
+          "deptdiv": "DOM - STREET MAINTENANCE",
+          "records": "42632"
+        },
+        {
+          "deptdiv": "DOD - PERMITS & INSPECTIONS",
+          "records": "7182"
+        },
+        {
+          "deptdiv": "DES - ENVIRONMENTAL",
+          "records": "1469"
+        },
+        {
+          "deptdiv": "DOD - ENVIRONMENTAL",
+          "records": "648"
+        },
+        {
+          "deptdiv": "DOD - SUBDIVISIONS",
+          "records": "614"
+        },
+        {
+          "deptdiv": "TAD - FIELD ENGINEERING",
+          "records": "249"
+        }
+      ]
+    },
+    "endpoint": "https://data.brla.gov/resource/7ixm-mnvx.json",
+    "status": "Reviewed"
+  },
+  {
+    "city": "New Orleans",
+    "source": "https://data.nola.gov/City-Administration/311-OPCD-Calls-2012-Present-/2jgv-pqrq",
+    "title": "311 OPCD Calls (2012-Present)",
+    "columns": [
+      "service_request",
+      "request_type",
+      "request_reason",
+      "date_created",
+      "date_modified",
+      "case_close_date",
+      "request_status",
+      "responsible_agency",
+      "final_address",
+      "address_councildis",
+      "status",
+      "contractor",
+      "contractor_action",
+      "rowid",
+      "final_x",
+      "final_y",
+      "longitude",
+      "latitude",
+      "geocoded_column"
+    ],
+    "agency_fields": [
+      "responsible_agency"
+    ],
+    "values": {
+      "responsible_agency": [
+        {
+          "responsible_agency": "Department of Sanitation",
+          "records": "490259"
+        },
+        {
+          "responsible_agency": "Department of Public Works",
+          "records": "316757"
+        },
+        {
+          "responsible_agency": "Department of Code Enforcement",
+          "records": "107544"
+        },
+        {
+          "responsible_agency": "Department of Parks & Parkway",
+          "records": "22252"
+        },
+        {
+          "responsible_agency": "Sewerage & Water Board",
+          "records": "21594"
+        },
+        {
+          "responsible_agency": "Safety and Permits",
+          "records": "17426"
+        },
+        {
+          "responsible_agency": "Department of Parks & Parkways",
+          "records": "13011"
+        },
+        {
+          "responsible_agency": "Mosquito, Termite & Rodent Control Board",
+          "records": "12304"
+        },
+        {
+          "responsible_agency": "Bureau of Revenue",
+          "records": "12082"
+        },
+        {
+          "records": "9330"
+        },
+        {
+          "responsible_agency": "Ground Transportation Bureau",
+          "records": "9164"
+        },
+        {
+          "responsible_agency": "Health Department",
+          "records": "7673"
+        },
+        {
+          "responsible_agency": "Orleans Parish Communication District",
+          "records": "5173"
+        },
+        {
+          "responsible_agency": "Office Of Homeless Services And Strategy",
+          "records": "1217"
+        },
+        {
+          "responsible_agency": "Emergency Medical Services",
+          "records": "943"
+        },
+        {
+          "responsible_agency": "Executive Office of the Mayor",
+          "records": "907"
+        },
+        {
+          "responsible_agency": "Office of Resilience and Sustainability",
+          "records": "783"
+        },
+        {
+          "responsible_agency": "Bureau of Treasury",
+          "records": "657"
+        },
+        {
+          "responsible_agency": "New Orleans Recreation Development Commission",
+          "records": "547"
+        },
+        {
+          "responsible_agency": "Office of Police Secondary Employment",
+          "records": "211"
+        },
+        {
+          "responsible_agency": "Office of Community and Economic Development",
+          "records": "38"
+        },
+        {
+          "responsible_agency": "New Orleans Fire Department",
+          "records": "28"
+        },
+        {
+          "responsible_agency": "Department of Property Management",
+          "records": "28"
+        },
+        {
+          "responsible_agency": "Real Time Crime Center",
+          "records": "23"
+        },
+        {
+          "responsible_agency": "Sewerage & Water Board ",
+          "records": "18"
+        },
+        {
+          "responsible_agency": "Utility Company Collective",
+          "records": "10"
+        },
+        {
+          "responsible_agency": "New Orleans Office of Homeland Security & Emergency Preparedness",
+          "records": "4"
+        },
+        {
+          "responsible_agency": "Office of Risk Managment",
+          "records": "3"
+        },
+        {
+          "responsible_agency": "Orleans Parish Constable",
+          "records": "3"
+        },
+        {
+          "responsible_agency": "Department of Information Technology and Innovation",
+          "records": "2"
+        },
+        {
+          "responsible_agency": "NOLA Ready",
+          "records": "1"
+        }
+      ]
+    },
+    "endpoint": "https://data.nola.gov/resource/2jgv-pqrq.json",
+    "status": "Reviewed"
+  }
+]

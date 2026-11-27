@@ -1,0 +1,2623 @@
+[
+  {
+    "city": "San Diego",
+    "error": "HTTPSConnectionPool(host='seshat.datasd.org', port=443): Max retries exceeded with url: /get_it_done/get_it_done_requests_open_datasd.csv (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))"
+  },
+  {
+    "city": "Denver",
+    "endpoint": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_service_requests_311/FeatureServer/0",
+    "title": null,
+    "columns": [],
+    "agency_fields": [],
+    "values": {},
+    "sample": {
+      "error": {
+        "code": 400,
+        "message": "Invalid URL",
+        "details": [
+          "Invalid URL"
+        ]
+      }
+    }
+  },
+  {
+    "city": "Houston",
+    "error": "field larger than field limit (131072)"
+  },
+  {
+    "city": "Nashville",
+    "endpoint": "https://services2.arcgis.com/HdTo6HJqh92wn4D8/arcgis/rest/services/hubNashville_311_Service_Requests_Current_Year_view/FeatureServer/0",
+    "title": "hubNashville 311 Service Requests Current Year",
+    "columns": [
+      "OBJECTID",
+      "GlobalID",
+      "Status",
+      "Request_Type",
+      "Subrequest_Type",
+      "Additional_Subrequest_Type",
+      "Request_Origin",
+      "Contact_Type",
+      "Preferred_Language",
+      "State_Issue",
+      "Parent_Request",
+      "Address",
+      "City",
+      "Council_District",
+      "Latitude",
+      "Longitude",
+      "Date_Time_Opened",
+      "Date_Time_Closed",
+      "ZIP",
+      "Request__"
+    ],
+    "agency_fields": [],
+    "values": {},
+    "sample": {
+      "objectIdFieldName": "OBJECTID",
+      "uniqueIdField": {
+        "name": "OBJECTID",
+        "isSystemMaintained": true
+      },
+      "globalIdFieldName": "GlobalID",
+      "geometryType": "esriGeometryPoint",
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "Object ID",
+          "sqlType": "sqlTypeOther",
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"System-generated unique record ID for each service request feature.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "Global ID",
+          "sqlType": "sqlTypeOther",
+          "length": 38,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Globally unique identifier assigned to each service request record.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status",
+          "sqlType": "sqlTypeOther",
+          "length": 2147483647,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Current workflow status of the service request, such as New, Assigned, In Progress, or Closed.\",\"fieldValueType\":\"orderedOrRanked\"}"
+        },
+        {
+          "name": "Request_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Request Type",
+          "sqlType": "sqlTypeOther",
+          "length": 2147483647,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Primary category of the service request.\",\"fieldValueType\":\"typeOrCategory\"}"
+        },
+        {
+          "name": "Subrequest_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Subrequest Type",
+          "sqlType": "sqlTypeOther",
+          "length": 2147483647,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"More specific subtype within the main service request category.\",\"fieldValueType\":\"typeOrCategory\"}"
+        },
+        {
+          "name": "Additional_Subrequest_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Additional Request Type",
+          "sqlType": "sqlTypeOther",
+          "length": 2147483647,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Additional detailed classification for the service request.\",\"fieldValueType\":\"typeOrCategory\"}"
+        },
+        {
+          "name": "Request_Origin",
+          "type": "esriFieldTypeString",
+          "alias": "Request Origin",
+          "sqlType": "sqlTypeOther",
+          "length": 2147483647,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Source channel used to submit the request.\",\"fieldValueType\":\"typeOrCategory\"}"
+        },
+        {
+          "name": "Contact_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Type",
+          "sqlType": "sqlTypeOther",
+          "length": 2147483647,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Type of contact used by the requester to submit or follow up on the request.\",\"fieldValueType\":\"typeOrCategory\"}"
+        },
+        {
+          "name": "Preferred_Language",
+          "type": "esriFieldTypeString",
+          "alias": "Preferred Language",
+          "sqlType": "sqlTypeOther",
+          "length": 2147483647,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Preferred language of the requester.\",\"fieldValueType\":\"typeOrCategory\"}"
+        },
+        {
+          "name": "State_Issue",
+          "type": "esriFieldTypeString",
+          "alias": "State Issue",
+          "sqlType": "sqlTypeOther",
+          "length": 2147483647,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"State-level issue flag or indicator associated with the request.\",\"fieldValueType\":\"binary\"}"
+        },
+        {
+          "name": "Parent_Request",
+          "type": "esriFieldTypeDouble",
+          "alias": "Parent Request",
+          "sqlType": "sqlTypeOther",
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Identifier of the parent request for linked or related service requests.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address",
+          "sqlType": "sqlTypeOther",
+          "length": 2147483647,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Street address or location associated with the service request.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City",
+          "sqlType": "sqlTypeOther",
+          "length": 2147483647,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"City associated with the service request location.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+        },
+        {
+          "name": "Council_District",
+          "type": "esriFieldTypeDouble",
+          "alias": "Council District",
+          "sqlType": "sqlTypeOther",
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Metro Nashville council district number where the request occurred.\",\"fieldValueType\":\"countOrAmount\"}"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude",
+          "sqlType": "sqlTypeOther",
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Latitude coordinate of the service request location.\",\"fieldValueType\":\"coordinate\"}"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude",
+          "sqlType": "sqlTypeOther",
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Longitude coordinate of the service request location.\",\"fieldValueType\":\"coordinate\"}"
+        },
+        {
+          "name": "Date_Time_Opened",
+          "type": "esriFieldTypeDate",
+          "alias": "Date/Time Opened",
+          "sqlType": "sqlTypeOther",
+          "length": 8,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Date and time the service request was opened.\",\"fieldValueType\":\"dateAndTime\"}"
+        },
+        {
+          "name": "Date_Time_Closed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date/Time Closed",
+          "sqlType": "sqlTypeOther",
+          "length": 8,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Date and time the service request was closed.\",\"fieldValueType\":\"dateAndTime\"}"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP Code",
+          "sqlType": "sqlTypeOther",
+          "length": 256,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Postal ZIP code for the service request location.\",\"fieldValueType\":\"locationOrPlaceName\"}"
+        },
+        {
+          "name": "Request__",
+          "type": "esriFieldTypeString",
+          "alias": "Request #",
+          "sqlType": "sqlTypeOther",
+          "length": 255,
+          "domain": null,
+          "defaultValue": null,
+          "description": "{\"value\":\"Unique request number assigned to the service request.\",\"fieldValueType\":\"uniqueIdentifier\"}"
+        }
+      ],
+      "exceededTransferLimit": true,
+      "features": [
+        {
+          "attributes": {
+            "OBJECTID": 1,
+            "GlobalID": "2111836b-7fc2-470d-9ed9-d4cf01fe5bb7",
+            "Status": "Closed",
+            "Request_Type": "Trash, Recycling & Litter",
+            "Subrequest_Type": "Missing Trash Cart",
+            "Additional_Subrequest_Type": "Missing Trash Cart",
+            "Request_Origin": null,
+            "Contact_Type": null,
+            "Preferred_Language": null,
+            "State_Issue": null,
+            "Parent_Request": null,
+            "Address": "1328 Bellshire Terrace Dr, Nashville, TN 37207, United States",
+            "City": "NASHVILLE",
+            "Council_District": 3,
+            "Latitude": 36.2582116,
+            "Longitude": -86.7656957,
+            "Date_Time_Opened": 1767622960000,
+            "Date_Time_Closed": 1767641777000,
+            "ZIP": "37207",
+            "Request__": "2034206"
+          }
+        },
+        {
+          "attributes": {
+            "OBJECTID": 2,
+            "GlobalID": "d133e858-dd21-4bd6-8582-f598afa08aef",
+            "Status": "Closed",
+            "Request_Type": "Resolved by hubNashville on First Call",
+            "Subrequest_Type": "Resolved by hubNashville on First Call",
+            "Additional_Subrequest_Type": "Resolved by hubNashville on First Call",
+            "Request_Origin": null,
+            "Contact_Type": null,
+            "Preferred_Language": null,
+            "State_Issue": null,
+            "Parent_Request": null,
+            "Address": null,
+            "City": null,
+            "Council_District": null,
+            "Latitude": null,
+            "Longitude": null,
+            "Date_Time_Opened": 1767628533000,
+            "Date_Time_Closed": 1767628533000,
+            "ZIP": null,
+            "Request__": "2034385"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "city": "Boston",
+    "endpoint": "https://data.boston.gov",
+    "columns": [
+      "_id",
+      "case_id",
+      "open_date",
+      "case_topic",
+      "service_name",
+      "assigned_department",
+      "assigned_team",
+      "case_status",
+      "closure_reason",
+      "closure_comments",
+      "close_date",
+      "target_close_date",
+      "on_time",
+      "report_source",
+      "full_address",
+      "street_number",
+      "street_name",
+      "zip_code",
+      "neighborhood",
+      "public_works_district",
+      "city_council_district",
+      "fire_district",
+      "police_district",
+      "ward",
+      "precinct",
+      "submitted_photo",
+      "closed_photo",
+      "longitude",
+      "latitude"
+    ],
+    "agency_fields": [
+      "assigned_department",
+      "assigned_team"
+    ],
+    "values": {
+      "assigned_department": {
+        "help": "https://data.boston.gov/api/3/action/help_show?name=datastore_search_sql",
+        "success": true,
+        "result": {
+          "sql": "SELECT \"assigned_department\", count(*) AS records FROM \"254adca6-64ab-4c5c-9fc0-a6da622be185\" GROUP BY \"assigned_department\" ORDER BY records DESC",
+          "records": [
+            {
+              "assigned_department": "Public Works Department (PWD)",
+              "records": 55574
+            },
+            {
+              "assigned_department": "Parks & Recreation",
+              "records": 14638
+            },
+            {
+              "assigned_department": "Boston Transportation Department (BTD)",
+              "records": 12633
+            },
+            {
+              "assigned_department": "Animal Care & Control",
+              "records": 8820
+            },
+            {
+              "assigned_department": "Boston Public Health Commission (BPHC)",
+              "records": 2106
+            },
+            {
+              "assigned_department": "Boston 311",
+              "records": 2026
+            },
+            {
+              "assigned_department": "Inspectional Services",
+              "records": 1445
+            },
+            {
+              "assigned_department": "City of Boston Property Management",
+              "records": 713
+            },
+            {
+              "assigned_department": null,
+              "records": 219
+            },
+            {
+              "assigned_department": "Neighborhood Services",
+              "records": 7
+            },
+            {
+              "assigned_department": "Boston Police Department (BPD)",
+              "records": 4
+            },
+            {
+              "assigned_department": "MBTA (Mass Bay Transit Authority)",
+              "records": 2
+            },
+            {
+              "assigned_department": "Boston Fire Department (BFD)",
+              "records": 2
+            },
+            {
+              "assigned_department": "Mass DCR",
+              "records": 2
+            },
+            {
+              "assigned_department": "Mayor's Office of Housing (MOH)",
+              "records": 1
+            },
+            {
+              "assigned_department": "Eversource",
+              "records": 1
+            }
+          ],
+          "fields": [
+            {
+              "id": "assigned_department",
+              "type": "text"
+            },
+            {
+              "id": "records",
+              "type": "int8"
+            }
+          ]
+        }
+      },
+      "assigned_team": {
+        "help": "https://data.boston.gov/api/3/action/help_show?name=datastore_search_sql",
+        "success": true,
+        "result": {
+          "sql": "SELECT \"assigned_team\", count(*) AS records FROM \"254adca6-64ab-4c5c-9fc0-a6da622be185\" GROUP BY \"assigned_team\" ORDER BY records DESC",
+          "records": [
+            {
+              "assigned_team": "PWD Code Enforcement (BEAM)",
+              "records": 20394
+            },
+            {
+              "assigned_team": "PWD Highway (BEAM)",
+              "records": 19804
+            },
+            {
+              "assigned_team": "BTD Parking",
+              "records": 9560
+            },
+            {
+              "assigned_team": "Animal control staff",
+              "records": 8820
+            },
+            {
+              "assigned_team": "PWD Waste Reduction",
+              "records": 6123
+            },
+            {
+              "assigned_team": "PWD Street Lighting",
+              "records": 4187
+            },
+            {
+              "assigned_team": "Urban Forestry",
+              "records": 3867
+            },
+            {
+              "assigned_team": "Urban Forestry (BEAM)",
+              "records": 3701
+            },
+            {
+              "assigned_team": "PWD Street Lighting (BEAM)",
+              "records": 3102
+            },
+            {
+              "assigned_team": "Parks Operations",
+              "records": 2516
+            },
+            {
+              "assigned_team": "BPHC Recovery Services",
+              "records": 2102
+            },
+            {
+              "assigned_team": "311 Supervisors",
+              "records": 2026
+            },
+            {
+              "assigned_team": "Parks Maintenance (BEAM)",
+              "records": 1908
+            },
+            {
+              "assigned_team": "BPRD Parks (BEAM)",
+              "records": 1474
+            },
+            {
+              "assigned_team": "Construction Inspection Unit (CIU)",
+              "records": 1349
+            },
+            {
+              "assigned_team": "BPRD Parks Trades (BEAM)",
+              "records": 898
+            },
+            {
+              "assigned_team": "BTD TMC (BEAM)",
+              "records": 832
+            },
+            {
+              "assigned_team": "BTD Traffic Investigation (BEAM)",
+              "records": 797
+            },
+            {
+              "assigned_team": "Property Management",
+              "records": 712
+            },
+            {
+              "assigned_team": "BTD Asset Management (BEAM)",
+              "records": 537
+            },
+            {
+              "assigned_team": "ISD Environmental",
+              "records": 515
+            },
+            {
+              "assigned_team": "ISD Building",
+              "records": 387
+            },
+            {
+              "assigned_team": "ISD Housing",
+              "records": 367
+            },
+            {
+              "assigned_team": "PWD Highway",
+              "records": 365
+            },
+            {
+              "assigned_team": "Boston Transportation Department General",
+              "records": 273
+            },
+            {
+              "assigned_team": null,
+              "records": 219
+            },
+            {
+              "assigned_team": "PWD Code Enforcement",
+              "records": 163
+            },
+            {
+              "assigned_team": "BTD Neighborhood Safety (Engineering) (BEAM)",
+              "records": 162
+            },
+            {
+              "assigned_team": "Parks Maintenance",
+              "records": 143
+            },
+            {
+              "assigned_team": "BTD Markings Shop (BEAM)",
+              "records": 106
+            },
+            {
+              "assigned_team": "ISD Health",
+              "records": 98
+            },
+            {
+              "assigned_team": "BTD Signs, Signals and Pavement Markings (BEAM)",
+              "records": 84
+            },
+            {
+              "assigned_team": "BTD Sign Shop (BEAM)",
+              "records": 78
+            },
+            {
+              "assigned_team": "Carpentry",
+              "records": 74
+            },
+            {
+              "assigned_team": "Building",
+              "records": 64
+            },
+            {
+              "assigned_team": "PWD Construction (BEAM)",
+              "records": 60
+            },
+            {
+              "assigned_team": "Boston Bikes (BEAM)",
+              "records": 59
+            },
+            {
+              "assigned_team": "BTD Curbside Management/New Mobility (BEAM)",
+              "records": 47
+            },
+            {
+              "assigned_team": "BTD Constituent Services (BEAM)",
+              "records": 35
+            },
+            {
+              "assigned_team": "Cemetery (BEAM)",
+              "records": 30
+            },
+            {
+              "assigned_team": "PWD Bridges and Buildings",
+              "records": 26
+            },
+            {
+              "assigned_team": "BTD Enforcement (BEAM)",
+              "records": 23
+            },
+            {
+              "assigned_team": "BTD Meter Shop (BEAM)",
+              "records": 23
+            },
+            {
+              "assigned_team": "Parks Administration",
+              "records": 13
+            },
+            {
+              "assigned_team": "ISD Call Center",
+              "records": 10
+            },
+            {
+              "assigned_team": "ONS General",
+              "records": 7
+            },
+            {
+              "assigned_team": "Design and Construction",
+              "records": 6
+            },
+            {
+              "assigned_team": "Cemetery",
+              "records": 5
+            },
+            {
+              "assigned_team": "BTD OPC",
+              "records": 5
+            },
+            {
+              "assigned_team": "ISD",
+              "records": 4
+            },
+            {
+              "assigned_team": "Horticulture",
+              "records": 3
+            },
+            {
+              "assigned_team": "BPD Districts",
+              "records": 3
+            },
+            {
+              "assigned_team": "BTD Asset Management",
+              "records": 3
+            },
+            {
+              "assigned_team": "BPHC General",
+              "records": 2
+            },
+            {
+              "assigned_team": "Boston Fire Department",
+              "records": 2
+            },
+            {
+              "assigned_team": "BTD (BEAM)",
+              "records": 2
+            },
+            {
+              "assigned_team": "BTD Administration",
+              "records": 2
+            },
+            {
+              "assigned_team": "BPHC Environment",
+              "records": 2
+            },
+            {
+              "assigned_team": "MBTA",
+              "records": 2
+            },
+            {
+              "assigned_team": "Mass DCR",
+              "records": 2
+            },
+            {
+              "assigned_team": "BTD Sign Shop",
+              "records": 2
+            },
+            {
+              "assigned_team": "OPC Moving Permits",
+              "records": 2
+            },
+            {
+              "assigned_team": "PWD Sanitation",
+              "records": 1
+            },
+            {
+              "assigned_team": "Traffic Signals",
+              "records": 1
+            },
+            {
+              "assigned_team": "Eversource",
+              "records": 1
+            },
+            {
+              "assigned_team": "BPD General",
+              "records": 1
+            },
+            {
+              "assigned_team": "MOH Lots",
+              "records": 1
+            },
+            {
+              "assigned_team": "Graffiti Busters",
+              "records": 1
+            }
+          ],
+          "fields": [
+            {
+              "id": "assigned_team",
+              "type": "text"
+            },
+            {
+              "id": "records",
+              "type": "int8"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "city": "Pittsburgh",
+    "endpoint": "https://data.wprdc.org",
+    "columns": [
+      "_id",
+      "case_number",
+      "status",
+      "case_owner",
+      "subject",
+      "subject_code",
+      "legacy_subject",
+      "created_date_et",
+      "created_date_utc",
+      "last_modified_date_et",
+      "last_modified_date_utc",
+      "closed_date_et",
+      "closed_date_utc",
+      "origin",
+      "street",
+      "street_id",
+      "city",
+      "neighborhood",
+      "census_tract",
+      "council_district",
+      "ward",
+      "police_zone",
+      "latitude",
+      "longitude",
+      "geo_accuracy",
+      "unique_id"
+    ],
+    "agency_fields": [
+      "case_owner"
+    ],
+    "values": {
+      "case_owner": {
+        "help": "https://data.wprdc.org/api/3/action/help_show?name=datastore_search_sql",
+        "success": true,
+        "result": {
+          "sql": "SELECT \"case_owner\", count(*) AS records FROM \"5202679a-d243-402e-b82a-63189995a942\" GROUP BY \"case_owner\" ORDER BY records DESC",
+          "records": [
+            {
+              "case_owner": "DPW - Street Maintenance",
+              "records": 209088
+            },
+            {
+              "case_owner": "Permits, Licenses and Inspections",
+              "records": 167525
+            },
+            {
+              "case_owner": "DPW - Refuse",
+              "records": 112762
+            },
+            {
+              "case_owner": "Police - Zones 1-6",
+              "records": 51858
+            },
+            {
+              "case_owner": "DOMI - Permits",
+              "records": 44156
+            },
+            {
+              "case_owner": null,
+              "records": 40080
+            },
+            {
+              "case_owner": "Pittsburgh Water and Sewer Authority",
+              "records": 29302
+            },
+            {
+              "case_owner": "DPW - Forestry Division",
+              "records": 27415
+            },
+            {
+              "case_owner": "DOMI - TrafficShop",
+              "records": 26512
+            },
+            {
+              "case_owner": "Police - AVU",
+              "records": 24927
+            },
+            {
+              "case_owner": "DOMI - Traffic",
+              "records": 24477
+            },
+            {
+              "case_owner": "Animal Care & Control",
+              "records": 23233
+            },
+            {
+              "case_owner": "DPW Environmental Services",
+              "records": 20449
+            },
+            {
+              "case_owner": "PLI",
+              "records": 16763
+            },
+            {
+              "case_owner": "Police Zones 1-6",
+              "records": 15971
+            },
+            {
+              "case_owner": "DPW ES Enforcement",
+              "records": 14968
+            },
+            {
+              "case_owner": "Allegheny City Electric",
+              "records": 14715
+            },
+            {
+              "case_owner": "DOMI - Asphalt",
+              "records": 13719
+            },
+            {
+              "case_owner": "Finance",
+              "records": 13122
+            },
+            {
+              "case_owner": "DPW - Park Maintenance",
+              "records": 10854
+            },
+            {
+              "case_owner": "Sargent Electric",
+              "records": 9003
+            },
+            {
+              "case_owner": "DOMI - Traffic Shop",
+              "records": 6193
+            },
+            {
+              "case_owner": "PLI - OPS",
+              "records": 6130
+            },
+            {
+              "case_owner": "PWSA",
+              "records": 5879
+            },
+            {
+              "case_owner": "DOMI - Streets",
+              "records": 4932
+            },
+            {
+              "case_owner": "Animal Care and Control",
+              "records": 4873
+            },
+            {
+              "case_owner": "311",
+              "records": 4328
+            },
+            {
+              "case_owner": "Parking Authority",
+              "records": 4075
+            },
+            {
+              "case_owner": "DOMI - Structures",
+              "records": 3669
+            },
+            {
+              "case_owner": "DPW - Facilities",
+              "records": 3176
+            },
+            {
+              "case_owner": "Public Safety",
+              "records": 2481
+            },
+            {
+              "case_owner": "Fire Bureau",
+              "records": 2244
+            },
+            {
+              "case_owner": "DOMI - Construction",
+              "records": 2197
+            },
+            {
+              "case_owner": "DPW - 2nd Division",
+              "records": 2001
+            },
+            {
+              "case_owner": "OMI",
+              "records": 1808
+            },
+            {
+              "case_owner": "Police - Narcotics",
+              "records": 1769
+            },
+            {
+              "case_owner": "Excessive Noise/Disturbances",
+              "records": 1755
+            },
+            {
+              "case_owner": "DPW - Construction Division",
+              "records": 1739
+            },
+            {
+              "case_owner": "ACHD - Housing",
+              "records": 1418
+            },
+            {
+              "case_owner": "DPW - Parks Maintenance",
+              "records": 1414
+            },
+            {
+              "case_owner": "DPW - Administration",
+              "records": 1127
+            },
+            {
+              "case_owner": "OCHS",
+              "records": 1097
+            },
+            {
+              "case_owner": "City Planning - Disabilities",
+              "records": 941
+            },
+            {
+              "case_owner": "Mayor's Office - Community Affairs",
+              "records": 823
+            },
+            {
+              "case_owner": "Port Authority Transit",
+              "records": 553
+            },
+            {
+              "case_owner": "School Guards",
+              "records": 518
+            },
+            {
+              "case_owner": "DPW - Environmental Enforcement",
+              "records": 442
+            },
+            {
+              "case_owner": "DPW Street Maintenance 2nd Division",
+              "records": 387
+            },
+            {
+              "case_owner": "Public Maintenance 6",
+              "records": 370
+            },
+            {
+              "case_owner": "PPA",
+              "records": 336
+            },
+            {
+              "case_owner": "Fire",
+              "records": 329
+            },
+            {
+              "case_owner": "DOMI - TrafficPermits",
+              "records": 328
+            },
+            {
+              "case_owner": "DPW - Permits",
+              "records": 322
+            },
+            {
+              "case_owner": "Park Rangers",
+              "records": 296
+            },
+            {
+              "case_owner": "DOMI - ROW",
+              "records": 293
+            },
+            {
+              "case_owner": "EMS - Administration",
+              "records": 275
+            },
+            {
+              "case_owner": "Office of Equal Protection",
+              "records": 270
+            },
+            {
+              "case_owner": "HACP",
+              "records": 251
+            },
+            {
+              "case_owner": "DOMI - Planning",
+              "records": 219
+            },
+            {
+              "case_owner": "OEP",
+              "records": 191
+            },
+            {
+              "case_owner": "ACHD - Food Safety",
+              "records": 168
+            },
+            {
+              "case_owner": "PRT",
+              "records": 152
+            },
+            {
+              "case_owner": "DPW - Construction",
+              "records": 146
+            },
+            {
+              "case_owner": "City Planning - Residential Permit Parking Program",
+              "records": 144
+            },
+            {
+              "case_owner": "Police - Support Services",
+              "records": 142
+            },
+            {
+              "case_owner": "City Planning - Bicycles/Pedestrian traffic",
+              "records": 136
+            },
+            {
+              "case_owner": "Crossing Guards",
+              "records": 118
+            },
+            {
+              "case_owner": "DOMI - Mgmt",
+              "records": 111
+            },
+            {
+              "case_owner": "County DPW",
+              "records": 89
+            },
+            {
+              "case_owner": "EMS - Billing",
+              "records": 87
+            },
+            {
+              "case_owner": "311/Management",
+              "records": 86
+            },
+            {
+              "case_owner": "URA",
+              "records": 81
+            },
+            {
+              "case_owner": "EMS",
+              "records": 72
+            },
+            {
+              "case_owner": "ACHD",
+              "records": 64
+            },
+            {
+              "case_owner": "Pittsburgh Regional Transit",
+              "records": 58
+            },
+            {
+              "case_owner": "Special Events",
+              "records": 57
+            },
+            {
+              "case_owner": "Mayor's Office",
+              "records": 54
+            },
+            {
+              "case_owner": "Police Narc Vice",
+              "records": 52
+            },
+            {
+              "case_owner": "DPW Street Maintenance 4th Division",
+              "records": 47
+            },
+            {
+              "case_owner": "DPW Street Maintenance 3rd Division",
+              "records": 46
+            },
+            {
+              "case_owner": "DPW Street Maintenance 5th Division",
+              "records": 45
+            },
+            {
+              "case_owner": "DPW Street Maintenance 1st Division",
+              "records": 41
+            },
+            {
+              "case_owner": "DPW Street Maintenance and DOMI",
+              "records": 40
+            },
+            {
+              "case_owner": "Police - SDD",
+              "records": 37
+            },
+            {
+              "case_owner": "Gateway Outdoor",
+              "records": 36
+            },
+            {
+              "case_owner": "Police Zone 2",
+              "records": 34
+            },
+            {
+              "case_owner": "Police Night Watch",
+              "records": 23
+            },
+            {
+              "case_owner": "Police ABDV",
+              "records": 18
+            },
+            {
+              "case_owner": "DEPRECATED - DPW Schenley Park Division",
+              "records": 14
+            },
+            {
+              "case_owner": "DPW",
+              "records": 13
+            },
+            {
+              "case_owner": "Police Zone 1",
+              "records": 11
+            },
+            {
+              "case_owner": "X311 Chat",
+              "records": 7
+            },
+            {
+              "case_owner": "Police Zone 3",
+              "records": 7
+            },
+            {
+              "case_owner": "Police Zone 4",
+              "records": 7
+            },
+            {
+              "case_owner": "Police Zone 5",
+              "records": 5
+            },
+            {
+              "case_owner": "Police Zone 6",
+              "records": 4
+            },
+            {
+              "case_owner": "DOMI - Traffic Permits",
+              "records": 4
+            },
+            {
+              "case_owner": "CitiParks",
+              "records": 3
+            },
+            {
+              "case_owner": "City Planning",
+              "records": 3
+            },
+            {
+              "case_owner": "DEPRECATED - DPW Emerald Park Division",
+              "records": 3
+            },
+            {
+              "case_owner": "DEPRECATED - DPW McKinley Park Division",
+              "records": 3
+            },
+            {
+              "case_owner": "DPW Admin",
+              "records": 3
+            },
+            {
+              "case_owner": "DOMI - Telecoms",
+              "records": 3
+            },
+            {
+              "case_owner": "Innovation & Performance",
+              "records": 2
+            },
+            {
+              "case_owner": "PCSC",
+              "records": 2
+            },
+            {
+              "case_owner": "Homeless Outreach",
+              "records": 1
+            },
+            {
+              "case_owner": "Real Estate",
+              "records": 1
+            },
+            {
+              "case_owner": "911",
+              "records": 1
+            },
+            {
+              "case_owner": "DEPRECATED - DPW Frick Park",
+              "records": 1
+            },
+            {
+              "case_owner": "I&P",
+              "records": 1
+            },
+            {
+              "case_owner": "Parks & Recs-Programs",
+              "records": 1
+            },
+            {
+              "case_owner": "DEPRECATED - PWSA Dispatch",
+              "records": 1
+            },
+            {
+              "case_owner": "Friends of the Riverfront",
+              "records": 1
+            }
+          ],
+          "fields": [
+            {
+              "id": "case_owner",
+              "type": "text"
+            },
+            {
+              "id": "records",
+              "type": "int8"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "city": "Philadelphia",
+    "endpoint": "https://phl.carto.com/api/v2/sql",
+    "columns": [
+      "cartodb_id",
+      "the_geom",
+      "the_geom_webmercator",
+      "objectid",
+      "service_request_id",
+      "status",
+      "status_notes",
+      "service_name",
+      "service_code",
+      "agency_responsible",
+      "service_notice",
+      "requested_datetime",
+      "updated_datetime",
+      "expected_datetime",
+      "address",
+      "zipcode",
+      "media_url",
+      "lat",
+      "lon",
+      "subject",
+      "closed_datetime",
+      "gdb_geomattr_data",
+      "service_type"
+    ],
+    "agency_fields": [
+      "agency_responsible"
+    ],
+    "values": {
+      "agency_responsible": {
+        "rows": [
+          {
+            "agency_responsible": "Philly311 Contact Center",
+            "records": 1817208
+          },
+          {
+            "agency_responsible": "Streets Department",
+            "records": 1534347
+          },
+          {
+            "agency_responsible": "License & Inspections",
+            "records": 866919
+          },
+          {
+            "agency_responsible": "Police Department",
+            "records": 388803
+          },
+          {
+            "agency_responsible": "Community Life Improvement Program",
+            "records": 248958
+          },
+          {
+            "agency_responsible": "First Judicial District/Courts",
+            "records": 141836
+          },
+          {
+            "agency_responsible": "Parks & Recreation",
+            "records": 90412
+          },
+          {
+            "agency_responsible": "Philadelphia Housing Development Corporation- PHDC",
+            "records": 85788
+          },
+          {
+            "agency_responsible": "Water Department (PWD)",
+            "records": 82627
+          },
+          {
+            "agency_responsible": "Department of Records",
+            "records": 70406
+          },
+          {
+            "agency_responsible": "Department of Public Health",
+            "records": 66473
+          },
+          {
+            "agency_responsible": "Revenue",
+            "records": 64278
+          },
+          {
+            "agency_responsible": "Directory Assistance",
+            "records": 40225
+          },
+          {
+            "agency_responsible": "Fire Department",
+            "records": 38363
+          },
+          {
+            "agency_responsible": "Mayor's Office",
+            "records": 34726
+          },
+          {
+            "agency_responsible": "Register of Wills/ Orphans Court",
+            "records": 32221
+          },
+          {
+            "agency_responsible": "City Commissioners Office",
+            "records": 30648
+          },
+          {
+            "agency_responsible": "City Council",
+            "records": 28999
+          },
+          {
+            "agency_responsible": "State/Federal Government Offices",
+            "records": 27427
+          },
+          {
+            "agency_responsible": "Office of Human Resources- OHR",
+            "records": 24831
+          },
+          {
+            "agency_responsible": "Office of Homeless Services - OHS",
+            "records": 22011
+          },
+          {
+            "agency_responsible": "Animal Care and Control - ACCT",
+            "records": 21508
+          },
+          {
+            "agency_responsible": "Office of Housing & Community Development- OHCD",
+            "records": 19941
+          },
+          {
+            "agency_responsible": "Office of the Director of Finance",
+            "records": 18304
+          },
+          {
+            "agency_responsible": "Office of Property Assessment- OPA",
+            "records": 18026
+          },
+          {
+            "agency_responsible": "Philadelphia Parking Authority- PPA",
+            "records": 17620
+          },
+          {
+            "agency_responsible": "District Attorney's Office",
+            "records": 15176
+          },
+          {
+            "agency_responsible": "Probation/Parole",
+            "records": 14318
+          },
+          {
+            "agency_responsible": "Water Revenue",
+            "records": 12125
+          },
+          {
+            "agency_responsible": "Office of Homeless Services",
+            "records": 11770
+          },
+          {
+            "agency_responsible": "Fair Housing Commission",
+            "records": 11377
+          },
+          {
+            "agency_responsible": "Sheriff's Department",
+            "records": 10978
+          },
+          {
+            "agency_responsible": "Managing Director's Office- MDO",
+            "records": 10314
+          },
+          {
+            "agency_responsible": "Department of Human Services- DHS",
+            "records": 9993
+          },
+          {
+            "agency_responsible": "Prisons",
+            "records": 8602
+          },
+          {
+            "agency_responsible": "Law Department/ City Solicitor",
+            "records": 5730
+          },
+          {
+            "agency_responsible": "Free Library",
+            "records": 4049
+          },
+          {
+            "agency_responsible": "Health Department",
+            "records": 4040
+          },
+          {
+            "agency_responsible": "Philadelphia Housing Authority- PHA",
+            "records": 3315
+          },
+          {
+            "agency_responsible": "Human Relations Commission",
+            "records": 3135
+          },
+          {
+            "agency_responsible": "Behavioral Health and Intellectual Disability Services- DBHIDS",
+            "records": 3042
+          },
+          {
+            "agency_responsible": "Commerce Department",
+            "records": 2781
+          },
+          {
+            "agency_responsible": "Philadelphia Redevelopment Authority- PRA",
+            "records": 2646
+          },
+          {
+            "agency_responsible": "Office of Innovation and Technology- OIT",
+            "records": 2567
+          },
+          {
+            "agency_responsible": "Office of Supportive Housing- OSH",
+            "records": 2532
+          },
+          {
+            "agency_responsible": "Office of the Inspector General",
+            "records": 2482
+          },
+          {
+            "agency_responsible": "Office of Arts, Culture & Creative Economy- OACCE",
+            "records": 2319
+          },
+          {
+            "agency_responsible": "Office of Emergency Management- OEM",
+            "records": 2090
+          },
+          {
+            "agency_responsible": "City Representative",
+            "records": 1555
+          },
+          {
+            "agency_responsible": "Office of Information & Technology",
+            "records": 1338
+          },
+          {
+            "agency_responsible": "Public Property",
+            "records": 1324
+          },
+          {
+            "agency_responsible": "City Planning Commission",
+            "records": 1273
+          },
+          {
+            "agency_responsible": null,
+            "records": 1240
+          },
+          {
+            "agency_responsible": "Fleet Management",
+            "records": 1147
+          },
+          {
+            "agency_responsible": "Procurement Department",
+            "records": 947
+          },
+          {
+            "agency_responsible": "Board of Revision of Taxes- BRT",
+            "records": 733
+          },
+          {
+            "agency_responsible": "Historical Commission",
+            "records": 562
+          },
+          {
+            "agency_responsible": "City Controller",
+            "records": 329
+          },
+          {
+            "agency_responsible": "Office of Economic Opportunity- OEO",
+            "records": 298
+          },
+          {
+            "agency_responsible": "Mayor's Office of Transportation and Utilities- MOTU",
+            "records": 230
+          },
+          {
+            "agency_responsible": "Ethics Board",
+            "records": 112
+          },
+          {
+            "agency_responsible": "Mayors Office",
+            "records": 80
+          },
+          {
+            "agency_responsible": "Office of Adult Education- OAE",
+            "records": 23
+          },
+          {
+            "agency_responsible": "City Treasurer's Office",
+            "records": 20
+          },
+          {
+            "agency_responsible": "Mayor\u2019s Office of Black Male Engagement - MOBME",
+            "records": 16
+          },
+          {
+            "agency_responsible": "Office of LGBT Affairs",
+            "records": 4
+          },
+          {
+            "agency_responsible": "Philadelphia International Airport",
+            "records": 1
+          },
+          {
+            "agency_responsible": "Mayor's Office of Reintegration Services for Ex-Offenders (R.I.S.E.)",
+            "records": 1
+          }
+        ],
+        "time": 0.687,
+        "fields": {
+          "agency_responsible": {
+            "type": "string",
+            "pgtype": "varchar"
+          },
+          "records": {
+            "type": "number",
+            "pgtype": "int8"
+          }
+        },
+        "total_rows": 68
+      }
+    }
+  },
+  {
+    "city": "Baltimore",
+    "endpoint": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/ArcGIS/rest/services/311_Customer_Service_Requests_current/FeatureServer/0",
+    "title": "311 Customer Service Requests 2026",
+    "columns": [
+      "RowID",
+      "SRRecordID",
+      "ServiceRequestNum",
+      "SRType",
+      "MethodReceived",
+      "CreatedDate",
+      "SRStatus",
+      "StatusDate",
+      "DueDate",
+      "CloseDate",
+      "Agency",
+      "LastActivity",
+      "LastActivityDate",
+      "Outcome",
+      "Address",
+      "ZipCode",
+      "Neighborhood",
+      "CouncilDistrict",
+      "PoliceDistrict",
+      "PolicePost",
+      "Latitude",
+      "Longitude",
+      "GeoLocation",
+      "NeedsSync",
+      "IsDeleted",
+      "HashedRecord"
+    ],
+    "agency_fields": [
+      "Agency"
+    ],
+    "values": {
+      "Agency": {
+        "objectIdFieldName": "RowID",
+        "uniqueIdField": {
+          "name": "RowID",
+          "isSystemMaintained": true
+        },
+        "globalIdFieldName": "",
+        "geometryType": "esriGeometryPoint",
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        },
+        "fields": [
+          {
+            "name": "Agency",
+            "type": "esriFieldTypeString",
+            "alias": "Agency",
+            "sqlType": "sqlTypeOther",
+            "length": 50,
+            "domain": null,
+            "defaultValue": null
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "Agency": null
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "BGE                                               "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "City Council                                      "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "ECC                                               "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Finance                                           "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Fire Department                                   "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "General Services                                  "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Health                                            "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Housing                                           "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Liquor Board                                      "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Parking Authority                                 "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Public Works                                      "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Recreation & Parks                                "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Solid Waste                                       "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Transportation                                    "
+            }
+          },
+          {
+            "attributes": {
+              "Agency": "Water Wastewater                                  "
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "city": "Washington, DC",
+    "endpoint": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/ServiceRequests/FeatureServer/18",
+    "title": "All Service Requests - 2025",
+    "columns": [
+      "SERVICEREQUESTID",
+      "STREETADDRESS",
+      "CITY",
+      "STATE",
+      "ZIPCODE",
+      "SERVICECODE",
+      "SERVICECODEDESCRIPTION",
+      "SERVICETYPECODEDESCRIPTION",
+      "ORGANIZATIONACRONYM",
+      "SERVICECALLCOUNT",
+      "ADDDATE",
+      "RESOLUTIONDATE",
+      "SERVICEDUEDATE",
+      "SERVICEORDERDATE",
+      "INSPECTIONFLAG",
+      "INSPECTIONDATE",
+      "INSPECTORNAME",
+      "SERVICEORDERSTATUS",
+      "STATUS_CODE",
+      "PRIORITY",
+      "DETAILS",
+      "WARD",
+      "XCOORD",
+      "YCOORD",
+      "LATITUDE",
+      "LONGITUDE",
+      "MARADDRESSREPOSITORYID",
+      "GLOBALID",
+      "CREATED",
+      "EDITED",
+      "OBJECTID"
+    ],
+    "agency_fields": [],
+    "values": {},
+    "sample": {
+      "objectIdFieldName": "OBJECTID",
+      "globalIdFieldName": "GLOBALID",
+      "geometryType": "esriGeometryPoint",
+      "spatialReference": {
+        "wkid": 26985,
+        "latestWkid": 26985
+      },
+      "fields": [
+        {
+          "name": "SERVICEREQUESTID",
+          "alias": "Service Request Identifier",
+          "type": "esriFieldTypeString",
+          "length": 50
+        },
+        {
+          "name": "STREETADDRESS",
+          "alias": "Address",
+          "type": "esriFieldTypeString",
+          "length": 385
+        },
+        {
+          "name": "CITY",
+          "alias": "City",
+          "type": "esriFieldTypeString",
+          "length": 20
+        },
+        {
+          "name": "STATE",
+          "alias": "State",
+          "type": "esriFieldTypeString",
+          "length": 2
+        },
+        {
+          "name": "ZIPCODE",
+          "alias": "Zip Code",
+          "type": "esriFieldTypeInteger"
+        },
+        {
+          "name": "SERVICECODE",
+          "alias": "Service Code",
+          "type": "esriFieldTypeString",
+          "length": 50
+        },
+        {
+          "name": "SERVICECODEDESCRIPTION",
+          "alias": "Service Code Description",
+          "type": "esriFieldTypeString",
+          "length": 200
+        },
+        {
+          "name": "SERVICETYPECODEDESCRIPTION",
+          "alias": "Service Type Code Description",
+          "type": "esriFieldTypeString",
+          "length": 100
+        },
+        {
+          "name": "ORGANIZATIONACRONYM",
+          "alias": "Organization Acronym",
+          "type": "esriFieldTypeString",
+          "length": 50
+        },
+        {
+          "name": "SERVICECALLCOUNT",
+          "alias": "Service Call Count",
+          "type": "esriFieldTypeSmallInteger"
+        },
+        {
+          "name": "ADDDATE",
+          "alias": "Add Date",
+          "type": "esriFieldTypeDate",
+          "length": 8
+        },
+        {
+          "name": "RESOLUTIONDATE",
+          "alias": "Resolution Date",
+          "type": "esriFieldTypeDate",
+          "length": 8
+        },
+        {
+          "name": "SERVICEDUEDATE",
+          "alias": "Service Due Date",
+          "type": "esriFieldTypeDate",
+          "length": 8
+        },
+        {
+          "name": "SERVICEORDERDATE",
+          "alias": "Service Order Date",
+          "type": "esriFieldTypeDate",
+          "length": 8
+        },
+        {
+          "name": "INSPECTIONFLAG",
+          "alias": "Inspection Flag",
+          "type": "esriFieldTypeString",
+          "length": 10
+        },
+        {
+          "name": "INSPECTIONDATE",
+          "alias": "Inspection Date",
+          "type": "esriFieldTypeDate",
+          "length": 8
+        },
+        {
+          "name": "INSPECTORNAME",
+          "alias": "Inspector Name",
+          "type": "esriFieldTypeString",
+          "length": 400
+        },
+        {
+          "name": "SERVICEORDERSTATUS",
+          "alias": "Service Order Status",
+          "type": "esriFieldTypeString",
+          "length": 50
+        },
+        {
+          "name": "STATUS_CODE",
+          "alias": "Status Code",
+          "type": "esriFieldTypeString",
+          "length": 50
+        },
+        {
+          "name": "PRIORITY",
+          "alias": "Priority",
+          "type": "esriFieldTypeString",
+          "length": 10
+        },
+        {
+          "name": "DETAILS",
+          "alias": "Details",
+          "type": "esriFieldTypeString",
+          "length": 4000
+        },
+        {
+          "name": "WARD",
+          "alias": "Ward",
+          "type": "esriFieldTypeString",
+          "length": 6
+        },
+        {
+          "name": "XCOORD",
+          "alias": "X Coordinate",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "YCOORD",
+          "alias": "Y Coordinate",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "LATITUDE",
+          "alias": "Latitude",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "LONGITUDE",
+          "alias": "Longitude",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "MARADDRESSREPOSITORYID",
+          "alias": "Master Address Repository Identifier",
+          "type": "esriFieldTypeDouble"
+        },
+        {
+          "name": "GLOBALID",
+          "alias": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "length": 38
+        },
+        {
+          "name": "CREATED",
+          "alias": "CREATED",
+          "type": "esriFieldTypeDate",
+          "length": 8
+        },
+        {
+          "name": "EDITED",
+          "alias": "EDITED",
+          "type": "esriFieldTypeDate",
+          "length": 8
+        },
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID",
+          "type": "esriFieldTypeOID"
+        }
+      ],
+      "features": [
+        {
+          "attributes": {
+            "SERVICEREQUESTID": "25-00000002",
+            "STREETADDRESS": "1438 K STREET SE",
+            "CITY": "WASHINGTON",
+            "STATE": "DC",
+            "ZIPCODE": 20003,
+            "SERVICECODE": "S0031",
+            "SERVICECODEDESCRIPTION": "Bulk Collection",
+            "SERVICETYPECODEDESCRIPTION": "SWMA- Solid Waste Management Admistration",
+            "ORGANIZATIONACRONYM": "DPW",
+            "SERVICECALLCOUNT": 1,
+            "ADDDATE": 1735708943000,
+            "RESOLUTIONDATE": 1737823859000,
+            "SERVICEDUEDATE": 1736485140000,
+            "SERVICEORDERDATE": 1735708943000,
+            "INSPECTIONFLAG": null,
+            "INSPECTIONDATE": null,
+            "INSPECTORNAME": null,
+            "SERVICEORDERSTATUS": "Closed",
+            "STATUS_CODE": null,
+            "PRIORITY": "Standard",
+            "DETAILS": null,
+            "WARD": "Ward 6",
+            "XCOORD": 401366.06,
+            "YCOORD": 134524.87,
+            "LATITUDE": 38.87855545,
+            "LONGITUDE": -76.98425653,
+            "MARADDRESSREPOSITORYID": 63442.0,
+            "GLOBALID": "{2AA431E0-F9C7-766F-E063-792F520A1480}",
+            "CREATED": null,
+            "EDITED": null,
+            "OBJECTID": 11865239
+          }
+        },
+        {
+          "attributes": {
+            "SERVICEREQUESTID": "25-00000003",
+            "STREETADDRESS": "1511 PARK ROAD NW",
+            "CITY": "WASHINGTON",
+            "STATE": "DC",
+            "ZIPCODE": 20010,
+            "SERVICECODE": "S0261",
+            "SERVICECODEDESCRIPTION": "Parking Enforcement",
+            "SERVICETYPECODEDESCRIPTION": "PEMA- Parking Enforcement Management Administration",
+            "ORGANIZATIONACRONYM": "DPW",
+            "SERVICECALLCOUNT": 1,
+            "ADDDATE": 1735709029000,
+            "RESOLUTIONDATE": 1735710161000,
+            "SERVICEDUEDATE": 1735795429000,
+            "SERVICEORDERDATE": 1735709029000,
+            "INSPECTIONFLAG": null,
+            "INSPECTIONDATE": null,
+            "INSPECTORNAME": null,
+            "SERVICEORDERSTATUS": "Closed",
+            "STATUS_CODE": null,
+            "PRIORITY": "Standard",
+            "DETAILS": null,
+            "WARD": "Ward 1",
+            "XCOORD": 396942.87,
+            "YCOORD": 140394.8,
+            "LATITUDE": 38.93142958,
+            "LONGITUDE": -77.03525872,
+            "MARADDRESSREPOSITORYID": 234437.0,
+            "GLOBALID": "{2AA431E0-F9C8-766F-E063-792F520A1480}",
+            "CREATED": null,
+            "EDITED": null,
+            "OBJECTID": 11865240
+          }
+        }
+      ],
+      "exceededTransferLimit": true
+    }
+  },
+  {
+    "city": "Charlotte",
+    "endpoint": "https://gis.charlottenc.gov/arcgis/rest/services/ODP/ServiceRequests311/MapServer/0",
+    "title": "Service Request Data",
+    "columns": [
+      "OBJECTID",
+      "DEPARTMENT",
+      "DIVISION",
+      "REQUEST_NO",
+      "FISCAL_YEAR",
+      "FISCAL_MONTH",
+      "REQUEST_TYPE",
+      "RECEIVED_DATE",
+      "INTERNAL_FIELD_OBSERVATION",
+      "TITLE",
+      "CMPD_DIVISION",
+      "NEIGHBORHOOD_PROFILE_AREA",
+      "BLOCK_NO",
+      "STREET_DIRECTION",
+      "STREET_NAME",
+      "STREET_TYPE",
+      "CITY",
+      "STATE",
+      "ZIP_CODE",
+      "FULL_ADDRESS",
+      "X_COORD",
+      "Y_COORD",
+      "LATITUDE",
+      "LONGITUDE",
+      "COUNCIL_DISTRICT",
+      "Shape",
+      "GlobalID",
+      "PID"
+    ],
+    "agency_fields": [
+      "DEPARTMENT",
+      "DIVISION",
+      "CMPD_DIVISION"
+    ],
+    "values": {
+      "DEPARTMENT": {
+        "displayFieldName": "STREET_NAME",
+        "fieldAliases": {
+          "DEPARTMENT": "Department"
+        },
+        "fields": [
+          {
+            "name": "DEPARTMENT",
+            "type": "esriFieldTypeString",
+            "alias": "Department",
+            "length": 100
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "DEPARTMENT": "Transit"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "City Clerk"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Housing and NBHD Serv"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Aviation"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Human Resources/City"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Char Business Inclusion"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Mayor"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Cnty Mngr./ Commissioners"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Police"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "City Attorney"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Transportation"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "City Manager"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Fire/City"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "NCDOT"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Health Dept/Cnty"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Solid Waste Services"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Finance/City"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "UT-Utilities"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Strategy and Budget"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Eng & Prop Mgmt/City"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Storm Water Services"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Procurement/City"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Shared Services"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Planning/City"
+            }
+          },
+          {
+            "attributes": {
+              "DEPARTMENT": "Mecklenburg County"
+            }
+          }
+        ]
+      },
+      "DIVISION": {
+        "displayFieldName": "STREET_NAME",
+        "fieldAliases": {
+          "DIVISION": "Division"
+        },
+        "fields": [
+          {
+            "name": "DIVISION",
+            "type": "esriFieldTypeString",
+            "alias": "Division",
+            "length": 25
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "DIVISION": "Public Serv. & Info/Cnty"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "UT-Field Operations"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Tax Assessor Office"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Transit/Operations"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "IT/County"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "UT-Lab Services"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Solid Waste Admin"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Carts - Otto HOTTIC"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Risk Management/City"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Subdivisions"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "City Council"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Building Maintenance"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "311 Partner Liaison"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Transit/Facilities"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "HNS Community Engagement"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Innovation & Technology"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Storm Water- County"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "311 Utility Escalation"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "SW Addresses"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Human Resources/Cnty"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Tax Office"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "HNS Escalated Requests"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": null
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Animal Control"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "UMS - Customer Service"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Revenue/City"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Community Relations"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "SW Multi-Family"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Street Maintenance"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "CWP Resolution Team"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Homeless Support Outreach"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "SW ContMonitor CARTS"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "SW Technology"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Park It"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Carts - Otto"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Sanitation"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "SW Contract Monitors"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "HNS Code Enforcement"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "UT-Water Quality"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Business Garb"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "SWS Carts Admin"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Non-Emergency Police Svcs"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "UT-Administration"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Storm Water- City"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "HNS Non -Residential"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Land Use & Env Serv/Cnty"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Environmental Health/Cnty"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Multifamily (Bulky)"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "UT-Customer Service"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "UT-Billing"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Fleet Mgt/City"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Economic Development"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Land Development/City"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Transit/Marketing"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "CDOT Customer Service"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Special Services"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Landscape Manage./City"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Park and Recreation/Cnty"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Multifamily (Garb / Recy)"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "SWS Cust Svc Liaison Team"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "UT-Engineering"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "CWP Escalation Team"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "311 Supervisors"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Clt Comm & Marketing"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "UMS - Billing Team"
+            }
+          },
+          {
+            "attributes": {
+              "DIVISION": "Office of CIO"
+            }
+          }
+        ]
+      },
+      "CMPD_DIVISION": {
+        "displayFieldName": "STREET_NAME",
+        "fieldAliases": {
+          "CMPD_DIVISION": "CMPD Division"
+        },
+        "fields": [
+          {
+            "name": "CMPD_DIVISION",
+            "type": "esriFieldTypeString",
+            "alias": "CMPD Division",
+            "length": 30
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "CMPD_DIVISION": "PROVIDENCE"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "STEELE CREEK"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "NORTH"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "HICKORY GROVE"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "FREEDOM"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": null
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "METRO"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "EASTWAY"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "CENTRAL"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "UNIVERSITY CITY"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "WESTOVER"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "SOUTH"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "NORTH TRYON"
+            }
+          },
+          {
+            "attributes": {
+              "CMPD_DIVISION": "INDEPENDENCE"
+            }
+          }
+        ]
+      }
+    }
+  }
+]
