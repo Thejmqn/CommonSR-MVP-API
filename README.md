@@ -4,9 +4,8 @@ Install dependencies with `py -3.12 -m pip install -r requirements.txt`.
 
 ## San Francisco 311 requests
 
-Set the `SOCOTRA_SECRET` environment variable to your Socrata application token.
-The token is read at runtime and is never saved in the results. If it is absent,
-the script uses public, unauthenticated access, which has lower rate limits.
+Live requests require a valid Socrata application token in the `SOCOTRA_SECRET`
+environment variable. The converter can read saved records without a token.
 
 Run `py -3.12 sf311.py` to save the latest 100 cases to
 `sf_311_common_sr.json`, or specify a path with `--output`.
@@ -25,11 +24,25 @@ include SF local offsets and UTC values using `America/Los_Angeles` daylight
 saving rules. Coordinates are numeric with at most eight decimal places.
 Supervisor District, SF Find Neighborhood, and Police District populate
 `sub_1`, `sub_2`, and `sub_3`; absent subdivisions are null.
-`status_notes` is preserved verbatim as `description` (null when absent).
-Data records omit `agency` and `request` until mappings are implemented.
+`service_details` supplies `description` (null when absent or empty).
+Each record includes `agency.raw` from `agency_responsible` and `agency.clean`
+from [the SF mappings CSV](Specifications/san_francisco_agency_mappings.csv).
+Exact raw names are preserved and matched, including historical queue names.
+All CSV assignments are applied, including rows flagged for later review.
+Unknown or missing agencies have a null `clean` value; a missing raw agency
+also has a null `raw` value.
+Each record includes `request.raw` as the SF service name and subtype joined
+with ` - `. When only one value exists, the converter uses that value alone.
+`request.clean` comes from the San Francisco pairs in the
+[request-type evidence](research/common_sr_request_type_evidence.json).
+The lookup ignores casing and surrounding whitespace and recognizes a few
+equivalent SF label pairs. Unmapped pairs have a null `clean` value.
+The converter reads both mapping files once per batch. Include the agency
+CSV and request evidence JSON at their repository paths when packaging the
+API, including for Lambda.
 Metadata uses the SF values from the specification, with `notes` as an array
 as required by its field definition. Mapping URLs are metadata from the
-specification; the converter does not fetch or apply them.
+specification. The converter reads the local mapping files.
 
 Run converter tests with `py -3.12 -m unittest discover -s tests`.
 
@@ -37,8 +50,6 @@ Run converter tests with `py -3.12 -m unittest discover -s tests`.
 `service_request_id` descending as a tiebreaker. The query excludes missing
 opening dates and limits the response to 100 rows on the server.
 
-The [dataset](https://data.sf.gov/City-Infrastructure/311-Cases/vw6y-z8j6/data_preview)
-also exposes a v3 query endpoint. The requested
-[sodapy package](https://pypi.org/project/sodapy/) uses the compatible SODA
-resource endpoint, `https://data.sf.gov/resource/vw6y-z8j6.json`, and sends
-the [SoQL query](https://dev.socrata.com/docs/queries/) as `$query`.
+The script uses `requests.post` with the [SODA 3.0 query endpoint](https://data.sf.gov/api/v3/views/vw6y-z8j6/query.json).
+It sends the [SoQL query](https://dev.socrata.com/docs/queries/) in the JSON
+body and the token in the `X-App-Token` header.

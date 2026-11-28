@@ -1,0 +1,592 @@
+[
+  {
+    "agency_responsible": "CCC - Community Branch",
+    "service_name": "General Request - DPH",
+    "request_count": "133"
+  },
+  {
+    "agency_responsible": "CCC - Community Branch",
+    "service_name": "General Request - SFPD",
+    "request_count": "6"
+  },
+  {
+    "agency_responsible": "CCC - Community Branch",
+    "service_name": "General Request - PUBLIC WORKS",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "CCC - Community Branch",
+    "service_name": "Residential Building Request",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "CCC - Community Branch",
+    "service_name": "General Request - BUILDING INSPECTION",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "CCC - Community Branch",
+    "service_name": "General Request - CHILDREN YOUTH FAMILIES",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "CCC - Community Branch",
+    "service_name": "General Request - ECONOMICS AND WORKFORCE DEVELOPMENT",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "CCC - Community Branch",
+    "service_name": "Sewer Issues",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "CSP Escalation Review Queue",
+    "service_name": "General Request - 311CUSTOMERSERVICECENTER",
+    "request_count": "11"
+  },
+  {
+    "agency_responsible": "CSP Escalation Review Queue",
+    "service_name": "General Request - DPH",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "CSP Escalation Review Queue",
+    "service_name": "Blocked Street or SideWalk",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "CSP Escalation Review Queue",
+    "service_name": "Noise Report",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "CSP Escalation Review Queue",
+    "service_name": "Sign Repair",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "CSP Escalation Review Queue",
+    "service_name": "General Request - HSH",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Demo",
+    "service_name": "Information Provided",
+    "request_count": "76"
+  },
+  {
+    "agency_responsible": "Demo",
+    "service_name": "Well-Being Check",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Demo",
+    "service_name": "Encampment",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Demo",
+    "service_name": "Followup",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Demo",
+    "service_name": "Behavioral Third Party",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Demo",
+    "service_name": "Aggressive/Threatening",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Environment",
+    "service_name": "General Request",
+    "request_count": "29"
+  },
+  {
+    "agency_responsible": "Environment",
+    "service_name": "Residential Building",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Environment",
+    "service_name": "Sidewalk and Curb",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - ENVIRONMENT",
+    "request_count": "312"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - 311CUSTOMERSERVICECENTER",
+    "request_count": "33"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - DPH",
+    "request_count": "28"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - CITYADMINISTRATOR GSA",
+    "request_count": "8"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "Residential Building Request",
+    "request_count": "8"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - PUBLIC WORKS",
+    "request_count": "6"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "Street and Sidewalk Cleaning",
+    "request_count": "3"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "Litter Receptacles",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - ENTERTAINMENT COMMISSION",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - MONS",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - MOD",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - SFPD",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - TT COLLECTOR",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - COUNTY CLERK",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - OCC",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Environment - G",
+    "service_name": "General Request - PLANNING",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Face Covering Report Queue",
+    "service_name": "General Request - SFPD",
+    "request_count": "364"
+  },
+  {
+    "agency_responsible": "Good Neighbor Policy",
+    "service_name": "Street and Sidewalk Cleaning",
+    "request_count": "194"
+  },
+  {
+    "agency_responsible": "Good Neighbor Policy",
+    "service_name": "Graffiti Public",
+    "request_count": "50"
+  },
+  {
+    "agency_responsible": "Good Neighbor Policy",
+    "service_name": "Graffiti Private",
+    "request_count": "44"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "General Request - SFPD",
+    "request_count": "927"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "Noise Report",
+    "request_count": "24"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "General Request - PUBLIC WORKS",
+    "request_count": "16"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "General Request -",
+    "request_count": "8"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "General Request - DPH",
+    "request_count": "6"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "Rec and Park Requests",
+    "request_count": "3"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "General Request - 311CUSTOMERSERVICECENTER",
+    "request_count": "3"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "Litter Receptacles",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "Blocked Street or SideWalk",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "Damaged Property",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "General Request - ANIMAL CARE CONTROL",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "General Request - CITYADMINISTRATOR GSA",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "General Request - LABOR STANDARDS ENFORCEMENT",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "General Request - MOCD",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "General Request - PLANNING",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "HSOC PHC Queue",
+    "service_name": "Street and Sidewalk Cleaning",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Knowledge Solutions",
+    "service_name": "311 External Request",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Knowledge Solutions",
+    "service_name": "General Request - 311CUSTOMERSERVICECENTER",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Noise Report",
+    "service_name": "Noise",
+    "request_count": "26025"
+  },
+  {
+    "agency_responsible": "Noise Report",
+    "service_name": "General Request",
+    "request_count": "24"
+  },
+  {
+    "agency_responsible": "Noise Report",
+    "service_name": "RPD General",
+    "request_count": "8"
+  },
+  {
+    "agency_responsible": "Noise Report",
+    "service_name": "Parking Enforcement",
+    "request_count": "4"
+  },
+  {
+    "agency_responsible": "Noise Report",
+    "service_name": "Residential Building",
+    "request_count": "3"
+  },
+  {
+    "agency_responsible": "Noise Report",
+    "service_name": "Damage Property",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Noise Report",
+    "service_name": "Street and Sidewalk Cleaning",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Noise Report",
+    "service_name": "Blocked Street and Sidewalk",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Noise Report",
+    "service_name": "Graffiti Public",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Noise Report",
+    "service_name": "MTA Parking Traffic Signs High Priority",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Noise Report",
+    "request_count": "24234"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - PUBLIC WORKS",
+    "request_count": "39"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - 311CUSTOMERSERVICECENTER",
+    "request_count": "32"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Child Request",
+    "request_count": "25"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - MTA",
+    "request_count": "17"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - DPH",
+    "request_count": "11"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Residential Building Request",
+    "request_count": "11"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - BUILDING INSPECTION",
+    "request_count": "10"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - ANIMAL CARE CONTROL",
+    "request_count": "8"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Rec and Park Requests",
+    "request_count": "4"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Street Defects",
+    "request_count": "4"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Graffiti",
+    "request_count": "4"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - ENTERTAINMENT COMMISSION",
+    "request_count": "3"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - PLANNING",
+    "request_count": "3"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Street and Sidewalk Cleaning",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - SFPD",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Shared Spaces Violation",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Encampments",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Sidewalk or Curb",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Abandoned Vehicle",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "311 External Request",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Damaged Property",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - BOARD OF SUPERVISORS",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "General Request - LABOR STANDARDS ENFORCEMENT",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Homeless Concerns",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Sign Repair",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Noise Report Queue",
+    "service_name": "Tree Maintenance",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Rapid Deploy Queue",
+    "service_name": "311 External Request",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "SFGOV Work Request Queue",
+    "service_name": "Blocked Street or SideWalk",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "SFGOV Work Request Queue",
+    "service_name": "General Request - BUILDING INSPECTION",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "SFGOV Work Request Queue",
+    "service_name": "Graffiti",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "SSP Restaurant Pre-Screening Application Queue",
+    "service_name": "General Request - DPH",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Tent Count",
+    "service_name": "Tent Count",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Travel Quarantine Report Queue",
+    "service_name": "General Request - SFPD",
+    "request_count": "17"
+  },
+  {
+    "agency_responsible": "Travel Quarantine Report Queue",
+    "service_name": "General Request - DPH",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Travel Quarantine Report Queue",
+    "service_name": "General Request - COUNTY CLERK",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "General Request - 311CUSTOMERSERVICECENTER",
+    "request_count": "400"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "General Request - TT COLLECTOR",
+    "request_count": "176"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "General Request - COUNTY CLERK",
+    "request_count": "21"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "General Request - ASSESSOR RECORDER",
+    "request_count": "20"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "General Request -",
+    "request_count": "3"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "General Request - RENT BOARD",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "General Request - SMALL BUSINESS",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "General Request - CITYADMINISTRATOR GSA",
+    "request_count": "2"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "Blocked Street or SideWalk",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "General Request - DPH",
+    "request_count": "1"
+  },
+  {
+    "agency_responsible": "Triage - TTX Queue",
+    "service_name": "General Request - REAL ESTATE DEPARTMENT",
+    "request_count": "1"
+  }
+]

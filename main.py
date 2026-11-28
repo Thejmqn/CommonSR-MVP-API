@@ -1,9 +1,14 @@
+import os
+
 from fastapi import FastAPI, HTTPException
 from mangum import Mangum
 from requests.exceptions import RequestException
 
 from common_sr import convert_sf_results
 from sf311 import fetch_latest_requests
+import pandas as pd
+from sodapy import Socrata
+
 
 app = FastAPI()
 handler = Mangum(app)
@@ -26,6 +31,8 @@ def san_francisco_requests():
         raise HTTPException(status_code=502, detail="Unable to retrieve SF 311 requests") from exc
     except (ValueError, KeyError, TypeError) as exc:
         raise HTTPException(status_code=502, detail="Unable to convert SF 311 requests") from exc
+    except OSError as exc:
+        raise HTTPException(status_code=500, detail="Unable to load SF mappings") from exc
 
 # 1. SF - https://data.sf.gov/City-Infrastructure/311-Cases/vw6y-z8j6/data_preview
 # 2. Seattle - https://data.seattle.gov/City-Administration/Customer-Service-Requests/5ngg-rpne/data_preview

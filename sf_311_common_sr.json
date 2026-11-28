@@ -16,7 +16,10 @@
       "sub_3": "Police District",
       "notes": [
         "SF Closed cases are represented as resolved.",
-        "Agency and request fields are omitted pending mappings."
+        "Agency classifications use the SF mappings CSV, including provisional assignments pending review.",
+        "Unmapped or missing agencies have a null clean value.",
+        "Request classifications use the SF entries in the CommonSR request-type evidence.",
+        "Unmapped or missing request types have a null clean value."
       ]
     }
   },
@@ -39,7 +42,15 @@
       "sub_1": "7",
       "sub_2": "Stonestown",
       "sub_3": "TARAVAL",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Abandoned Vehicles Work",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - abandoned_vehicle",
+        "clean": "Abandoned Vehicle"
+      },
+      "description": null
     },
     {
       "id": "202000356833",
@@ -59,7 +70,15 @@
       "sub_1": "4",
       "sub_2": "Outer Sunset",
       "sub_3": "TARAVAL",
-      "description": "open"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "glass"
     },
     {
       "id": "202000356832",
@@ -79,7 +98,15 @@
       "sub_1": "4",
       "sub_2": "Outer Sunset",
       "sub_3": "TARAVAL",
-      "description": "open"
+      "agency": {
+        "raw": "RPD - PSA",
+        "clean": "Parks and Recreation"
+      },
+      "request": {
+        "raw": "RPD General - structural_maintenance",
+        "clean": "Park Maintenance"
+      },
+      "description": "pathway"
     },
     {
       "id": "202000356797",
@@ -99,7 +126,15 @@
       "sub_1": "3",
       "sub_2": "North Beach",
       "sub_3": "CENTRAL",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Access/Mobility Services Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Blocked Street and Sidewalk - blocked_sidewalk",
+        "clean": "Blocked Sidewalk or Right of Way"
+      },
+      "description": "scooter_without_license_plate"
     },
     {
       "id": "202000356764",
@@ -119,7 +154,15 @@
       "sub_1": "5",
       "sub_2": "Western Addition",
       "sub_3": "NORTHERN",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_tow",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356739",
@@ -139,7 +182,15 @@
       "sub_1": "9",
       "sub_2": "Mission",
       "sub_3": "MISSION",
-      "description": "open"
+      "agency": {
+        "raw": "Entertainment Commission",
+        "clean": "Permits and Code Enforcement"
+      },
+      "request": {
+        "raw": "Noise - entertainment",
+        "clean": "Noise Complaint"
+      },
+      "description": null
     },
     {
       "id": "202000356738",
@@ -159,7 +210,15 @@
       "sub_1": "6",
       "sub_2": "South of Market",
       "sub_3": "SOUTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "General Request - homelessness_and_supportive_housing",
+        "clean": "Homeless Outreach Request"
+      },
+      "description": "housing_homeless request_for_service"
     },
     {
       "id": "202000356734",
@@ -179,7 +238,15 @@
       "sub_1": "11",
       "sub_2": "University Mound",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_only",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356732",
@@ -199,7 +266,15 @@
       "sub_1": "4",
       "sub_2": "Parkside",
       "sub_3": "TARAVAL",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_only",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356731",
@@ -219,7 +294,15 @@
       "sub_1": "5",
       "sub_2": "Mint Hill",
       "sub_3": "NORTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Access/Mobility Services Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Blocked Street and Sidewalk - blocked_sidewalk",
+        "clean": "Blocked Sidewalk or Right of Way"
+      },
+      "description": "scooter_without_license_plate"
     },
     {
       "id": "202000356670",
@@ -239,7 +322,15 @@
       "sub_1": "6",
       "sub_2": "South of Market",
       "sub_3": "SOUTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "Encampment - encampment",
+        "clean": "Homeless Encampment Report"
+      },
+      "description": null
     },
     {
       "id": "202000356668",
@@ -259,7 +350,15 @@
       "sub_1": "9",
       "sub_2": "University Mound",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356667",
@@ -279,7 +378,15 @@
       "sub_1": "9",
       "sub_2": "Mission",
       "sub_3": "MISSION",
-      "description": "in progress"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "other_loose_garbage_debris_yard_waste"
     },
     {
       "id": "202000356665",
@@ -299,7 +406,15 @@
       "sub_1": "11",
       "sub_2": "Mission Terrace",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_only",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356639",
@@ -319,7 +434,15 @@
       "sub_1": "9",
       "sub_2": "Bernal Heights",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - parking_on_sidewalk",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356638",
@@ -339,7 +462,15 @@
       "sub_1": "2",
       "sub_2": "Cow Hollow",
       "sub_3": "NORTHERN",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - parking_on_sidewalk",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356637",
@@ -359,7 +490,15 @@
       "sub_1": "9",
       "sub_2": "Bernal Heights",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356636",
@@ -379,7 +518,15 @@
       "sub_1": "11",
       "sub_2": "Outer Mission",
       "sub_3": "TARAVAL",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356635",
@@ -399,7 +546,15 @@
       "sub_1": "2",
       "sub_2": "Cow Hollow",
       "sub_3": "NORTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "Encampment - encampment",
+        "clean": "Homeless Encampment Report"
+      },
+      "description": null
     },
     {
       "id": "202000356634",
@@ -419,7 +574,15 @@
       "sub_1": "9",
       "sub_2": "Bernal Heights",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356633",
@@ -439,7 +602,15 @@
       "sub_1": "9",
       "sub_2": "Bernal Heights",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356632",
@@ -459,7 +630,15 @@
       "sub_1": "9",
       "sub_2": "Bernal Heights",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356631",
@@ -479,7 +658,15 @@
       "sub_1": "9",
       "sub_2": "Bernal Heights",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - parking_on_sidewalk",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356629",
@@ -499,7 +686,15 @@
       "sub_1": "5",
       "sub_2": "Tenderloin",
       "sub_3": "TENDERLOIN",
-      "description": "open"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "General Request - homelessness_and_supportive_housing",
+        "clean": "Homeless Outreach Request"
+      },
+      "description": "housing_homeless request_for_service"
     },
     {
       "id": "202000356627",
@@ -519,7 +714,15 @@
       "sub_1": "11",
       "sub_2": "Cayuga",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_only",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356626",
@@ -539,7 +742,15 @@
       "sub_1": "6",
       "sub_2": "South Beach",
       "sub_3": "SOUTHERN",
-      "description": "in progress"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "other_loose_garbage_debris_yard_waste"
     },
     {
       "id": "202000356625",
@@ -559,7 +770,15 @@
       "sub_1": "3",
       "sub_2": "Lower Nob Hill",
       "sub_3": "CENTRAL",
-      "description": "in progress"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "human_waste_or_urine"
     },
     {
       "id": "202000356623",
@@ -579,7 +798,15 @@
       "sub_1": "6",
       "sub_2": "South of Market",
       "sub_3": "SOUTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "Encampment - encampment",
+        "clean": "Homeless Encampment Report"
+      },
+      "description": null
     },
     {
       "id": "202000356622",
@@ -599,7 +826,15 @@
       "sub_1": "9",
       "sub_2": "University Mound",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356621",
@@ -622,7 +857,15 @@
       "sub_1": "11",
       "sub_2": "Outer Mission",
       "sub_3": "TARAVAL",
-      "description": "case_resolved - Officer responded to request under CAD # 263293330.  Issue reported could not be validated."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_only",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356620",
@@ -642,7 +885,15 @@
       "sub_1": "6",
       "sub_2": "Mission Bay",
       "sub_3": "SOUTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "needles_less_than_20"
     },
     {
       "id": "202000356619",
@@ -662,7 +913,15 @@
       "sub_1": "6",
       "sub_2": "Mission Bay",
       "sub_3": "SOUTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Graffiti Public - not_offensive",
+        "clean": "Graffiti Removal"
+      },
+      "description": "other"
     },
     {
       "id": "202000356618",
@@ -685,7 +944,15 @@
       "sub_1": "11",
       "sub_2": "Outer Mission",
       "sub_3": "TARAVAL",
-      "description": "case_is_a_duplicate - This issue has already been reported through an earlier request."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - parking_on_sidewalk",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356617",
@@ -705,7 +972,15 @@
       "sub_1": "4",
       "sub_2": "Parkside",
       "sub_3": "TARAVAL",
-      "description": "open"
+      "agency": {
+        "raw": "PW - Street Use and Mapping",
+        "clean": "Permits and Code Enforcement"
+      },
+      "request": {
+        "raw": "Street Defect - utility_excavation",
+        "clean": null
+      },
+      "description": null
     },
     {
       "id": "202000356616",
@@ -725,7 +1000,15 @@
       "sub_1": "9",
       "sub_2": "Mission",
       "sub_3": "MISSION",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Muni Feedback Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Muni Service Feedback - complaint_frequency_reliability",
+        "clean": null
+      },
+      "description": "pass_ups"
     },
     {
       "id": "202000356615",
@@ -745,7 +1028,15 @@
       "sub_1": "11",
       "sub_2": "Outer Mission",
       "sub_3": "TARAVAL",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356614",
@@ -765,7 +1056,15 @@
       "sub_1": "5",
       "sub_2": "Tenderloin",
       "sub_3": "TENDERLOIN",
-      "description": "open"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "General Request - homelessness_and_supportive_housing",
+        "clean": "Homeless Outreach Request"
+      },
+      "description": "housing_homeless request_for_service"
     },
     {
       "id": "202000356613",
@@ -785,7 +1084,15 @@
       "sub_1": null,
       "sub_2": null,
       "sub_3": null,
-      "description": "open"
+      "agency": {
+        "raw": "PW - Street Use and Mapping",
+        "clean": "Permits and Code Enforcement"
+      },
+      "request": {
+        "raw": "General Request - public_works",
+        "clean": null
+      },
+      "description": "bsm request_for_service"
     },
     {
       "id": "202000356612",
@@ -805,7 +1112,15 @@
       "sub_1": "6",
       "sub_2": "Mission Bay",
       "sub_3": "SOUTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Muni Feedback Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Muni Service Feedback - complaint_frequency_reliability",
+        "clean": null
+      },
+      "description": "delays"
     },
     {
       "id": "202000356611",
@@ -825,7 +1140,15 @@
       "sub_1": "11",
       "sub_2": "Outer Mission",
       "sub_3": "TARAVAL",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - parking_on_sidewalk",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356609",
@@ -848,7 +1171,15 @@
       "sub_1": "3",
       "sub_2": "Nob Hill",
       "sub_3": "CENTRAL",
-      "description": "case_resolved - Officer responded to request under CAD # 263293310. Unable to Locate."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - parking_on_sidewalk",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356608",
@@ -868,7 +1199,15 @@
       "sub_1": "10",
       "sub_2": "Hunters Point",
       "sub_3": "BAYVIEW",
-      "description": "open"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "General Request - homelessness_and_supportive_housing",
+        "clean": "Homeless Outreach Request"
+      },
+      "description": "housing_homeless request_for_service"
     },
     {
       "id": "202000356607",
@@ -891,7 +1230,15 @@
       "sub_1": "6",
       "sub_2": "South of Market",
       "sub_3": "SOUTHERN",
-      "description": "case_resolved - Officer responded to request under CAD # 263293298. Unable to Locate."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356605",
@@ -914,7 +1261,15 @@
       "sub_1": "11",
       "sub_2": "Outer Mission",
       "sub_3": "TARAVAL",
-      "description": "case_resolved - Officer responded to request under CAD # 263293291.  Citation was issued."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356604",
@@ -934,7 +1289,15 @@
       "sub_1": "1",
       "sub_2": "Inner Richmond",
       "sub_3": "RICHMOND",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Muni Feedback Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Muni Service Feedback - complaint_frequency_reliability",
+        "clean": null
+      },
+      "description": "pass_ups"
     },
     {
       "id": "202000356603",
@@ -954,7 +1317,15 @@
       "sub_1": "11",
       "sub_2": "Outer Mission",
       "sub_3": "TARAVAL",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356602",
@@ -977,7 +1348,15 @@
       "sub_1": "9",
       "sub_2": "Mission Dolores",
       "sub_3": "MISSION",
-      "description": "case_resolved - Officer responded to request under CAD # 263293279. Unable to Locate."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - parking_on_sidewalk",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356601",
@@ -1000,7 +1379,15 @@
       "sub_1": "9",
       "sub_2": "Mission Dolores",
       "sub_3": "MISSION",
-      "description": "case_is_invalid - This does not appear to be a concern for public works. Please report to parking enforcement if this is still an ongoing issue: https://www.sf.gov/report-blocked-driveway-or-illegal-parking"
+      "agency": {
+        "raw": "311 - Supervisor",
+        "clean": "Customer Service"
+      },
+      "request": {
+        "raw": "General Request - public_works",
+        "clean": null
+      },
+      "description": "bsm complaint"
     },
     {
       "id": "202000356600",
@@ -1023,7 +1410,15 @@
       "sub_1": "9",
       "sub_2": "Mission",
       "sub_3": "MISSION",
-      "description": "case_resolved - Officer responded to request under CAD # 263293271. Issue was addressed."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_tow",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356599",
@@ -1043,7 +1438,15 @@
       "sub_1": "7",
       "sub_2": "West Portal",
       "sub_3": "TARAVAL",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Muni Feedback Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Muni Service Feedback - complaint_maintenance_repair",
+        "clean": null
+      },
+      "description": "vehicle_maintenance_noise"
     },
     {
       "id": "202000356593",
@@ -1063,7 +1466,15 @@
       "sub_1": "3",
       "sub_2": "North Beach",
       "sub_3": "CENTRAL",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Access/Mobility Services Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Blocked Street and Sidewalk - blocked_sidewalk",
+        "clean": "Blocked Sidewalk or Right of Way"
+      },
+      "description": "scooter_without_license_plate"
     },
     {
       "id": "202000356591",
@@ -1083,7 +1494,15 @@
       "sub_1": "5",
       "sub_2": "Tenderloin",
       "sub_3": "TENDERLOIN",
-      "description": "open"
+      "agency": {
+        "raw": "Noise Report",
+        "clean": "Customer Service"
+      },
+      "request": {
+        "raw": "Noise - other_excessive_noise",
+        "clean": "Noise Complaint"
+      },
+      "description": null
     },
     {
       "id": "202000356590",
@@ -1103,7 +1522,15 @@
       "sub_1": "11",
       "sub_2": "Ingleside",
       "sub_3": "TARAVAL",
-      "description": "new"
+      "agency": {
+        "raw": "Recology - Abandoned",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "other_bagged_boxed_contained_garbage"
     },
     {
       "id": "202000356589",
@@ -1123,7 +1550,15 @@
       "sub_1": "3",
       "sub_2": "Russian Hill",
       "sub_3": "CENTRAL",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Access/Mobility Services Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Blocked Street and Sidewalk - blocked_sidewalk",
+        "clean": "Blocked Sidewalk or Right of Way"
+      },
+      "description": "scooter_without_license_plate"
     },
     {
       "id": "202000356586",
@@ -1143,7 +1578,15 @@
       "sub_1": "8",
       "sub_2": "Glen Park",
       "sub_3": "INGLESIDE",
-      "description": "open"
+      "agency": {
+        "raw": "Clear Channel - Transit",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "transit_shelter_platform"
     },
     {
       "id": "202000356585",
@@ -1163,7 +1606,15 @@
       "sub_1": "8",
       "sub_2": "Glen Park",
       "sub_3": "INGLESIDE",
-      "description": "in progress"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "other_loose_garbage_debris_yard_waste"
     },
     {
       "id": "202000356584",
@@ -1183,7 +1634,15 @@
       "sub_1": "10",
       "sub_2": "Bayview",
       "sub_3": "BAYVIEW",
-      "description": "open"
+      "agency": {
+        "raw": "Noise Report",
+        "clean": "Customer Service"
+      },
+      "request": {
+        "raw": "Noise - other_excessive_noise",
+        "clean": "Noise Complaint"
+      },
+      "description": null
     },
     {
       "id": "202000356583",
@@ -1203,7 +1662,15 @@
       "sub_1": "9",
       "sub_2": "Mission",
       "sub_3": "MISSION",
-      "description": "open"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "Encampment - encampment",
+        "clean": "Homeless Encampment Report"
+      },
+      "description": null
     },
     {
       "id": "202000356581",
@@ -1223,7 +1690,15 @@
       "sub_1": "5",
       "sub_2": "Tenderloin",
       "sub_3": "TENDERLOIN",
-      "description": "open"
+      "agency": {
+        "raw": "Clear Channel - Transit",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Damage Property - transit_shelter_platform",
+        "clean": null
+      },
+      "description": null
     },
     {
       "id": "202000356578",
@@ -1243,7 +1718,15 @@
       "sub_1": "6",
       "sub_2": "South of Market",
       "sub_3": "SOUTHERN",
-      "description": "new"
+      "agency": {
+        "raw": "Recology - Overflowing",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "city_garbage_can_overflowing"
     },
     {
       "id": "202000356572",
@@ -1263,7 +1746,15 @@
       "sub_1": "6",
       "sub_2": "Mission Bay",
       "sub_3": "SOUTHERN",
-      "description": "in progress"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "other_loose_garbage_debris_yard_waste"
     },
     {
       "id": "202000356571",
@@ -1283,7 +1774,15 @@
       "sub_1": "9",
       "sub_2": "Bernal Heights",
       "sub_3": "INGLESIDE",
-      "description": "in progress"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "auto_accident_debris"
     },
     {
       "id": "202000356568",
@@ -1306,7 +1805,15 @@
       "sub_1": "2",
       "sub_2": "Aquatic Park / Ft. Mason",
       "sub_3": "CENTRAL",
-      "description": "case_resolved - Officer responded to request under CAD # 263293197.  Issue reported could not be validated."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_only",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356567",
@@ -1329,7 +1836,15 @@
       "sub_1": "10",
       "sub_2": "Visitacion Valley",
       "sub_3": "INGLESIDE",
-      "description": "case_resolved - Officer responded to request under CAD # 263293199.  Citation was issued."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356566",
@@ -1349,7 +1864,15 @@
       "sub_1": "8",
       "sub_2": "Mint Hill",
       "sub_3": "NORTHERN",
-      "description": "accepted"
+      "agency": {
+        "raw": "MTA - Abandoned Vehicles Work",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - large_vehicle",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356565",
@@ -1372,7 +1895,15 @@
       "sub_1": "1",
       "sub_2": "Outer Richmond",
       "sub_3": "RICHMOND",
-      "description": "case_resolved - Officer responded to request under CAD # 263293189. Issue was addressed."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_tow",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356564",
@@ -1392,7 +1923,15 @@
       "sub_1": "8",
       "sub_2": "Glen Park",
       "sub_3": "INGLESIDE",
-      "description": "open"
+      "agency": {
+        "raw": "311 - Content Team",
+        "clean": "Customer Service"
+      },
+      "request": {
+        "raw": "Graffiti Private - not_offensive",
+        "clean": "Graffiti Removal"
+      },
+      "description": "building_other"
     },
     {
       "id": "202000356563",
@@ -1412,7 +1951,15 @@
       "sub_1": "8",
       "sub_2": "Glen Park",
       "sub_3": "INGLESIDE",
-      "description": "open"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Graffiti Private - not_offensive",
+        "clean": "Graffiti Removal"
+      },
+      "description": "building_commercial"
     },
     {
       "id": "202000356562",
@@ -1432,7 +1979,15 @@
       "sub_1": "8",
       "sub_2": "Glen Park",
       "sub_3": "INGLESIDE",
-      "description": "accepted"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Graffiti Public - not_offensive",
+        "clean": "Graffiti Removal"
+      },
+      "description": "signal_box"
     },
     {
       "id": "202000356561",
@@ -1452,7 +2007,15 @@
       "sub_1": "9",
       "sub_2": "Portola",
       "sub_3": "BAYVIEW",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Abandoned Vehicles Work",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - abandoned_vehicle",
+        "clean": "Abandoned Vehicle"
+      },
+      "description": null
     },
     {
       "id": "202000356559",
@@ -1475,7 +2038,15 @@
       "sub_1": "11",
       "sub_2": "Cayuga",
       "sub_3": "INGLESIDE",
-      "description": "case_resolved - Officer responded to request under CAD # 263293167.  Citation was issued."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356558",
@@ -1495,7 +2066,15 @@
       "sub_1": "6",
       "sub_2": "Civic Center",
       "sub_3": "TENDERLOIN",
-      "description": "open"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "General Request - homelessness_and_supportive_housing",
+        "clean": "Homeless Outreach Request"
+      },
+      "description": "housing_homeless request_for_service"
     },
     {
       "id": "202000356556",
@@ -1515,7 +2094,15 @@
       "sub_1": "6",
       "sub_2": "South of Market",
       "sub_3": "SOUTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "PW - Street Use and Mapping",
+        "clean": "Permits and Code Enforcement"
+      },
+      "request": {
+        "raw": "Blocked Street and Sidewalk - blocked_sidewalk",
+        "clean": "Blocked Sidewalk or Right of Way"
+      },
+      "description": "display_merchandise"
     },
     {
       "id": "202000356555",
@@ -1535,7 +2122,15 @@
       "sub_1": "2",
       "sub_2": "Marina",
       "sub_3": "NORTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "Noise Report",
+        "clean": "Customer Service"
+      },
+      "request": {
+        "raw": "Noise - other_excessive_noise",
+        "clean": "Noise Complaint"
+      },
+      "description": null
     },
     {
       "id": "202000356554",
@@ -1555,7 +2150,15 @@
       "sub_1": "6",
       "sub_2": "South of Market",
       "sub_3": "SOUTHERN",
-      "description": "open"
+      "agency": {
+        "raw": "PW - Street Use and Mapping",
+        "clean": "Permits and Code Enforcement"
+      },
+      "request": {
+        "raw": "Blocked Street and Sidewalk - blocked_sidewalk",
+        "clean": "Blocked Sidewalk or Right of Way"
+      },
+      "description": "display_merchandise"
     },
     {
       "id": "202000356553",
@@ -1575,7 +2178,15 @@
       "sub_1": "7",
       "sub_2": "Monterey Heights",
       "sub_3": "TARAVAL",
-      "description": "open"
+      "agency": {
+        "raw": "PUC - Streetlights",
+        "clean": "Utilities"
+      },
+      "request": {
+        "raw": "Streetlights - light",
+        "clean": "Streetlight Repair"
+      },
+      "description": "light_flickering_on_off"
     },
     {
       "id": "202000356552",
@@ -1595,7 +2206,15 @@
       "sub_1": "3",
       "sub_2": "Lower Nob Hill",
       "sub_3": "CENTRAL",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Access/Mobility Services Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Blocked Street and Sidewalk - blocked_sidewalk",
+        "clean": "Blocked Sidewalk or Right of Way"
+      },
+      "description": "spin_standing_scooter"
     },
     {
       "id": "202000356551",
@@ -1618,7 +2237,15 @@
       "sub_1": "11",
       "sub_2": "Oceanview",
       "sub_3": "TARAVAL",
-      "description": "case_is_a_duplicate - This issue has already been reported through an earlier request."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356548",
@@ -1641,7 +2268,15 @@
       "sub_1": "11",
       "sub_2": "Oceanview",
       "sub_3": "TARAVAL",
-      "description": "case_resolved - Officer responded to request under CAD # 263293148.  Issue reported could not be validated."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_only",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356547",
@@ -1661,7 +2296,15 @@
       "sub_1": "8",
       "sub_2": "Castro",
       "sub_3": "MISSION",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Access/Mobility Services Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Blocked Street and Sidewalk - blocked_sidewalk",
+        "clean": "Blocked Sidewalk or Right of Way"
+      },
+      "description": "scooter_without_license_plate"
     },
     {
       "id": "202000356543",
@@ -1681,7 +2324,15 @@
       "sub_1": "6",
       "sub_2": "Civic Center",
       "sub_3": "NORTHERN",
-      "description": "new"
+      "agency": {
+        "raw": "Recology - Overflowing",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "city_garbage_can_overflowing"
     },
     {
       "id": "202000356541",
@@ -1704,7 +2355,15 @@
       "sub_1": "5",
       "sub_2": "Western Addition",
       "sub_3": "NORTHERN",
-      "description": "case_is_a_duplicate - This issue has already been reported through an earlier request."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_tow",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356540",
@@ -1727,7 +2386,15 @@
       "sub_1": "2",
       "sub_2": "Cow Hollow",
       "sub_3": "NORTHERN",
-      "description": "case_resolved - Officer responded to request under CAD # 263293133. Unable to Locate."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - parking_on_sidewalk",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356539",
@@ -1750,7 +2417,15 @@
       "sub_1": "2",
       "sub_2": "Western Addition",
       "sub_3": "PARK",
-      "description": "case_resolved - Officer responded to request under CAD # 263293134.  Citation was issued."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - other_illegal_parking",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356538",
@@ -1770,7 +2445,15 @@
       "sub_1": "3",
       "sub_2": "Lower Nob Hill",
       "sub_3": "CENTRAL",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Access/Mobility Services Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Blocked Street and Sidewalk - blocked_sidewalk",
+        "clean": "Blocked Sidewalk or Right of Way"
+      },
+      "description": "scooter_without_license_plate"
     },
     {
       "id": "202000356536",
@@ -1790,7 +2473,15 @@
       "sub_1": "7",
       "sub_2": "Inner Sunset",
       "sub_3": "PARK",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Transportation Engineering",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "General Request - municipal_transportation_agency",
+        "clean": null
+      },
+      "description": "transportation_engineering request_for_service"
     },
     {
       "id": "202000356535",
@@ -1810,7 +2501,15 @@
       "sub_1": "8",
       "sub_2": "Noe Valley",
       "sub_3": "MISSION",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Transportation Engineering",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "General Request - municipal_transportation_agency",
+        "clean": null
+      },
+      "description": "transportation_engineering request_for_service"
     },
     {
       "id": "202000356534",
@@ -1833,7 +2532,15 @@
       "sub_1": "10",
       "sub_2": "Visitacion Valley",
       "sub_3": "INGLESIDE",
-      "description": "case_resolved - Officer responded to request under CAD # 263293126. Unable to Locate."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - parking_on_sidewalk",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356533",
@@ -1856,7 +2563,15 @@
       "sub_1": "10",
       "sub_2": "Mission",
       "sub_3": "MISSION",
-      "description": "case_resolved - Officer responded to request under CAD # 263293127.  Issue reported could not be validated."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_only",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356532",
@@ -1876,7 +2591,15 @@
       "sub_1": "3",
       "sub_2": "Lower Nob Hill",
       "sub_3": "CENTRAL",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Access/Mobility Services Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Blocked Street and Sidewalk - blocked_sidewalk",
+        "clean": "Blocked Sidewalk or Right of Way"
+      },
+      "description": "lime_standing_scooter"
     },
     {
       "id": "202000356531",
@@ -1896,7 +2619,15 @@
       "sub_1": "9",
       "sub_2": "Mission",
       "sub_3": "MISSION",
-      "description": "open"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "General Request - homelessness_and_supportive_housing",
+        "clean": "Homeless Outreach Request"
+      },
+      "description": "housing_homeless request_for_service"
     },
     {
       "id": "202000356529",
@@ -1916,7 +2647,15 @@
       "sub_1": "7",
       "sub_2": "Ingleside Terraces",
       "sub_3": "TARAVAL",
-      "description": "accepted"
+      "agency": {
+        "raw": "Healthy Streets Operation Center",
+        "clean": "Human Services"
+      },
+      "request": {
+        "raw": "Parking Enforcement - large_vehicle",
+        "clean": "Illegal Parking"
+      },
+      "description": null
     },
     {
       "id": "202000356528",
@@ -1936,7 +2675,15 @@
       "sub_1": "6",
       "sub_2": "Mission Bay",
       "sub_3": "SOUTHERN",
-      "description": "in progress"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "other_loose_garbage_debris_yard_waste"
     },
     {
       "id": "202000356527",
@@ -1956,7 +2703,15 @@
       "sub_1": "9",
       "sub_2": "Holly Park",
       "sub_3": "INGLESIDE",
-      "description": "in progress"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "human_waste_or_urine"
     },
     {
       "id": "202000356526",
@@ -1976,7 +2731,15 @@
       "sub_1": "6",
       "sub_2": "Civic Center",
       "sub_3": "NORTHERN",
-      "description": "in progress"
+      "agency": {
+        "raw": "PW - Street and Environmental Services",
+        "clean": "Sanitation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "other_loose_garbage_debris_yard_waste"
     },
     {
       "id": "202000356519",
@@ -1996,7 +2759,15 @@
       "sub_1": "3",
       "sub_2": "North Beach",
       "sub_3": "CENTRAL",
-      "description": "open"
+      "agency": {
+        "raw": "MTA - Access/Mobility Services Received",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "General Request - municipal_transportation_agency",
+        "clean": null
+      },
+      "description": "scooters complaint"
     },
     {
       "id": "202000356517",
@@ -2019,7 +2790,15 @@
       "sub_1": "5",
       "sub_2": "Western Addition",
       "sub_3": "NORTHERN",
-      "description": "case_resolved - Officer responded to request under CAD # 263293093.  Citation was issued."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_tow",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     },
     {
       "id": "202000356513",
@@ -2039,7 +2818,15 @@
       "sub_1": "9",
       "sub_2": "Mission",
       "sub_3": "MISSION",
-      "description": "open"
+      "agency": {
+        "raw": "Clear Channel - Transit",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Street and Sidewalk Cleaning - garbage_and_debris",
+        "clean": "Litter or Debris Cleanup"
+      },
+      "description": "transit_shelter_platform"
     },
     {
       "id": "202000356511",
@@ -2059,7 +2846,15 @@
       "sub_1": "2",
       "sub_2": "Pacific Heights",
       "sub_3": "NORTHERN",
-      "description": "new"
+      "agency": {
+        "raw": "SFFD - Bureau of Fire Prevention",
+        "clean": "Public Safety"
+      },
+      "request": {
+        "raw": "Residential Building - elevators_no_working_elevator_7_or_more_stories",
+        "clean": null
+      },
+      "description": null
     },
     {
       "id": "202000356509",
@@ -2082,7 +2877,15 @@
       "sub_1": "10",
       "sub_2": "Silver Terrace",
       "sub_3": "BAYVIEW",
-      "description": "case_resolved - Officer responded to request under CAD # 263293077. Unable to Locate."
+      "agency": {
+        "raw": "MTA - Parking Enforcement Dispatch",
+        "clean": "Transportation"
+      },
+      "request": {
+        "raw": "Parking Enforcement - blocking_driveway_cite_only",
+        "clean": "Blocked Driveway"
+      },
+      "description": null
     }
   ]
 }

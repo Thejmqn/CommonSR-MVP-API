@@ -1,0 +1,2576 @@
+{
+  "source": "https://data.sf.gov/City-Infrastructure/311-Cases/vw6y-z8j6/about_data",
+  "endpoint": "https://data.sf.gov/resource/vw6y-z8j6.json",
+  "retrieved_at_utc": "2026-11-27T23:48:32.567733+00:00",
+  "scope": "All published records, including historical and deprecated queues",
+  "totals": {
+    "request_count": "9101522",
+    "distinct_named_agencies": "641"
+  },
+  "agencies": [
+    {
+      "agency_responsible": "311 - Content Team",
+      "request_count": "978"
+    },
+    {
+      "agency_responsible": "311 Escalated KB Questions - Covid 19 Queue",
+      "request_count": "9"
+    },
+    {
+      "agency_responsible": "311 Escalated KB Questions Queue",
+      "request_count": "4227"
+    },
+    {
+      "agency_responsible": "311 Escalation Callback Queue",
+      "request_count": "17"
+    },
+    {
+      "agency_responsible": "311 Escalation Review Queue",
+      "request_count": "369"
+    },
+    {
+      "agency_responsible": "311 - Manager",
+      "request_count": "17"
+    },
+    {
+      "agency_responsible": "311 Manager Queue",
+      "request_count": "434"
+    },
+    {
+      "agency_responsible": "311 - Mobile",
+      "request_count": "174"
+    },
+    {
+      "agency_responsible": "311 - MTA Lost and Found Hold",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "311 - Rent Board Question Request",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "311 - Service Request",
+      "request_count": "837"
+    },
+    {
+      "agency_responsible": "311 - Service Request Hold",
+      "request_count": "2984"
+    },
+    {
+      "agency_responsible": "311 Service Request Queue",
+      "request_count": "15604"
+    },
+    {
+      "agency_responsible": "311 Service Request Queue - Hold",
+      "request_count": "32195"
+    },
+    {
+      "agency_responsible": "311 SSP Inbound QA Queue",
+      "request_count": "174"
+    },
+    {
+      "agency_responsible": "311 - Supervisor",
+      "request_count": "26869"
+    },
+    {
+      "agency_responsible": "311 Supervisor Queue",
+      "request_count": "124894"
+    },
+    {
+      "agency_responsible": "Adult Probation",
+      "request_count": "7"
+    },
+    {
+      "agency_responsible": "Adult Probation - G",
+      "request_count": "38"
+    },
+    {
+      "agency_responsible": "Aging and Adult Services - G",
+      "request_count": "377"
+    },
+    {
+      "agency_responsible": "Aging and Adult Services - G - Hold",
+      "request_count": "16"
+    },
+    {
+      "agency_responsible": "Airport, San Francisco International - G",
+      "request_count": "113"
+    },
+    {
+      "agency_responsible": "Airport, San Francisco International - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Airport - SFO",
+      "request_count": "10"
+    },
+    {
+      "agency_responsible": "Animal Care and Control",
+      "request_count": "643"
+    },
+    {
+      "agency_responsible": "Animal Care and Control - Animal Emergency",
+      "request_count": "106"
+    },
+    {
+      "agency_responsible": "Animal Care and Control - Animal Welfare",
+      "request_count": "114"
+    },
+    {
+      "agency_responsible": "Animal Care and Control - Dead Animal",
+      "request_count": "1812"
+    },
+    {
+      "agency_responsible": "Animal Care and Control - G",
+      "request_count": "11983"
+    },
+    {
+      "agency_responsible": "Animal Care and Control - G - Hold",
+      "request_count": "14"
+    },
+    {
+      "agency_responsible": "Art Commission",
+      "request_count": "92"
+    },
+    {
+      "agency_responsible": "Art Commission - G",
+      "request_count": "766"
+    },
+    {
+      "agency_responsible": "Art Commission - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Asian Art Museum",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "Asian Art Museum - G",
+      "request_count": "9"
+    },
+    {
+      "agency_responsible": "AT and T - Graffiti Queue",
+      "request_count": "16856"
+    },
+    {
+      "agency_responsible": "ATT - Graffiti",
+      "request_count": "6413"
+    },
+    {
+      "agency_responsible": "Board of Appeals",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "Board of Appeals (BOA) - G",
+      "request_count": "6"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - Clerk of the Board",
+      "request_count": "389"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - Clerk of the Board - G",
+      "request_count": "914"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - Clerk of the Board - G - Hold",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 10 - G",
+      "request_count": "8"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 10 - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 11 - G",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 11 - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 1 - G",
+      "request_count": "6"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 1 - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 2 - G",
+      "request_count": "6"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 3 - G",
+      "request_count": "19"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 3 - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 4 - G",
+      "request_count": "10"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 5 - G",
+      "request_count": "13"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 5 - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 6 - G",
+      "request_count": "12"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 6 - G - Hold",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 7 - G",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 7 - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 8 - G",
+      "request_count": "17"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 8 - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Board of Supervisors - District 9 - G",
+      "request_count": "11"
+    },
+    {
+      "agency_responsible": "BOS/Mayor Queue",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "Case Review",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "CBD - Downtown",
+      "request_count": "2219"
+    },
+    {
+      "agency_responsible": "CBD - East Cut",
+      "request_count": "49"
+    },
+    {
+      "agency_responsible": "CBD - Japantown",
+      "request_count": "97"
+    },
+    {
+      "agency_responsible": "CBD - SoMa West",
+      "request_count": "9467"
+    },
+    {
+      "agency_responsible": "CBD - Tenderloin",
+      "request_count": "20260"
+    },
+    {
+      "agency_responsible": "CBD - Yerba Buena",
+      "request_count": "4329"
+    },
+    {
+      "agency_responsible": "CCC - Community Branch",
+      "request_count": "147"
+    },
+    {
+      "agency_responsible": "Central Shops",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "Central Shops - G",
+      "request_count": "121"
+    },
+    {
+      "agency_responsible": "Children, Youth and Families - G",
+      "request_count": "66"
+    },
+    {
+      "agency_responsible": "Child Support Services",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "Child Support Services - G",
+      "request_count": "79"
+    },
+    {
+      "agency_responsible": "City Administrator",
+      "request_count": "11"
+    },
+    {
+      "agency_responsible": "City Administrator/General Services Agency - G",
+      "request_count": "158"
+    },
+    {
+      "agency_responsible": "City Administrator/General Services Agency - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "City Attorney",
+      "request_count": "56"
+    },
+    {
+      "agency_responsible": "City Attorney - G",
+      "request_count": "3343"
+    },
+    {
+      "agency_responsible": "City Attorney - G - Hold",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "City College - G",
+      "request_count": "50"
+    },
+    {
+      "agency_responsible": "City College - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "City Hall - Building Management",
+      "request_count": "11"
+    },
+    {
+      "agency_responsible": "City Hall Building Management - G",
+      "request_count": "178"
+    },
+    {
+      "agency_responsible": "City Hall - Events",
+      "request_count": "52"
+    },
+    {
+      "agency_responsible": "City Hall Events - G",
+      "request_count": "213"
+    },
+    {
+      "agency_responsible": "City Hall Events - G - Hold",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "Clear Channel - Transit",
+      "request_count": "12686"
+    },
+    {
+      "agency_responsible": "Clear Channel - Transit Queue",
+      "request_count": "73656"
+    },
+    {
+      "agency_responsible": "Clerk of the Board - Info Request Form Queue",
+      "request_count": "9"
+    },
+    {
+      "agency_responsible": "Clerk of the Board Queue - AGibson",
+      "request_count": "9"
+    },
+    {
+      "agency_responsible": "Clerk of the Board Queue - RCalonsag",
+      "request_count": "21"
+    },
+    {
+      "agency_responsible": "Clerk of the Board Queue - SWong",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Complaint Follow Up Queue",
+      "request_count": "7"
+    },
+    {
+      "agency_responsible": "Contract - Administration",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "Contract Administration - G",
+      "request_count": "153"
+    },
+    {
+      "agency_responsible": "Controller",
+      "request_count": "42"
+    },
+    {
+      "agency_responsible": "Controller - G",
+      "request_count": "288"
+    },
+    {
+      "agency_responsible": "Convention Facilities",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "Convention Facilities - G",
+      "request_count": "17"
+    },
+    {
+      "agency_responsible": "Convention Facilities - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "CSP Escalation Review Queue",
+      "request_count": "16"
+    },
+    {
+      "agency_responsible": "Current Events",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "Customer Satisfaction Work Queue",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "DBI - Building Inspection",
+      "request_count": "2300"
+    },
+    {
+      "agency_responsible": "DBI Building Inspection Queue",
+      "request_count": "8735"
+    },
+    {
+      "agency_responsible": "DBI - Electrical Inspection",
+      "request_count": "66"
+    },
+    {
+      "agency_responsible": "DBI Electrical Inspection Queue",
+      "request_count": "350"
+    },
+    {
+      "agency_responsible": "DBI - Housing Inspection",
+      "request_count": "7876"
+    },
+    {
+      "agency_responsible": "DBI Housing Inspection Queue",
+      "request_count": "17763"
+    },
+    {
+      "agency_responsible": "DBI - Inspection Services",
+      "request_count": "1834"
+    },
+    {
+      "agency_responsible": "DBI Inspection Services Queue",
+      "request_count": "9523"
+    },
+    {
+      "agency_responsible": "DBI - Other",
+      "request_count": "69"
+    },
+    {
+      "agency_responsible": "DBI - Others - G",
+      "request_count": "666"
+    },
+    {
+      "agency_responsible": "DBI - Others - G - Hold",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "DBI - Permits",
+      "request_count": "14"
+    },
+    {
+      "agency_responsible": "DBI - Permit Services",
+      "request_count": "189"
+    },
+    {
+      "agency_responsible": "DBI Permit Services Queue",
+      "request_count": "1122"
+    },
+    {
+      "agency_responsible": "DBI - Permits - G",
+      "request_count": "103"
+    },
+    {
+      "agency_responsible": "DBI - Permits - G - Hold",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "DBI - Plan Review",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "DBI Plan Review Queue",
+      "request_count": "25"
+    },
+    {
+      "agency_responsible": "DBI - Plumbing Inspection",
+      "request_count": "40"
+    },
+    {
+      "agency_responsible": "DBI Plumbing Inspection Queue",
+      "request_count": "195"
+    },
+    {
+      "agency_responsible": "DBI - Public Services",
+      "request_count": "623"
+    },
+    {
+      "agency_responsible": "DBI Public Services Queue",
+      "request_count": "87"
+    },
+    {
+      "agency_responsible": "DBI - Support Services",
+      "request_count": "68"
+    },
+    {
+      "agency_responsible": "DBI Support Services Queue",
+      "request_count": "3314"
+    },
+    {
+      "agency_responsible": "Demo",
+      "request_count": "84"
+    },
+    {
+      "agency_responsible": "{DEPRECATED - DO NOT USE} 311 - MTA Lost and Found Hold",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "{DEPRECATED - DO NOT USE} Board of Supervisors / Mayor",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "{DEPRECATED - DO NOT USE} DPH Environmental Health - HazWaste",
+      "request_count": "21"
+    },
+    {
+      "agency_responsible": "{DEPRECATED - DO NOT USE} PUC - Water Waste CSB Field Inspection",
+      "request_count": "22"
+    },
+    {
+      "agency_responsible": "{DEPRECATED - DO NOT USE} PW - Building Repair",
+      "request_count": "409"
+    },
+    {
+      "agency_responsible": "{DEPRECATED - DO NOT USE} Risk Management",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "{DEPRECATED - DO NOT USE} RPD - Leisure Services",
+      "request_count": "7"
+    },
+    {
+      "agency_responsible": "{DEPRECATED - DO NOT USE} Technology",
+      "request_count": "11"
+    },
+    {
+      "agency_responsible": "Disability and Aging Services",
+      "request_count": "12"
+    },
+    {
+      "agency_responsible": "District Attorney - G",
+      "request_count": "509"
+    },
+    {
+      "agency_responsible": "District Attorney - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Downtown CBD Queue",
+      "request_count": "1318"
+    },
+    {
+      "agency_responsible": "DPH Community Health Network",
+      "request_count": "9"
+    },
+    {
+      "agency_responsible": "DPH - Community Health Network - G",
+      "request_count": "214"
+    },
+    {
+      "agency_responsible": "DPH - Community Health Network - G - Hold",
+      "request_count": "8"
+    },
+    {
+      "agency_responsible": "DPH - EH - Agriculture",
+      "request_count": "6"
+    },
+    {
+      "agency_responsible": "DPH - EH - Food Borne Illness",
+      "request_count": "291"
+    },
+    {
+      "agency_responsible": "DPH - EH - Solid Waste",
+      "request_count": "51"
+    },
+    {
+      "agency_responsible": "DPH - EH - Weights and Measures",
+      "request_count": "95"
+    },
+    {
+      "agency_responsible": "DPH Environmental Health",
+      "request_count": "9356"
+    },
+    {
+      "agency_responsible": "DPH Environmental Health - Agriculture",
+      "request_count": "6"
+    },
+    {
+      "agency_responsible": "DPH - Environmental Health - COVID-19",
+      "request_count": "15"
+    },
+    {
+      "agency_responsible": "DPH Environmental Health - Food Borne Illness",
+      "request_count": "703"
+    },
+    {
+      "agency_responsible": "DPH - Environmental Health - G",
+      "request_count": "37381"
+    },
+    {
+      "agency_responsible": "DPH - Environmental Health - G - Hold",
+      "request_count": "100"
+    },
+    {
+      "agency_responsible": "DPH Environmental Health - HazWaste",
+      "request_count": "48"
+    },
+    {
+      "agency_responsible": "DPH Environmental Health - HazWaste (do not reallocate)",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "DPH - Environmental Health - HazWaste Queue",
+      "request_count": "2389"
+    },
+    {
+      "agency_responsible": "DPH Environmental Health - Lead",
+      "request_count": "54"
+    },
+    {
+      "agency_responsible": "DPH Environmental Health - Noise",
+      "request_count": "1096"
+    },
+    {
+      "agency_responsible": "DPH - Environmental Health - Noise Queue",
+      "request_count": "2504"
+    },
+    {
+      "agency_responsible": "DPH Environmental Health - Solid Waste",
+      "request_count": "87"
+    },
+    {
+      "agency_responsible": "DPH Environmental Health - Tobacco",
+      "request_count": "346"
+    },
+    {
+      "agency_responsible": "DPH - Environmental Health - Tobacco Queue",
+      "request_count": "1505"
+    },
+    {
+      "agency_responsible": "DPH - Environmental Health - Tobacco Queue - Hold",
+      "request_count": "10"
+    },
+    {
+      "agency_responsible": "DPH Environmental Health - Weights and Measures",
+      "request_count": "72"
+    },
+    {
+      "agency_responsible": "DPH - Homeless Outreach Team  - G",
+      "request_count": "245"
+    },
+    {
+      "agency_responsible": "DPH - Homeless Outreach Team - G",
+      "request_count": "718"
+    },
+    {
+      "agency_responsible": "DPH - Homeless Outreach Team - G - Hold",
+      "request_count": "31"
+    },
+    {
+      "agency_responsible": "DPH - Office of Vital Records",
+      "request_count": "224"
+    },
+    {
+      "agency_responsible": "DPH - Office of Vital Records - G",
+      "request_count": "5066"
+    },
+    {
+      "agency_responsible": "DPH - Office of Vital Records - G - Hold",
+      "request_count": "18"
+    },
+    {
+      "agency_responsible": "DPH - Other",
+      "request_count": "148"
+    },
+    {
+      "agency_responsible": "DPH - Other - G",
+      "request_count": "1892"
+    },
+    {
+      "agency_responsible": "DPH - Other - G - Hold",
+      "request_count": "7"
+    },
+    {
+      "agency_responsible": "DPT Abandoned Vehicles Callback Requests Queue",
+      "request_count": "86"
+    },
+    {
+      "agency_responsible": "DPT Abandoned Vehicles Pre-Tow Hearing Queue",
+      "request_count": "14"
+    },
+    {
+      "agency_responsible": "DPT Abandoned Vehicles Work Queue",
+      "request_count": "302737"
+    },
+    {
+      "agency_responsible": "DPT - Accessible Pedestrian Signal - G",
+      "request_count": "45"
+    },
+    {
+      "agency_responsible": "DPT - Accessible Pedestrian Signal - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "DPT - Bicycle - G",
+      "request_count": "899"
+    },
+    {
+      "agency_responsible": "DPT - Bicycle - G - Hold",
+      "request_count": "20"
+    },
+    {
+      "agency_responsible": "DPT - Color Curb - G",
+      "request_count": "5849"
+    },
+    {
+      "agency_responsible": "DPT Color Curb Payment Received Queue",
+      "request_count": "436"
+    },
+    {
+      "agency_responsible": "DPT Color Curb Queue",
+      "request_count": "15267"
+    },
+    {
+      "agency_responsible": "DPT - Construction Permits - G",
+      "request_count": "3175"
+    },
+    {
+      "agency_responsible": "DPT Construction Zone Permits Queue",
+      "request_count": "13013"
+    },
+    {
+      "agency_responsible": "DPT Meter_Bike Queue",
+      "request_count": "111499"
+    },
+    {
+      "agency_responsible": "DPT - Meters - G",
+      "request_count": "1258"
+    },
+    {
+      "agency_responsible": "DPT - Meters - G - Hold",
+      "request_count": "7"
+    },
+    {
+      "agency_responsible": "DPT - Other - G",
+      "request_count": "11170"
+    },
+    {
+      "agency_responsible": "DPT - Other - G - Hold",
+      "request_count": "72"
+    },
+    {
+      "agency_responsible": "DPT Paint Shop Curb Queue",
+      "request_count": "2514"
+    },
+    {
+      "agency_responsible": "DPT Paint Shop Hold Queue",
+      "request_count": "7"
+    },
+    {
+      "agency_responsible": "DPT Paint Shop Pavement Queue",
+      "request_count": "174"
+    },
+    {
+      "agency_responsible": "DPT Paint Shop Queue",
+      "request_count": "15055"
+    },
+    {
+      "agency_responsible": "DPT Paint Shop Transit Queue",
+      "request_count": "591"
+    },
+    {
+      "agency_responsible": "DPT Signal Queue",
+      "request_count": "17956"
+    },
+    {
+      "agency_responsible": "DPT SignShop",
+      "request_count": "236"
+    },
+    {
+      "agency_responsible": "DPT SignShop 01 Queue",
+      "request_count": "1749"
+    },
+    {
+      "agency_responsible": "DPT SignShop 02 Queue",
+      "request_count": "950"
+    },
+    {
+      "agency_responsible": "DPT SignShop 03 Queue",
+      "request_count": "1346"
+    },
+    {
+      "agency_responsible": "DPT SignShop 04 Queue",
+      "request_count": "1110"
+    },
+    {
+      "agency_responsible": "DPT SignShop 05 Queue",
+      "request_count": "2819"
+    },
+    {
+      "agency_responsible": "DPT SignShop 06 Queue",
+      "request_count": "1310"
+    },
+    {
+      "agency_responsible": "DPT SignShop 07 Queue",
+      "request_count": "1320"
+    },
+    {
+      "agency_responsible": "DPT SignShop 08 Queue",
+      "request_count": "2669"
+    },
+    {
+      "agency_responsible": "DPT SignShop 09 Queue",
+      "request_count": "1560"
+    },
+    {
+      "agency_responsible": "DPT SignShop 10 Queue",
+      "request_count": "852"
+    },
+    {
+      "agency_responsible": "DPT SignShop 11 Queue",
+      "request_count": "1214"
+    },
+    {
+      "agency_responsible": "DPT - Sign Shop - G",
+      "request_count": "484"
+    },
+    {
+      "agency_responsible": "DPT - Sign Shop - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "DPT SignShop Queue",
+      "request_count": "48385"
+    },
+    {
+      "agency_responsible": "DPT SignShop Repair Queue",
+      "request_count": "5951"
+    },
+    {
+      "agency_responsible": "DPT SignShop Surveyed - Area 1 Queue",
+      "request_count": "13605"
+    },
+    {
+      "agency_responsible": "DPT SignShop Surveyed - Area 2 Queue",
+      "request_count": "13939"
+    },
+    {
+      "agency_responsible": "DPT SignShop Survey Tech - Anthony Alonzo Queue",
+      "request_count": "353"
+    },
+    {
+      "agency_responsible": "DPT SignShop Survey Tech - Dave McLaughlin Queue",
+      "request_count": "196"
+    },
+    {
+      "agency_responsible": "DPT SignShop Survey Tech - Houston Forrester Queue",
+      "request_count": "115"
+    },
+    {
+      "agency_responsible": "DPT SignShop Survey Tech - Patrick O'Malley Daly Queue",
+      "request_count": "246"
+    },
+    {
+      "agency_responsible": "DPT SignShop Survey Tech - Sean Philpott Queue",
+      "request_count": "231"
+    },
+    {
+      "agency_responsible": "DPT SignShop Survey Tech - Winston Parkhurst Queue",
+      "request_count": "130"
+    },
+    {
+      "agency_responsible": "DPT SignShop Unknown Queue",
+      "request_count": "224"
+    },
+    {
+      "agency_responsible": "DPT - Traffic Signal - G",
+      "request_count": "6496"
+    },
+    {
+      "agency_responsible": "DPW BSM Queue",
+      "request_count": "200951"
+    },
+    {
+      "agency_responsible": "DPW BSSR Queue",
+      "request_count": "54177"
+    },
+    {
+      "agency_responsible": "DPW BUF Queue",
+      "request_count": "14705"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Building Repair",
+      "request_count": "409"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Building Repair - Bridge/ Plaza/ Tunnel",
+      "request_count": "67"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Building Repair - Police/ Fire Call Box",
+      "request_count": "505"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Street and Sewer Repair - G",
+      "request_count": "1437"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Street and Sewer Repair - G - Hold",
+      "request_count": "32"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Street Environmental Services - G",
+      "request_count": "33834"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Street Environmental Services - G - Hold",
+      "request_count": "117"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Street Use and Mapping - G",
+      "request_count": "19533"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Street Use and Mapping - G - Hold",
+      "request_count": "49"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Urban Forestry - G",
+      "request_count": "2664"
+    },
+    {
+      "agency_responsible": "DPW - Bureau of Urban Forestry - G - Hold",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "DPW Hotspot Queue",
+      "request_count": "283"
+    },
+    {
+      "agency_responsible": "DPW IDC Queue",
+      "request_count": "3818"
+    },
+    {
+      "agency_responsible": "DPW Ops Queue",
+      "request_count": "2612393"
+    },
+    {
+      "agency_responsible": "DPW - Other - G",
+      "request_count": "1716"
+    },
+    {
+      "agency_responsible": "DPW - Other - G - Hold",
+      "request_count": "18"
+    },
+    {
+      "agency_responsible": "DPW Other Queue",
+      "request_count": "239"
+    },
+    {
+      "agency_responsible": "DPW Work Queue",
+      "request_count": "249"
+    },
+    {
+      "agency_responsible": "Duplicate Case Hold",
+      "request_count": "11710"
+    },
+    {
+      "agency_responsible": "Duplicate Case Hold Queue",
+      "request_count": "91198"
+    },
+    {
+      "agency_responsible": "East Cut CBD Queue",
+      "request_count": "903"
+    },
+    {
+      "agency_responsible": "Economic and Workforce Development",
+      "request_count": "15"
+    },
+    {
+      "agency_responsible": "Economic and Workforce Development - G",
+      "request_count": "207"
+    },
+    {
+      "agency_responsible": "Economic and Workforce Development - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "EC Venue Permit Queue",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Elections",
+      "request_count": "44"
+    },
+    {
+      "agency_responsible": "Elections - G",
+      "request_count": "329"
+    },
+    {
+      "agency_responsible": "Emergency Management",
+      "request_count": "119"
+    },
+    {
+      "agency_responsible": "Emergency Management - G",
+      "request_count": "101"
+    },
+    {
+      "agency_responsible": "Entertainment Commission",
+      "request_count": "4327"
+    },
+    {
+      "agency_responsible": "Entertainment Commission - G",
+      "request_count": "7398"
+    },
+    {
+      "agency_responsible": "Entertainment Commission - G - Hold",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "Environment",
+      "request_count": "32"
+    },
+    {
+      "agency_responsible": "Environment - EV Site Nomination",
+      "request_count": "16"
+    },
+    {
+      "agency_responsible": "Environment - G",
+      "request_count": "410"
+    },
+    {
+      "agency_responsible": "Environment - G - Hold",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "Ethics Commission",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "Ethics Commission - G",
+      "request_count": "47"
+    },
+    {
+      "agency_responsible": "Face Covering Report Queue",
+      "request_count": "364"
+    },
+    {
+      "agency_responsible": "Film Commission",
+      "request_count": "23"
+    },
+    {
+      "agency_responsible": "Film Commission - G",
+      "request_count": "134"
+    },
+    {
+      "agency_responsible": "Film Commission - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Fire Department - G",
+      "request_count": "689"
+    },
+    {
+      "agency_responsible": "Fire Department - G - Hold",
+      "request_count": "24"
+    },
+    {
+      "agency_responsible": "Fire Hydrant Maintenance",
+      "request_count": "1452"
+    },
+    {
+      "agency_responsible": "Fire Hydrant Maintenance Queue",
+      "request_count": "2535"
+    },
+    {
+      "agency_responsible": "Fishermans Wharf CBD Queue",
+      "request_count": "119"
+    },
+    {
+      "agency_responsible": "Good Neighbor Policy",
+      "request_count": "288"
+    },
+    {
+      "agency_responsible": "Graffiti Abatement - Internal Queue",
+      "request_count": "442"
+    },
+    {
+      "agency_responsible": "Grants for the Arts - G",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "Healthy Streets Operation Center",
+      "request_count": "92260"
+    },
+    {
+      "agency_responsible": "Healthy Streets Operation Center - DSS",
+      "request_count": "1905"
+    },
+    {
+      "agency_responsible": "Healthy Streets Operation Center - Individual",
+      "request_count": "38815"
+    },
+    {
+      "agency_responsible": "Healthy Streets Operation Center - Other Jurisdiction Hold",
+      "request_count": "7"
+    },
+    {
+      "agency_responsible": "Healthy Streets Operation Center - Review",
+      "request_count": "10"
+    },
+    {
+      "agency_responsible": "Healthy Streets Operation Center - Vehicle",
+      "request_count": "258"
+    },
+    {
+      "agency_responsible": "Housing Authority SR Hold Queue",
+      "request_count": "82"
+    },
+    {
+      "agency_responsible": "Housing Authority SR Queue",
+      "request_count": "74457"
+    },
+    {
+      "agency_responsible": "HSA - CalWorks",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "HSA - CalWorks - G",
+      "request_count": "12"
+    },
+    {
+      "agency_responsible": "HSA - Child Welfare and Family Support",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "HSA - Child Welfare and Family Support - G",
+      "request_count": "29"
+    },
+    {
+      "agency_responsible": "HSA - Employment and Job Training",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "HSA - Employment and Job Training - G",
+      "request_count": "9"
+    },
+    {
+      "agency_responsible": "HSA - Financial Assistance",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "HSA - Financial Assistance - G",
+      "request_count": "59"
+    },
+    {
+      "agency_responsible": "HSA - Food Assistance",
+      "request_count": "19"
+    },
+    {
+      "agency_responsible": "HSA - Food Assistance - G",
+      "request_count": "91"
+    },
+    {
+      "agency_responsible": "HSA - Health Care Coverage",
+      "request_count": "12"
+    },
+    {
+      "agency_responsible": "HSA - Health Care Coverage - G",
+      "request_count": "41"
+    },
+    {
+      "agency_responsible": "HSA - Housing and Homeless - G",
+      "request_count": "73"
+    },
+    {
+      "agency_responsible": "HSA - Other",
+      "request_count": "57"
+    },
+    {
+      "agency_responsible": "HSA - Other - G",
+      "request_count": "399"
+    },
+    {
+      "agency_responsible": "HSA - Other - G - Hold",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "HSH - DOS Shelter",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "HSH - Homeless Outreach Team",
+      "request_count": "605"
+    },
+    {
+      "agency_responsible": "HSH - Housing and Homeless",
+      "request_count": "127"
+    },
+    {
+      "agency_responsible": "HSH - Housing and Homeless - G",
+      "request_count": "551"
+    },
+    {
+      "agency_responsible": "HSH - Housing and Homeless - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "HSH - One Day Shelter Reservation Queue",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "HSH - Shelter Reservations Queue",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "HSH - Shelter Waitlist",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "HSH - Waitlist Complaints",
+      "request_count": "16"
+    },
+    {
+      "agency_responsible": "HSH - Waitlist Complaints Queue",
+      "request_count": "71"
+    },
+    {
+      "agency_responsible": "HSOC Individual Queue",
+      "request_count": "19841"
+    },
+    {
+      "agency_responsible": "HSOC PHC Queue",
+      "request_count": "996"
+    },
+    {
+      "agency_responsible": "HSOC Queue",
+      "request_count": "108950"
+    },
+    {
+      "agency_responsible": "HSOC Queue - Other Jurisdiction Hold",
+      "request_count": "24"
+    },
+    {
+      "agency_responsible": "HSOC Review Queue",
+      "request_count": "58"
+    },
+    {
+      "agency_responsible": "HSOC Vehicle Queue",
+      "request_count": "787"
+    },
+    {
+      "agency_responsible": "Human Resources",
+      "request_count": "9"
+    },
+    {
+      "agency_responsible": "Human Resources - G",
+      "request_count": "577"
+    },
+    {
+      "agency_responsible": "Human Resources - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Human Rights Commission",
+      "request_count": "9"
+    },
+    {
+      "agency_responsible": "Human Rights Commission - G",
+      "request_count": "201"
+    },
+    {
+      "agency_responsible": "Human Rights Commission - G - Hold",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "Human Services Agency - G",
+      "request_count": "18"
+    },
+    {
+      "agency_responsible": "Immigrant Rights Commission - G",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "Interaction Generic",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "Japantown CBD Queue",
+      "request_count": "215"
+    },
+    {
+      "agency_responsible": "Juvenile Probation - G",
+      "request_count": "12"
+    },
+    {
+      "agency_responsible": "Knowledge Solutions",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "Labor Standards Enforcement",
+      "request_count": "16"
+    },
+    {
+      "agency_responsible": "Labor Standards Enforcement - G",
+      "request_count": "223"
+    },
+    {
+      "agency_responsible": "Labor Standards Enforcement - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Language Services - G",
+      "request_count": "20"
+    },
+    {
+      "agency_responsible": "Library",
+      "request_count": "14"
+    },
+    {
+      "agency_responsible": "Library, Public - G",
+      "request_count": "264"
+    },
+    {
+      "agency_responsible": "Library, Public - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Lower Polk CBD Queue",
+      "request_count": "10"
+    },
+    {
+      "agency_responsible": "Mayors Office - Community Development",
+      "request_count": "7"
+    },
+    {
+      "agency_responsible": "Mayors Office - Disability",
+      "request_count": "38"
+    },
+    {
+      "agency_responsible": "Mayors Office - Housing",
+      "request_count": "36"
+    },
+    {
+      "agency_responsible": "Mayors Office Meeting Request Queue",
+      "request_count": "77"
+    },
+    {
+      "agency_responsible": "Mayors Office - Neighborhood Services",
+      "request_count": "150"
+    },
+    {
+      "agency_responsible": "Mayors Office of Community Development - G",
+      "request_count": "193"
+    },
+    {
+      "agency_responsible": "Mayors Office of Criminal Justice - G",
+      "request_count": "76"
+    },
+    {
+      "agency_responsible": "Mayors Office of Neighborhood Services - G",
+      "request_count": "2880"
+    },
+    {
+      "agency_responsible": "Mayors Office of Neighborhood Services - G - Hold",
+      "request_count": "20"
+    },
+    {
+      "agency_responsible": "Mayors Office on Disability - G",
+      "request_count": "741"
+    },
+    {
+      "agency_responsible": "Mayors Office on Disability - G - Hold",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "Mayors Office on Housing - G",
+      "request_count": "312"
+    },
+    {
+      "agency_responsible": "Mayors Office on Housing - G - Hold",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "Mayors Office - Victim Rights",
+      "request_count": "22"
+    },
+    {
+      "agency_responsible": "Medical Examiner",
+      "request_count": "13"
+    },
+    {
+      "agency_responsible": "Medical Examiner - G",
+      "request_count": "101"
+    },
+    {
+      "agency_responsible": "Medical Examiner - G - Hold",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "MTA - Abandoned Vehicles Callback Requests",
+      "request_count": "674"
+    },
+    {
+      "agency_responsible": "MTA - Abandoned Vehicles Work",
+      "request_count": "59614"
+    },
+    {
+      "agency_responsible": "MTA - Accessible Pedestrian Signal",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "MTA - Access/Mobility Services Received",
+      "request_count": "34427"
+    },
+    {
+      "agency_responsible": "MTA - Autonomous Vehicles Complaints",
+      "request_count": "1450"
+    },
+    {
+      "agency_responsible": "MTA - Bicycle",
+      "request_count": "90"
+    },
+    {
+      "agency_responsible": "MTA - Bicycle Sharing",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "MTA - Citations/RPP",
+      "request_count": "879"
+    },
+    {
+      "agency_responsible": "MTA - Citations/RPP Accounting",
+      "request_count": "180"
+    },
+    {
+      "agency_responsible": "MTA - Color Curb",
+      "request_count": "1161"
+    },
+    {
+      "agency_responsible": "MTA - Employee Safety Reporting",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "MTA - Hearings",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "MTA - Livable Streets",
+      "request_count": "1831"
+    },
+    {
+      "agency_responsible": "MTA - Lost and Found Received",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "MTA - Muni Feedback Received",
+      "request_count": "36864"
+    },
+    {
+      "agency_responsible": "MTA - OPS Received (Do Not Reallocate)",
+      "request_count": "3531"
+    },
+    {
+      "agency_responsible": "MTA - Paint Shop",
+      "request_count": "7561"
+    },
+    {
+      "agency_responsible": "MTA - PaintTheCity Utility Boxes",
+      "request_count": "363"
+    },
+    {
+      "agency_responsible": "MTA - Parking and Curb Management",
+      "request_count": "410"
+    },
+    {
+      "agency_responsible": "MTA - Parking Enforcement",
+      "request_count": "20992"
+    },
+    {
+      "agency_responsible": "MTA - Parking Enforcement Dispatch",
+      "request_count": "332706"
+    },
+    {
+      "agency_responsible": "MTA - Parking Enforcement Review",
+      "request_count": "27"
+    },
+    {
+      "agency_responsible": "MTA - Parking Meter Shop",
+      "request_count": "9597"
+    },
+    {
+      "agency_responsible": "MTA - Residential Parking Permit Program",
+      "request_count": "31"
+    },
+    {
+      "agency_responsible": "MTA - SFpark",
+      "request_count": "16"
+    },
+    {
+      "agency_responsible": "MTA - Signal",
+      "request_count": "1622"
+    },
+    {
+      "agency_responsible": "MTA - Sign Shop",
+      "request_count": "20442"
+    },
+    {
+      "agency_responsible": "MTA - Sign Shop High Priority",
+      "request_count": "2170"
+    },
+    {
+      "agency_responsible": "MTA - Strategic Planning/Policy",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "MTA - Taxi Complaints High",
+      "request_count": "17"
+    },
+    {
+      "agency_responsible": "MTA - Taxi Complaints Normal",
+      "request_count": "655"
+    },
+    {
+      "agency_responsible": "MTA - Taxi Compliments",
+      "request_count": "23"
+    },
+    {
+      "agency_responsible": "MTA - Taxi Lost Found High",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "MTA - Temporary Sign Request Printing",
+      "request_count": "748"
+    },
+    {
+      "agency_responsible": "MTA - Traffic Calming",
+      "request_count": "272"
+    },
+    {
+      "agency_responsible": "MTA - Traffic Signal",
+      "request_count": "4222"
+    },
+    {
+      "agency_responsible": "MTA - Transportation Engineering",
+      "request_count": "2981"
+    },
+    {
+      "agency_responsible": "Muni Feedback Received Queue",
+      "request_count": "54548"
+    },
+    {
+      "agency_responsible": "MUNI - Transit Effectiveness Project - G",
+      "request_count": "146"
+    },
+    {
+      "agency_responsible": "MUNI - Transit Effectiveness Project - G - Hold",
+      "request_count": "28"
+    },
+    {
+      "agency_responsible": "MUNI Work Queue",
+      "request_count": "173381"
+    },
+    {
+      "agency_responsible": "Noise Report",
+      "request_count": "26070"
+    },
+    {
+      "agency_responsible": "Noise Report Queue",
+      "request_count": "24424"
+    },
+    {
+      "agency_responsible": "Office of Cannabis",
+      "request_count": "174"
+    },
+    {
+      "agency_responsible": "Office of Cannabis - Feedback",
+      "request_count": "10"
+    },
+    {
+      "agency_responsible": "Office of Citizens Complaints - G",
+      "request_count": "270"
+    },
+    {
+      "agency_responsible": "Office of Citizens Complaints - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Office of Small Business",
+      "request_count": "14"
+    },
+    {
+      "agency_responsible": "Office on Disability and Accessibility",
+      "request_count": "142"
+    },
+    {
+      "agency_responsible": "Parking Enforcement Dispatch Queue",
+      "request_count": "414960"
+    },
+    {
+      "agency_responsible": "Parking Enforcement Review Queue",
+      "request_count": "43130"
+    },
+    {
+      "agency_responsible": "PG and E - Streetlights Queue",
+      "request_count": "40495"
+    },
+    {
+      "agency_responsible": "PGE - Streetlights",
+      "request_count": "3128"
+    },
+    {
+      "agency_responsible": "Phone Outbound Queue",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Planning",
+      "request_count": "547"
+    },
+    {
+      "agency_responsible": "Planning - G",
+      "request_count": "3982"
+    },
+    {
+      "agency_responsible": "Planning - G - Hold",
+      "request_count": "7"
+    },
+    {
+      "agency_responsible": "Police Accountability",
+      "request_count": "33"
+    },
+    {
+      "agency_responsible": "Police Accountability - G",
+      "request_count": "46"
+    },
+    {
+      "agency_responsible": "Police Department Administration - G",
+      "request_count": "2298"
+    },
+    {
+      "agency_responsible": "Police Department Administration - G - Hold",
+      "request_count": "60"
+    },
+    {
+      "agency_responsible": "Police Department Admistration - G - Hold",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "Police - Homeless Concerns",
+      "request_count": "1787"
+    },
+    {
+      "agency_responsible": "Police - Homeless Concerns Queue",
+      "request_count": "32895"
+    },
+    {
+      "agency_responsible": "Port Authority",
+      "request_count": "1361"
+    },
+    {
+      "agency_responsible": "Port Authority - G",
+      "request_count": "5894"
+    },
+    {
+      "agency_responsible": "Port Authority - G - Hold",
+      "request_count": "17"
+    },
+    {
+      "agency_responsible": "Port Authority - Temporary Sign Request Queue",
+      "request_count": "180"
+    },
+    {
+      "agency_responsible": "Public Defender",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "Public Defender - G",
+      "request_count": "57"
+    },
+    {
+      "agency_responsible": "Public Defender - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "PUC - Billing",
+      "request_count": "1306"
+    },
+    {
+      "agency_responsible": "PUC - Billing - G",
+      "request_count": "487"
+    },
+    {
+      "agency_responsible": "PUC - Billing - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "PUC - Electric Power",
+      "request_count": "144"
+    },
+    {
+      "agency_responsible": "PUC - Electric/Power - G",
+      "request_count": "4640"
+    },
+    {
+      "agency_responsible": "PUC - Electric/Power - G - Hold",
+      "request_count": "353"
+    },
+    {
+      "agency_responsible": "PUC Electric Service Queue",
+      "request_count": "241"
+    },
+    {
+      "agency_responsible": "PUC - Other",
+      "request_count": "276"
+    },
+    {
+      "agency_responsible": "PUC - Other - G",
+      "request_count": "702"
+    },
+    {
+      "agency_responsible": "PUC - Other - G - Hold",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "PUC - SCSR",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "PUC - SCSR Queue",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "PUC - Sewer - G",
+      "request_count": "2751"
+    },
+    {
+      "agency_responsible": "PUC - Sewer - G - Hold",
+      "request_count": "21"
+    },
+    {
+      "agency_responsible": "PUC - Sewer Ops",
+      "request_count": "18346"
+    },
+    {
+      "agency_responsible": "PUC Sewer Ops",
+      "request_count": "123959"
+    },
+    {
+      "agency_responsible": "PUC - Streetlights",
+      "request_count": "7646"
+    },
+    {
+      "agency_responsible": "PUC Streetlights Hold Queue",
+      "request_count": "247"
+    },
+    {
+      "agency_responsible": "PUC Streetlights Queue",
+      "request_count": "44526"
+    },
+    {
+      "agency_responsible": "PUC - Water",
+      "request_count": "6348"
+    },
+    {
+      "agency_responsible": "PUC - Water - G",
+      "request_count": "41243"
+    },
+    {
+      "agency_responsible": "PUC - Water - G - Hold",
+      "request_count": "117"
+    },
+    {
+      "agency_responsible": "PUC - Water Graffiti",
+      "request_count": "4891"
+    },
+    {
+      "agency_responsible": "PUC - Water - Graffiti Queue",
+      "request_count": "9954"
+    },
+    {
+      "agency_responsible": "PUC - Water Quality",
+      "request_count": "201"
+    },
+    {
+      "agency_responsible": "PUC Water Quality Queue",
+      "request_count": "2360"
+    },
+    {
+      "agency_responsible": "PUC - Water Quality Report",
+      "request_count": "876"
+    },
+    {
+      "agency_responsible": "PUC - Water Waste",
+      "request_count": "354"
+    },
+    {
+      "agency_responsible": "PUC - Water Waste CSB Field Inspection",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "PUC - Water Waste - Customer Service Queue",
+      "request_count": "67"
+    },
+    {
+      "agency_responsible": "PUC - Water Waste - Water Queue",
+      "request_count": "596"
+    },
+    {
+      "agency_responsible": "PW - Building Repair",
+      "request_count": "1149"
+    },
+    {
+      "agency_responsible": "PW - Infrastructure Design and Construction",
+      "request_count": "1645"
+    },
+    {
+      "agency_responsible": "PW - Other",
+      "request_count": "53"
+    },
+    {
+      "agency_responsible": "PW - Street and Environmental Services",
+      "request_count": "625867"
+    },
+    {
+      "agency_responsible": "PW - Street and Sewer Repair",
+      "request_count": "8787"
+    },
+    {
+      "agency_responsible": "PW - Street Use and Mapping",
+      "request_count": "54278"
+    },
+    {
+      "agency_responsible": "PW - Urban Forestry",
+      "request_count": "28062"
+    },
+    {
+      "agency_responsible": "Queue Management",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Rapid Deploy Queue",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Real Estate Department",
+      "request_count": "26"
+    },
+    {
+      "agency_responsible": "Real Estate Department - G",
+      "request_count": "240"
+    },
+    {
+      "agency_responsible": "Real Estate Department - G - Hold",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "Real Estate Division Alemany",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Real Estate Division - Alemany",
+      "request_count": "39"
+    },
+    {
+      "agency_responsible": "Rec and Park",
+      "request_count": "69"
+    },
+    {
+      "agency_responsible": "Recology - Abandoned",
+      "request_count": "277072"
+    },
+    {
+      "agency_responsible": "Recology_Abandoned",
+      "request_count": "967361"
+    },
+    {
+      "agency_responsible": "Recology - Litter",
+      "request_count": "11419"
+    },
+    {
+      "agency_responsible": "Recology_Litter",
+      "request_count": "25173"
+    },
+    {
+      "agency_responsible": "Recology - Noise",
+      "request_count": "918"
+    },
+    {
+      "agency_responsible": "Recology_Noise",
+      "request_count": "2330"
+    },
+    {
+      "agency_responsible": "Recology - Overflowing",
+      "request_count": "145402"
+    },
+    {
+      "agency_responsible": "Recology_Overflowing",
+      "request_count": "283177"
+    },
+    {
+      "agency_responsible": "RecPark Work Queue",
+      "request_count": "333"
+    },
+    {
+      "agency_responsible": "Redevelopment Agency - G",
+      "request_count": "28"
+    },
+    {
+      "agency_responsible": "Rent Board",
+      "request_count": "399"
+    },
+    {
+      "agency_responsible": "Rent Board - Fee and Housing Inventory",
+      "request_count": "5407"
+    },
+    {
+      "agency_responsible": "Rent Board - G",
+      "request_count": "2333"
+    },
+    {
+      "agency_responsible": "Rent Board - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Risk Management - G",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "RPD - Administration/Finance",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "RPD Administration/Finance Queue",
+      "request_count": "35"
+    },
+    {
+      "agency_responsible": "RPD - Aquatics",
+      "request_count": "15"
+    },
+    {
+      "agency_responsible": "RPD - Arboretum/Conservatory of Flowers",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "RPD Arboretum/Conservatory of Flowers Queue",
+      "request_count": "6"
+    },
+    {
+      "agency_responsible": "RPD - Capital",
+      "request_count": "30"
+    },
+    {
+      "agency_responsible": "RPD Capital Queue",
+      "request_count": "387"
+    },
+    {
+      "agency_responsible": "RPD Cement Masons Queue",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "RPD - Community Gardens",
+      "request_count": "58"
+    },
+    {
+      "agency_responsible": "RPD Community Gardens Queue",
+      "request_count": "292"
+    },
+    {
+      "agency_responsible": "RPD - Community Services",
+      "request_count": "6"
+    },
+    {
+      "agency_responsible": "RPD Community Services Queue",
+      "request_count": "20"
+    },
+    {
+      "agency_responsible": "RPD - Cultural Arts",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "RPD Cultural Arts Queue",
+      "request_count": "26"
+    },
+    {
+      "agency_responsible": "RPD - GGP",
+      "request_count": "7990"
+    },
+    {
+      "agency_responsible": "RPD GGP Queue",
+      "request_count": "19625"
+    },
+    {
+      "agency_responsible": "RPD - Golf",
+      "request_count": "66"
+    },
+    {
+      "agency_responsible": "RPD Golf Queue",
+      "request_count": "272"
+    },
+    {
+      "agency_responsible": "RPD Graffiti Queue",
+      "request_count": "7971"
+    },
+    {
+      "agency_responsible": "RPD - Leisure Services",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "RPD Leisure Services Queue",
+      "request_count": "268"
+    },
+    {
+      "agency_responsible": "RPD - Marina",
+      "request_count": "14"
+    },
+    {
+      "agency_responsible": "RPD Marina Queue",
+      "request_count": "60"
+    },
+    {
+      "agency_responsible": "RPD - Natural Areas",
+      "request_count": "796"
+    },
+    {
+      "agency_responsible": "RPD Natural Areas Queue",
+      "request_count": "2756"
+    },
+    {
+      "agency_responsible": "RPD Neighborhood Service Area 7 Queue",
+      "request_count": "553"
+    },
+    {
+      "agency_responsible": "RPD Neighborhood Service Area 8 Queue",
+      "request_count": "329"
+    },
+    {
+      "agency_responsible": "RPD - Neighborhood Services - G",
+      "request_count": "49"
+    },
+    {
+      "agency_responsible": "RPD - Neighborhood Services - G - Hold",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "RPD NSA Queue",
+      "request_count": "17459"
+    },
+    {
+      "agency_responsible": "RPD - Other - G",
+      "request_count": "264"
+    },
+    {
+      "agency_responsible": "RPD - Other - G - Hold",
+      "request_count": "11"
+    },
+    {
+      "agency_responsible": "RPD - Outdoor Rec",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "RPD Painters Queue",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "RPD - Park Patrol",
+      "request_count": "2650"
+    },
+    {
+      "agency_responsible": "RPD - Park Patrol - G",
+      "request_count": "59"
+    },
+    {
+      "agency_responsible": "RPD Park Patrol Queue",
+      "request_count": "8445"
+    },
+    {
+      "agency_responsible": "RPD - Park Service Area 1",
+      "request_count": "2944"
+    },
+    {
+      "agency_responsible": "RPD Park Service Area 1 Queue",
+      "request_count": "10380"
+    },
+    {
+      "agency_responsible": "RPD - Park Service Area 2",
+      "request_count": "3554"
+    },
+    {
+      "agency_responsible": "RPD Park Service Area 2 Queue",
+      "request_count": "8930"
+    },
+    {
+      "agency_responsible": "RPD - Park Service Area 3",
+      "request_count": "1803"
+    },
+    {
+      "agency_responsible": "RPD Park Service Area 3 Queue",
+      "request_count": "9085"
+    },
+    {
+      "agency_responsible": "RPD - Park Service Area 4",
+      "request_count": "2204"
+    },
+    {
+      "agency_responsible": "RPD Park Service Area 4 Queue",
+      "request_count": "6295"
+    },
+    {
+      "agency_responsible": "RPD - Park Service Area 5",
+      "request_count": "1681"
+    },
+    {
+      "agency_responsible": "RPD Park Service Area 5 Queue",
+      "request_count": "5811"
+    },
+    {
+      "agency_responsible": "RPD - Park Service Area 6",
+      "request_count": "2180"
+    },
+    {
+      "agency_responsible": "RPD Park Service Area 6 Queue",
+      "request_count": "10364"
+    },
+    {
+      "agency_responsible": "RPD - Park Service Area 7",
+      "request_count": "242"
+    },
+    {
+      "agency_responsible": "RPD - Park Service Area 8",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "RPD - Park Service Area 9",
+      "request_count": "180"
+    },
+    {
+      "agency_responsible": "RPD Partnerships Queue",
+      "request_count": "7"
+    },
+    {
+      "agency_responsible": "RPD - Peace Parks and Pathways",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "RPD - Permits",
+      "request_count": "56"
+    },
+    {
+      "agency_responsible": "RPD Permits Queue",
+      "request_count": "285"
+    },
+    {
+      "agency_responsible": "RPD Planning Queue",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "RPD - Property Management",
+      "request_count": "18"
+    },
+    {
+      "agency_responsible": "RPD Property Management Queue",
+      "request_count": "119"
+    },
+    {
+      "agency_responsible": "RPD - PSA",
+      "request_count": "9191"
+    },
+    {
+      "agency_responsible": "RPD - Public Affairs",
+      "request_count": "160"
+    },
+    {
+      "agency_responsible": "RPD Public Affairs Queue",
+      "request_count": "911"
+    },
+    {
+      "agency_responsible": "RPD - Recreation Registration",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "RPD Recreation Registration Queue",
+      "request_count": "115"
+    },
+    {
+      "agency_responsible": "RPD - Recreation Triage",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "RPD - Sports and Athletics",
+      "request_count": "16"
+    },
+    {
+      "agency_responsible": "RPD Sports and Athletics Queue",
+      "request_count": "35"
+    },
+    {
+      "agency_responsible": "RPD - Structural Maintenance - G",
+      "request_count": "260"
+    },
+    {
+      "agency_responsible": "RPD - Structural Maintenance - G - Hold",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "RPD - TMA",
+      "request_count": "4852"
+    },
+    {
+      "agency_responsible": "RPD TMA Queue",
+      "request_count": "7991"
+    },
+    {
+      "agency_responsible": "RPD - Urban Forestry - G",
+      "request_count": "41"
+    },
+    {
+      "agency_responsible": "RPD Urban Forestry Queue",
+      "request_count": "739"
+    },
+    {
+      "agency_responsible": "SF311 AI Routing Queue",
+      "request_count": "16383"
+    },
+    {
+      "agency_responsible": "SFFD - Bureau of Fire Prevention",
+      "request_count": "978"
+    },
+    {
+      "agency_responsible": "SFFD Bureau of Fire Prevention Queue",
+      "request_count": "3239"
+    },
+    {
+      "agency_responsible": "SFFD - Other",
+      "request_count": "198"
+    },
+    {
+      "agency_responsible": "SFFD Other Queue",
+      "request_count": "1426"
+    },
+    {
+      "agency_responsible": "SFFD - Support Services",
+      "request_count": "52"
+    },
+    {
+      "agency_responsible": "SFFD Support Services Queue",
+      "request_count": "977"
+    },
+    {
+      "agency_responsible": "SFGOV Work Request Queue",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "SFMTA - Abandoned Vehicles - G",
+      "request_count": "317"
+    },
+    {
+      "agency_responsible": "SFMTA - Abandoned Vehicles - G - Hold",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "SFMTA - Access/Mobility Services Received Queue",
+      "request_count": "17494"
+    },
+    {
+      "agency_responsible": "SFMTA - Bicycle Sharing Operations Queue",
+      "request_count": "2070"
+    },
+    {
+      "agency_responsible": "SFMTA - Bicycle Sharing Queue",
+      "request_count": "2019"
+    },
+    {
+      "agency_responsible": "SFMTA - Citations/Resident Parking Permits - Accounting",
+      "request_count": "184"
+    },
+    {
+      "agency_responsible": "SFMTA - Citations/Resident Parking Permits - G",
+      "request_count": "5091"
+    },
+    {
+      "agency_responsible": "SFMTA - Citations/Resident Parking Permits - G - Hold",
+      "request_count": "35"
+    },
+    {
+      "agency_responsible": "SFMTA - G",
+      "request_count": "3798"
+    },
+    {
+      "agency_responsible": "SFMTA - Hearings - G",
+      "request_count": "59"
+    },
+    {
+      "agency_responsible": "SFMTA - Livable Streets Queue",
+      "request_count": "4629"
+    },
+    {
+      "agency_responsible": "SFMTA - Muni Questions/Suggestions - G",
+      "request_count": "391"
+    },
+    {
+      "agency_responsible": "SFMTA - Muni Questions/Suggestions - G - Hold",
+      "request_count": "6"
+    },
+    {
+      "agency_responsible": "SFMTA - Muni System Feedback Queue",
+      "request_count": "3205"
+    },
+    {
+      "agency_responsible": "SFMTA - Off-Street Parking Queue",
+      "request_count": "1423"
+    },
+    {
+      "agency_responsible": "SFMTA - OPS Received (Internal Use Only)",
+      "request_count": "1761"
+    },
+    {
+      "agency_responsible": "SFMTA - Parking Enforcement - G",
+      "request_count": "59226"
+    },
+    {
+      "agency_responsible": "SFMTA - Residential Parking Permit Program Queue",
+      "request_count": "461"
+    },
+    {
+      "agency_responsible": "SFMTA - Scooter Operations Queue",
+      "request_count": "62"
+    },
+    {
+      "agency_responsible": "SFMTA - Scooter Queue",
+      "request_count": "6346"
+    },
+    {
+      "agency_responsible": "SFMTA - SFpark Queue",
+      "request_count": "1021"
+    },
+    {
+      "agency_responsible": "SFMTA - Strategic Planning/Policy Queue",
+      "request_count": "13"
+    },
+    {
+      "agency_responsible": "SFMTA - Temporary Sign Program - G",
+      "request_count": "506"
+    },
+    {
+      "agency_responsible": "SFMTA - Temporary Sign Request Installation/Enforcement Queue",
+      "request_count": "977"
+    },
+    {
+      "agency_responsible": "SFMTA - Temporary Sign Request Printing Queue",
+      "request_count": "12275"
+    },
+    {
+      "agency_responsible": "SFMTA - Temporary Sign Request Queue",
+      "request_count": "15126"
+    },
+    {
+      "agency_responsible": "SFMTA - Traffic Calming Queue",
+      "request_count": "850"
+    },
+    {
+      "agency_responsible": "SFMTA - Transportation Engineering Queue",
+      "request_count": "6344"
+    },
+    {
+      "agency_responsible": "SFMTA - UPI/TDM Queue",
+      "request_count": "957"
+    },
+    {
+      "agency_responsible": "Shared Spaces",
+      "request_count": "4568"
+    },
+    {
+      "agency_responsible": "Shared Spaces Queue",
+      "request_count": "6295"
+    },
+    {
+      "agency_responsible": "Shared Spaces Received Queue",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "Sheriff",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "Sheriff - G",
+      "request_count": "176"
+    },
+    {
+      "agency_responsible": "Short Term Rentals",
+      "request_count": "22"
+    },
+    {
+      "agency_responsible": "Short Term Rentals - G",
+      "request_count": "202"
+    },
+    {
+      "agency_responsible": "Small Business",
+      "request_count": "13"
+    },
+    {
+      "agency_responsible": "Small Business - G",
+      "request_count": "274"
+    },
+    {
+      "agency_responsible": "Small Business - G - Hold",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "SoMa West CBD Queue",
+      "request_count": "6278"
+    },
+    {
+      "agency_responsible": "SSP Inbound QA Queue",
+      "request_count": "26"
+    },
+    {
+      "agency_responsible": "SSP - MTA ADA Complaints Queue",
+      "request_count": "38"
+    },
+    {
+      "agency_responsible": "SSP - MTA Compliments Queue",
+      "request_count": "17"
+    },
+    {
+      "agency_responsible": "SSP - MTA Feedback Queue",
+      "request_count": "52746"
+    },
+    {
+      "agency_responsible": "SSP - MTA General Complaints Queue",
+      "request_count": "1947"
+    },
+    {
+      "agency_responsible": "SSP - MTA Lost and Found Queue",
+      "request_count": "189"
+    },
+    {
+      "agency_responsible": "SSP Restaurant Pre-Screening Application Queue",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Status of Women",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Status of Women - G",
+      "request_count": "25"
+    },
+    {
+      "agency_responsible": "Taxi Commission - G",
+      "request_count": "384"
+    },
+    {
+      "agency_responsible": "Taxi Commission - G - Hold",
+      "request_count": "4"
+    },
+    {
+      "agency_responsible": "TAXI Complaints High Queue",
+      "request_count": "36"
+    },
+    {
+      "agency_responsible": "TAXI Complaints Normal Queue",
+      "request_count": "332"
+    },
+    {
+      "agency_responsible": "TAXI Complaints Reallocate Queue - DO NOT USE",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "TAXI Compliments Queue",
+      "request_count": "15"
+    },
+    {
+      "agency_responsible": "TAXI Lost and Found High Queue",
+      "request_count": "3"
+    },
+    {
+      "agency_responsible": "TAXI Lost and Found Normal Queue",
+      "request_count": "5"
+    },
+    {
+      "agency_responsible": "TAXI Unpermitted Cab Complaints Queue",
+      "request_count": "10"
+    },
+    {
+      "agency_responsible": "Technology",
+      "request_count": "23"
+    },
+    {
+      "agency_responsible": "Technology - G",
+      "request_count": "1577"
+    },
+    {
+      "agency_responsible": "Technology - G - Hold",
+      "request_count": "6"
+    },
+    {
+      "agency_responsible": "Technology - Wifi Support/Feedback",
+      "request_count": "354"
+    },
+    {
+      "agency_responsible": "Technology Wifi Support/Feedback - G",
+      "request_count": "553"
+    },
+    {
+      "agency_responsible": "Tenderloin CBD Queue",
+      "request_count": "18489"
+    },
+    {
+      "agency_responsible": "Tent Count",
+      "request_count": "1"
+    },
+    {
+      "agency_responsible": "Travel Quarantine Report Queue",
+      "request_count": "20"
+    },
+    {
+      "agency_responsible": "Treasure Island Development Authority",
+      "request_count": "134"
+    },
+    {
+      "agency_responsible": "Treasure Island Development Authority - G",
+      "request_count": "142"
+    },
+    {
+      "agency_responsible": "Triage - TTX Queue",
+      "request_count": "629"
+    },
+    {
+      "agency_responsible": "US Postal Service Maintenance",
+      "request_count": "13300"
+    },
+    {
+      "agency_responsible": "US Postal Service Maintenance Queue",
+      "request_count": "42558"
+    },
+    {
+      "agency_responsible": "War Memorial",
+      "request_count": "2"
+    },
+    {
+      "agency_responsible": "War Memorial - G",
+      "request_count": "12"
+    },
+    {
+      "agency_responsible": "Yerba Buena CBD Queue",
+      "request_count": "2378"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+request_type,category
+Illegal Parking,Transportation
+Illegal Dumping,Sanitation
+Abandoned Vehicle,Transportation
+Graffiti Removal,Sanitation
+Bulk Waste Collection,Sanitation
+Missed Garbage Collection,Sanitation
+Pothole Repair,Public Works
+Streetlight Repair,Transportation
+Traffic Signal Repair,Transportation
+Homeless Encampment Report,Human Services
+Traffic Sign Repair,Transportation
+Dead Animal Pickup,Animals
+Litter or Debris Cleanup,Sanitation
+Garbage Cart Repair or Replacement,Sanitation
+Sidewalk Repair,Public Works
+Tree Maintenance or Inspection,Parks and Recreation
+Street or Alley Cleaning,Sanitation
+Garbage Cart Request,Sanitation
+Street Repair or Resurfacing,Public Works
+Park Maintenance,Parks and Recreation
+Trash Set-Out or Storage Violation,Sanitation
+Public Vegetation or Mowing,Parks and Recreation
+Tall Grass or Weeds on Private Property,Permits and Code Enforcement
+Property Maintenance Complaint,Permits and Code Enforcement
+Tree Pruning,Parks and Recreation
+Recycling Cart Request,Sanitation
+Missed Recycling Collection,Sanitation
+Water Main Break or Leak,Utilities
+Street Snow or Ice Removal,Public Works
+Trash or Junk on Private Property,Permits and Code Enforcement
+Garbage and Recycling Collection,Sanitation
+Fallen Tree or Branch Removal,Parks and Recreation
+Rodent Complaint,Health
+Blocked Sidewalk or Right of Way,Public Works
+Scooter or Bike Share Complaint,Transportation
+Missed Yard Waste Collection,Sanitation
+Road Marking Request or Repair,Transportation
+Zoning Violation,Permits and Code Enforcement
+Manhole or Utility Cover Repair,Utilities
+Recycling Cart Repair or Replacement,Sanitation
+Storm Drain Cleaning,Utilities
+Noise Complaint,Public Safety
+Public Trash Can Service,Sanitation
+Flooding or Standing Water,Utilities
+Sewer Inspection or Repair,Utilities
+Fire Hydrant Issue,Utilities
+Yard Waste Collection,Sanitation
+Sinkhole or Pavement Cave-In,Public Works
+New Traffic Sign Request,Transportation
+Parking Meter Repair,Transportation
+Vehicle Tow or Relocation,Transportation
+Traffic Signal Timing,Transportation
+Traffic Calming Request,Transportation
+Non-Emergency Police Assistance,Public Safety
+Tree Removal,Parks and Recreation
+Sewer Backup or Overflow,Utilities
+Tree Planting Request,Parks and Recreation
+Building Code Violation,Permits and Code Enforcement
+Unpermitted Construction,Permits and Code Enforcement
+Aircraft Noise Complaint,Transportation
+Property Tax Inquiry,Finance
+Utility Work Restoration,Utilities
+Guardrail or Bollard Repair,Public Works
+Water Quality Complaint,Utilities
+Roadway Debris Removal,Sanitation
+Public Trash Can Overflow,Sanitation
+Uncleared Sidewalk Snow or Ice,Public Works
+Crosswalk Request or Repair,Transportation
+Illegal Sign or Posting,Permits and Code Enforcement
+Traffic Safety Complaint,Transportation
+Unsafe Structure Complaint,Permits and Code Enforcement
+Food Establishment Complaint,Health
+Dumpster Complaint,Sanitation
+Public Health Sanitation Complaint,Health
+Housing Habitability Complaint,Housing
+Drainage Infrastructure Repair,Utilities
+No Heat or Hot Water,Housing
+Missed Bulk Waste Collection,Sanitation
+Service Request Status or Escalation,Customer Service
+Fire Safety Inspection or Complaint,Public Safety
+Blocked Driveway,Transportation
+Taxi or Rideshare Complaint,Transportation
+Building Permit Request or Status,Permits and Code Enforcement
+New Traffic Signal Request,Transportation
+Homeless Outreach Request,Human Services
+Curb or Gutter Repair,Public Works
+Smoke Alarm Installation Request,Public Safety
+Damaged Streetlight Pole,Transportation
+Business License Complaint,Permits and Code Enforcement
+Vacant Building Complaint,Permits and Code Enforcement
+Short-Term Rental Violation,Permits and Code Enforcement
+Residential Plumbing Complaint,Housing
+Animal Noise Complaint,Animals
+Hazardous Waste Cleanup,Sanitation
+Animal Welfare Complaint,Animals
+Road Construction Complaint,Public Works
+Sanitation Service Complaint,Sanitation
+Domestic Animal Complaint,Animals
+Human or Animal Waste Cleanup,Sanitation
+Stray Animal Pickup,Animals
