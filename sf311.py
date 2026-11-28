@@ -2,13 +2,12 @@
 
 import argparse
 import json
-import os
 from pathlib import Path
 
-import requests
-from requests.exceptions import HTTPError, RequestException
+from requests.exceptions import RequestException
 
 from common_sr import convert_sf_results
+from soda3 import query_records
 
 QUERY_URL = "https://data.sf.gov/api/v3/views/vw6y-z8j6/query.json"
 SOQL = (
@@ -19,26 +18,7 @@ SOQL = (
 
 def fetch_latest_requests() -> list[dict]:
     """Return raw cases, newest first, from the SODA 3.0 query endpoint."""
-    token = os.environ.get("SOCOTRA_SECRET", "").strip()
-    if not token:
-        raise RequestException("Set SOCOTRA_SECRET to a valid Socrata application token.")
-
-    response = requests.post(
-        QUERY_URL,
-        headers={"Accept": "application/json", "X-App-Token": token},
-        json={"query": SOQL, "includeSystem": False, "includeSynthetic": False},
-        timeout=60,
-    )
-    if response.status_code in (401, 403):
-        raise HTTPError(
-            f"SF SODA 3.0 denied the request (HTTP {response.status_code}). Check SOCOTRA_SECRET.",
-            response=response,
-        )
-    response.raise_for_status()
-    records = response.json()
-    if not isinstance(records, list) or any(not isinstance(record, dict) for record in records):
-        raise RequestException("SF SODA 3.0 returned an unexpected JSON response.")
-    return records
+    return query_records(QUERY_URL, SOQL, "SF")
 
 
 def main() -> None:

@@ -1,4 +1,4 @@
-"""Convert raw SF 311 records to Specifications/query_results.md."""
+"""Convert SF 311 records and format shared CommonSR fields."""
 
 import csv
 import json
@@ -10,7 +10,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 
-SF_TIME_ZONE = ZoneInfo("America/Los_Angeles")
+PACIFIC_TIME_ZONE = ZoneInfo("America/Los_Angeles")
 SF_AGENCY_MAPPINGS_PATH = Path(__file__).resolve().parent / "Specifications" / "san_francisco_agency_mappings.csv"
 SF_REQUEST_EVIDENCE_PATH = Path(__file__).resolve().parent / "research" / "common_sr_request_type_evidence.json"
 # Each alias points to the source pair whose CommonSR type it shares.
@@ -91,25 +91,25 @@ def load_sf_request_mappings() -> dict[tuple[str, str], str]:
     return mappings
 
 
-def _timestamp(value: str) -> dict[str, str]:
+def pacific_timestamp(value: str) -> dict[str, str]:
     if not value:
-        raise ValueError("Required SF case timestamp is missing")
+        raise ValueError("Required case timestamp is missing")
     parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
     if parsed.tzinfo is None:
-        parsed = parsed.replace(tzinfo=SF_TIME_ZONE)
-    local = parsed.astimezone(SF_TIME_ZONE)
+        parsed = parsed.replace(tzinfo=PACIFIC_TIME_ZONE)
+    local = parsed.astimezone(PACIFIC_TIME_ZONE)
     return {
         "local": local.isoformat(),
         "utc": local.astimezone(timezone.utc).isoformat().replace("+00:00", "Z"),
     }
 
 
-def _coordinate(value) -> float | None:
+def coordinate(value) -> float | None:
     if value is None or value == "":
         return None
     number = Decimal(str(value))
     if not number.is_finite():
-        raise ValueError("SF coordinates must be finite")
+        raise ValueError("Coordinates must be finite")
     return float(round(number, 8))
 
 
@@ -134,15 +134,15 @@ def convert_sf_request(
     return {
         "id": str(record["service_request_id"]),
         "status": status,
-        "opened": _timestamp(record.get("requested_datetime")),
-        "modified": _timestamp(record.get("updated_datetime")),
+        "opened": pacific_timestamp(record.get("requested_datetime")),
+        "modified": pacific_timestamp(record.get("updated_datetime")),
         "closed": (
             None if status in {"open", "in_progress"}
-            else _timestamp(record.get("closed_date"))
+            else pacific_timestamp(record.get("closed_date"))
         ),
         "address": record.get("address"),
-        "latitude": _coordinate(record.get("lat")),
-        "longitude": _coordinate(record.get("long")),
+        "latitude": coordinate(record.get("lat")),
+        "longitude": coordinate(record.get("long")),
         "sub_1": (
             format(Decimal(str(district)).normalize(), "f")
             if district is not None and district != "" else None

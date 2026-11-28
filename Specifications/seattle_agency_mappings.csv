@@ -1,0 +1,12 @@
+agency_raw,agency_clean,notes
+Admin,,Generic administrative label with no identified department
+CTR-Seattle Center,General Services,Operates the Seattle Center civic and cultural campus
+FAS-Finance and Administrative Services,General Services,Department with finance and administrative functions and multiple public-facing teams
+ITD-Seattle Information Technology,Technology,City technology and communications services
+SCL-Seattle City Light,Utilities,Electric utility
+SDOT-Seattle Department of Transportation,Transportation,Transportation and street network department
+SEA-City of Seattle,,Citywide label with no specific department
+SPD-Seattle Police Department,Public Safety,Police department
+SPR-Seattle Parks and Recreation,Parks and Recreation,Operates city parks and recreation facilities
+SPU-Clean City Division,Sanitation,Seattle Public Utilities division responsible for public litter and waste cleanup
+SPU-Seattle Public Utilities,Utilities,City water and drainage and solid waste utility

@@ -1,0 +1,48 @@
+request_raw,request_clean,notes
+Abandoned Vehicle,Abandoned Vehicle,
+Abandoned Vehicle/72hr Parking Ordinance,Abandoned Vehicle,
+ADA Request (Transportation),,Accessibility request with no equivalent CommonSR type
+Animal Noise,Animal Noise Complaint,
+Bicycle Facility Maintenance,,Bicycle facility issue with no equivalent CommonSR type
+Business Related Complaint,,City intake covers multiple business regulations and consumer protection issues
+Business Violation of Public Health Requirements,,Health requirement and nature of violation are unspecified
+Clogged Storm Drain,Storm Drain Cleaning,
+Damaged Sidewalk,Sidewalk Repair,
+Dead Animal,Dead Animal Pickup,
+"Feedback about the Find It, Fix It mobile app",App Feedback,
+Feedback about the Customer Service Requests Portal,App Feedback,
+Found a Pet,Lost Pet,
+General Inquiry - Animal Shelter,,General inquiry with no specific request type
+General Inquiry - City Light,,General inquiry with no specific request type
+General Inquiry - Customer Service Bureau,,General inquiry with no specific request type
+General Inquiry - Police Department,,General inquiry with no specific request type
+General Inquiry - Public Utilities,,General inquiry with no specific request type
+General Inquiry - Transportation,,General inquiry with no specific request type
+Graffiti,Graffiti Removal,
+Illegal Dumping / Needles,Illegal Dumping,Combined source label follows the CommonSR request-type evidence
+Internet/Cable Issue,WiFi Issue,
+Lost a Pet,Lost Pet,
+Nightlife Noise Complaint,Noise Complaint,
+Nuisance Dogs in a Park,Domestic Animal Complaint,
+Overgrown Vegetation,Public Vegetation or Mowing,
+Parking Enforcement,Illegal Parking,
+Parks and Recreation Maintenance,Park Maintenance,
+Pollution Report Form,,Pollution medium and issue are unspecified
+Pothole,Pothole Repair,
+Public Garage or Parking Lot Complaint,,Complaint does not specify the parking issue
+Public Litter and Recycling Cans,Public Trash Can Service,Seattle describes this label as overflows or damage to public sidewalk bins
+Public Utilities Direct Mail Opt Out,,No CommonSR type covers mail preferences
+Safe Routes to School,Traffic Safety Complaint,Seattle transportation requests about school route improvements
+Scooter or Bike Share Issue,Scooter or Bike Share Complaint,
+Seattle Center,,Generic campus feedback with no specific request type
+Snow and Ice,Street Snow or Ice Removal,Closest CommonSR type for the city snow and ice reporting category
+Street Sign and Traffic Signal Maintenance,,Legacy label covers two separate CommonSR types without distinguishing them
+Street Sign Maintenance,Traffic Sign Repair,
+Streetlight Maintenance,Streetlight Repair,
+"Taxi, TNC, or Limousine Complaint or Compliment",Taxi or Rideshare Complaint,Combined source label includes feedback about for-hire vehicles
+Towing Complaint - Public Impound,,Complaint does not request a tow or relocation
+Towing Impound Complaint,,Complaint does not request a tow or relocation
+Traffic Calming,Traffic Calming Request,
+Traffic Signal Maintenance,Traffic Signal Repair,
+Unauthorized Encampment,Homeless Encampment Report,
+Wireless or Small Cell Issue,Wireless Issue,

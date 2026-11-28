@@ -53,3 +53,23 @@ opening dates and limits the response to 100 rows on the server.
 The script uses `requests.post` with the [SODA 3.0 query endpoint](https://data.sf.gov/api/v3/views/vw6y-z8j6/query.json).
 It sends the [SoQL query](https://dev.socrata.com/docs/queries/) in the JSON
 body and the token in the `X-App-Token` header.
+
+## Seattle service requests
+
+Run `py -3.12 seattle311.py` or call `GET /seattle/requests` for the latest
+100 Seattle records in CommonSR format. The CLI writes
+`seattle_311_common_sr.json` by default and accepts `--input` for offline
+conversion and `--output` for a different destination. Live queries send
+`SOCOTRA_SECRET` to Seattle's SODA 3.0 endpoint as the application token.
+
+The adapter uses the published Created Date as Seattle local time when it
+has no UTC offset. Seattle does not publish modification or closure times
+in this dataset, so both fields are null, including for resolved requests.
+Metadata records this limitation and the status mapping for routed and
+closed cases.
+
+The [Seattle agency mappings](Specifications/seattle_agency_mappings.csv)
+and [Seattle request mappings](Specifications/seattle_request_mappings.csv)
+preserve the source labels. Blank clean values in the CSVs represent broad
+labels or types without a CommonSR equivalent. Include both CSVs and
+`soda3.py` when packaging the Seattle adapter.
