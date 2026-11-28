@@ -65,6 +65,23 @@ def load_sf_agency_mappings() -> dict[str, str]:
     return mappings
 
 
+def load_label_mapping(relative_path: str, field: str) -> dict[str, str | None]:
+    """Load a city label crosswalk. Blank clean values indicate no match."""
+    path = Path(__file__).resolve().parent / relative_path
+    raw_column, clean_column = f"{field}_raw", f"{field}_clean"
+    mapping = {}
+    with path.open(encoding="utf-8-sig", newline="") as source:
+        reader = csv.DictReader(source)
+        if not {raw_column, clean_column}.issubset(reader.fieldnames or []):
+            raise ValueError(f"{path.name} requires {raw_column} and {clean_column} columns")
+        for row in reader:
+            raw = row[raw_column]
+            if not raw or raw in mapping:
+                raise ValueError(f"Missing or duplicate raw label in {path.name}: {raw!r}")
+            mapping[raw] = row[clean_column] or None
+    return mapping
+
+
 def _request_key(service_name: str, service_subtype: str) -> tuple[str, str]:
     return service_name.strip().casefold(), service_subtype.strip().casefold()
 
@@ -92,12 +109,16 @@ def load_sf_request_mappings() -> dict[tuple[str, str], str]:
 
 
 def pacific_timestamp(value: str) -> dict[str, str]:
+    return local_timestamp(value, PACIFIC_TIME_ZONE)
+
+
+def local_timestamp(value: str, zone: ZoneInfo) -> dict[str, str]:
     if not value:
         raise ValueError("Required case timestamp is missing")
     parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
     if parsed.tzinfo is None:
-        parsed = parsed.replace(tzinfo=PACIFIC_TIME_ZONE)
-    local = parsed.astimezone(PACIFIC_TIME_ZONE)
+        parsed = parsed.replace(tzinfo=zone)
+    local = parsed.astimezone(zone)
     return {
         "local": local.isoformat(),
         "utc": local.astimezone(timezone.utc).isoformat().replace("+00:00", "Z"),

@@ -73,3 +73,24 @@ and [Seattle request mappings](Specifications/seattle_request_mappings.csv)
 preserve the source labels. Blank clean values in the CSVs represent broad
 labels or types without a CommonSR equivalent. Include both CSVs and
 `soda3.py` when packaging the Seattle adapter.
+
+## Baton Rouge service requests
+
+Run `py -3.12 baton_rouge311.py` or call `GET /baton-rouge/requests` for the
+latest 100 Baton Rouge 311 records in CommonSR format. The CLI writes
+`baton_rouge_311_common_sr.json` by default and accepts `--input` for saved
+raw records and `--output` for a different destination. Live queries use
+the Baton Rouge SODA 3.0 endpoint and the `SOCOTRA_SECRET` application token.
+
+The adapter interprets dates without an offset in Baton Rouge local time
+and returns both local and UTC values. Subdivision fields are null. The
+adapter uses the available parts of Full Address and City for the address,
+treats `(0, 0)` as a missing location, and copies Comments to `description`.
+
+The [agency mappings](Specifications/baton_rouge_agency_mappings.csv) and
+[request mappings](Specifications/baton_rouge_request_mappings.csv) were
+reviewed against the latest 500 published reports, opened October 26–27,
+2026. The adapter uses the [Parent Type crosswalk](Specifications/baton_rouge_parent_type_mappings.csv)
+when a detailed Type lacks a match. `request.raw` retains the feed's Type,
+and `request.clean` is null when neither lookup resolves. Include all three
+CSVs and `soda3.py` when packaging the adapter.

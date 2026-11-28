@@ -1,0 +1,12 @@
+parent_type_raw,parent_type_clean,notes
+BLIGHTED PROPERTIES,Property Maintenance Complaint,General property conditions and blight
+BUILDING CODE/ZONING VIOLATIONS,Building Code Violation,General building and zoning enforcement
+"DRAINAGE, EROSION, FLOODING OR HOLES",Drainage Infrastructure Repair,General drainage and erosion
+ENVIRONMENTAL ISSUES,Litter or Debris Cleanup,Closest broad cleanup type for a group dominated by dumping and debris
+GARBAGE,Garbage and Recycling Collection,General solid waste collection
+MOWING AND TREE ISSUES,Public Vegetation or Mowing,General public vegetation and landscaping
+NEIGHBORHOOD/SUBDIVISION ISSUES,Property Maintenance Complaint,Closest broad type for a mixed group of property and development issues
+RECYCLING,Garbage and Recycling Collection,General recycling collection
+ROAD MAINTENANCE ISSUES,Street Repair or Resurfacing,General road infrastructure maintenance
+SEWER/WASTEWATER,Sewer Inspection or Repair,General sewer infrastructure service
+STREET/TRAFFIC ISSUES,Traffic Safety Complaint,General roadway and traffic concerns

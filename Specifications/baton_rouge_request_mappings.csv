@@ -1,0 +1,62 @@
+request_raw,request_clean,notes
+BUILDING CODE VIOLATIONS,Building Code Violation,
+CATCH BASIN CLEANING NEEDED,Storm Drain Cleaning,
+CAVE-IN/SINK HOLE (DRAINAGE RELATED),Sinkhole or Pavement Cave-In,
+CAVE-IN/SINK HOLE (SEWER OR DRAINAGE RELATED),Sinkhole or Pavement Cave-In,
+CONCRETE ROAD REPAIRS NEEDED,Street Repair or Resurfacing,
+DAMAGE TO PERSONAL PROPERTY,,Uses the recycling parent because no direct damage-claim type is in CommonSR
+DAMAGED DRIVEWAY,,Uses the road maintenance parent because the type does not specify the affected driveway feature
+DAMAGED GARBAGE CART,Garbage Cart Repair or Replacement,
+DAMAGED RECYCLING CART,Recycling Cart Repair or Replacement,
+GARBAGE TRUCK LEAKS/SPILLS/ISSUES,Sanitation Service Complaint,
+ILLEGAL DUMPING OF TRASH/SOLID WASTE,Illegal Dumping,
+ILLEGAL SIGN IN THE PUBLIC RIGHT-OF-WAY,Illegal Sign or Posting,
+INSIDE RESIDENTIAL BACKUP,Sewer Backup or Overflow,
+"JUNK, INOPERABLE, OR ABANDONED VEHICLE",Abandoned Vehicle,
+"JUNK, TRASH, OR DEBRIS ON PRIVATE PROPERTY",Trash or Junk on Private Property,
+LIBERTY PUMP ISSUE,Sewer Inspection or Repair,Classified from the sewer and wastewater context
+LITTER FOR PICK-UP ON PUBLIC PROPERTY,Litter or Debris Cleanup,
+MAJOR SIGNAL ISSUE,Traffic Signal Repair,
+MANHOLE ISSUE,Manhole or Utility Cover Repair,
+MINOR SIGNAL ISSUE,Traffic Signal Repair,
+MISSED DEAD ANIMAL PICK-UP,Dead Animal Pickup,
+MISSED GARBAGE PICKUP FOR DISABLED CUSTOMER,Missed Garbage Collection,
+MISSED GARBAGE SERVICE DAY (GENERAL PICK-UP),Missed Garbage Collection,
+MISSED HANDPILE SERVICE,Missed Yard Waste Collection,Handpile is grouped with yard waste collection
+MISSED RECYCLING SERVICE,Missed Recycling Collection,
+MISSED WHITE GOODS SERVICE/TIRES,Missed Bulk Waste Collection,
+MISSED WOODY WASTE SERVICE,Missed Yard Waste Collection,
+MISSING GARBAGE CART,Garbage Cart Repair or Replacement,
+NEW RESIDENT RECYCLING CART REQUEST,Recycling Cart Request,
+NEW RESIDENT REQUEST FOR GARBAGE CART,Garbage Cart Request,
+NON-ROADSIDE DRAINAGE ISSUE,Drainage Infrastructure Repair,
+PICK UP UNWANTED RECYCLING CART,Recycling Cart Request,Closest type for a request to remove a cart
+PIPE REPAIRS NEEDED,Drainage Infrastructure Repair,Classified from the drainage context
+POTHOLE,Pothole Repair,
+PROPERTY MISSING WINDOWS OR DOORS,Property Maintenance Complaint,
+PROPERTY NEEDS TO BE CONDEMNED OR TORN DOWN,Unsafe Structure Complaint,
+PUBLIC TRASH RECEPTACLE MAINTENANCE,Public Trash Can Service,
+REQUEST A BARRICADE,Traffic Safety Complaint,Closest type for setting up a barricade
+REQUEST A TRAFFIC SIGNAL STUDY,Traffic Safety Complaint,Study does not specify repair or installation
+REQUEST ADDITIONAL GARBAGE CART,Garbage Cart Request,
+REQUEST BARRICADE PICK-UP,Traffic Safety Complaint,Closest type for removing a barricade
+REQUEST DEBRIS REMOVAL - UNOCCUPIED PROPERTY,Litter or Debris Cleanup,
+REQUEST FOR MOWING,Public Vegetation or Mowing,
+REQUEST FOR STREET GRADING,Street Repair or Resurfacing,
+REQUEST PICK-UP OF UNWANTED GARBAGE CART,Garbage Cart Request,Closest type for a request to remove a cart
+REQUEST REMOVAL OF DEBRIS IN A DITCH/WATERWAY,Storm Drain Cleaning,Closest type for clearing a drainage obstruction
+REQUEST REMOVAL/TRIMMING OF TREE,Tree Pruning,Combined label follows the prior CommonSR request-type evidence
+REQUEST STREET SWEEPING,Street or Alley Cleaning,
+REQUEST TO EXCHANGE GARBAGE CART (NON-DAMAGED),Garbage Cart Repair or Replacement,Exchange is classified as a replacement
+REQUEST TRAFFIC CALMING STUDY,Traffic Calming Request,
+ROAD BUCKLE/BLOWOUT/FAULT,Sinkhole or Pavement Cave-In,Closest type for pavement collapse or deformation
+ROAD STRIPING NEEDED,Road Marking Request or Repair,
+ROADSIDE DRAINAGE ISSUE,Drainage Infrastructure Repair,
+ROADSIDE EROSION ISSUE,Drainage Infrastructure Repair,Classified from the drainage context
+SAME DAY SERVICE STATUS,Service Request Status or Escalation,
+SIDEWALK ISSUE,Sidewalk Repair,
+STOLEN RECYCLING CART,Recycling Cart Repair or Replacement,
+STREET LIGHT OUTAGE OR DAMAGE,Streetlight Repair,
+TALL GRASS,Tall Grass or Weeds on Private Property,Classified from the blighted property context
+TIRE DUMPING,Illegal Dumping,
+TREE IN ROAD,Fallen Tree or Branch Removal,

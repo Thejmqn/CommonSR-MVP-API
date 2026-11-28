@@ -1,14 +1,13 @@
 """Retrieve Seattle service requests from SODA 3.0 and convert them to CommonSR."""
 
 import argparse
-import csv
 import json
 from copy import deepcopy
 from pathlib import Path
 
 from requests.exceptions import RequestException
 
-from common_sr import coordinate, pacific_timestamp
+from common_sr import coordinate, load_label_mapping, pacific_timestamp
 from soda3 import query_records
 
 
@@ -21,7 +20,7 @@ AGENCY_MAPPINGS = "Specifications/seattle_agency_mappings.csv"
 REQUEST_MAPPINGS = "Specifications/seattle_request_mappings.csv"
 SEATTLE_METADATA = {
     "id": 2,
-    "maintainer": None,
+    "maintainer": "https://github.com/Thejmqn",
     "source": "https://data.seattle.gov/City-Administration/Customer-Service-Requests/5ngg-rpne/about_data",
     "agency_mappings": AGENCY_MAPPINGS,
     "request_mappings": REQUEST_MAPPINGS,
@@ -57,26 +56,10 @@ def fetch_latest_requests() -> list[dict]:
     return query_records(QUERY_URL, SOQL, "Seattle")
 
 
-def _load_mapping(relative_path: str, field: str) -> dict[str, str | None]:
-    path = Path(__file__).resolve().parent / relative_path
-    raw_column, clean_column = f"{field}_raw", f"{field}_clean"
-    mapping = {}
-    with path.open(encoding="utf-8-sig", newline="") as source:
-        reader = csv.DictReader(source)
-        if not {raw_column, clean_column}.issubset(reader.fieldnames or []):
-            raise ValueError(f"{path.name} requires {raw_column} and {clean_column} columns")
-        for row in reader:
-            raw = row[raw_column]
-            if not raw or raw in mapping:
-                raise ValueError(f"Missing or duplicate raw label in {path.name}: {raw!r}")
-            mapping[raw] = row[clean_column] or None
-    return mapping
-
-
 def convert_seattle_results(records: list[dict]) -> dict:
     """Convert Seattle requests to the CommonSR response envelope."""
-    agencies = _load_mapping(AGENCY_MAPPINGS, "agency")
-    requests = _load_mapping(REQUEST_MAPPINGS, "request")
+    agencies = load_label_mapping(AGENCY_MAPPINGS, "agency")
+    requests = load_label_mapping(REQUEST_MAPPINGS, "request")
     results = []
     for record in records:
         raw_status = record.get("servicerequeststatusname")
